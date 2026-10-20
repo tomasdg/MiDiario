@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T18:46:43.396Z",
+  "generado": "2026-10-20T18:55:00.279Z",
   "edicion": {
     "numero": 1,
     "fecha": "2026-10-20",
@@ -35,25 +35,25 @@
     "densidad": [
       {
         "pagina": 1,
-        "ocupacion": 0.836,
-        "mayor_rectangulo_vacio": 0.048,
+        "ocupacion": 0.844,
+        "mayor_rectangulo_vacio": 0.053,
         "hueco_mm": {
           "x": 129,
-          "y": 209,
+          "y": 205,
           "ancho": 57,
-          "alto": 43
+          "alto": 48
         },
         "ok": true
       },
       {
         "pagina": 2,
-        "ocupacion": 0.824,
-        "mayor_rectangulo_vacio": 0.064,
+        "ocupacion": 0.851,
+        "mayor_rectangulo_vacio": 0.046,
         "hueco_mm": {
-          "x": 129,
-          "y": 214,
-          "ancho": 57,
-          "alto": 57
+          "x": 0,
+          "y": 233,
+          "ancho": 62,
+          "alto": 38
         },
         "ok": true
       },
@@ -72,12 +72,12 @@
       {
         "pagina": 4,
         "ocupacion": 0.843,
-        "mayor_rectangulo_vacio": 0.034,
+        "mayor_rectangulo_vacio": 0.037,
         "hueco_mm": {
-          "x": 62,
-          "y": 243,
-          "ancho": 62,
-          "alto": 29
+          "x": 129,
+          "y": 224,
+          "ancho": 57,
+          "alto": 33
         },
         "ok": true
       }
@@ -96,5 +96,5 @@
       "estado": "no_implementado"
     }
   },
-  "pdf": "/home/claude/repo/MiDiario/ediciones/2026-10-20/Mi-Diario-Semanal-N1-2026-10-20.pdf"
+  "pdf": "/home/claude/midiario/ediciones/2026-10-20/El-Diario-Semanal-de-Tom-N1-2026-10-20.pdf"
 }

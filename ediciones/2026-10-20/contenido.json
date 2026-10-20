@@ -72,8 +72,8 @@
   ],
   "llamadas": [
    {
-    "etiqueta": "Inteligencia artificial",
-    "texto": "DeepSeek abre su motor de inferencia y MiniMax baja precios.",
+    "etiqueta": "Claude Tips",
+    "texto": "Cómo usar Claude Code para averiguar qué le pasa a tu compu.",
     "pagina": 2
    },
    {
@@ -271,30 +271,6 @@
      "consultado": "2026-10-20T15:40:00-03:00"
     }
    ]
-  },
-  {
-   "id": "anthropic-canada",
-   "seccion": "breve",
-   "titulo": "Diarios canadienses demandan a Anthropic",
-   "bajada": "",
-   "cuerpo": [
-    "Postmedia, Torstar, The Globe and Mail y The Canadian Press acusan en Ontario a Anthropic de entrenar Claude con sus notas sin licencia. La demanda se presentó el 6 de octubre; la empresa no respondió y nada está probado."
-   ],
-   "tipo": "hecho",
-   "fecha_acontecimiento": "2026-10-06",
-   "importancia": 1,
-   "sensible_al_tiempo": true,
-   "verificado_en_dos_fuentes": false,
-   "fuentes": [
-    {
-     "url": "https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/",
-     "medio": "The Canadian Press (vía ChatNewsToday)",
-     "titulo": "News publishers launch copyright suit against Anthropic",
-     "fecha_publicacion": "2026-10-19",
-     "consultado": "2026-10-20T15:40:00-03:00"
-    }
-   ],
-   "seccion_destino": "ia"
   },
   {
    "id": "salesforce-braze",
@@ -612,29 +588,6 @@
    "seccion_destino": "impresion3d"
   },
   {
-   "id": "clairic",
-   "seccion": "ia",
-   "titulo": "Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»",
-   "bajada": "Clairic devuelve valores, estimaciones y pronósticos en una sola pasada y abarata a la mitad una cadena de procesamiento.",
-   "cuerpo": [
-    "Cloudflare publicó el lunes 19 la vista previa de Clairic en Workers AI. No genera texto: lee un documento y devuelve directamente los valores pedidos, con un nivel de confianza. En una prueba de procesamiento de reclamos, la cadena con Clairic tardó 19,3 segundos contra 61,7 de una hecha sólo con modelos de lenguaje, y costó 49% menos. La empresa advierte que todavía falla en cálculos de varios pasos y que conviene dejar las cuentas al código."
-   ],
-   "tipo": "hecho",
-   "fecha_acontecimiento": "2026-10-19",
-   "importancia": 2,
-   "sensible_al_tiempo": true,
-   "verificado_en_dos_fuentes": false,
-   "fuentes": [
-    {
-     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-     "medio": "Cloudflare",
-     "titulo": "Clairic extraction model",
-     "fecha_publicacion": "2026-10-19",
-     "consultado": "2026-10-20T15:40:00-03:00"
-    }
-   ]
-  },
-  {
    "id": "notion",
    "seccion": "tecnologia",
    "titulo": "Los agentes de Notion ya pueden trabajar más de un día seguido",
@@ -704,6 +657,29 @@
    ]
   }
  ],
+ "claude_tip": {
+  "titulo": "Usá Claude Code como técnico de tu computadora",
+  "donde": "Claude Code",
+  "origen": "Visto en Reddit (r/ClaudeAI)",
+  "texto": [
+   "Un desarrollador que armaba con Claude Code una app para medir la temperatura de su Mac notó lecturas anormales. Claude Code revisó los procesos, encontró un minero de criptomonedas oculto que usaba casi 12 núcleos y estaba configurado para arrancar con la máquina, y antes de tocar nada propuso un plan y pidió permiso. El caso lo contó Tom's Hardware el 19 de octubre.",
+   "La idea sirve para cualquier compu lenta o caliente: Claude Code puede leer el estado del sistema y explicarte qué está pasando en lenguaje claro."
+  ],
+  "pasos": [
+   "Abrí Claude Code en una carpeta de trabajo y pedile: «mi computadora anda lenta y caliente; listá los procesos que más CPU y memoria usan y los programas que arrancan solos, y explicame qué es cada uno».",
+   "Pedile que no borre nada: que proponga mover lo sospechoso a una carpeta de cuarentena y espere tu aprobación.",
+   "Confirmá después con un antivirus. Claude ayuda a encontrar el problema, pero no reemplaza un escaneo de seguridad."
+  ],
+  "fuentes": [
+   {
+    "url": "https://tech.yahoo.com/ai/claude/articles/claude-code-ai-agent-caught-113620326.html",
+    "medio": "Tom's Hardware (vía Yahoo Tech)",
+    "titulo": "Claude Code AI agent caught a hidden crypto miner",
+    "fecha_publicacion": "2026-10-19",
+    "consultado": "2026-10-20T15:40:00-03:00"
+   }
+  ]
+ },
  "finanzas": "@datos/finanzas.json",
  "clima": "@datos/clima.json",
  "glosario": [

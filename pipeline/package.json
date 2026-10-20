@@ -1,8 +1,8 @@
 {
-  "name": "mi-diario-semanal-pipeline",
+  "name": "el-diario-semanal-de-tom-pipeline",
   "version": "1.0.0",
   "private": true,
-  "description": "Maquetación, preflight y PDF de Mi Diario Semanal",
+  "description": "Maquetación, preflight y PDF de El Diario Semanal de Tom",
   "type": "module",
   "scripts": {
     "build": "node src/build.js"

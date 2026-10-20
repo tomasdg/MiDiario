@@ -53,13 +53,6 @@
       ]
     },
     {
-      "seccion": "breve",
-      "titulo": "Diarios canadienses demandan a Anthropic",
-      "urls": [
-        "https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/"
-      ]
-    },
-    {
       "seccion": "empresas",
       "titulo": "Salesforce compra Braze por US$ 5.660 millones para su apuesta de marketing con IA",
       "urls": [
@@ -152,13 +145,6 @@
       ]
     },
     {
-      "seccion": "ia",
-      "titulo": "Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»",
-      "urls": [
-        "https://blog.cloudflare.com/clairic-extraction-model/"
-      ]
-    },
-    {
       "seccion": "tecnologia",
       "titulo": "Los agentes de Notion ya pueden trabajar más de un día seguido",
       "urls": [
@@ -186,6 +172,12 @@
     "Goodput",
     "Litografía axial computada"
   ],
+  "claude_tip": {
+    "titulo": "Usá Claude Code como técnico de tu computadora",
+    "urls": [
+      "https://tech.yahoo.com/ai/claude/articles/claude-code-ai-agent-caught-113620326.html"
+    ]
+  },
   "dolar_oficial": {
     "compra": 1490,
     "venta": 1540,
@@ -197,6 +189,6 @@
   ],
   "preflight": {
     "ok": true,
-    "generado": "2026-10-20T18:46:43.396Z"
+    "generado": "2026-10-20T18:55:00.279Z"
   }
 }

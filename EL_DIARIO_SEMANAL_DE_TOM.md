@@ -1,4 +1,4 @@
-# Mi Diario Semanal
+# El Diario Semanal de Tom
 
 Documento maestro editorial y técnico de un diario personal generado con IA. Basado en El Diario de Yrigoyen: se conservan sus reglas de selección, verificación, maquetación y preflight; cambian el lector, los temas, la periodicidad y la entrega.
 
@@ -17,7 +17,7 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 
 ## 1. Identidad
 
-- Nombre: **Mi Diario Semanal**. Lugar: Villa Urquiza, Buenos Aires.
+- Nombre: **El Diario Semanal de Tom** (se llama así por decisión del lector, aunque sale todos los días). Lugar: Villa Urquiza, Buenos Aires.
 - Periodicidad: **diaria**, con cierre a las 07:00 hora argentina. Numeración correlativa.
 - Objetivo: una edición cerrada, seleccionada y agradable de leer, con aspecto de diario impreso. No replicar el flujo infinito de un portal.
 - Formato: A4, blanco y negro, cuatro páginas. Se lee en pantalla (página de Claude, link fijo) y se imprime desde el PDF.
@@ -26,9 +26,17 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 ## 2. Páginas
 
 1. **Portada**: nombre, número, fecha y lugar; franja con clima de hoy y mañana, dólar oficial y cifra del día; nota principal con bajada; seis o siete secundarias con remisión a página; agenda con fechas próximas; cuatro llamadas al pie.
-2. **Inteligencia artificial**: modelos, herramientas, agentes, anuncios de laboratorios, regulación, seguridad.
+2. **Inteligencia artificial y Claude Tips**: modelos, herramientas, agentes, anuncios de laboratorios, regulación, seguridad. Al pie, el recuadro fijo **Claude Tips** (§2 bis).
 3. **Tecnología y empresas**: productos, software, hardware, infraestructura; resultados, compras, rondas de inversión, despidos, cambios de liderazgo, juicios.
 4. **Impresión 3D y cierre**: notas de impresión 3D en dos columnas; columna derecha con dólar oficial (compra, venta, variación contra la edición anterior), clima de cuatro días, glosario, fe de erratas y fuentes.
+
+## 2 bis. Claude Tips
+
+- Un tip por edición para sacarle más provecho a Claude (claude.ai, apps, Claude Code, API), recolectado de la comunidad: Reddit (r/ClaudeAI, r/ClaudeCode), Hacker News, blogs, newsletters, repositorios, posts de desarrolladores.
+- Tiene que ser **novedoso y práctico**: algo que el lector pueda probar hoy, no un consejo genérico ("escribí prompts claros").
+- Se verifica que la función exista y funcione como se describe, contra la documentación oficial (docs.claude.com, support.claude.com) cuando el tip depende de una función concreta. Si no se puede verificar, se descarta.
+- Formato: título en imperativo, dos párrafos cortos (de dónde salió y por qué sirve) y dos a cuatro pasos concretos. Se indica dónde se usa (claude.ai, Claude Code, etc.) y el origen en la comunidad.
+- No se repite un tip de los últimos 30 días (el preflight lo controla).
 
 ## 3. Principios editoriales
 
@@ -67,7 +75,7 @@ El pipeline no necesita instalar nada en la nube: usa el Playwright y el Chromiu
 
 ## 7. Memoria entre ediciones
 
-- Cada edición escribe `historial/ediciones/AAAA-MM-DD.json` con temas, URLs usadas, glosario y dólar oficial.
+- Cada edición escribe `historial/ediciones/AAAA-MM-DD.json` con temas, URLs usadas, glosario, Claude Tip y dólar oficial.
 - El preflight falla si se repite un título o un término de glosario de los últimos 14 días, y avisa si se reutiliza una URL.
 - El dólar de la edición anterior se usa para la variación diaria.
 - Los comentarios del lector se anotan en `historial/DECISIONES.md` con fecha; los errores de contenido pasan a la fe de erratas de la edición siguiente.

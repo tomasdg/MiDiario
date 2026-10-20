@@ -2,6 +2,7 @@
 
 Archivo separado de las reglas editoriales. Se edita sin tocar el documento maestro y se lee al armar cada edición. Para cambiar los temas del diario, este es el archivo a tocar (y, si cambia la estructura de páginas, `config/edicion.json`).
 
+- Nombre: Tom.
 - Lugar: Villa Urquiza, Ciudad de Buenos Aires, Argentina.
 - Lee el diario cada mañana por mail y a veces lo imprime.
 
@@ -12,6 +13,7 @@ Archivo separado de las reglas editoriales. Se edita sin tocar el documento maes
 3. **Impresión 3D**: impresoras nuevas, materiales, software de laminado, usos industriales y caseros, novedades de fabricantes (Bambu Lab, Prusa, Creality, Formlabs, Elegoo, Anycubic y otros).
 4. **Noticias de empresas de tecnología**: resultados trimestrales, compras y fusiones, inversiones, despidos, cambios de liderazgo, juicios y regulación.
 5. **Dólar oficial**: cotización de compra y venta.
+6. **Claude Tips**: un truco o forma de uso novedosa de Claude por día, sacada de la comunidad.
 
 ## Nivel esperado
 

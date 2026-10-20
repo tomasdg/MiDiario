@@ -79,6 +79,15 @@ export function verificarContenido(contenido, config) {
       for (const u of t.urls || []) if (urlsHoy.has(norm(u))) avisos.push({ tipo: 'fuente_ya_usada', url: u, edicion: e.fecha });
     }
   }
+  // Claude Tips: no repetir el mismo tip (título o URL) en los últimos 30 registros.
+  const tip = contenido.claude_tip;
+  if (tip && !tip.repeticion_autorizada) {
+    const todos = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json') && f < contenido.edicion.fecha).sort().slice(-30).map(f => leerJson(path.join(dir, f))) : [];
+    for (const e of todos) {
+      if (!e.claude_tip) continue;
+      if (norm(e.claude_tip.titulo) === norm(tip.titulo) || (e.claude_tip.urls || []).some(u => tip.fuentes.some(f => norm(f.url) === norm(u)))) errores.push({ tipo: 'claude_tip_repetido', titulo: e.claude_tip.titulo, edicion: e.fecha });
+    }
+  }
   return { ok: errores.length === 0, errores, avisos };
 }
 
@@ -91,6 +100,7 @@ export function registroEdicion(contenido, preflight) {
     paginas: preflight.paginas,
     temas: [contenido.portada.principal, ...contenido.notas].map(n => ({ seccion: n.seccion, titulo: n.titulo, urls: (n.fuentes || []).map(f => f.url) })),
     glosario: contenido.glosario.map(g => g.termino),
+    claude_tip: contenido.claude_tip ? { titulo: contenido.claude_tip.titulo, urls: contenido.claude_tip.fuentes.map(f => f.url) } : null,
     dolar_oficial: of ? { compra: of.compra, venta: of.venta, fecha: contenido.edicion.fecha } : null,
     fuentes_datos: [contenido.clima.fuente, 'DolarApi'],
     preflight: { ok: preflight.ok, generado: preflight.generado },

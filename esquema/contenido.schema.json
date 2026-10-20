@@ -1,93 +1,527 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://midiario.local/esquema/contenido.schema.json",
-  "title": "Contenido de una edición de Mi Diario Semanal",
+  "title": "Contenido de una edición de El Diario Semanal de Tom",
   "type": "object",
-  "required": ["edicion", "portada", "notas", "finanzas", "clima", "glosario", "fe_de_erratas"],
+  "required": [
+    "edicion",
+    "portada",
+    "notas",
+    "finanzas",
+    "clima",
+    "glosario",
+    "fe_de_erratas",
+    "claude_tip"
+  ],
   "additionalProperties": false,
   "properties": {
     "edicion": {
       "type": "object",
-      "required": ["numero", "fecha", "cierre", "lugar", "papel"],
+      "required": [
+        "numero",
+        "fecha",
+        "cierre",
+        "lugar",
+        "papel"
+      ],
       "properties": {
-        "numero": { "type": "integer", "minimum": 1 },
-        "fecha": { "type": "string", "format": "date" },
-        "cierre": { "type": "string", "format": "date-time" },
-        "lugar": { "type": "string" },
-        "papel": { "type": "string", "enum": ["A4", "A3", "Legal"] }
+        "numero": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "fecha": {
+          "type": "string",
+          "format": "date"
+        },
+        "cierre": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "lugar": {
+          "type": "string"
+        },
+        "papel": {
+          "type": "string",
+          "enum": [
+            "A4",
+            "A3",
+            "Legal"
+          ]
+        }
       }
     },
     "portada": {
       "type": "object",
-      "required": ["principal", "secundarias"],
+      "required": [
+        "principal",
+        "secundarias"
+      ],
       "properties": {
-        "principal": { "$ref": "#/$defs/nota" },
-        "secundarias": {
-          "type": "array", "minItems": 4, "maxItems": 7,
-          "items": { "type": "object", "required": ["titulo", "resumen"], "properties": { "titulo": { "type": "string" }, "resumen": { "type": "string" }, "pagina": { "type": "integer" } } }
+        "principal": {
+          "$ref": "#/$defs/nota"
         },
-        "llamadas": { "type": "array", "maxItems": 4, "items": { "type": "object", "required": ["etiqueta", "texto"], "properties": { "etiqueta": { "type": "string" }, "texto": { "type": "string" }, "pagina": { "type": "integer" } } } },
-        "agenda": { "type": "array", "maxItems": 8, "items": { "type": "object", "required": ["cuando", "texto"], "properties": { "cuando": { "type": "string" }, "texto": { "type": "string" } } } },
-        "dato_del_dia": { "type": "object", "required": ["etiqueta", "titulo", "texto"], "properties": { "etiqueta": { "type": "string" }, "titulo": { "type": "string" }, "texto": { "type": "string" } } }
+        "secundarias": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 7,
+          "items": {
+            "type": "object",
+            "required": [
+              "titulo",
+              "resumen"
+            ],
+            "properties": {
+              "titulo": {
+                "type": "string"
+              },
+              "resumen": {
+                "type": "string"
+              },
+              "pagina": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "llamadas": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "etiqueta",
+              "texto"
+            ],
+            "properties": {
+              "etiqueta": {
+                "type": "string"
+              },
+              "texto": {
+                "type": "string"
+              },
+              "pagina": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "agenda": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": [
+              "cuando",
+              "texto"
+            ],
+            "properties": {
+              "cuando": {
+                "type": "string"
+              },
+              "texto": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "dato_del_dia": {
+          "type": "object",
+          "required": [
+            "etiqueta",
+            "titulo",
+            "texto"
+          ],
+          "properties": {
+            "etiqueta": {
+              "type": "string"
+            },
+            "titulo": {
+              "type": "string"
+            },
+            "texto": {
+              "type": "string"
+            }
+          }
+        }
       }
     },
-    "notas": { "type": "array", "items": { "$ref": "#/$defs/nota" } },
+    "notas": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nota"
+      }
+    },
     "finanzas": {
       "type": "object",
-      "required": ["corte", "dolar"],
+      "required": [
+        "corte",
+        "dolar"
+      ],
       "properties": {
-        "corte": { "type": "string", "format": "date-time" },
-        "dolar": { "type": "array", "items": { "type": "object", "required": ["casa", "compra", "venta", "actualizado"], "properties": { "casa": { "type": "string" }, "clave": { "type": "string" }, "compra": { "type": "number" }, "venta": { "type": "number" }, "actualizado": { "type": "string" } } } },
-        "anterior": { "type": ["object", "null"], "properties": { "compra": { "type": "number" }, "venta": { "type": "number" }, "fecha": { "type": "string" } } },
-        "comentario": { "type": "string" },
-        "no_disponible": { "type": "array", "items": { "$ref": "#/$defs/no_disponible" } }
+        "corte": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "dolar": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "casa",
+              "compra",
+              "venta",
+              "actualizado"
+            ],
+            "properties": {
+              "casa": {
+                "type": "string"
+              },
+              "clave": {
+                "type": "string"
+              },
+              "compra": {
+                "type": "number"
+              },
+              "venta": {
+                "type": "number"
+              },
+              "actualizado": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "anterior": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "compra": {
+              "type": "number"
+            },
+            "venta": {
+              "type": "number"
+            },
+            "fecha": {
+              "type": "string"
+            }
+          }
+        },
+        "comentario": {
+          "type": "string"
+        },
+        "no_disponible": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/no_disponible"
+          }
+        }
       }
     },
     "clima": {
       "type": "object",
-      "required": ["lugar", "corte", "fuente", "dias"],
+      "required": [
+        "lugar",
+        "corte",
+        "fuente",
+        "dias"
+      ],
       "properties": {
-        "lugar": { "type": "string" }, "corte": { "type": "string" }, "fuente": { "type": "string" },
-        "dias": { "type": "array", "minItems": 2, "items": { "type": "object", "required": ["fecha", "codigo_wmo", "max", "min"], "properties": { "fecha": { "type": "string" }, "codigo_wmo": { "type": "integer" }, "max": { "type": "number" }, "min": { "type": "number" }, "precip_mm": { "type": "number" }, "prob_precip": { "type": "number" }, "viento_kmh": { "type": "number" }, "rafagas_kmh": { "type": "number" } } } },
-        "previos": { "type": "array" },
-        "cambio_brusco": { "type": ["string", "null"] },
-        "alertas": { "type": ["string", "null"] }
+        "lugar": {
+          "type": "string"
+        },
+        "corte": {
+          "type": "string"
+        },
+        "fuente": {
+          "type": "string"
+        },
+        "dias": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "fecha",
+              "codigo_wmo",
+              "max",
+              "min"
+            ],
+            "properties": {
+              "fecha": {
+                "type": "string"
+              },
+              "codigo_wmo": {
+                "type": "integer"
+              },
+              "max": {
+                "type": "number"
+              },
+              "min": {
+                "type": "number"
+              },
+              "precip_mm": {
+                "type": "number"
+              },
+              "prob_precip": {
+                "type": "number"
+              },
+              "viento_kmh": {
+                "type": "number"
+              },
+              "rafagas_kmh": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "previos": {
+          "type": "array"
+        },
+        "cambio_brusco": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alertas": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
-    "glosario": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "type": "object", "required": ["termino", "definicion"], "properties": { "termino": { "type": "string" }, "definicion": { "type": "string" }, "ejemplo": { "type": "string" }, "nota_relacionada": { "type": "string" } } } },
-    "no_disponible": { "type": "array", "items": { "$ref": "#/$defs/no_disponible" } },
-    "fe_de_erratas": { "type": "array", "items": { "type": "string" } }
+    "glosario": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "termino",
+          "definicion"
+        ],
+        "properties": {
+          "termino": {
+            "type": "string"
+          },
+          "definicion": {
+            "type": "string"
+          },
+          "ejemplo": {
+            "type": "string"
+          },
+          "nota_relacionada": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "no_disponible": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/no_disponible"
+      }
+    },
+    "fe_de_erratas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claude_tip": {
+      "type": "object",
+      "required": [
+        "titulo",
+        "texto",
+        "fuentes"
+      ],
+      "properties": {
+        "titulo": {
+          "type": "string"
+        },
+        "bajada": {
+          "type": "string"
+        },
+        "texto": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "pasos": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        },
+        "donde": {
+          "type": "string",
+          "description": "claude.ai, app de escritorio, Claude Code, API..."
+        },
+        "origen": {
+          "type": "string",
+          "description": "De dónde salió el tip en la comunidad (Reddit, Hacker News, blog, X)"
+        },
+        "fuentes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/fuente"
+          }
+        },
+        "repeticion_autorizada": {
+          "type": "boolean"
+        }
+      }
+    }
   },
   "$defs": {
     "fuente": {
       "type": "object",
-      "required": ["url", "medio", "consultado"],
-      "properties": { "url": { "type": "string" }, "medio": { "type": "string" }, "titulo": { "type": "string" }, "fecha_publicacion": { "type": "string" }, "consultado": { "type": "string" } }
+      "required": [
+        "url",
+        "medio",
+        "consultado"
+      ],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "medio": {
+          "type": "string"
+        },
+        "titulo": {
+          "type": "string"
+        },
+        "fecha_publicacion": {
+          "type": "string"
+        },
+        "consultado": {
+          "type": "string"
+        }
+      }
     },
     "no_disponible": {
-      "type": "object", "required": ["dato", "fuente_intentada", "hora_intento"],
-      "properties": { "dato": { "type": "string" }, "fuente_intentada": { "type": "string" }, "hora_intento": { "type": "string" }, "motivo": { "type": "string" }, "pagina": { "type": "integer" } }
+      "type": "object",
+      "required": [
+        "dato",
+        "fuente_intentada",
+        "hora_intento"
+      ],
+      "properties": {
+        "dato": {
+          "type": "string"
+        },
+        "fuente_intentada": {
+          "type": "string"
+        },
+        "hora_intento": {
+          "type": "string"
+        },
+        "motivo": {
+          "type": "string"
+        },
+        "pagina": {
+          "type": "integer"
+        }
+      }
     },
     "nota": {
       "type": "object",
-      "required": ["id", "seccion", "titulo", "cuerpo", "tipo", "fecha_acontecimiento", "fuentes", "sensible_al_tiempo"],
+      "required": [
+        "id",
+        "seccion",
+        "titulo",
+        "cuerpo",
+        "tipo",
+        "fecha_acontecimiento",
+        "fuentes",
+        "sensible_al_tiempo"
+      ],
       "properties": {
-        "id": { "type": "string" },
-        "seccion": { "type": "string", "enum": ["principal", "ia", "tecnologia", "empresas", "impresion3d", "breve"] },
-        "seccion_destino": { "type": "string", "enum": ["ia", "tecnologia", "empresas", "impresion3d"] },
-        "pagina": { "type": "integer", "minimum": 1 },
-        "titulo": { "type": "string" },
-        "bajada": { "type": "string" },
-        "cuerpo": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-        "tipo": { "type": "string", "enum": ["hecho", "analisis", "opinion"] },
-        "fecha_acontecimiento": { "type": "string" },
-        "fecha_publicacion_fuente": { "type": "string" },
-        "importancia": { "type": "integer", "minimum": 1, "maximum": 5 },
-        "sensible_al_tiempo": { "type": "boolean" },
-        "verificado_en_dos_fuentes": { "type": "boolean" },
-        "recorte": { "type": "string" },
-        "fuentes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/fuente" } },
-        "repeticion_autorizada": { "type": "boolean" }
+        "id": {
+          "type": "string"
+        },
+        "seccion": {
+          "type": "string",
+          "enum": [
+            "principal",
+            "ia",
+            "tecnologia",
+            "empresas",
+            "impresion3d",
+            "breve"
+          ]
+        },
+        "seccion_destino": {
+          "type": "string",
+          "enum": [
+            "ia",
+            "tecnologia",
+            "empresas",
+            "impresion3d"
+          ]
+        },
+        "pagina": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "titulo": {
+          "type": "string"
+        },
+        "bajada": {
+          "type": "string"
+        },
+        "cuerpo": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "hecho",
+            "analisis",
+            "opinion"
+          ]
+        },
+        "fecha_acontecimiento": {
+          "type": "string"
+        },
+        "fecha_publicacion_fuente": {
+          "type": "string"
+        },
+        "importancia": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "sensible_al_tiempo": {
+          "type": "boolean"
+        },
+        "verificado_en_dos_fuentes": {
+          "type": "boolean"
+        },
+        "recorte": {
+          "type": "string"
+        },
+        "fuentes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/fuente"
+          }
+        },
+        "repeticion_autorizada": {
+          "type": "boolean"
+        }
       }
     }
   }

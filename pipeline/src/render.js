@@ -10,7 +10,7 @@ const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const CSS = fs.readFileSync(path.join(AQUI, '..', 'templates', 'diario.css'), 'utf8');
 
 const NOMBRE_SECCION = {
-  portada: 'Portada', ia: 'Inteligencia artificial', tecnologia_empresas: 'Tecnología y empresas', impresion3d_cierre: 'Impresión 3D, dólar y clima',
+  portada: 'Portada', ia: 'Inteligencia artificial y Claude Tips', tecnologia_empresas: 'Tecnología y empresas', impresion3d_cierre: 'Impresión 3D, dólar y clima',
 };
 const KICKER = {
   principal: 'Nota principal', ia: 'Inteligencia artificial', tecnologia: 'Tecnología', empresas: 'Empresas', impresion3d: 'Impresión 3D', breve: 'Breve',
@@ -102,9 +102,22 @@ function flujo(ctx, secciones, pagina, clase = '') {
     .sort((a, b) => (b.importancia || 0) - (a.importancia || 0));
   const breves = c.notas.filter(n => n.seccion === 'breve' && (n.pagina ? n.pagina === pagina : secciones.includes(n.seccion_destino || 'ia')));
   const nd = (c.no_disponible || []).filter(x => x.pagina === pagina).map(noDisponible).join('');
+  const tip = secciones.includes('ia') && c.claude_tip ? claudeTip(c.claude_tip) : '';
   const html = notas.map((n, i) => articulo(n, i === 0)).join('');
   const brevesHtml = breves.length ? `<div class="breves"><h3>Breves</h3>${breves.map(b => `<p class="breve"><b>${esc(b.titulo)}.</b> ${parrafo(b.cuerpo.join(' '))} <span class="f">${esc(b.fuentes[0]?.medio || '')}, ${esc(fechaCorta(b.fecha_acontecimiento))}</span></p>`).join('')}</div>` : '';
-  return `<div class="flow ${clase}">${html}${nd}${brevesHtml}</div>`;
+  return `<div class="flow ${clase}">${html}${nd}${brevesHtml}${tip}</div>`;
+}
+
+function claudeTip(t) {
+  const pasos = t.pasos?.length ? `<ol>${t.pasos.map(p => `<li>${parrafo(p)}</li>`).join('')}</ol>` : '';
+  return `<aside class="tip">
+    <div class="tip-et">Claude Tips${t.donde ? ` · ${esc(t.donde)}` : ''}</div>
+    <h2 class="tit">${parrafo(t.titulo)}</h2>
+    ${t.bajada ? `<p class="bajada">${parrafo(t.bajada)}</p>` : ''}
+    ${t.texto.map(x => `<p>${parrafo(x)}</p>`).join('')}
+    ${pasos}
+    <p class="fuente">${t.origen ? `${esc(t.origen)} · ` : ''}${t.fuentes.map(f => `${esc(f.medio)}${f.fecha_publicacion ? `, ${esc(fechaCorta(f.fecha_publicacion))}` : ''}`).join(' · ')}</p>
+  </aside>`;
 }
 
 function articulo(n, lead) {
@@ -158,7 +171,7 @@ function cierre(ctx, secciones, pagina) {
   const glos = c.glosario.map(g => `<dt>${esc(g.termino)}</dt><dd>${parrafo(g.definicion)}${g.ejemplo ? ` <span class="ej">${parrafo(g.ejemplo)}</span>` : ''}</dd>`).join('');
   const erratas = c.fe_de_erratas.length ? c.fe_de_erratas.map(e => `<p>${parrafo(e)}</p>`).join('') : '<p>Sin correcciones a la edición anterior.</p>';
   const medios = {};
-  for (const n of [c.portada.principal, ...c.notas]) for (const x of n.fuentes || []) medios[x.medio] = (medios[x.medio] || 0) + 1;
+  for (const n of [c.portada.principal, ...c.notas, c.claude_tip].filter(Boolean)) for (const x of n.fuentes || []) medios[x.medio] = (medios[x.medio] || 0) + 1;
   const listaMedios = Object.entries(medios).sort((a, b) => b[1] - a[1]).map(([m, k]) => `${esc(m)}${k > 1 ? ` (${k})` : ''}`).join(', ');
   return `<div class="cierre">
     ${flujo(ctx, secciones, pagina, 'c2')}

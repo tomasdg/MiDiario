@@ -1,4 +1,4 @@
-# Pipeline de Mi Diario Semanal
+# Pipeline de El Diario Semanal de Tom
 
 Node + Playwright (Chromium). En la nube de Claude no hace falta instalar nada: `src/deps.js` usa el Playwright y el Chromium preinstalados. En otra máquina, `npm install` en esta carpeta.
 

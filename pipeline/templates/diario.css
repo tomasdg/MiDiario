@@ -1,4 +1,4 @@
-/* Mi Diario Semanal — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
+/* El Diario Semanal de Tom — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
 @page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
 
 :root {
@@ -212,3 +212,12 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .agenda li { margin: 0 0 1mm; line-height: 1.25; break-inside: avoid; }
 .secundarias { display: flex; flex-direction: column; justify-content: flex-start; }
 .secundarias h3 { flex: 0 0 auto; }
+
+/* Claude Tips: recuadro fijo al final de la página de IA */
+.flow > .tip { break-inside: avoid; border: 1.2pt solid var(--negro); padding: 1.6mm 2mm 1.2mm; margin-top: 1.5mm; background: var(--gris-fondo); }
+.tip-et { font-family: var(--sans); font-size: 0.72em; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.6mm; }
+.tip .tit { font-size: 1.25em; }
+.tip p { margin-bottom: 0.45em; }
+.tip ol { margin: 0 0 0.5em; padding-left: 4mm; }
+.tip li { margin-bottom: 0.25em; text-align: left; }
+.masthead h1 { font-size: 32pt; }

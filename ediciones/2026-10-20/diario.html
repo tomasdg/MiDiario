@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><title>Mi Diario Semanal Nº 1</title>
+<html lang="es"><head><meta charset="utf-8"><title>El Diario Semanal de Tom Nº 1</title>
 <style>:root{--papel-ancho:210mm;--papel-alto:297mm;--margen:10mm;}
-/* Mi Diario Semanal — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
+/* El Diario Semanal de Tom — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
 @page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
 
 :root {
@@ -215,8 +215,17 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .agenda li { margin: 0 0 1mm; line-height: 1.25; break-inside: avoid; }
 .secundarias { display: flex; flex-direction: column; justify-content: flex-start; }
 .secundarias h3 { flex: 0 0 auto; }
+
+/* Claude Tips: recuadro fijo al final de la página de IA */
+.flow > .tip { break-inside: avoid; border: 1.2pt solid var(--negro); padding: 1.6mm 2mm 1.2mm; margin-top: 1.5mm; background: var(--gris-fondo); }
+.tip-et { font-family: var(--sans); font-size: 0.72em; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.6mm; }
+.tip .tit { font-size: 1.25em; }
+.tip p { margin-bottom: 0.45em; }
+.tip ol { margin: 0 0 0.5em; padding-left: 4mm; }
+.tip li { margin-bottom: 0.25em; text-align: left; }
+.masthead h1 { font-size: 32pt; }
 </style></head><body><section class="page" data-pagina="1" data-nombre="portada" style="--cuerpo:9.25pt; --columnas:3">
-      <header class="ph masthead"><h1>Mi Diario Semanal</h1>
+      <header class="ph masthead"><h1>El Diario Semanal de Tom</h1>
     <div class="sub"><span>Nº 1</span><span>Martes, 20 de octubre de 2026</span><span>Villa Urquiza, Buenos Aires</span></div></header>
       <div class="pb">
   <div class="strip">
@@ -236,11 +245,11 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
     </article>
     <aside class="secundarias"><h3>En esta edición</h3><div class="sec"><h4>Salesforce compra Braze por US$ 5.660 millones</h4><p>Pagará US$ 47,50 por acción en efectivo. La plataforma de mensajes que usan Canva e Instacart se sumará a Marketing Cloud y a Agentforce. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>OpenAI: sus modelos ya migran COBOL casi sin errores</h4><p>GPT-6.1 Sol llega a 97,9% en su prueba interna, contra 5,4% de la versión anterior. Fortran y Visual Basic también mejoran. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Microsoft pone freno a los agentes que se desvían</h4><p>Cada agente tendrá un puntaje de riesgo; si sube, pierde permisos o se apaga. También detecta Claude Code, Codex y Copilot. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Meta abre las puertas de Prometheus</h4><p>Cientos de miles de GPUs en Ohio, rumbo al millón, y 99% menos interrupciones que hace un año. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>OrcaSlicer 2.5 suma plugins y diseño CAD</h4><p>La alfa del laminador libre trae más de 400 cambios y soporte para las nuevas Bambu Lab H2C y A2L. <span class="pg">Pág. 4</span></p></div><div class="sec"><h4>Mercury 3: más de mil tokens por segundo</h4><p>Un modelo de difusión que, según Inception, rinde como los chicos de OpenAI y Anthropic a US$ 0,20 el millón de tokens. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Formlabs lanza una impresora de resina de US$ 699</h4><p>La Form Studio 1 lleva a casa la tecnología de la Form 4, que cuesta casi cuatro veces más. Despacha desde el 16 de noviembre. <span class="pg">Pág. 4</span></p></div></aside>
   </div>
-  <div class="llamadas" style="--n-llamadas:4"><div class="llamada"><span class="et">Inteligencia artificial</span>DeepSeek abre su motor de inferencia y MiniMax baja precios. <span class="pg">Pág. 2</span></div><div class="llamada"><span class="et">Empresas</span>Tenstorrent, Otter y Eka levantan más de US$ 1.900 millones. <span class="pg">Pág. 3</span></div><div class="llamada"><span class="et">Impresión 3D</span>Berkeley libera una impresora que no usa capas. <span class="pg">Pág. 4</span></div><div class="llamada"><span class="et">Hoy</span>Netflix presenta resultados después del cierre de Wall Street. <span class="pg">Pág. 3</span></div></div></div>
+  <div class="llamadas" style="--n-llamadas:4"><div class="llamada"><span class="et">Claude Tips</span>Cómo usar Claude Code para averiguar qué le pasa a tu compu. <span class="pg">Pág. 2</span></div><div class="llamada"><span class="et">Empresas</span>Tenstorrent, Otter y Eka levantan más de US$ 1.900 millones. <span class="pg">Pág. 3</span></div><div class="llamada"><span class="et">Impresión 3D</span>Berkeley libera una impresora que no usa capas. <span class="pg">Pág. 4</span></div><div class="llamada"><span class="et">Hoy</span>Netflix presenta resultados después del cierre de Wall Street. <span class="pg">Pág. 3</span></div></div></div>
       <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">1</b> de 4</span></footer>
     </section>
 <section class="page" data-pagina="2" data-nombre="ia" style="--cuerpo:8.75pt; --columnas:3">
-      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Inteligencia artificial</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">2</b></span></header>
+      <header class="ph"><span><span class="ph-seccion">El Diario Semanal de Tom</span> · Inteligencia artificial y Claude Tips</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">2</b></span></header>
       <div class="pb"><div class="flow "><article class="art lead tipo-hecho" data-id="openai-cobol" data-recorte="">
     <div class="kicker">Inteligencia artificial · 19 oct</div>
     <h2 class="tit">OpenAI dice que sus modelos nuevos ya migran COBOL casi sin errores</h2>
@@ -277,17 +286,18 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
     <p class="bajada">DeepInfer funciona en GPUs Nvidia de última generación y en los chips Ascend 950 de Huawei.</p>
     <div class="cuerpo"><p>DeepSeek publicó en GitHub DeepInfer, el framework de inferencia que usa en producción, con licencia Apache 2.0. Está pensado para DeepSeek-V4.1-Flash e incluye decodificación especulativa, salidas estructuradas con JSON o gramáticas y resultados deterministas en Nvidia. Que soporte Ascend 950 confirma el peso creciente del hardware chino en su infraestructura.</p></div>
     <p class="fuente">GitHub (DeepSeek), 20 oct</p>
-  </article><article class="art  tipo-hecho" data-id="clairic" data-recorte="">
-    <div class="kicker">Inteligencia artificial · 19 oct</div>
-    <h2 class="tit">Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»</h2>
-    <p class="bajada">Clairic devuelve valores, estimaciones y pronósticos en una sola pasada y abarata a la mitad una cadena de procesamiento.</p>
-    <div class="cuerpo"><p>Cloudflare publicó el lunes 19 la vista previa de Clairic en Workers AI. No genera texto: lee un documento y devuelve directamente los valores pedidos, con un nivel de confianza. En una prueba de procesamiento de reclamos, la cadena con Clairic tardó 19,3 segundos contra 61,7 de una hecha sólo con modelos de lenguaje, y costó 49% menos. La empresa advierte que todavía falla en cálculos de varios pasos y que conviene dejar las cuentas al código.</p></div>
-    <p class="fuente">Cloudflare, 19 oct</p>
-  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Diarios canadienses demandan a Anthropic.</b> Postmedia, Torstar, The Globe and Mail y The Canadian Press acusan en Ontario a Anthropic de entrenar Claude con sus notas sin licencia. La demanda se presentó el 6 de octubre; la empresa no respondió y nada está probado. <span class="f">The Canadian Press (vía ChatNewsToday), 6 oct</span></p></div></div></div>
+  </article><aside class="tip">
+    <div class="tip-et">Claude Tips · Claude Code</div>
+    <h2 class="tit">Usá Claude Code como técnico de tu computadora</h2>
+    
+    <p>Un desarrollador que armaba con Claude Code una app para medir la temperatura de su Mac notó lecturas anormales. Claude Code revisó los procesos, encontró un minero de criptomonedas oculto que usaba casi 12 núcleos y estaba configurado para arrancar con la máquina, y antes de tocar nada propuso un plan y pidió permiso. El caso lo contó Tom's Hardware el 19 de octubre.</p><p>La idea sirve para cualquier compu lenta o caliente: Claude Code puede leer el estado del sistema y explicarte qué está pasando en lenguaje claro.</p>
+    <ol><li>Abrí Claude Code en una carpeta de trabajo y pedile: «mi computadora anda lenta y caliente; listá los procesos que más CPU y memoria usan y los programas que arrancan solos, y explicame qué es cada uno».</li><li>Pedile que no borre nada: que proponga mover lo sospechoso a una carpeta de cuarentena y espere tu aprobación.</li><li>Confirmá después con un antivirus. Claude ayuda a encontrar el problema, pero no reemplaza un escaneo de seguridad.</li></ol>
+    <p class="fuente">Visto en Reddit (r/ClaudeAI) · Tom's Hardware (vía Yahoo Tech), 19 oct</p>
+  </aside></div></div>
       <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">2</b> de 4</span></footer>
     </section>
 <section class="page" data-pagina="3" data-nombre="tecnologia_empresas" style="--cuerpo:9pt; --columnas:3">
-      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Tecnología y empresas</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">3</b></span></header>
+      <header class="ph"><span><span class="ph-seccion">El Diario Semanal de Tom</span> · Tecnología y empresas</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">3</b></span></header>
       <div class="pb"><div class="flow "><article class="art lead tipo-hecho" data-id="salesforce-braze" data-recorte="">
     <div class="kicker">Empresas · 20 oct</div>
     <h2 class="tit">Salesforce compra Braze por US$ 5.660 millones para su apuesta de marketing con IA</h2>
@@ -340,7 +350,7 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
       <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">3</b> de 4</span></footer>
     </section>
 <section class="page" data-pagina="4" data-nombre="impresion3d_cierre" style="--cuerpo:9.25pt; --columnas:3">
-      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Impresión 3D, dólar y clima</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">4</b></span></header>
+      <header class="ph"><span><span class="ph-seccion">El Diario Semanal de Tom</span> · Impresión 3D, dólar y clima</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">4</b></span></header>
       <div class="pb"><div class="cierre">
     <div class="flow c2"><article class="art lead tipo-hecho" data-id="orcaslicer" data-recorte="">
     <div class="kicker">Impresión 3D · 16 oct</div>
@@ -394,8 +404,8 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
       </div>
       <div><h3 class="h3">Glosario</h3><dl class="glos"><dt>Modelo de difusión (texto)</dt><dd>Genera la respuesta entera de un saque y la refina en varias pasadas, en lugar de escribirla token por token. <span class="ej">Mercury 3.</span></dd><dt>Inferencia</dt><dd>Usar un modelo ya entrenado para responder; es la parte del cómputo que crece con cada usuario. <span class="ej">Para eso usarían en China las RTX PRO 5500.</span></dd><dt>Goodput</dt><dd>Porcentaje del tiempo de cómputo que se convierte en avance útil del entrenamiento, descontando caídas y reinicios. <span class="ej">Más de 85% en Prometheus.</span></dd><dt>Litografía axial computada</dt><dd>Impresión volumétrica que solidifica toda la pieza a la vez con luz proyectada sobre resina en rotación. <span class="ej">OpenCAL.</span></dd></dl></div>
       <div class="erratas"><h3 class="h3">Fe de erratas</h3><p>Sin correcciones a la edición anterior.</p></div>
-      <p class="fuentes-ed"><b>Medios consultados:</b> All3DP (4), TechCrunch (3), VoxelMatters (2), Reuters (vía The Edge Malaysia), OpenAI, Inception, GeekWire, PyTorch, MiniMax, GitHub (DeepSeek), The Canadian Press (vía ChatNewsToday), Salesforce (SEC 8-K), Meta Engineering, Amazon, SiliconANGLE, InsiderFinance, 3DPrint.com (contenido patrocinado), 3DPrint.com, Cloudflare, Notion. <b>Datos:</b> MET Norway (api.met.no), DolarApi (BNA). Cada nota indica su fuente y fecha al pie.</p>
-      <p class="pie-legal">Mi Diario Semanal es una publicación de uso personal, generada con asistencia de IA y verificada al cierre (20/10/2026 15:45 hora argentina).</p>
+      <p class="fuentes-ed"><b>Medios consultados:</b> All3DP (4), TechCrunch (3), VoxelMatters (2), Reuters (vía The Edge Malaysia), OpenAI, Inception, GeekWire, PyTorch, MiniMax, GitHub (DeepSeek), Salesforce (SEC 8-K), Meta Engineering, Amazon, SiliconANGLE, InsiderFinance, 3DPrint.com (contenido patrocinado), 3DPrint.com, Notion, Tom's Hardware (vía Yahoo Tech). <b>Datos:</b> MET Norway (api.met.no), DolarApi (BNA). Cada nota indica su fuente y fecha al pie.</p>
+      <p class="pie-legal">El Diario Semanal de Tom es una publicación de uso personal, generada con asistencia de IA y verificada al cierre (20/10/2026 15:45 hora argentina).</p>
     </div>
   </div></div>
       <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">4</b> de 4</span></footer>

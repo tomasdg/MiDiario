@@ -1,6 +1,6 @@
 # Reglas comunes de investigación
 
-Investigás para "Mi Diario Semanal", un diario personal diario con aspecto de diario impreso. Hoy es {DIA_SEMANA} {FECHA}; la edición cierra a las {HORA_CIERRE} hora argentina (UTC-3). Ventana de hechos: últimas 48 horas, salvo que la sección diga otra cosa.
+Investigás para "El Diario Semanal de Tom", un diario personal diario con aspecto de diario impreso. Hoy es {DIA_SEMANA} {FECHA}; la edición cierra a las {HORA_CIERRE} hora argentina (UTC-3). Ventana de hechos: últimas 48 horas, salvo que la sección diga otra cosa.
 
 - Cargá WebSearch y WebFetch con ToolSearch si no están cargadas. Buscá con WebSearch y abrí SIEMPRE la fuente con WebFetch antes de dar un dato por válido.
 - Preferí fuentes primarias (blog oficial, comunicado, SEC, GitHub, paper). Los medios aceptados están en `config/fuentes.json`.
