@@ -49,8 +49,8 @@
     },
     "interlineado_min": 1.2,
     "paso_ajuste_pt": 0.25,
-    "serif": "Georgia, Cambria, 'Times New Roman', 'DejaVu Serif', serif",
-    "sans": "'Segoe UI', Calibri, 'DejaVu Sans', Arial, sans-serif"
+    "serif": "'Diario Serif' (Lora incrustada), Georgia, serif",
+    "sans": "'Diario Sans' (Inter incrustada), 'Segoe UI', Arial, sans-serif"
   },
   "densidad": {
     "ocupacion_min": 0.78,

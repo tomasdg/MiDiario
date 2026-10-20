@@ -56,6 +56,7 @@ node src/build.js ../ediciones/$FECHA          # PDF, PNG, preflight.json y regi
 ```
 
 - `desborde_columna` u `overflow` en una página: recortar en esa página (una columna A4 equivale a unas 420 palabras).
+- `overflow_vertical` en `principal` o `interseccion` con llamadas en la portada: acortar la principal o la agenda.
 - Densidad baja: agregar una secundaria o un breve ya investigado, o alargar la principal si es la portada. Nunca relleno.
 
 ## 5. Revisión visual

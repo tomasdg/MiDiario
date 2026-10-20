@@ -8,6 +8,15 @@ import { iconoPorWmo, svgIcono } from './icons.js';
 
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const CSS = fs.readFileSync(path.join(AQUI, '..', 'templates', 'diario.css'), 'utf8');
+// Fuentes incrustadas: el preflight y la pantalla del lector ven exactamente la misma tipografía.
+const DIR_FUENTES = path.join(AQUI, '..', 'assets', 'fonts');
+const cara = (familia, archivo, peso, estilo) => `@font-face{font-family:'${familia}';src:url(data:font/woff;base64,${fs.readFileSync(path.join(DIR_FUENTES, archivo)).toString('base64')}) format('woff');font-weight:${peso};font-style:${estilo};font-display:block}`;
+const FUENTES = [
+  cara('Diario Serif', 'lora.woff', '400 700', 'normal'),
+  cara('Diario Serif', 'lora-italic.woff', '400 700', 'italic'),
+  cara('Diario Sans', 'inter.woff', '400', 'normal'),
+  cara('Diario Sans', 'inter-bold.woff', '600 800', 'normal'),
+].join('\n');
 
 const NOMBRE_SECCION = {
   portada: 'Portada', ia: 'Inteligencia artificial y Claude Tips', tecnologia_empresas: 'Tecnología y empresas', impresion3d_cierre: 'Impresión 3D, dólar y clima',
@@ -48,7 +57,8 @@ export function render(contenido, config, opciones = {}) {
 
   return `<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><title>${esc(config.nombre)} Nº ${contenido.edicion.numero}</title>
-<style>:root{--papel-ancho:${papel.ancho_mm}mm;--papel-alto:${papel.alto_mm}mm;--margen:${papel.margen_mm}mm;}
+<style>${FUENTES}
+:root{--papel-ancho:${papel.ancho_mm}mm;--papel-alto:${papel.alto_mm}mm;--margen:${papel.margen_mm}mm;}
 ${CSS}</style></head><body>${paginas.join('\n')}</body></html>`;
 }
 

@@ -18,6 +18,12 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - El diario pasa a llamarse **El Diario Semanal de Tom**.
 - Se agrega la sección **Claude Tips**: un tip novedoso de la comunidad por día, en un recuadro al pie de la página de IA.
 
+## Corrección de maquetación — 20 de octubre de 2026
+
+- El lector vio en su pantalla la agenda de portada superpuesta con las llamadas. Causa: la página web usaba las fuentes de su computadora, más anchas que las del armado, y el preflight no comparaba las llamadas de portada.
+- Se incrustan las fuentes (Lora e Inter) en el HTML, el PDF y la página web, así el control y la pantalla del lector usan la misma tipografía.
+- El preflight ahora revisa llamadas, agenda y la nota principal de portada, y el cuerpo de la principal entra en el ajuste automático.
+
 ## Fe de erratas pendiente
 
 (ninguna)

@@ -16,7 +16,7 @@
     "Las tres tecnológicas chinas más grandes encargaron a Nvidia más de tres millones de placas RTX PRO 5500, según reveló Reuters el martes 20. A un precio de lista cercano a US$ 11.400 por unidad, el pedido supera los US$ 35.000 millones. Sumando a otros compradores del país, la demanda china ya pasa los seis millones de unidades, de acuerdo con dos fuentes citadas por la agencia.",
     "El problema es la oferta. Nvidia les anticipó a sus clientes que no puede garantizar las entregas: indicó que en 2027 no fabricará más de tres millones de estas placas para todo el mundo, porque la capacidad de TSMC se va a volcar a Rubin, su próxima plataforma para centros de datos. Algunos socios recibirían apenas entre el 5% y el 10% de lo que pidieron. Las primeras muestras llegarían en diciembre y las entregas comerciales, desde el primer trimestre de 2027.",
     "La RTX PRO 5500 es una placa de estación de trabajo, no un acelerador de centro de datos, pero quedó entre lo más potente que las reglas de exportación de Estados Unidos todavía permiten venderle a China: los B300 están vedados y los H200 requieren licencia caso por caso. Las empresas chinas la usarían sobre todo para inferencia, es decir, para hacer funcionar modelos ya entrenados. Un vocero de Nvidia criticó los controles, que según la compañía cubren productos de hace casi cinco años, mientras Huawei gana terreno en el mercado local.",
-    "El pedido muestra la escala del apetito chino por cómputo de IA pese a las restricciones. El modelo que la RTX PRO 5500 reemplaza en la práctica, la RTX 6000D, lanzada a mediados de 2025 para cumplir con los límites de exportación, ya fue discontinuado y su precio en China se duplicó, según Reuters. Otros compradores más chicos también se anotaron: Tansun Technology informó a la bolsa que acordó comprar 20.000 placas. Para Nvidia, que según su director ejecutivo Jensen Huang había visto caer a casi cero su participación en el mercado chino de chips para centros de datos, es una vía para volver a vender en volumen en ese país, aunque la falta de capacidad de fabricación limita cuánto podrá aprovecharla."
+    "El pedido muestra la escala del apetito chino por cómputo de IA pese a las restricciones. El modelo que la RTX PRO 5500 reemplaza en la práctica, la RTX 6000D, lanzada a mediados de 2025 para cumplir con los límites de exportación, ya fue discontinuado y su precio en China se duplicó, según Reuters. Para Nvidia, cuya participación en el mercado chino de chips para centros de datos había caído a casi cero, es una vía para volver a vender en volumen allí."
    ],
    "tipo": "hecho",
    "fecha_acontecimiento": "2026-10-20",
@@ -98,10 +98,6 @@
     "texto": "Netflix presenta resultados del tercer trimestre."
    },
    {
-    "cuando": "2 de noviembre",
-    "texto": "Notion pasa a sus clientes actuales al nuevo esquema de créditos."
-   },
-   {
     "cuando": "4 de noviembre",
     "texto": "Sale el set de LEGO con piano impreso en 3D."
    },
@@ -112,10 +108,6 @@
    {
     "cuando": "17 al 19 de noviembre",
     "texto": "Microsoft Ignite: llegan los controles de agentes de E7."
-   },
-   {
-    "cuando": "Noviembre",
-    "texto": "Bambu Lab lanza el escáner S1."
    },
    {
     "cuando": "Diciembre",
@@ -245,29 +237,6 @@
      "medio": "MiniMax",
      "titulo": "MiniMax M3.1 Flash",
      "fecha_publicacion": "2026-10-19",
-     "consultado": "2026-10-20T15:40:00-03:00"
-    }
-   ]
-  },
-  {
-   "id": "deepinfer",
-   "seccion": "ia",
-   "titulo": "DeepSeek abre el motor con el que sirve sus modelos",
-   "bajada": "DeepInfer funciona en GPUs Nvidia de última generación y en los chips Ascend 950 de Huawei.",
-   "cuerpo": [
-    "DeepSeek publicó en GitHub DeepInfer, el framework de inferencia que usa en producción, con licencia Apache 2.0. Está pensado para DeepSeek-V4.1-Flash e incluye decodificación especulativa, salidas estructuradas con JSON o gramáticas y resultados deterministas en Nvidia. Que soporte Ascend 950 confirma el peso creciente del hardware chino en su infraestructura."
-   ],
-   "tipo": "hecho",
-   "fecha_acontecimiento": "2026-10-20",
-   "importancia": 2,
-   "sensible_al_tiempo": true,
-   "verificado_en_dos_fuentes": false,
-   "fuentes": [
-    {
-     "url": "https://github.com/deepseek-ai/DeepInfer",
-     "medio": "GitHub (DeepSeek)",
-     "titulo": "DeepInfer",
-     "fecha_publicacion": "2026-10-20",
      "consultado": "2026-10-20T15:40:00-03:00"
     }
    ]

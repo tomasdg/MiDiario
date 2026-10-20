@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T18:55:00.279Z",
+  "generado": "2026-10-20T19:02:16.370Z",
   "edicion": {
     "numero": 1,
     "fecha": "2026-10-20",
@@ -20,10 +20,10 @@
     },
     "ajuste": {
       "cuerpos": [
-        9.25,
-        8.75,
         9,
-        9.25
+        8.75,
+        8.75,
+        8.75
       ],
       "iteraciones": 3
     },
@@ -35,49 +35,49 @@
     "densidad": [
       {
         "pagina": 1,
-        "ocupacion": 0.844,
-        "mayor_rectangulo_vacio": 0.053,
+        "ocupacion": 0.853,
+        "mayor_rectangulo_vacio": 0.037,
         "hueco_mm": {
           "x": 129,
-          "y": 205,
+          "y": 219,
           "ancho": 57,
-          "alto": 48
+          "alto": 33
         },
         "ok": true
       },
       {
         "pagina": 2,
-        "ocupacion": 0.851,
-        "mayor_rectangulo_vacio": 0.046,
+        "ocupacion": 0.875,
+        "mayor_rectangulo_vacio": 0.027,
         "hueco_mm": {
-          "x": 0,
-          "y": 233,
-          "ancho": 62,
-          "alto": 38
+          "x": 67,
+          "y": 248,
+          "ancho": 57,
+          "alto": 24
         },
         "ok": true
       },
       {
         "pagina": 3,
-        "ocupacion": 0.812,
-        "mayor_rectangulo_vacio": 0.08,
+        "ocupacion": 0.859,
+        "mayor_rectangulo_vacio": 0.048,
         "hueco_mm": {
           "x": 129,
-          "y": 200,
+          "y": 229,
           "ancho": 57,
-          "alto": 71
+          "alto": 43
         },
         "ok": true
       },
       {
         "pagina": 4,
-        "ocupacion": 0.843,
-        "mayor_rectangulo_vacio": 0.037,
+        "ocupacion": 0.845,
+        "mayor_rectangulo_vacio": 0.042,
         "hueco_mm": {
           "x": 129,
-          "y": 224,
+          "y": 219,
           "ancho": 57,
-          "alto": 33
+          "alto": 38
         },
         "ok": true
       }
@@ -88,9 +88,14 @@
       "en_rango": true
     },
     "revision_visual": {
-      "estado": "pendiente",
-      "rubrica": "EL_DIARIO_DE_YRIGOYEN.md §7.6",
-      "nota": "La completa el modelo generador leyendo los PNG; se registra en este archivo."
+      "estado": "aprobada",
+      "hallazgos": [
+        "Agenda de portada superpuesta con llamadas en la pantalla del lector (fuentes del sistema)"
+      ],
+      "correcciones": [
+        "Fuentes incrustadas, preflight ampliado a portada, principal acortada"
+      ],
+      "revisado": "2026-10-20T19:02:26.474Z"
     },
     "texto_pdf": {
       "estado": "no_implementado"

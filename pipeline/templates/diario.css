@@ -2,8 +2,8 @@
 @page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
 
 :root {
-  --serif: Georgia, Cambria, 'Times New Roman', serif;
-  --sans: 'Segoe UI', Calibri, 'DejaVu Sans', Arial, sans-serif;
+  --serif: 'Diario Serif', Georgia, 'Times New Roman', serif;
+  --sans: 'Diario Sans', 'Segoe UI', Arial, sans-serif;
   --negro: #000;
   --gris-texto: #333;
   --gris-regla: #888;
@@ -96,7 +96,7 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .principal .kicker { font-size: 7.2pt; }
 .principal .tit { font-size: 25pt; line-height: 1.02; margin-bottom: 1.6mm; }
 .principal .bajada { font-size: 11pt; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 1.8mm; }
-.principal .cuerpo { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
+.principal .cuerpo { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; font-size: calc(var(--cuerpo) * 1.04); }
 .secundarias { border-left: 0.5pt solid var(--negro); padding-left: 3mm; min-height: 0; overflow: hidden; }
 .secundarias h3 { font-family: var(--sans); font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1.4mm; color: var(--gris-texto); }
 .sec { margin-bottom: 2.2mm; break-inside: avoid; }
@@ -221,3 +221,6 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .tip ol { margin: 0 0 0.5em; padding-left: 4mm; }
 .tip li { margin-bottom: 0.25em; text-align: left; }
 .masthead h1 { font-size: 32pt; }
+/* La portada no puede crecer sobre las llamadas: si no entra, el preflight lo marca como overflow. */
+.portada-main { min-height: 0; }
+.principal { overflow: hidden; }

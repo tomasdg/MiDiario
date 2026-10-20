@@ -27,7 +27,7 @@ export async function geometria(page) {
       if (!num || num.textContent.trim() !== String(n)) errores.push({ pagina: n, tipo: 'numero_pagina', detalle: num ? num.textContent : 'ausente' });
 
       // 2, 3 y 6. Overflow horizontal, fuera de límites y texto oculto.
-      const bloques = [...pg.querySelectorAll('p, h1, h2, h3, h4, li, td, th, dt, dd, svg.chart, svg.wicon, .nd, caption')]
+      const bloques = [...pg.querySelectorAll('p, h1, h2, h3, h4, li, td, th, dt, dd, svg.chart, svg.wicon, .nd, caption, .llamada, .tip, .agenda')]
         .filter(el => el.offsetParent !== null || el instanceof SVGElement);
       for (const el of bloques) {
         const frs = [...el.getClientRects()].filter(f => f.width > 0 && f.height > 0);
@@ -38,7 +38,7 @@ export async function geometria(page) {
         }
         }
       }
-      for (const cont of pg.querySelectorAll('.flow, .cuerpo, .secundarias, .pb, .col, .cierre')) {
+      for (const cont of pg.querySelectorAll('.flow, .cuerpo, .secundarias, .pb, .col, .cierre, .principal, .portada-main, .agenda ul')) {
         if (cont.scrollWidth > cont.clientWidth + 1) errores.push({ pagina: n, tipo: 'overflow_horizontal', elemento: cont.className, exceso: cont.scrollWidth - cont.clientWidth });
         if (cont.scrollHeight > cont.clientHeight + 1) errores.push({ pagina: n, tipo: 'overflow_vertical', elemento: cont.className, exceso: cont.scrollHeight - cont.clientHeight });
       }
@@ -56,7 +56,7 @@ export async function geometria(page) {
 
       // 4 y 5. Intersecciones entre bloques de texto que no son ancestro/descendiente.
       // En multicolumna un bloque partido en dos columnas devuelve un rectángulo envolvente; se usan los fragmentos.
-      const hojas = [...pg.querySelectorAll('p, h1, h2, h3, h4, li, dt, dd, td, th, caption, svg.chart')].filter(el => {
+      const hojas = [...pg.querySelectorAll('p, h1, h2, h3, h4, li, dt, dd, td, th, caption, svg.chart, .llamada, .strip-disco, .dia, .tip-et, .kicker')].filter(el => {
         const r = rectDe(el); return r.width > 0 && r.height > 0 && dentro(r, R);
       });
       const rects = [];
