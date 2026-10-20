@@ -1,8 +1,9 @@
 // Orquestador: JSON → HTML → ajuste automático → preflight → PNG por página → PDF → acta.
+// Sin dependencias para instalar: usa playwright-core y Chromium ya presentes en la máquina (ver deps.js).
 // Uso: node src/build.js <carpeta de edición>   (ej. ../ediciones/2026-10-12)
 import fs from 'node:fs';
 import path from 'node:path';
-import { chromium } from 'playwright-core';
+import { chromium } from './deps.js';
 import { RAIZ, leerJson, escribirJson } from './util.js';
 import { render } from './render.js';
 import { geometria, densidad } from './preflight.js';
@@ -32,6 +33,7 @@ const ESCALA = 2; // píxeles por px CSS en los PNG
 const pxPorMm = 96 / 25.4;
 const canal = fs.existsSync('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe') ? 'msedge' : undefined;
 const browser = await chromium.launch({ channel: canal, headless: true });
+const aux = await browser.newPage();
 const page = await browser.newPage({ viewport: { width: Math.ceil(papel.ancho_mm * pxPorMm) + 40, height: Math.ceil(papel.alto_mm * pxPorMm) + 40 }, deviceScaleFactor: ESCALA });
 
 const cuerpos = config.mapa_paginas.map(() => config.tipografia.cuerpo_pt.por_defecto);
@@ -52,7 +54,17 @@ async function medirDensidad() {
   const res = [];
   for (let i = 0; i < n; i++) {
     const buf = await paginas.nth(i).screenshot({ type: 'png' });
-    res.push(densidad(buf, { margenPx: Math.round(papel.margen_mm * pxPorMm * ESCALA) }));
+    res.push(await aux.evaluate(async ({ b64, opts, fn }) => {
+      const img = new Image();
+      img.src = 'data:image/png;base64,' + b64;
+      await img.decode();
+      const cv = document.createElement('canvas');
+      cv.width = img.naturalWidth; cv.height = img.naturalHeight;
+      const cx = cv.getContext('2d');
+      cx.drawImage(img, 0, 0);
+      const { data } = cx.getImageData(0, 0, cv.width, cv.height);
+      return (new Function('return ' + fn))()({ width: cv.width, height: cv.height, data }, opts);
+    }, { b64: buf.toString('base64'), opts: { margenPx: Math.round(papel.margen_mm * pxPorMm * ESCALA) }, fn: densidad.toString() }));
   }
   return res;
 }
@@ -107,7 +119,8 @@ if (!geoOk || !densidadOk || !acta.pasos.paginas.en_rango) {
 }
 
 // 6. PDF.
-const pdf = path.join(carpeta, `El-Diario-de-Yrigoyen-N${contenido.edicion.numero}-${contenido.edicion.fecha}.pdf`);
+const slug = config.nombre.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const pdf = path.join(carpeta, `${slug}-N${contenido.edicion.numero}-${contenido.edicion.fecha}.pdf`);
 await page.emulateMedia({ media: 'print' });
 await page.pdf({ path: pdf, width: `${papel.ancho_mm}mm`, height: `${papel.alto_mm}mm`, printBackground: true, preferCSSPageSize: true, margin: { top: 0, right: 0, bottom: 0, left: 0 } });
 await browser.close();

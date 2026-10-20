@@ -1,0 +1,202 @@
+{
+  "numero": 1,
+  "fecha": "2026-10-20",
+  "cierre": "2026-10-20T15:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "ByteDance, Alibaba y Tencent piden a Nvidia más de 3 millones de placas por US$ 35.000 millones",
+      "urls": [
+        "https://theedgemalaysia.com/node/822533"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI dice que sus modelos nuevos ya migran COBOL casi sin errores",
+      "urls": [
+        "https://openai.com/index/low-resource-programming-languages/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Mercury 3, el modelo de lenguaje por difusión que escribe más de mil tokens por segundo",
+      "urls": [
+        "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Microsoft suma controles para frenar agentes de IA que se desvían",
+      "urls": [
+        "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Amazon libera TorchNeuron para correr PyTorch en sus chips Trainium",
+      "urls": [
+        "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "MiniMax acelera su modelo para agentes y baja 70% el costo de uso",
+      "urls": [
+        "https://www.minimax.io/blog/minimax-m31f"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "DeepSeek abre el motor con el que sirve sus modelos",
+      "urls": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Diarios canadienses demandan a Anthropic",
+      "urls": [
+        "https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Salesforce compra Braze por US$ 5.660 millones para su apuesta de marketing con IA",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Meta muestra por dentro Prometheus, su supercomputadora de escala gigavatio",
+      "urls": [
+        "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Amazon promete invertir más de 16.000 millones de euros en Alemania en 2027",
+      "urls": [
+        "https://www.aboutamazon.com/company-news/amazon-germany-investment"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Tenstorrent, la empresa de Jim Keller, levanta US$ 1.500 millones",
+      "urls": [
+        "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Otter consigue US$ 320 millones sin ceder acciones",
+      "urls": [
+        "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Eka vale US$ 1.450 millones con un robot que «siente» lo que agarra",
+      "urls": [
+        "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Netflix presenta hoy sus resultados",
+      "urls": [
+        "https://www.insiderfinance.io/news/netflix-q3-2026-earnings-oct-20"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "OrcaSlicer 2.5 llega con plugins, mezcla de colores y un modo CAD",
+      "urls": [
+        "https://all3dp.com/4/orcaslicer-to-get-plug-ins-color-mixing-and-native-parametric-cad/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Berkeley libera una impresora volumétrica que imprime sin capas en 90 segundos",
+      "urls": [
+        "https://www.voxelmatters.com/uc-berkeley-releases-opencal-an-open-source-volumetric-3d-printer-with-formlabs-and-prusa/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Formlabs baja a US$ 699 con su primera impresora de resina hogareña",
+      "urls": [
+        "https://all3dp.com/4/formlabs-form-studio-1/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Creality renueva la Ender-3 con un modelo grande y uno de entrada",
+      "urls": [
+        "https://www.voxelmatters.com/creality-launches-ender-3-v3-mega-and-neo-3d-printers/",
+        "https://3dprint.com/334925/creality-k3-opens-for-pre-order-at-849-advancing-multi-color-3d-printing/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Bambu Lab anticipa su primer escáner 3D",
+      "urls": [
+        "https://3dprint.com/334952/bambu-lab-is-building-more-than-3d-printers-now-comes-the-s1-scanner/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un piano impreso en 3D dentro de un set de LEGO",
+      "urls": [
+        "https://all3dp.com/6/the-second-mass-3d-printed-part-lego-piece-is-a-piano-that-play-notes/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»",
+      "urls": [
+        "https://blog.cloudflare.com/clairic-extraction-model/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Los agentes de Notion ya pueden trabajar más de un día seguido",
+      "urls": [
+        "https://www.notion.com/blog/notion-ai-more-for-less"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Blackwall cuadruplica su valuación filtrando bots de IA",
+      "urls": [
+        "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Prusa vende pellets: el material de su filamento, hasta 60% más barato",
+      "urls": [
+        "https://all3dp.com/4/prusa-steps-into-pellet-3d-printing-with-prusament-pellets-up-to-60-cheaper-than-filament/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Modelo de difusión (texto)",
+    "Inferencia",
+    "Goodput",
+    "Litografía axial computada"
+  ],
+  "dolar_oficial": {
+    "compra": 1490,
+    "venta": 1540,
+    "fecha": "2026-10-20"
+  },
+  "fuentes_datos": [
+    "MET Norway (api.met.no)",
+    "DolarApi"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-20T18:46:43.396Z"
+  }
+}

@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Mi Diario Semanal Nº 1</title>
+<style>:root{--papel-ancho:210mm;--papel-alto:297mm;--margen:10mm;}
+/* Mi Diario Semanal — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
+@page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
+
+:root {
+  --serif: Georgia, Cambria, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Calibri, 'DejaVu Sans', Arial, sans-serif;
+  --negro: #000;
+  --gris-texto: #333;
+  --gris-regla: #888;
+  --gris-fondo: #ececec;
+  --col-gap: 5mm;
+}
+
+html, body { margin: 0; padding: 0; background: #fff; color: var(--negro); }
+body { font-family: var(--serif); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+* { box-sizing: border-box; }
+
+.page {
+  width: var(--papel-ancho);
+  height: var(--papel-alto);
+  padding: var(--margen);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-size: var(--cuerpo);
+  line-height: 1.24;
+  page-break-after: always;
+  break-after: page;
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+@media screen { .page { margin: 6mm auto; box-shadow: 0 0 0 1px #bbb; } body { background: #ddd; } }
+
+/* Encabezado y pie */
+.ph { flex: 0 0 auto; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1mm; margin-bottom: 2.5mm; font-family: var(--sans); font-size: 7pt; letter-spacing: 0.06em; text-transform: uppercase; }
+.ph .ph-seccion { font-weight: 700; }
+.pf { flex: 0 0 auto; display: flex; justify-content: space-between; border-top: 0.5pt solid var(--negro); padding-top: 1mm; margin-top: 2mm; font-family: var(--sans); font-size: 7pt; color: var(--gris-texto); }
+.pb { flex: 1 1 auto; min-height: 0; position: relative; display: flex; flex-direction: column; }
+.pb > * { flex: 1 1 auto; min-height: 0; }
+
+/* Flujo en columnas */
+.flow { height: 100%; column-count: var(--columnas, 3); column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; }
+.flow.c2 { column-count: 2; }
+.flow > * { break-inside: avoid-column; }
+.flow > .art { break-inside: auto; }
+
+/* Artículos */
+p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
+.art { margin-bottom: 1.8mm; }
+.art + .art { border-top: 0.3pt solid #bbb; padding-top: 1.3mm; }
+.kicker { font-family: var(--sans); font-size: 0.72em; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); margin: 0 0 0.6mm; break-after: avoid; }
+.tit { font-family: var(--serif); font-weight: 700; line-height: 1.08; margin: 0 0 1mm; letter-spacing: -0.01em; break-after: avoid; break-inside: avoid; }
+.art .tit { font-size: 1.32em; }
+.art.lead .tit { font-size: 1.8em; column-span: all; margin-bottom: 1mm; }
+.art.lead .kicker { column-span: all; }
+.bajada { font-style: italic; font-size: 1em; line-height: 1.2; margin: 0 0 1.1mm; color: #111; break-after: avoid; }
+.art.lead .bajada { column-span: all; font-size: 1.05em; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.2mm; margin-bottom: 1.5mm; }
+.cuerpo p:first-child::first-letter { font-weight: 700; }
+.fuente { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin: 0.4mm 0 0; text-align: left; }
+.fuente::before { content: 'Fuente: '; }
+.datos { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.6mm; }
+.tipo-analisis .kicker::after { content: ' · análisis'; }
+
+/* Breves */
+.breves { break-inside: avoid; margin-bottom: 2mm; }
+.breves h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; }
+.breve { margin: 0 0 1.1mm; text-align: left; font-size: 0.95em; }
+.breve b { font-weight: 700; }
+.breve .f { font-family: var(--sans); font-size: 0.72em; color: var(--gris-texto); }
+
+/* Dato no disponible */
+.nd { border: 0.6pt dashed var(--gris-regla); padding: 1.2mm 1.8mm; margin: 1mm 0 2mm; font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); break-inside: avoid; }
+.nd b { color: var(--negro); }
+
+/* Portada */
+.ph.masthead { display: block; border: 0; border-bottom: 1.8pt solid var(--negro); padding-bottom: 1.5mm; margin-bottom: 2mm; text-transform: none; letter-spacing: 0; }
+.masthead h1 { font-family: var(--serif); font-size: 36pt; font-weight: 700; margin: 0; text-align: center; letter-spacing: -0.015em; line-height: 1; }
+.masthead .sub { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1.5mm; border-top: 0.5pt solid var(--negro); padding-top: 1mm; }
+.strip { flex: 0 0 auto !important; display: grid; grid-template-columns: 1.15fr 1.25fr 1.3fr; gap: 3mm; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 2.2mm; font-family: var(--sans); font-size: 7.4pt; }
+.strip h4 { margin: 0 0 0.7mm; font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); }
+.strip-clima { display: flex; gap: 2.5mm; align-items: center; }
+.strip-clima .dia { display: flex; align-items: center; gap: 1.2mm; }
+.strip-clima .wicon { width: 8mm; height: 8mm; flex: 0 0 auto; }
+.strip-clima .t { line-height: 1.15; }
+.strip-clima .t b { font-size: 9pt; }
+.strip-cot table { border-collapse: collapse; width: 100%; }
+.strip-cot td { padding: 0 1mm 0 0; line-height: 1.25; white-space: nowrap; }
+.strip-cot td.v { text-align: right; font-variant-numeric: tabular-nums; }
+.strip-disco { font-family: var(--serif); font-size: 8.4pt; line-height: 1.2; }
+.strip-disco b { font-size: 9pt; }
+.strip-disco .just { font-style: italic; }
+.strip + .portada-main { }
+.portada-main { display: grid; grid-template-columns: 2fr 1fr; gap: var(--col-gap); }
+.principal { display: flex; flex-direction: column; min-height: 0; }
+.principal .kicker { font-size: 7.2pt; }
+.principal .tit { font-size: 25pt; line-height: 1.02; margin-bottom: 1.6mm; }
+.principal .bajada { font-size: 11pt; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 1.8mm; }
+.principal .cuerpo { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
+.secundarias { border-left: 0.5pt solid var(--negro); padding-left: 3mm; min-height: 0; overflow: hidden; }
+.secundarias h3 { font-family: var(--sans); font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1.4mm; color: var(--gris-texto); }
+.sec { margin-bottom: 2.2mm; break-inside: avoid; }
+.sec h4 { font-size: 10.6pt; line-height: 1.1; margin: 0 0 0.6mm; }
+.sec p { font-size: 8.6pt; text-align: left; margin: 0; hyphens: auto; }
+.sec .pg { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); }
+.llamadas { flex: 0 0 auto !important; display: grid; grid-template-columns: repeat(var(--n-llamadas, 4), 1fr); gap: 3mm; border-top: 1.2pt solid var(--negro); margin-top: 2mm; padding-top: 1.6mm; }
+.llamada { font-size: 8.4pt; line-height: 1.2; }
+.llamada .et { font-family: var(--sans); font-size: 6.6pt; letter-spacing: 0.1em; text-transform: uppercase; display: block; color: var(--gris-texto); }
+.llamada .pg { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); }
+
+/* Finanzas */
+.fin { display: flex; flex-direction: column; height: 100%; gap: 1.4mm; }
+.coin { border-top: 0.8pt solid var(--negro); padding-top: 1mm; break-inside: avoid; }
+.coin-head { display: flex; align-items: baseline; gap: 3mm; font-family: var(--sans); margin-bottom: 0.6mm; }
+.coin-head .sym { font-size: 12pt; font-weight: 700; }
+.coin-head .nom { font-size: 7.5pt; color: var(--gris-texto); }
+.coin-head .px { font-size: 12pt; font-weight: 700; margin-left: auto; font-variant-numeric: tabular-nums; }
+.coin-head .vars { display: flex; gap: 2mm; font-size: 7.2pt; }
+.coin-head .vars span { border: 0.4pt solid var(--gris-regla); padding: 0 1.2mm; border-radius: 1mm; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.coin-head .vars span.neg { background: var(--gris-fondo); }
+.charts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; }
+.chart { width: 100%; height: auto; display: block; font-family: var(--sans); }
+.coin .com { font-size: 0.82em; line-height: 1.18; margin: 0.8mm 0 0; text-align: left; }
+.fin-bottom { display: grid; grid-template-columns: 1fr 1.25fr; gap: var(--col-gap); border-top: 0.8pt solid var(--negro); padding-top: 1.5mm; flex: 1 1 auto; min-height: 0; }
+.tabla { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 7.4pt; }
+.tabla th, .tabla td { padding: 0.45mm 1mm; border-bottom: 0.3pt solid #bbb; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tabla th { border-bottom: 0.8pt solid var(--negro); font-weight: 700; font-size: 6.8pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.tabla td.l, .tabla th.l { text-align: left; }
+.tabla tr.destacado td { font-weight: 700; background: var(--gris-fondo); }
+.tabla caption { caption-side: top; text-align: left; font-weight: 700; font-size: 7.6pt; padding: 0 0 0.8mm; }
+.aviso { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: 1mm; text-align: left; }
+.h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; break-after: avoid; }
+.glos dt { font-weight: 700; margin-top: 1mm; }
+.glos dd { margin: 0 0 0.6mm; font-size: 0.92em; text-align: justify; hyphens: auto; }
+.glos dd .ej { color: var(--gris-texto); }
+.glos dd .rel { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); }
+
+/* Boca */
+.boca { display: grid; grid-template-columns: 1.05fr 1fr; gap: var(--col-gap); height: 100%; }
+.boca .col { min-height: 0; display: flex; flex-direction: column; gap: 1.6mm; }
+.bloque { break-inside: avoid; }
+.bloque p { text-align: left; }
+.proximo { border: 1.4pt solid var(--negro); padding: 1.6mm 2.2mm; }
+.proximo .et { font-family: var(--sans); font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; }
+.proximo .rival { font-size: 1.55em; font-weight: 700; line-height: 1.08; margin: 0.4mm 0; }
+.proximo .cuando { font-size: 1.05em; font-weight: 700; }
+.proximo .det { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin: 0.4mm 0 0; }
+.proximo.hoy { background: var(--gris-fondo); }
+.resultado { font-size: 1.5em; font-weight: 700; line-height: 1.1; margin: 0 0 0.6mm; }
+.goles { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.8mm; }
+.lista { margin: 0; padding-left: 3.2mm; font-size: 0.92em; }
+.lista li { margin-bottom: 0.3mm; text-align: left; }
+.lista.sans { font-family: var(--sans); font-size: 0.8em; }
+.formacion { font-size: 0.95em; margin: 0 0 0.6mm; text-align: left; }
+.formacion b { font-family: var(--sans); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.06em; }
+.boca .tabla { font-size: 7.1pt; }
+.boca .tabla th, .boca .tabla td { padding: 0.35mm 0.8mm; }
+.sello { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+
+/* Contratapa */
+.contra { display: grid; grid-template-columns: 1.15fr 1fr; gap: var(--col-gap); height: 100%; }
+.contra .col { min-height: 0; display: flex; flex-direction: column; gap: 2mm; }
+.contra .art.lit { margin-bottom: 0; } .contra .art.lit .art { margin: 0; border: 0; padding: 0; } .contra .art.lit .tit { font-size: 1.35em; } .contra .art.lit p { font-size: 1em; line-height: 1.24; text-align: justify; }
+.disco .tit { font-size: 1.5em; }
+.disco .ficha { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin-bottom: 1mm; }
+.lit { border-top: 0.8pt solid var(--negro); padding-top: 1.2mm; }
+.lit .tit { font-size: 1.35em; }
+.lit .autor { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 1.2mm; }
+.lit p { text-align: left; font-size: 1.02em; line-height: 1.32; }
+.verso { margin: 0; text-align: left; line-height: 1.32; font-size: 1.02em; }
+.verso.blanco { height: 0.6em; }
+.lit .nota { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin-top: 1mm; }
+.clima .dias { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; margin-bottom: 1.2mm; }
+.clima .dia { text-align: center; border: 0.4pt solid var(--gris-regla); padding: 1mm 0.5mm; font-family: var(--sans); font-size: 7.2pt; }
+.clima .dia .wicon { width: 10mm; height: 10mm; display: block; margin: 0.5mm auto; }
+.clima .dia .d { font-weight: 700; text-transform: capitalize; }
+.clima .dia .tt b { font-size: 10pt; }
+.clima .dia .tt { line-height: 1.2; }
+.clima .tabla { font-size: 7pt; }
+.clima .obs { font-size: 0.9em; text-align: left; margin: 0.8mm 0 0; }
+.erratas p { text-align: left; font-size: 0.92em; }
+.fuentes-ed { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); text-align: left; line-height: 1.3; }
+.fuentes-ed b { color: var(--negro); }
+.pie-legal { font-family: var(--sans); font-size: 6.4pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+.wicon { display: inline-block; vertical-align: middle; }
+
+.chart-infl { margin: 1.5mm 0 1mm; } .chart-infl .chart { width: 100%; }
+.clima .tabla tr.obs td { color: var(--gris-texto); font-style: italic; }
+.contra .art.lit p.fuente { font-size: 0.74em; text-align: left; }
+
+/* Página de cierre: impresión 3D en dos columnas + columna de datos */
+.cierre { display: grid; grid-template-columns: 2fr 1fr; gap: var(--col-gap); height: 100%; }
+.cierre > .flow { height: 100%; min-height: 0; }
+.cierre .col { min-height: 0; display: flex; flex-direction: column; gap: 2mm; border-left: 0.5pt solid var(--negro); padding-left: 3mm; overflow: hidden; }
+.cierre .col p { text-align: left; }
+.dolar-cifras { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; margin: 0.6mm 0 1mm; font-family: var(--sans); }
+.dolar-cifras > div { border: 0.6pt solid var(--negro); padding: 1mm 1.5mm; }
+.dolar-cifras .et { display: block; font-size: 6.6pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); }
+.dolar-cifras .num { display: block; font-size: 13pt; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.dolar .obs, .clima .obs { font-size: 0.9em; margin: 0.6mm 0 0; }
+.cierre .clima .dias { grid-template-columns: repeat(4, 1fr); gap: 1mm; }
+.cierre .clima .dia { font-size: 6.4pt; padding: 0.8mm 0.2mm; }
+.cierre .clima .dia .wicon { width: 7mm; height: 7mm; }
+.cierre .clima .dia .tt b { font-size: 8.5pt; }
+.cierre .glos dd { text-align: left; }
+
+/* Portada: cuerpo de la principal balanceado en dos columnas y agenda debajo */
+.principal .cuerpo { flex: 0 0 auto; column-fill: balance; }
+.agenda { margin-top: 2mm; border-top: 1.2pt solid var(--negro); padding-top: 1.2mm; font-family: var(--sans); font-size: 7.8pt; }
+.agenda h3 { font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; color: var(--gris-texto); }
+.agenda ul { margin: 0; padding: 0; list-style: none; column-count: 2; column-gap: var(--col-gap); }
+.agenda li { margin: 0 0 1mm; line-height: 1.25; break-inside: avoid; }
+.secundarias { display: flex; flex-direction: column; justify-content: flex-start; }
+.secundarias h3 { flex: 0 0 auto; }
+</style></head><body><section class="page" data-pagina="1" data-nombre="portada" style="--cuerpo:9.25pt; --columnas:3">
+      <header class="ph masthead"><h1>Mi Diario Semanal</h1>
+    <div class="sub"><span>Nº 1</span><span>Martes, 20 de octubre de 2026</span><span>Villa Urquiza, Buenos Aires</span></div></header>
+      <div class="pb">
+  <div class="strip">
+    <div><h4>Clima en Villa Urquiza</h4><div class="strip-clima"><div class="dia"><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="32" r="12"/><path d="M32 6v8M32 50v8M6 32h8M50 32h8M13.6 13.6l5.7 5.7M44.7 44.7l5.7 5.7M13.6 50.4l5.7-5.7M44.7 19.3l5.7-5.7"/></svg>
+<div class="t"><div><b>20°</b> / 16°</div><div>Martes · Despejado</div></div></div><div class="dia"><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="9"/><path d="M24 7v5M7 24h5M12 12l3.5 3.5M36 12l-3.5 3.5M12 36l3.5-3.5"/><path d="M26 52h22a9 9 0 0 0 1-17.9A13 13 0 0 0 24.5 38 7 7 0 0 0 26 52z" fill="#fff"/></svg>
+<div class="t"><div><b>20°</b> / 14°</div><div>Miércoles · Parcialmente nublado</div></div></div></div></div>
+    <div class="strip-cot"><h4>Dólar oficial (BNA)</h4><table><tr><td>Compra</td><td class="v">$ 1.490,00</td></tr><tr><td>Venta</td><td class="v"><b>$ 1.540,00</b></td></tr><tr><td>Actualizado</td><td class="v">19/10/2026 15:00</td></tr></table></div>
+    <div class="strip-disco"><h4>La cifra del día</h4><b>6 millones.</b> <span class="just">Placas Nvidia RTX PRO 5500 que ya pidieron compradores chinos; la empresa sólo puede fabricar 3 millones en 2027.</span></div>
+  </div>
+  <div class="portada-main">
+    <article class="principal art tipo-hecho">
+      <div class="kicker">Nota principal · 20 oct</div>
+      <h2 class="tit">ByteDance, Alibaba y Tencent piden a Nvidia más de 3 millones de placas por US$ 35.000 millones</h2>
+      <p class="bajada">Es el chip más potente que la compañía todavía puede vender en China, pero avisó que en 2027 no podrá fabricar más de 3 millones en todo el mundo.</p>
+      <div class="cuerpo"><p>Las tres tecnológicas chinas más grandes encargaron a Nvidia más de tres millones de placas RTX PRO 5500, según reveló Reuters el martes 20. A un precio de lista cercano a US$ 11.400 por unidad, el pedido supera los US$ 35.000 millones. Sumando a otros compradores del país, la demanda china ya pasa los seis millones de unidades, de acuerdo con dos fuentes citadas por la agencia.</p><p>El problema es la oferta. Nvidia les anticipó a sus clientes que no puede garantizar las entregas: indicó que en 2027 no fabricará más de tres millones de estas placas para todo el mundo, porque la capacidad de TSMC se va a volcar a Rubin, su próxima plataforma para centros de datos. Algunos socios recibirían apenas entre el 5% y el 10% de lo que pidieron. Las primeras muestras llegarían en diciembre y las entregas comerciales, desde el primer trimestre de 2027.</p><p>La RTX PRO 5500 es una placa de estación de trabajo, no un acelerador de centro de datos, pero quedó entre lo más potente que las reglas de exportación de Estados Unidos todavía permiten venderle a China: los B300 están vedados y los H200 requieren licencia caso por caso. Las empresas chinas la usarían sobre todo para inferencia, es decir, para hacer funcionar modelos ya entrenados. Un vocero de Nvidia criticó los controles, que según la compañía cubren productos de hace casi cinco años, mientras Huawei gana terreno en el mercado local.</p><p>El pedido muestra la escala del apetito chino por cómputo de IA pese a las restricciones. El modelo que la RTX PRO 5500 reemplaza en la práctica, la RTX 6000D, lanzada a mediados de 2025 para cumplir con los límites de exportación, ya fue discontinuado y su precio en China se duplicó, según Reuters. Otros compradores más chicos también se anotaron: Tansun Technology informó a la bolsa que acordó comprar 20.000 placas. Para Nvidia, que según su director ejecutivo Jensen Huang había visto caer a casi cero su participación en el mercado chino de chips para centros de datos, es una vía para volver a vender en volumen en ese país, aunque la falta de capacidad de fabricación limita cuánto podrá aprovecharla.</p><p class="fuente">Reuters (vía The Edge Malaysia), 20 oct</p></div>
+      <div class="agenda"><h3>Agenda</h3><ul><li><b>Hoy, tras el cierre de Wall Street.</b> Netflix presenta resultados del tercer trimestre.</li><li><b>2 de noviembre.</b> Notion pasa a sus clientes actuales al nuevo esquema de créditos.</li><li><b>4 de noviembre.</b> Sale el set de LEGO con piano impreso en 3D.</li><li><b>16 de noviembre.</b> Formlabs empieza a despachar la Form Studio 1.</li><li><b>17 al 19 de noviembre.</b> Microsoft Ignite: llegan los controles de agentes de E7.</li><li><b>Noviembre.</b> Bambu Lab lanza el escáner S1.</li><li><b>Diciembre.</b> Primeras muestras de la RTX PRO 5500 para compradores chinos.</li></ul></div>
+    </article>
+    <aside class="secundarias"><h3>En esta edición</h3><div class="sec"><h4>Salesforce compra Braze por US$ 5.660 millones</h4><p>Pagará US$ 47,50 por acción en efectivo. La plataforma de mensajes que usan Canva e Instacart se sumará a Marketing Cloud y a Agentforce. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>OpenAI: sus modelos ya migran COBOL casi sin errores</h4><p>GPT-6.1 Sol llega a 97,9% en su prueba interna, contra 5,4% de la versión anterior. Fortran y Visual Basic también mejoran. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Microsoft pone freno a los agentes que se desvían</h4><p>Cada agente tendrá un puntaje de riesgo; si sube, pierde permisos o se apaga. También detecta Claude Code, Codex y Copilot. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Meta abre las puertas de Prometheus</h4><p>Cientos de miles de GPUs en Ohio, rumbo al millón, y 99% menos interrupciones que hace un año. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>OrcaSlicer 2.5 suma plugins y diseño CAD</h4><p>La alfa del laminador libre trae más de 400 cambios y soporte para las nuevas Bambu Lab H2C y A2L. <span class="pg">Pág. 4</span></p></div><div class="sec"><h4>Mercury 3: más de mil tokens por segundo</h4><p>Un modelo de difusión que, según Inception, rinde como los chicos de OpenAI y Anthropic a US$ 0,20 el millón de tokens. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Formlabs lanza una impresora de resina de US$ 699</h4><p>La Form Studio 1 lleva a casa la tecnología de la Form 4, que cuesta casi cuatro veces más. Despacha desde el 16 de noviembre. <span class="pg">Pág. 4</span></p></div></aside>
+  </div>
+  <div class="llamadas" style="--n-llamadas:4"><div class="llamada"><span class="et">Inteligencia artificial</span>DeepSeek abre su motor de inferencia y MiniMax baja precios. <span class="pg">Pág. 2</span></div><div class="llamada"><span class="et">Empresas</span>Tenstorrent, Otter y Eka levantan más de US$ 1.900 millones. <span class="pg">Pág. 3</span></div><div class="llamada"><span class="et">Impresión 3D</span>Berkeley libera una impresora que no usa capas. <span class="pg">Pág. 4</span></div><div class="llamada"><span class="et">Hoy</span>Netflix presenta resultados después del cierre de Wall Street. <span class="pg">Pág. 3</span></div></div></div>
+      <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">1</b> de 4</span></footer>
+    </section>
+<section class="page" data-pagina="2" data-nombre="ia" style="--cuerpo:8.75pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Inteligencia artificial</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">2</b></span></header>
+      <div class="pb"><div class="flow "><article class="art lead tipo-hecho" data-id="openai-cobol" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 19 oct</div>
+    <h2 class="tit">OpenAI dice que sus modelos nuevos ya migran COBOL casi sin errores</h2>
+    <p class="bajada">En su prueba interna, GPT-6.1 Sol llega al 97,9% de aciertos al pasar programas COBOL a otro lenguaje, contra 5,4% de la generación anterior.</p>
+    <div class="cuerpo"><p>OpenAI publicó el lunes 19 los resultados de sus modelos en lenguajes con poco material de entrenamiento, como COBOL, Fortran y Visual Basic, que siguen corriendo en bancos, aseguradoras y organismos públicos. Presentó dos evaluaciones propias: MultiLangBench, que pide construir desde cero un motor de base de datos compatible con SQLite en 20 lenguajes, y otra que mide si un modelo puede migrar programas COBOL sin cambiar su comportamiento.</p><p>En la migración, GPT-6.1 Sol logró 86,6% con poco esfuerzo de razonamiento y 97,9% con más esfuerzo, frente al 5,4% de GPT-5.6 Sol, y con un costo 39% menor. En MultiLangBench, GPT-6 Astra promedió 87,4% en los 20 lenguajes: 83,5% en Fortran y 72,1% en COBOL. La variante económica, GPT-6 Luna, quedó muy atrás (40,3% de promedio) pero cuesta cerca de 78% menos por intento.</p><p>Son pruebas diseñadas por la propia empresa, aunque publicó el entorno y los resultados por lenguaje en GitHub para que otros los repliquen. Los modelos están disponibles por API.</p></div>
+    <p class="fuente">OpenAI, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="mercury3" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 19 oct</div>
+    <h2 class="tit">Mercury 3, el modelo de lenguaje por difusión que escribe más de mil tokens por segundo</h2>
+    <p class="bajada">Inception lo ofrece a US$ 0,20 por millón de tokens de entrada y dice que rinde como los modelos chicos de OpenAI y Anthropic.</p>
+    <div class="cuerpo"><p>Inception presentó el domingo 19 Mercury 3, un modelo de lenguaje que no genera el texto palabra por palabra sino por difusión: arma un borrador completo y lo refina en varias pasadas. La empresa informa 1.068 tokens por segundo en GPUs de Nvidia, entre cuatro y ocho veces más rápido que modelos comparables, y amplió el contexto de 260.000 a un millón de tokens.</p><p>Según Inception, la calidad está a la par o por encima de GPT-6 Luna y Claude Haiku 5.5, aunque las cifras sólo aparecen en un gráfico del anuncio. Cuesta US$ 0,20 por millón de tokens de entrada y US$ 0,70 de salida, con 50% de descuento de lanzamiento, y es compatible con la API de OpenAI. Se puede usar en OpenRouter, Baseten y Vercel.</p></div>
+    <p class="fuente">Inception, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="ms-agentes" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 19 oct</div>
+    <h2 class="tit">Microsoft suma controles para frenar agentes de IA que se desvían</h2>
+    <p class="bajada">Cada agente recibe un puntaje de riesgo; si sube, el sistema puede quitarle permisos de escritura, pedir aprobación humana o apagarlo.</p>
+    <div class="cuerpo"><p>Microsoft anunció el lunes 19 nuevas funciones de seguridad para Microsoft 365 E7 y Project Perception. La idea es evaluar en forma continua cada agente según qué datos puede tocar y si se aparta de la tarea asignada. Con más riesgo, la respuesta es gradual: dejarlo sólo leer, exigir que una persona apruebe los pasos delicados o detenerlo.</p><p>También amplía la detección de agentes que los empleados corren en sus computadoras sin aviso a sistemas: pasa de 25 a 60 tipos, entre ellos Claude Code, Codex y GitHub Copilot. Por ahora está en vista previa privada; la disponibilidad amplia se espera para Ignite, del 17 al 19 de noviembre. E7 cuesta US$ 99 por usuario por mes.</p></div>
+    <p class="fuente">GeekWire, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="torchneuron" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 20 oct</div>
+    <h2 class="tit">Amazon libera TorchNeuron para correr PyTorch en sus chips Trainium</h2>
+    <p class="bajada">Basta con mover el modelo al dispositivo «neuron»: es el intento más directo de Amazon de restarle a Nvidia su ventaja en software.</p>
+    <div class="cuerpo"><p>AWS publicó el martes 20, en la PyTorch Conference de Norteamérica, la beta pública de TorchNeuron, un backend nativo de PyTorch para sus chips Trainium2 y Trainium3, con licencia Apache 2.0. El código existente funciona cambiando una línea, y admite torch.compile y entrenamiento distribuido con FSDP2 y paralelismo de tensores.</p><p>Deepgram informó que procesa cerca de 60% más segundos de audio por dólar que con GPUs. AWS reconoce límites: unos 22.000 casos de prueba de PyTorch todavía no tienen implementación nativa y faltan funciones como tensores dispersos y formas dinámicas.</p></div>
+    <p class="fuente">PyTorch, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="minimax" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 19 oct</div>
+    <h2 class="tit">MiniMax acelera su modelo para agentes y baja 70% el costo de uso</h2>
+    <p class="bajada">M3.1 Flash promete casi el triple de velocidad y precios de US$ 0,15 por millón de tokens de entrada.</p>
+    <div class="cuerpo"><p>La china MiniMax lanzó el domingo 19 M3.1 Flash, orientado a programación y a agentes que manejan una computadora. Afirma superar los 200 tokens por segundo y abaratar 70% el costo de las tareas agénticas frente a su versión anterior. En sus pruebas declara 73,7% en DeepSWE y 61,7 puntos en OSWorld V2. Por ahora se usa por API; los pesos del modelo se publicarán más adelante.</p></div>
+    <p class="fuente">MiniMax, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="deepinfer" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 20 oct</div>
+    <h2 class="tit">DeepSeek abre el motor con el que sirve sus modelos</h2>
+    <p class="bajada">DeepInfer funciona en GPUs Nvidia de última generación y en los chips Ascend 950 de Huawei.</p>
+    <div class="cuerpo"><p>DeepSeek publicó en GitHub DeepInfer, el framework de inferencia que usa en producción, con licencia Apache 2.0. Está pensado para DeepSeek-V4.1-Flash e incluye decodificación especulativa, salidas estructuradas con JSON o gramáticas y resultados deterministas en Nvidia. Que soporte Ascend 950 confirma el peso creciente del hardware chino en su infraestructura.</p></div>
+    <p class="fuente">GitHub (DeepSeek), 20 oct</p>
+  </article><article class="art  tipo-hecho" data-id="clairic" data-recorte="">
+    <div class="kicker">Inteligencia artificial · 19 oct</div>
+    <h2 class="tit">Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»</h2>
+    <p class="bajada">Clairic devuelve valores, estimaciones y pronósticos en una sola pasada y abarata a la mitad una cadena de procesamiento.</p>
+    <div class="cuerpo"><p>Cloudflare publicó el lunes 19 la vista previa de Clairic en Workers AI. No genera texto: lee un documento y devuelve directamente los valores pedidos, con un nivel de confianza. En una prueba de procesamiento de reclamos, la cadena con Clairic tardó 19,3 segundos contra 61,7 de una hecha sólo con modelos de lenguaje, y costó 49% menos. La empresa advierte que todavía falla en cálculos de varios pasos y que conviene dejar las cuentas al código.</p></div>
+    <p class="fuente">Cloudflare, 19 oct</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Diarios canadienses demandan a Anthropic.</b> Postmedia, Torstar, The Globe and Mail y The Canadian Press acusan en Ontario a Anthropic de entrenar Claude con sus notas sin licencia. La demanda se presentó el 6 de octubre; la empresa no respondió y nada está probado. <span class="f">The Canadian Press (vía ChatNewsToday), 6 oct</span></p></div></div></div>
+      <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">2</b> de 4</span></footer>
+    </section>
+<section class="page" data-pagina="3" data-nombre="tecnologia_empresas" style="--cuerpo:9pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Tecnología y empresas</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">3</b></span></header>
+      <div class="pb"><div class="flow "><article class="art lead tipo-hecho" data-id="salesforce-braze" data-recorte="">
+    <div class="kicker">Empresas · 20 oct</div>
+    <h2 class="tit">Salesforce compra Braze por US$ 5.660 millones para su apuesta de marketing con IA</h2>
+    <p class="bajada">Pagará US$ 47,50 por acción en efectivo; Braze se sumará a Marketing Cloud y a Agentforce.</p>
+    <div class="cuerpo"><p>Salesforce anunció el martes 20 que comprará Braze, la plataforma de mensajes y campañas que usan Canva, Instacart y Venmo, por un valor empresa cercano a US$ 5.660 millones. Pagará US$ 47,50 en efectivo por cada acción Clase A. Braze tiene unos 2.770 clientes y procesa billones de mensajes por año.</p><p>La operación busca darle a Marketing Cloud lo que Braze hace bien: reaccionar en tiempo real a lo que el usuario hace dentro de una app, con IA que decide qué mensaje, oferta, canal y horario usar. Salesforce dice que Braze se integrará con Data 360, Customer 360 y Agentforce, su plataforma de agentes.</p><p>El cierre se espera dentro del año fiscal 2028 de Salesforce, que empieza en febrero, y necesita la aprobación de los accionistas de Braze y de los reguladores. La compañía aclaró que no cambia sus proyecciones del año en curso.</p></div>
+    <p class="fuente">Salesforce (SEC 8-K), 20 oct</p>
+  </article><article class="art  tipo-hecho" data-id="meta-prometheus" data-recorte="">
+    <div class="kicker">Tecnología · 19 oct</div>
+    <h2 class="tit">Meta muestra por dentro Prometheus, su supercomputadora de escala gigavatio</h2>
+    <p class="bajada">El primer tramo ya conecta cientos de miles de GPUs en Ohio; el objetivo es llegar a un millón trabajando a la par.</p>
+    <div class="cuerpo"><p>El equipo de ingeniería de Meta publicó el lunes 19 cómo construyó Prometheus, en New Albany, Ohio, donde hace dos años había un centro de datos común. Con la primera fase entrenó la familia de modelos Muse. Cada edificio enlaza hasta 20.736 GPUs por Ethernet y una red de agregación une edificios separados por hasta más de 100 kilómetros.</p><p>El dato que más destaca la empresa es la estabilidad: a mediados de 2025 sufría casi mil interrupciones diarias cada 8.000 GPUs y, tras un año de trabajo, las redujo 99%. Hoy aprovecha más del 85% del tiempo de cómputo en preentrenamiento. Su próxima gran instalación, Hyperion, está en Luisiana.</p></div>
+    <p class="fuente">Meta Engineering, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="amazon-alemania" data-recorte="">
+    <div class="kicker">Empresas · 20 oct</div>
+    <h2 class="tit">Amazon promete invertir más de 16.000 millones de euros en Alemania en 2027</h2>
+    <p class="bajada">Casi 5.000 millones irán a ampliar la región de nube de Frankfurt.</p>
+    <div class="cuerpo"><p>En la cumbre Invest in Germany de Berlín, con el canciller Friedrich Merz presente, Amazon anunció el martes 20 inversiones por más de 16.000 millones de euros para 2027. De ese total, 4.800 millones son para ampliar AWS en Frankfurt. Además abrirá un segundo laboratorio de robótica e IA en Berlín y confirmó 24 lanzamientos con Arianespace para Amazon Leo, su red de satélites de internet.</p></div>
+    <p class="fuente">Amazon, 20 oct</p>
+  </article><article class="art  tipo-hecho" data-id="tenstorrent" data-recorte="">
+    <div class="kicker">Empresas · 19 oct</div>
+    <h2 class="tit">Tenstorrent, la empresa de Jim Keller, levanta US$ 1.500 millones</h2>
+    <p class="bajada">Su valuación sube a US$ 6.200 millones, más del doble que hace dos años.</p>
+    <div class="cuerpo"><p>La fabricante de chips de IA basados en RISC-V cerró el lunes 19 una ronda Serie E liderada por Trace Capital e Innovation X, con Fidelity, Morgan Stanley, ARK y T. Rowe Price. Usará el dinero para producir más servidores Galaxy, su producto más vendido, y seguir con su ecosistema abierto. Entre sus clientes nombra a Virtu Financial y Equinix.</p></div>
+    <p class="fuente">SiliconANGLE, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="otter" data-recorte="">
+    <div class="kicker">Empresas · 20 oct</div>
+    <h2 class="tit">Otter consigue US$ 320 millones sin ceder acciones</h2>
+    <p class="bajada">El fondo de General Catalyst cobra según el rendimiento del gasto en marketing.</p>
+    <div class="cuerpo"><p>La herramienta que transcribe y resume reuniones anunció el martes 20 un financiamiento de US$ 320 millones del Customer Value Fund de General Catalyst, que no toma participación accionaria. Otter dice que pasó los US$ 100 millones de ingresos recurrentes anuales el año pasado y que suma 40 millones de usuarios. Prueba resúmenes previos a cada reunión y un asistente que responde preguntas en vivo.</p></div>
+    <p class="fuente">TechCrunch, 20 oct</p>
+  </article><article class="art  tipo-hecho" data-id="eka" data-recorte="">
+    <div class="kicker">Tecnología · 20 oct</div>
+    <h2 class="tit">Eka vale US$ 1.450 millones con un robot que «siente» lo que agarra</h2>
+    <p class="bajada">Su modelo combina visión y fuerza y levanta unos 1.500 objetos por hora.</p>
+    <div class="cuerpo"><p>La startup fundada por el profesor del MIT Pulkit Agrawal y el ex DeepMind Tuomas Haarnoja levantó US$ 150 millones liderados por a16z y F-Prime. En lugar de guiarse sólo por imágenes, su modelo usa sensores de fuerza en la pinza, que cuesta menos de US$ 1.000. La empresa dice que acierta más del 95% de las veces, contra unos 600 objetos por hora de una persona.</p></div>
+    <p class="fuente">TechCrunch, 20 oct</p>
+  </article><article class="art  tipo-hecho" data-id="notion" data-recorte="">
+    <div class="kicker">Tecnología · 19 oct</div>
+    <h2 class="tit">Los agentes de Notion ya pueden trabajar más de un día seguido</h2>
+    <p class="bajada">Antes cortaban a los cinco minutos; además, un enrutador elige el modelo y baja 90% el costo promedio.</p>
+    <div class="cuerpo"><p>Notion anunció el lunes 19 que sus agentes pueden dedicarse a una sola tarea durante más de 24 horas, porque cada sesión corre en un servicio propio que sobrevive a reinicios. Su enrutador automático elige el modelo para cada tarea y, según la empresa, logra resultados parecidos a Opus 5.5 y Astra a un costo promedio 90% menor. Los planes Business y Enterprise reciben 1.500 créditos estándar y 500 de selección por mes; los clientes actuales pasan al nuevo esquema el 2 de noviembre.</p></div>
+    <p class="fuente">Notion, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="blackwall" data-recorte="">
+    <div class="kicker">Empresas · 20 oct</div>
+    <h2 class="tit">Blackwall cuadruplica su valuación filtrando bots de IA</h2>
+    <p class="bajada">La estonia levantó US$ 100 millones y vale US$ 2.200 millones.</p>
+    <div class="cuerpo"><p>Blackwall, que vende protección de tráfico web a través de empresas de hosting, cerró el martes 20 una Serie C liderada por AVP. Distingue visitantes reales y agentes de IA legítimos de bots maliciosos con huellas digitales del software y modelos propios. Los proveedores revenden la herramienta con su marca y comparten ingresos.</p></div>
+    <p class="fuente">TechCrunch, 20 oct</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Netflix presenta hoy sus resultados.</b> Después del cierre de Wall Street, Netflix informa el tercer trimestre. El mercado espera ingresos de unos US$ 12.870 millones; la propia empresa había proyectado US$ 12.860 millones. <span class="f">InsiderFinance, 20 oct</span></p></div></div></div>
+      <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">3</b> de 4</span></footer>
+    </section>
+<section class="page" data-pagina="4" data-nombre="impresion3d_cierre" style="--cuerpo:9.25pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">Mi Diario Semanal</span> · Impresión 3D, dólar y clima</span><span>martes, 20 de octubre de 2026 · <b class="ph-num">4</b></span></header>
+      <div class="pb"><div class="cierre">
+    <div class="flow c2"><article class="art lead tipo-hecho" data-id="orcaslicer" data-recorte="">
+    <div class="kicker">Impresión 3D · 16 oct</div>
+    <h2 class="tit">OrcaSlicer 2.5 llega con plugins, mezcla de colores y un modo CAD</h2>
+    <p class="bajada">La versión alfa del laminador libre más usado en impresoras de filamento es la más grande de su historia: más de 400 cambios.</p>
+    <div class="cuerpo"><p>El equipo de OrcaSlicer publicó el 16 de octubre en GitHub la alfa de la versión 2.5. La novedad central es un sistema de plugins en Python, con su propio intérprete incluido; ya hay 53 publicados en el catálogo de Orca Cloud. Como pueden acceder a archivos y a internet, los desarrolladores piden instalar sólo los de confianza.</p><p>También incorpora mezcla de colores, que alterna capas finas de dos o tres filamentos para lograr tonos intermedios, relieves de textura aplicados al modelo y una pestaña experimental de diseño paramétrico con importación y exportación STEP. Suma soporte para impresoras de cinta, impresión en paralelo con dos a cuatro cabezales y las Bambu Lab H2C y A2L.</p><p>Es una versión de prueba: la estable sigue siendo la 2.4.2 y conviene hacer copia de los perfiles antes de instalarla.</p></div>
+    <p class="fuente">All3DP, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="opencal" data-recorte="">
+    <div class="kicker">Impresión 3D · 19 oct</div>
+    <h2 class="tit">Berkeley libera una impresora volumétrica que imprime sin capas en 90 segundos</h2>
+    <p class="bajada">OpenCAL se arma con unos US$ 1.638 en piezas; Formlabs fabrica la resina y Prusa la vende.</p>
+    <div class="cuerpo"><p>La Universidad de California en Berkeley publicó todos los planos, el software y la receta de resina de OpenCAL. La técnica, litografía axial computada, proyecta patrones de luz sobre un frasco de resina que gira y la solidifica de una vez, sin capas ni soportes. Una réplica de El pensador de Rodin tardó 90 segundos.</p><p>Se arma en cinco o seis horas con un proyector LED común y una Raspberry Pi 5. El hardware usa la licencia abierta de Prusa y ya hay equipos en el MIT, Purdue y el NIST. En Estados Unidos, la resina cuesta US$ 119,99 el litro.</p></div>
+    <p class="fuente">VoxelMatters, 19 oct</p>
+  </article><article class="art  tipo-hecho" data-id="form-studio" data-recorte="">
+    <div class="kicker">Impresión 3D · 14 oct</div>
+    <h2 class="tit">Formlabs baja a US$ 699 con su primera impresora de resina hogareña</h2>
+    <p class="bajada">La Form Studio 1 usa la misma tecnología LCD que la Form 4, que arranca en US$ 2.625.</p>
+    <div class="cuerpo"><p>Formlabs abrió los pedidos el 14 de octubre y empieza a despachar el 16 de noviembre. Tiene un volumen de 200 × 125 × 235 mm y píxeles de 35 micrones. Las resinas de baja emisión cuestan desde US$ 29 el litro y la estación de lavado y curado, US$ 199. Apunta a usarse dentro de casa, con un extractor de vapores opcional.</p></div>
+    <p class="fuente">All3DP, 14 oct</p>
+  </article><article class="art  tipo-hecho" data-id="creality" data-recorte="">
+    <div class="kicker">Impresión 3D · 16 oct</div>
+    <h2 class="tit">Creality renueva la Ender-3 con un modelo grande y uno de entrada</h2>
+    <p class="bajada">La Mega imprime piezas de hasta 42 cm por lado y acepta TPU; la Neo apunta a quien compra su primera impresora.</p>
+    <div class="cuerpo"><p>Creality lanzó el 16 de octubre la Ender-3 V3 Mega, con 420 × 420 × 420 mm de volumen, y la Ender-3 V3 Neo, de 220 mm por lado con nivelación automática. En preventa, el combo de la Mega con cuatro colores cuesta US$ 669 y el de la Neo, US$ 329. Además tomó reservas en Estados Unidos de la K3, de cuatro boquillas, desde US$ 849.</p></div>
+    <p class="fuente">VoxelMatters, 16 oct · 3DPrint.com (contenido patrocinado), 16 oct</p>
+  </article><article class="art  tipo-hecho" data-id="prusa-pellets" data-recorte="">
+    <div class="kicker">Impresión 3D · 14 oct</div>
+    <h2 class="tit">Prusa vende pellets: el material de su filamento, hasta 60% más barato</h2>
+    <p class="bajada">El PLA en pellets sale unos US$ 11 por kilo, contra US$ 29,99 el carrete.</p>
+    <div class="cuerpo"><p>Prusa empezó a vender el 14 de octubre los pellets con los que fabrica su filamento Prusament, en PLA, PETG, ASA y PC Blend, en bolsas de 3,5 a 14 kilos. Sirven para impresoras de pellets de gran formato o para quien fabrica su propio filamento con una extrusora. La cuenta del ahorro no incluye la energía ni el material que se pierde al convertirlos.</p></div>
+    <p class="fuente">All3DP, 14 oct</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Bambu Lab anticipa su primer escáner 3D.</b> El S1 saldrá en noviembre. Todavía no hay precio ni especificaciones. <span class="f">3DPrint.com, 15 oct</span></p><p class="breve"><b>Un piano impreso en 3D dentro de un set de LEGO.</b> El set Venetian Neighbourhood, que sale el 4 de noviembre, trae un piano que suena, fabricado por sinterizado láser. <span class="f">All3DP, 15 oct</span></p></div></div>
+    <div class="col">
+      <div><h3 class="h3">Dólar oficial</h3><div class="dolar">
+      <div class="dolar-cifras"><div><span class="et">Compra</span><span class="num">$ 1.490,00</span></div><div><span class="et">Venta</span><span class="num">$ 1.540,00</span></div></div>
+      
+      
+      <p class="aviso">Cotización del Banco Nación vía DolarApi, actualizada 19/10/2026 15:00 hora argentina. No es recomendación de inversión.</p>
+    </div></div>
+      <div class="clima">
+        <h3 class="h3">Clima en Villa Urquiza</h3>
+        <div class="dias"><div class="dia"><div class="d">mar 20 oct</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="32" r="12"/><path d="M32 6v8M32 50v8M6 32h8M50 32h8M13.6 13.6l5.7 5.7M44.7 44.7l5.7 5.7M13.6 50.4l5.7-5.7M44.7 19.3l5.7-5.7"/></svg>
+<div class="tt"><b>20°</b> / 16°</div><div>Despejado</div></div><div class="dia"><div class="d">mié 21 oct</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="9"/><path d="M24 7v5M7 24h5M12 12l3.5 3.5M36 12l-3.5 3.5M12 36l3.5-3.5"/><path d="M26 52h22a9 9 0 0 0 1-17.9A13 13 0 0 0 24.5 38 7 7 0 0 0 26 52z" fill="#fff"/></svg>
+<div class="tt"><b>20°</b> / 14°</div><div>Parcialmente nublado</div></div><div class="dia"><div class="d">jue 22 oct</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round"><path d="M20 50h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 34 8 8 0 0 0 20 50z"/><path d="M14 40a6 6 0 0 1 2-11.5 11 11 0 0 1 20-4" stroke-dasharray="1 4"/></svg>
+<div class="tt"><b>21°</b> / 15°</div><div>Nublado</div></div><div class="dia"><div class="d">vie 23 oct</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 40h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 24 8 8 0 0 0 20 40z"/><path d="M22 46l-3 8M32 46l-3 8M42 46l-3 8M27 54l-2 5M37 54l-2 5"/></svg>
+<div class="tt"><b>21°</b> / 16°</div><div>Lluvia</div></div></div>
+        <table class="tabla"><thead><tr><th class="l">Día</th><th>Lluvia</th><th>Viento máx.</th></tr></thead><tbody><tr><td class="l">Mar 20 oct</td><td>0,1 mm</td><td>23</td></tr><tr><td class="l">Mié 21 oct</td><td>0,9 mm</td><td>26</td></tr><tr><td class="l">Jue 22 oct</td><td>8,9 mm</td><td>30</td></tr><tr><td class="l">Vie 23 oct</td><td>3,3 mm</td><td>21</td></tr></tbody></table>
+        
+        <p class="obs">Sin alertas del SMN para la Ciudad al cierre.</p>
+        <p class="aviso">Fuente: MET Norway (api.met.no), consultado 20/10/2026 14:16 hora argentina. Viento en km/h.</p>
+      </div>
+      <div><h3 class="h3">Glosario</h3><dl class="glos"><dt>Modelo de difusión (texto)</dt><dd>Genera la respuesta entera de un saque y la refina en varias pasadas, en lugar de escribirla token por token. <span class="ej">Mercury 3.</span></dd><dt>Inferencia</dt><dd>Usar un modelo ya entrenado para responder; es la parte del cómputo que crece con cada usuario. <span class="ej">Para eso usarían en China las RTX PRO 5500.</span></dd><dt>Goodput</dt><dd>Porcentaje del tiempo de cómputo que se convierte en avance útil del entrenamiento, descontando caídas y reinicios. <span class="ej">Más de 85% en Prometheus.</span></dd><dt>Litografía axial computada</dt><dd>Impresión volumétrica que solidifica toda la pieza a la vez con luz proyectada sobre resina en rotación. <span class="ej">OpenCAL.</span></dd></dl></div>
+      <div class="erratas"><h3 class="h3">Fe de erratas</h3><p>Sin correcciones a la edición anterior.</p></div>
+      <p class="fuentes-ed"><b>Medios consultados:</b> All3DP (4), TechCrunch (3), VoxelMatters (2), Reuters (vía The Edge Malaysia), OpenAI, Inception, GeekWire, PyTorch, MiniMax, GitHub (DeepSeek), The Canadian Press (vía ChatNewsToday), Salesforce (SEC 8-K), Meta Engineering, Amazon, SiliconANGLE, InsiderFinance, 3DPrint.com (contenido patrocinado), 3DPrint.com, Cloudflare, Notion. <b>Datos:</b> MET Norway (api.met.no), DolarApi (BNA). Cada nota indica su fuente y fecha al pie.</p>
+      <p class="pie-legal">Mi Diario Semanal es una publicación de uso personal, generada con asistencia de IA y verificada al cierre (20/10/2026 15:45 hora argentina).</p>
+    </div>
+  </div></div>
+      <footer class="pf"><span>Nº 1 · Villa Urquiza, Buenos Aires</span><span>Página <b class="pf-num">4</b> de 4</span></footer>
+    </section></body></html>

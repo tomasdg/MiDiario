@@ -1,0 +1,732 @@
+{
+ "edicion": {
+  "numero": 1,
+  "fecha": "2026-10-20",
+  "cierre": "2026-10-20T15:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "nvidia-china",
+   "seccion": "principal",
+   "titulo": "ByteDance, Alibaba y Tencent piden a Nvidia más de 3 millones de placas por US$ 35.000 millones",
+   "bajada": "Es el chip más potente que la compañía todavía puede vender en China, pero avisó que en 2027 no podrá fabricar más de 3 millones en todo el mundo.",
+   "cuerpo": [
+    "Las tres tecnológicas chinas más grandes encargaron a Nvidia más de tres millones de placas RTX PRO 5500, según reveló Reuters el martes 20. A un precio de lista cercano a US$ 11.400 por unidad, el pedido supera los US$ 35.000 millones. Sumando a otros compradores del país, la demanda china ya pasa los seis millones de unidades, de acuerdo con dos fuentes citadas por la agencia.",
+    "El problema es la oferta. Nvidia les anticipó a sus clientes que no puede garantizar las entregas: indicó que en 2027 no fabricará más de tres millones de estas placas para todo el mundo, porque la capacidad de TSMC se va a volcar a Rubin, su próxima plataforma para centros de datos. Algunos socios recibirían apenas entre el 5% y el 10% de lo que pidieron. Las primeras muestras llegarían en diciembre y las entregas comerciales, desde el primer trimestre de 2027.",
+    "La RTX PRO 5500 es una placa de estación de trabajo, no un acelerador de centro de datos, pero quedó entre lo más potente que las reglas de exportación de Estados Unidos todavía permiten venderle a China: los B300 están vedados y los H200 requieren licencia caso por caso. Las empresas chinas la usarían sobre todo para inferencia, es decir, para hacer funcionar modelos ya entrenados. Un vocero de Nvidia criticó los controles, que según la compañía cubren productos de hace casi cinco años, mientras Huawei gana terreno en el mercado local.",
+    "El pedido muestra la escala del apetito chino por cómputo de IA pese a las restricciones. El modelo que la RTX PRO 5500 reemplaza en la práctica, la RTX 6000D, lanzada a mediados de 2025 para cumplir con los límites de exportación, ya fue discontinuado y su precio en China se duplicó, según Reuters. Otros compradores más chicos también se anotaron: Tansun Technology informó a la bolsa que acordó comprar 20.000 placas. Para Nvidia, que según su director ejecutivo Jensen Huang había visto caer a casi cero su participación en el mercado chino de chips para centros de datos, es una vía para volver a vender en volumen en ese país, aunque la falta de capacidad de fabricación limita cuánto podrá aprovecharla."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://theedgemalaysia.com/node/822533",
+     "medio": "Reuters (vía The Edge Malaysia)",
+     "titulo": "ByteDance, Alibaba, Tencent order over 3 million Nvidia chips",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Salesforce compra Braze por US$ 5.660 millones",
+    "resumen": "Pagará US$ 47,50 por acción en efectivo. La plataforma de mensajes que usan Canva e Instacart se sumará a Marketing Cloud y a Agentforce.",
+    "pagina": 3
+   },
+   {
+    "titulo": "OpenAI: sus modelos ya migran COBOL casi sin errores",
+    "resumen": "GPT-6.1 Sol llega a 97,9% en su prueba interna, contra 5,4% de la versión anterior. Fortran y Visual Basic también mejoran.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Microsoft pone freno a los agentes que se desvían",
+    "resumen": "Cada agente tendrá un puntaje de riesgo; si sube, pierde permisos o se apaga. También detecta Claude Code, Codex y Copilot.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Meta abre las puertas de Prometheus",
+    "resumen": "Cientos de miles de GPUs en Ohio, rumbo al millón, y 99% menos interrupciones que hace un año.",
+    "pagina": 3
+   },
+   {
+    "titulo": "OrcaSlicer 2.5 suma plugins y diseño CAD",
+    "resumen": "La alfa del laminador libre trae más de 400 cambios y soporte para las nuevas Bambu Lab H2C y A2L.",
+    "pagina": 4
+   },
+   {
+    "titulo": "Mercury 3: más de mil tokens por segundo",
+    "resumen": "Un modelo de difusión que, según Inception, rinde como los chicos de OpenAI y Anthropic a US$ 0,20 el millón de tokens.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Formlabs lanza una impresora de resina de US$ 699",
+    "resumen": "La Form Studio 1 lleva a casa la tecnología de la Form 4, que cuesta casi cuatro veces más. Despacha desde el 16 de noviembre.",
+    "pagina": 4
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Inteligencia artificial",
+    "texto": "DeepSeek abre su motor de inferencia y MiniMax baja precios.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Tenstorrent, Otter y Eka levantan más de US$ 1.900 millones.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Berkeley libera una impresora que no usa capas.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Netflix presenta resultados después del cierre de Wall Street.",
+    "pagina": 3
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Hoy, tras el cierre de Wall Street",
+    "texto": "Netflix presenta resultados del tercer trimestre."
+   },
+   {
+    "cuando": "2 de noviembre",
+    "texto": "Notion pasa a sus clientes actuales al nuevo esquema de créditos."
+   },
+   {
+    "cuando": "4 de noviembre",
+    "texto": "Sale el set de LEGO con piano impreso en 3D."
+   },
+   {
+    "cuando": "16 de noviembre",
+    "texto": "Formlabs empieza a despachar la Form Studio 1."
+   },
+   {
+    "cuando": "17 al 19 de noviembre",
+    "texto": "Microsoft Ignite: llegan los controles de agentes de E7."
+   },
+   {
+    "cuando": "Noviembre",
+    "texto": "Bambu Lab lanza el escáner S1."
+   },
+   {
+    "cuando": "Diciembre",
+    "texto": "Primeras muestras de la RTX PRO 5500 para compradores chinos."
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "6 millones",
+   "texto": "Placas Nvidia RTX PRO 5500 que ya pidieron compradores chinos; la empresa sólo puede fabricar 3 millones en 2027."
+  }
+ },
+ "notas": [
+  {
+   "id": "openai-cobol",
+   "seccion": "ia",
+   "titulo": "OpenAI dice que sus modelos nuevos ya migran COBOL casi sin errores",
+   "bajada": "En su prueba interna, GPT-6.1 Sol llega al 97,9% de aciertos al pasar programas COBOL a otro lenguaje, contra 5,4% de la generación anterior.",
+   "cuerpo": [
+    "OpenAI publicó el lunes 19 los resultados de sus modelos en lenguajes con poco material de entrenamiento, como COBOL, Fortran y Visual Basic, que siguen corriendo en bancos, aseguradoras y organismos públicos. Presentó dos evaluaciones propias: MultiLangBench, que pide construir desde cero un motor de base de datos compatible con SQLite en 20 lenguajes, y otra que mide si un modelo puede migrar programas COBOL sin cambiar su comportamiento.",
+    "En la migración, GPT-6.1 Sol logró 86,6% con poco esfuerzo de razonamiento y 97,9% con más esfuerzo, frente al 5,4% de GPT-5.6 Sol, y con un costo 39% menor. En MultiLangBench, GPT-6 Astra promedió 87,4% en los 20 lenguajes: 83,5% en Fortran y 72,1% en COBOL. La variante económica, GPT-6 Luna, quedó muy atrás (40,3% de promedio) pero cuesta cerca de 78% menos por intento.",
+    "Son pruebas diseñadas por la propia empresa, aunque publicó el entorno y los resultados por lenguaje en GitHub para que otros los repliquen. Los modelos están disponibles por API."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://openai.com/index/low-resource-programming-languages/",
+     "medio": "OpenAI",
+     "titulo": "Improving performance on low-resource programming languages",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "mercury3",
+   "seccion": "ia",
+   "titulo": "Mercury 3, el modelo de lenguaje por difusión que escribe más de mil tokens por segundo",
+   "bajada": "Inception lo ofrece a US$ 0,20 por millón de tokens de entrada y dice que rinde como los modelos chicos de OpenAI y Anthropic.",
+   "cuerpo": [
+    "Inception presentó el domingo 19 Mercury 3, un modelo de lenguaje que no genera el texto palabra por palabra sino por difusión: arma un borrador completo y lo refina en varias pasadas. La empresa informa 1.068 tokens por segundo en GPUs de Nvidia, entre cuatro y ocho veces más rápido que modelos comparables, y amplió el contexto de 260.000 a un millón de tokens.",
+    "Según Inception, la calidad está a la par o por encima de GPT-6 Luna y Claude Haiku 5.5, aunque las cifras sólo aparecen en un gráfico del anuncio. Cuesta US$ 0,20 por millón de tokens de entrada y US$ 0,70 de salida, con 50% de descuento de lanzamiento, y es compatible con la API de OpenAI. Se puede usar en OpenRouter, Baseten y Vercel."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+     "medio": "Inception",
+     "titulo": "Introducing Mercury 3",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "ms-agentes",
+   "seccion": "ia",
+   "titulo": "Microsoft suma controles para frenar agentes de IA que se desvían",
+   "bajada": "Cada agente recibe un puntaje de riesgo; si sube, el sistema puede quitarle permisos de escritura, pedir aprobación humana o apagarlo.",
+   "cuerpo": [
+    "Microsoft anunció el lunes 19 nuevas funciones de seguridad para Microsoft 365 E7 y Project Perception. La idea es evaluar en forma continua cada agente según qué datos puede tocar y si se aparta de la tarea asignada. Con más riesgo, la respuesta es gradual: dejarlo sólo leer, exigir que una persona apruebe los pasos delicados o detenerlo.",
+    "También amplía la detección de agentes que los empleados corren en sus computadoras sin aviso a sistemas: pasa de 25 a 60 tipos, entre ellos Claude Code, Codex y GitHub Copilot. Por ahora está en vista previa privada; la disponibilidad amplia se espera para Ignite, del 17 al 19 de noviembre. E7 cuesta US$ 99 por usuario por mes."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
+     "medio": "GeekWire",
+     "titulo": "Microsoft unveils tools to monitor and corral rogue AI agents",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "torchneuron",
+   "seccion": "ia",
+   "titulo": "Amazon libera TorchNeuron para correr PyTorch en sus chips Trainium",
+   "bajada": "Basta con mover el modelo al dispositivo «neuron»: es el intento más directo de Amazon de restarle a Nvidia su ventaja en software.",
+   "cuerpo": [
+    "AWS publicó el martes 20, en la PyTorch Conference de Norteamérica, la beta pública de TorchNeuron, un backend nativo de PyTorch para sus chips Trainium2 y Trainium3, con licencia Apache 2.0. El código existente funciona cambiando una línea, y admite torch.compile y entrenamiento distribuido con FSDP2 y paralelismo de tensores.",
+    "Deepgram informó que procesa cerca de 60% más segundos de audio por dólar que con GPUs. AWS reconoce límites: unos 22.000 casos de prueba de PyTorch todavía no tienen implementación nativa y faltan funciones como tensores dispersos y formas dinámicas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+     "medio": "PyTorch",
+     "titulo": "Introducing TorchNeuron",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "minimax",
+   "seccion": "ia",
+   "titulo": "MiniMax acelera su modelo para agentes y baja 70% el costo de uso",
+   "bajada": "M3.1 Flash promete casi el triple de velocidad y precios de US$ 0,15 por millón de tokens de entrada.",
+   "cuerpo": [
+    "La china MiniMax lanzó el domingo 19 M3.1 Flash, orientado a programación y a agentes que manejan una computadora. Afirma superar los 200 tokens por segundo y abaratar 70% el costo de las tareas agénticas frente a su versión anterior. En sus pruebas declara 73,7% en DeepSWE y 61,7 puntos en OSWorld V2. Por ahora se usa por API; los pesos del modelo se publicarán más adelante."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.minimax.io/blog/minimax-m31f",
+     "medio": "MiniMax",
+     "titulo": "MiniMax M3.1 Flash",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "deepinfer",
+   "seccion": "ia",
+   "titulo": "DeepSeek abre el motor con el que sirve sus modelos",
+   "bajada": "DeepInfer funciona en GPUs Nvidia de última generación y en los chips Ascend 950 de Huawei.",
+   "cuerpo": [
+    "DeepSeek publicó en GitHub DeepInfer, el framework de inferencia que usa en producción, con licencia Apache 2.0. Está pensado para DeepSeek-V4.1-Flash e incluye decodificación especulativa, salidas estructuradas con JSON o gramáticas y resultados deterministas en Nvidia. Que soporte Ascend 950 confirma el peso creciente del hardware chino en su infraestructura."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "medio": "GitHub (DeepSeek)",
+     "titulo": "DeepInfer",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-canada",
+   "seccion": "breve",
+   "titulo": "Diarios canadienses demandan a Anthropic",
+   "bajada": "",
+   "cuerpo": [
+    "Postmedia, Torstar, The Globe and Mail y The Canadian Press acusan en Ontario a Anthropic de entrenar Claude con sus notas sin licencia. La demanda se presentó el 6 de octubre; la empresa no respondió y nada está probado."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-06",
+   "importancia": 1,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/",
+     "medio": "The Canadian Press (vía ChatNewsToday)",
+     "titulo": "News publishers launch copyright suit against Anthropic",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ],
+   "seccion_destino": "ia"
+  },
+  {
+   "id": "salesforce-braze",
+   "seccion": "empresas",
+   "titulo": "Salesforce compra Braze por US$ 5.660 millones para su apuesta de marketing con IA",
+   "bajada": "Pagará US$ 47,50 por acción en efectivo; Braze se sumará a Marketing Cloud y a Agentforce.",
+   "cuerpo": [
+    "Salesforce anunció el martes 20 que comprará Braze, la plataforma de mensajes y campañas que usan Canva, Instacart y Venmo, por un valor empresa cercano a US$ 5.660 millones. Pagará US$ 47,50 en efectivo por cada acción Clase A. Braze tiene unos 2.770 clientes y procesa billones de mensajes por año.",
+    "La operación busca darle a Marketing Cloud lo que Braze hace bien: reaccionar en tiempo real a lo que el usuario hace dentro de una app, con IA que decide qué mensaje, oferta, canal y horario usar. Salesforce dice que Braze se integrará con Data 360, Customer 360 y Agentforce, su plataforma de agentes.",
+    "El cierre se espera dentro del año fiscal 2028 de Salesforce, que empieza en febrero, y necesita la aprobación de los accionistas de Braze y de los reguladores. La compañía aclaró que no cambia sus proyecciones del año en curso."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm",
+     "medio": "Salesforce (SEC 8-K)",
+     "titulo": "Salesforce to acquire Braze",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meta-prometheus",
+   "seccion": "tecnologia",
+   "titulo": "Meta muestra por dentro Prometheus, su supercomputadora de escala gigavatio",
+   "bajada": "El primer tramo ya conecta cientos de miles de GPUs en Ohio; el objetivo es llegar a un millón trabajando a la par.",
+   "cuerpo": [
+    "El equipo de ingeniería de Meta publicó el lunes 19 cómo construyó Prometheus, en New Albany, Ohio, donde hace dos años había un centro de datos común. Con la primera fase entrenó la familia de modelos Muse. Cada edificio enlaza hasta 20.736 GPUs por Ethernet y una red de agregación une edificios separados por hasta más de 100 kilómetros.",
+    "El dato que más destaca la empresa es la estabilidad: a mediados de 2025 sufría casi mil interrupciones diarias cada 8.000 GPUs y, tras un año de trabajo, las redujo 99%. Hoy aprovecha más del 85% del tiempo de cómputo en preentrenamiento. Su próxima gran instalación, Hyperion, está en Luisiana."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+     "medio": "Meta Engineering",
+     "titulo": "Inside Prometheus",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "amazon-alemania",
+   "seccion": "empresas",
+   "titulo": "Amazon promete invertir más de 16.000 millones de euros en Alemania en 2027",
+   "bajada": "Casi 5.000 millones irán a ampliar la región de nube de Frankfurt.",
+   "cuerpo": [
+    "En la cumbre Invest in Germany de Berlín, con el canciller Friedrich Merz presente, Amazon anunció el martes 20 inversiones por más de 16.000 millones de euros para 2027. De ese total, 4.800 millones son para ampliar AWS en Frankfurt. Además abrirá un segundo laboratorio de robótica e IA en Berlín y confirmó 24 lanzamientos con Arianespace para Amazon Leo, su red de satélites de internet."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
+     "medio": "Amazon",
+     "titulo": "Amazon's investment in Germany",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "tenstorrent",
+   "seccion": "empresas",
+   "titulo": "Tenstorrent, la empresa de Jim Keller, levanta US$ 1.500 millones",
+   "bajada": "Su valuación sube a US$ 6.200 millones, más del doble que hace dos años.",
+   "cuerpo": [
+    "La fabricante de chips de IA basados en RISC-V cerró el lunes 19 una ronda Serie E liderada por Trace Capital e Innovation X, con Fidelity, Morgan Stanley, ARK y T. Rowe Price. Usará el dinero para producir más servidores Galaxy, su producto más vendido, y seguir con su ecosistema abierto. Entre sus clientes nombra a Virtu Financial y Equinix."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/",
+     "medio": "SiliconANGLE",
+     "titulo": "Tenstorrent raises $1.5B",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "otter",
+   "seccion": "empresas",
+   "titulo": "Otter consigue US$ 320 millones sin ceder acciones",
+   "bajada": "El fondo de General Catalyst cobra según el rendimiento del gasto en marketing.",
+   "cuerpo": [
+    "La herramienta que transcribe y resume reuniones anunció el martes 20 un financiamiento de US$ 320 millones del Customer Value Fund de General Catalyst, que no toma participación accionaria. Otter dice que pasó los US$ 100 millones de ingresos recurrentes anuales el año pasado y que suma 40 millones de usuarios. Prueba resúmenes previos a cada reunión y un asistente que responde preguntas en vivo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+     "medio": "TechCrunch",
+     "titulo": "Otter.ai raises $320 million",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "eka",
+   "seccion": "tecnologia",
+   "titulo": "Eka vale US$ 1.450 millones con un robot que «siente» lo que agarra",
+   "bajada": "Su modelo combina visión y fuerza y levanta unos 1.500 objetos por hora.",
+   "cuerpo": [
+    "La startup fundada por el profesor del MIT Pulkit Agrawal y el ex DeepMind Tuomas Haarnoja levantó US$ 150 millones liderados por a16z y F-Prime. En lugar de guiarse sólo por imágenes, su modelo usa sensores de fuerza en la pinza, que cuesta menos de US$ 1.000. La empresa dice que acierta más del 95% de las veces, contra unos 600 objetos por hora de una persona."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+     "medio": "TechCrunch",
+     "titulo": "Eka is worth $1.45 billion",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "netflix",
+   "seccion": "breve",
+   "titulo": "Netflix presenta hoy sus resultados",
+   "bajada": "",
+   "cuerpo": [
+    "Después del cierre de Wall Street, Netflix informa el tercer trimestre. El mercado espera ingresos de unos US$ 12.870 millones; la propia empresa había proyectado US$ 12.860 millones."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 1,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.insiderfinance.io/news/netflix-q3-2026-earnings-oct-20",
+     "medio": "InsiderFinance",
+     "titulo": "Netflix Q3 2026 earnings set for Oct. 20",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "orcaslicer",
+   "seccion": "impresion3d",
+   "titulo": "OrcaSlicer 2.5 llega con plugins, mezcla de colores y un modo CAD",
+   "bajada": "La versión alfa del laminador libre más usado en impresoras de filamento es la más grande de su historia: más de 400 cambios.",
+   "cuerpo": [
+    "El equipo de OrcaSlicer publicó el 16 de octubre en GitHub la alfa de la versión 2.5. La novedad central es un sistema de plugins en Python, con su propio intérprete incluido; ya hay 53 publicados en el catálogo de Orca Cloud. Como pueden acceder a archivos y a internet, los desarrolladores piden instalar sólo los de confianza.",
+    "También incorpora mezcla de colores, que alterna capas finas de dos o tres filamentos para lograr tonos intermedios, relieves de textura aplicados al modelo y una pestaña experimental de diseño paramétrico con importación y exportación STEP. Suma soporte para impresoras de cinta, impresión en paralelo con dos a cuatro cabezales y las Bambu Lab H2C y A2L.",
+    "Es una versión de prueba: la estable sigue siendo la 2.4.2 y conviene hacer copia de los perfiles antes de instalarla."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-16",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/orcaslicer-to-get-plug-ins-color-mixing-and-native-parametric-cad/",
+     "medio": "All3DP",
+     "titulo": "OrcaSlicer to get plug-ins, color mixing and native parametric CAD",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "opencal",
+   "seccion": "impresion3d",
+   "titulo": "Berkeley libera una impresora volumétrica que imprime sin capas en 90 segundos",
+   "bajada": "OpenCAL se arma con unos US$ 1.638 en piezas; Formlabs fabrica la resina y Prusa la vende.",
+   "cuerpo": [
+    "La Universidad de California en Berkeley publicó todos los planos, el software y la receta de resina de OpenCAL. La técnica, litografía axial computada, proyecta patrones de luz sobre un frasco de resina que gira y la solidifica de una vez, sin capas ni soportes. Una réplica de El pensador de Rodin tardó 90 segundos.",
+    "Se arma en cinco o seis horas con un proyector LED común y una Raspberry Pi 5. El hardware usa la licencia abierta de Prusa y ya hay equipos en el MIT, Purdue y el NIST. En Estados Unidos, la resina cuesta US$ 119,99 el litro."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/uc-berkeley-releases-opencal-an-open-source-volumetric-3d-printer-with-formlabs-and-prusa/",
+     "medio": "VoxelMatters",
+     "titulo": "UC Berkeley releases OpenCAL",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "form-studio",
+   "seccion": "impresion3d",
+   "titulo": "Formlabs baja a US$ 699 con su primera impresora de resina hogareña",
+   "bajada": "La Form Studio 1 usa la misma tecnología LCD que la Form 4, que arranca en US$ 2.625.",
+   "cuerpo": [
+    "Formlabs abrió los pedidos el 14 de octubre y empieza a despachar el 16 de noviembre. Tiene un volumen de 200 × 125 × 235 mm y píxeles de 35 micrones. Las resinas de baja emisión cuestan desde US$ 29 el litro y la estación de lavado y curado, US$ 199. Apunta a usarse dentro de casa, con un extractor de vapores opcional."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-14",
+   "importancia": 3,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/formlabs-form-studio-1/",
+     "medio": "All3DP",
+     "titulo": "Formlabs Form Studio 1",
+     "fecha_publicacion": "2026-10-14",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "creality",
+   "seccion": "impresion3d",
+   "titulo": "Creality renueva la Ender-3 con un modelo grande y uno de entrada",
+   "bajada": "La Mega imprime piezas de hasta 42 cm por lado y acepta TPU; la Neo apunta a quien compra su primera impresora.",
+   "cuerpo": [
+    "Creality lanzó el 16 de octubre la Ender-3 V3 Mega, con 420 × 420 × 420 mm de volumen, y la Ender-3 V3 Neo, de 220 mm por lado con nivelación automática. En preventa, el combo de la Mega con cuatro colores cuesta US$ 669 y el de la Neo, US$ 329. Además tomó reservas en Estados Unidos de la K3, de cuatro boquillas, desde US$ 849."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-16",
+   "importancia": 2,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/creality-launches-ender-3-v3-mega-and-neo-3d-printers/",
+     "medio": "VoxelMatters",
+     "titulo": "Creality launches Ender-3 V3 Mega and Neo",
+     "fecha_publicacion": "2026-10-16",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    },
+    {
+     "url": "https://3dprint.com/334925/creality-k3-opens-for-pre-order-at-849-advancing-multi-color-3d-printing/",
+     "medio": "3DPrint.com (contenido patrocinado)",
+     "titulo": "Creality K3 opens for pre-order at $849",
+     "fecha_publicacion": "2026-10-16",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "bambu-s1",
+   "seccion": "breve",
+   "titulo": "Bambu Lab anticipa su primer escáner 3D",
+   "bajada": "",
+   "cuerpo": [
+    "El S1 saldrá en noviembre. Todavía no hay precio ni especificaciones."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-15",
+   "importancia": 1,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/334952/bambu-lab-is-building-more-than-3d-printers-now-comes-the-s1-scanner/",
+     "medio": "3DPrint.com",
+     "titulo": "Bambu Lab S1 scanner",
+     "fecha_publicacion": "2026-10-15",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "lego-piano",
+   "seccion": "breve",
+   "titulo": "Un piano impreso en 3D dentro de un set de LEGO",
+   "bajada": "",
+   "cuerpo": [
+    "El set Venetian Neighbourhood, que sale el 4 de noviembre, trae un piano que suena, fabricado por sinterizado láser."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-15",
+   "importancia": 1,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/6/the-second-mass-3d-printed-part-lego-piece-is-a-piano-that-play-notes/",
+     "medio": "All3DP",
+     "titulo": "LEGO 3D printed piano",
+     "fecha_publicacion": "2026-10-15",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "clairic",
+   "seccion": "ia",
+   "titulo": "Cloudflare presenta un modelo que extrae datos sin «pensar en voz alta»",
+   "bajada": "Clairic devuelve valores, estimaciones y pronósticos en una sola pasada y abarata a la mitad una cadena de procesamiento.",
+   "cuerpo": [
+    "Cloudflare publicó el lunes 19 la vista previa de Clairic en Workers AI. No genera texto: lee un documento y devuelve directamente los valores pedidos, con un nivel de confianza. En una prueba de procesamiento de reclamos, la cadena con Clairic tardó 19,3 segundos contra 61,7 de una hecha sólo con modelos de lenguaje, y costó 49% menos. La empresa advierte que todavía falla en cálculos de varios pasos y que conviene dejar las cuentas al código."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+     "medio": "Cloudflare",
+     "titulo": "Clairic extraction model",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "notion",
+   "seccion": "tecnologia",
+   "titulo": "Los agentes de Notion ya pueden trabajar más de un día seguido",
+   "bajada": "Antes cortaban a los cinco minutos; además, un enrutador elige el modelo y baja 90% el costo promedio.",
+   "cuerpo": [
+    "Notion anunció el lunes 19 que sus agentes pueden dedicarse a una sola tarea durante más de 24 horas, porque cada sesión corre en un servicio propio que sobrevive a reinicios. Su enrutador automático elige el modelo para cada tarea y, según la empresa, logra resultados parecidos a Opus 5.5 y Astra a un costo promedio 90% menor. Los planes Business y Enterprise reciben 1.500 créditos estándar y 500 de selección por mes; los clientes actuales pasan al nuevo esquema el 2 de noviembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.notion.com/blog/notion-ai-more-for-less",
+     "medio": "Notion",
+     "titulo": "Notion AI: more for less",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "blackwall",
+   "seccion": "empresas",
+   "titulo": "Blackwall cuadruplica su valuación filtrando bots de IA",
+   "bajada": "La estonia levantó US$ 100 millones y vale US$ 2.200 millones.",
+   "cuerpo": [
+    "Blackwall, que vende protección de tráfico web a través de empresas de hosting, cerró el martes 20 una Serie C liderada por AVP. Distingue visitantes reales y agentes de IA legítimos de bots maliciosos con huellas digitales del software y modelos propios. Los proveedores revenden la herramienta con su marca y comparten ingresos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
+     "medio": "TechCrunch",
+     "titulo": "Blackwall quadruples valuation to $2.2B",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "prusa-pellets",
+   "seccion": "impresion3d",
+   "titulo": "Prusa vende pellets: el material de su filamento, hasta 60% más barato",
+   "bajada": "El PLA en pellets sale unos US$ 11 por kilo, contra US$ 29,99 el carrete.",
+   "cuerpo": [
+    "Prusa empezó a vender el 14 de octubre los pellets con los que fabrica su filamento Prusament, en PLA, PETG, ASA y PC Blend, en bolsas de 3,5 a 14 kilos. Sirven para impresoras de pellets de gran formato o para quien fabrica su propio filamento con una extrusora. La cuenta del ahorro no incluye la energía ni el material que se pierde al convertirlos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-14",
+   "importancia": 2,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/prusa-steps-into-pellet-3d-printing-with-prusament-pellets-up-to-60-cheaper-than-filament/",
+     "medio": "All3DP",
+     "titulo": "Prusament Pellets",
+     "fecha_publicacion": "2026-10-14",
+     "consultado": "2026-10-20T15:40:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Modelo de difusión (texto)",
+   "definicion": "Genera la respuesta entera de un saque y la refina en varias pasadas, en lugar de escribirla token por token.",
+   "ejemplo": "Mercury 3."
+  },
+  {
+   "termino": "Inferencia",
+   "definicion": "Usar un modelo ya entrenado para responder; es la parte del cómputo que crece con cada usuario.",
+   "ejemplo": "Para eso usarían en China las RTX PRO 5500."
+  },
+  {
+   "termino": "Goodput",
+   "definicion": "Porcentaje del tiempo de cómputo que se convierte en avance útil del entrenamiento, descontando caídas y reinicios.",
+   "ejemplo": "Más de 85% en Prometheus."
+  },
+  {
+   "termino": "Litografía axial computada",
+   "definicion": "Impresión volumétrica que solidifica toda la pieza a la vez con luz proyectada sobre resina en rotación.",
+   "ejemplo": "OpenCAL."
+  }
+ ],
+ "fe_de_erratas": []
+}

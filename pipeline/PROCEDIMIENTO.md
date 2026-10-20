@@ -1,58 +1,101 @@
 # Procedimiento de armado de una edición
 
-Instrucciones para el modelo que arma la edición (se le pasan tal cual en modo desatendido con `scripts/armar-edicion.ps1`, o se siguen a mano en una sesión de Claude Code abierta en la raíz del repo).
+Instrucciones para el modelo que arma la edición diaria. Las ejecuta la tarea programada de Claude "Mi Diario Semanal" todos los días a las 07:00 hora argentina, en la nube y sin nadie mirando: no se piden confirmaciones. También se pueden seguir a mano.
 
-## 0. Contexto obligatorio
+## 0. Preparar
 
-Leer antes de empezar: `EL_DIARIO_DE_YRIGOYEN.md` (reglas), `perfil/lector.md`, `config/edicion.json`, `config/fuentes.json`, `historial/DECISIONES.md` (últimas entradas y fe de erratas pendiente) y el registro de la edición anterior en `historial/ediciones/`. Verificar con un calendario qué día de la semana es la fecha de la edición: no asumirlo.
+1. Obtener la fecha y hora actuales con la herramienta de hora (zona America/Argentina/Buenos_Aires). FECHA = AAAA-MM-DD de hoy. Cierre = hora de inicio, con offset -03:00.
+2. Clonar el repositorio (si no está en la sesión): `git clone --depth 30 https://github.com/tomasdg/midiario` y trabajar en su raíz.
+3. Leer: `MI_DIARIO_SEMANAL.md`, `perfil/lector.md`, `config/edicion.json`, `config/fuentes.json`, `historial/DECISIONES.md` y los registros de los últimos días en `historial/ediciones/` (los títulos y URLs ya publicados no se repiten).
+4. Número de edición = número del último registro + 1 (si no hay registros, 1).
+5. `mkdir -p ediciones/$FECHA/datos ediciones/$FECHA/investigacion`
 
-## 1. Preparar la carpeta
+## 1. Datos estructurados
 
-```
-FECHA=AAAA-MM-DD (hoy)
-mkdir ediciones/$FECHA/{datos,investigacion}
-```
-Número de edición = número de la última entrada de `historial/ediciones/` + 1. Cierre = hora de inicio del armado, en hora de Córdoba.
+La terminal no tiene salida a esas APIs: se leen con WebFetch.
 
-## 2. Datos estructurados (sin modelo, sólo APIs)
-
-Descargar a `ediciones/$FECHA/datos/` con curl, siguiendo las URL de `config/fuentes.json`:
-- `cg_markets.json` (bitcoin,ethereum,binancecoin) y `cg_markets_0g.json` (zero-gravity).
-- `cg_chart_<id>_365.json` (days=365) y `cg_chart_<id>_7.json` (days=7) para los cuatro ids, con 4 segundos entre llamadas; si CoinGecko devuelve 429, esperar un minuto y repetir sólo las que faltan.
-- `meteo_loscocos.json` con `forecast_days=4&past_days=3` y guardar la hora UTC de consulta en `consultado_meteo_utc.txt`.
-- `dolares.json`, `riesgo_pais.json`, `inflacion.json`.
-- `espn_standings_arg1.json`, `espn_boca_schedule.json` (sólo para contrastar; la tabla publicada la verifica el investigador deportivo).
-
-## 3. Investigación (cuatro agentes en paralelo)
-
-Lanzar cuatro subagentes con los briefs de `pipeline/prompts/` reemplazando `{FECHA}`, `{DIA_SEMANA}`, `{VENTANA}` (siete días previos) y `{HORA_CIERRE}`. Cada uno escribe su JSON en `ediciones/$FECHA/investigacion/`. Al agente de Boca pasarle lo que diga ESPN sobre último partido y tabla para que lo confirme o corrija. No seguir hasta que los cuatro terminen.
-
-## 4. Redacción
-
-- Escribir `ediciones/$FECHA/datos/comentarios.json` con los comentarios de cada cripto (hechos y variaciones, sin causas no documentadas), el comentario general de finanzas, `clima_alertas` (del investigador de Córdoba) y `filas_extra` si hay tasas u otro dato útil.
+- **Dólar**: WebFetch a `https://dolarapi.com/v1/dolares/oficial` pidiendo el JSON crudo. Guardarlo en `ediciones/$FECHA/datos/dolar_oficial.json`.
+- **Clima**: WebFetch a `https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-34.57&lon=-58.49` pidiendo el resumen por día en hora argentina para hoy y los tres días siguientes, con esta forma exacta, y guardarlo en `ediciones/$FECHA/datos/clima_metno.json`:
+  `{"updated_at": "<meta.updated_at>", "dias": [{"fecha": "AAAA-MM-DD", "max_c": n, "min_c": n, "precip_mm": n, "viento_max_kmh": n, "symbol_code": "<símbolo de las 15:00>"}]}`
+- Si una fuente falla, reintentar una vez. Si sigue fallando, registrar el faltante en `no_disponible` (ver esquema) y seguir.
 - Correr `node pipeline/src/datos.js ediciones/$FECHA $FECHA`.
-- Escribir `ediciones/$FECHA/contenido.json` según `esquema/contenido.schema.json`, con `finanzas` y `clima` como `"@datos/finanzas.json"` y `"@datos/clima.json"`. Presupuesto de palabras por página de flujo (3 columnas, A4, 8,5 a 9,25 pt): **1.250 palabras en total por página, incluidos títulos y bajadas**. Guía: nota de apertura 220 a 260 palabras, notas secundarias 120 a 180, breves 40 a 60, bajadas de una oración. Nunca más de siete notas por página. Lo que no entra se descarta siguiendo `orden_recorte`; no se escribe primero largo para recortar después.
-- Portada: nota principal de 250 palabras en tres párrafos, seis o siete secundarias con resumen de una línea, cuatro llamadas.
-- Boca: completar el objeto `boca` con lo que entregó el investigador; el próximo partido lleva al menos dos fuentes con hora de consulta.
-- Disco, microrelato (dominio público o traducción propia), poesía y glosario (3 o 4 términos de las notas publicadas), comprobando contra `historial/ediciones/*.json` que no se repitan autores, discos ni términos.
-- Fe de erratas: lo pendiente en `historial/DECISIONES.md`, o la línea estándar.
 
-## 5. Maquetación y preflight
+## 2. Investigación
+
+Investigar directamente (sin subagentes), sección por sección, siguiendo `pipeline/prompts/comun.md` y el brief de cada sección:
+
+- `pipeline/prompts/ia.md` → página 2
+- `pipeline/prompts/tecnologia_empresas.md` → página 3
+- `pipeline/prompts/impresion3d.md` → página 4
+
+Usar WebSearch (modo "extended" si el estándar trae poco) y abrir siempre la fuente con WebFetch. Si un sitio está bloqueado, buscar otra fuente del mismo hecho; si no hay, descartar la nota. Guardar lo encontrado en `ediciones/$FECHA/investigacion/<seccion>.json` (opcional pero recomendado).
+
+Elegir la **nota principal** de portada entre las de mayor importancia de cualquier sección, con preferencia por IA.
+
+## 3. Redacción
+
+Escribir `ediciones/$FECHA/contenido.json` según `esquema/contenido.schema.json`:
+
+- `edicion`: número, fecha, cierre, lugar "Villa Urquiza, Buenos Aires", papel "A4".
+- `finanzas`: `"@datos/finanzas.json"`; `clima`: `"@datos/clima.json"`.
+- `portada.principal`: 350 a 420 palabras en cuatro párrafos; `secundarias`: 7, con resumen de 20 a 30 palabras y `pagina`; `agenda`: 5 a 7 fechas próximas tomadas de las notas (lanzamientos, presentaciones de resultados, eventos); `llamadas`: 4, una por página interior más una de "Hoy"; `dato_del_dia`: una cifra de la edición con su explicación.
+- `notas`: con `seccion` en `ia`, `tecnologia`, `empresas` o `impresion3d`. Breves con `seccion: "breve"` y `seccion_destino`. Presupuestos en `MI_DIARIO_SEMANAL.md` §4. Cada nota con `id` único, `fuentes` con `consultado` en ISO -03:00, `sensible_al_tiempo` en `true` salvo notas de impresión 3D de más de dos días.
+- `glosario`: 3 o 4 términos que aparezcan en las notas, sin repetir los de los últimos 14 días.
+- `fe_de_erratas`: lo pendiente en `historial/DECISIONES.md`, o `[]`.
+
+Escribir con palabras propias; nunca copiar párrafos de las fuentes.
+
+## 4. Maquetación y preflight
 
 ```
 cd pipeline
-node src/build.js ../ediciones/$FECHA --html   # iterar hasta que no haya desbordes
-node src/build.js ../ediciones/$FECHA          # genera PDF, PNG, preflight.json y el registro de la edición
+node src/build.js ../ediciones/$FECHA --html   # iterar hasta geoOk y densidadOk en true
+node src/build.js ../ediciones/$FECHA          # PDF, PNG, preflight.json y registro en historial/ediciones/
 ```
-Si el acta muestra `desborde_columna` en una página, recortar en esa página (una columna A4 equivale a unas 420 palabras a 8,5 pt). Si muestra densidad baja, agregar una secundaria o un breve ya investigado, nunca relleno.
 
-## 6. Revisión visual
+- `desborde_columna` u `overflow` en una página: recortar en esa página (una columna A4 equivale a unas 420 palabras).
+- Densidad baja: agregar una secundaria o un breve ya investigado, o alargar la principal si es la portada. Nunca relleno.
 
-Abrir los ocho PNG de `ediciones/$FECHA/paginas/` y aplicar la rúbrica de la sección 7.6 del documento maestro. Corregir, reconstruir y volver a mirar. Registrar el resultado en `preflight.json` (`pasos.revision_visual`) con estado `aprobada`, hallazgos corregidos y observaciones.
+## 5. Revisión visual
 
-## 7. Impresión y cierre
+Mirar los cuatro PNG de `ediciones/$FECHA/paginas/` con la rúbrica de `MI_DIARIO_SEMANAL.md` §6. Corregir, reconstruir y volver a mirar. Registrar el resultado en `preflight.json` (`pasos.revision_visual`: estado `aprobada`, hallazgos y correcciones).
+
+## 6. Guardar en GitHub
 
 ```
-powershell -ExecutionPolicy Bypass -File scripts/imprimir.ps1 -Pdf ediciones/$FECHA/El-Diario-de-Yrigoyen-N<numero>-$FECHA.pdf
+git add ediciones/$FECHA historial/
+git commit -m "Edición Nº <n> del $FECHA"
+git push origin main
 ```
-Si la impresora no responde, dejar el PDF listo y anotarlo en el resumen final. Agregar en `historial/DECISIONES.md` una entrada con fecha: qué se publicó, qué quedó sin verificar y qué se cambió en el procedimiento.
+
+Si el push falla, reintentar una vez después de `git pull --rebase origin main`. Si sigue fallando, seguir igual: la página se publica sin link al PDF y se avisa en el resumen.
+
+## 7. Publicar la página
+
+```
+node pipeline/src/web.js ediciones/$FECHA
+```
+
+Publicar `ediciones/$FECHA/web/index.html` con la herramienta Artifact, usando `url` = `entrega.artifact_url` de `config/edicion.json` para actualizar siempre la misma página (si la herramienta pide leerla antes, leerla con `action: "read"` y publicar igual el archivo nuevo, que reemplaza la edición anterior). Descripción: "Edición Nº <n> del <fecha larga>".
+
+## 8. Resumen final (es el mail que recibe el lector)
+
+Terminar con un mensaje breve, en español, que llega por mail como aviso de la tarea:
+
+```
+Mi Diario Semanal Nº <n> — <día> <fecha>
+
+<título de la nota principal>
+• <secundaria 1>
+• <secundaria 2>
+• <secundaria 3>
+• <secundaria 4>
+
+Dólar oficial: $ <compra> / $ <venta> (<variación>)
+Clima: <máx>° / <mín>°, <estado>
+
+Leer la edición: <artifact_url>
+PDF para imprimir: <link al PDF en GitHub>
+```
+
+Si algo quedó sin verificar o falló (dato no disponible, push, publicación), agregar una línea al final que lo diga.

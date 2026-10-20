@@ -1,15 +1,15 @@
 {
-  "nombre": "El Diario de Yrigoyen",
-  "lugar": "Los Cocos, Córdoba",
-  "zona_horaria": "America/Argentina/Cordoba",
+  "nombre": "Mi Diario Semanal",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "zona_horaria": "America/Argentina/Buenos_Aires",
   "cierre_por_defecto": {
-    "dia": "sabado",
-    "hora": "08:00"
+    "dia": "todos",
+    "hora": "07:00"
   },
   "ventana_frescura_horas": 36,
   "numero_inicial": {
     "numero": 1,
-    "fecha": "2026-09-19"
+    "fecha": "2026-10-20"
   },
   "papel": {
     "actual": "A4",
@@ -37,9 +37,9 @@
     "doble_faz": false
   },
   "paginas": {
-    "min": 6,
-    "max": 8,
-    "por_defecto": 8
+    "min": 4,
+    "max": 4,
+    "por_defecto": 4
   },
   "tipografia": {
     "cuerpo_pt": {
@@ -49,17 +49,17 @@
     },
     "interlineado_min": 1.2,
     "paso_ajuste_pt": 0.25,
-    "serif": "Georgia, Cambria, 'Times New Roman', serif",
-    "sans": "'Segoe UI', Calibri, Arial, sans-serif"
+    "serif": "Georgia, Cambria, 'Times New Roman', 'DejaVu Serif', serif",
+    "sans": "'Segoe UI', Calibri, 'DejaVu Sans', Arial, sans-serif"
   },
   "densidad": {
-    "ocupacion_min": 0.8,
+    "ocupacion_min": 0.78,
     "ocupacion_max": 0.92,
     "mayor_rectangulo_vacio_max": 0.18,
     "ocupacion_min_por_pagina": {
-      "finanzas": 0.74
+      "impresion3d_cierre": 0.74
     },
-    "nota": "Los gráficos de líneas tienen aire por diseño; la página de finanzas admite menor ocupación medida en celdas."
+    "nota": "La página de cierre combina notas con cuadros de datos y admite algo menos de ocupación."
   },
   "mapa_paginas": [
     {
@@ -71,86 +71,39 @@
     },
     {
       "pagina": 2,
-      "nombre": "actualidad",
+      "nombre": "ia",
       "secciones": [
-        "nacional",
-        "economia"
+        "ia"
       ]
     },
     {
       "pagina": 3,
-      "nombre": "cordoba_mundo",
+      "nombre": "tecnologia_empresas",
       "secciones": [
-        "cordoba",
-        "punilla",
-        "los_cocos",
-        "mundo",
-        "buena_noticia"
+        "tecnologia",
+        "empresas"
       ]
     },
     {
       "pagina": 4,
-      "nombre": "tecnologia",
+      "nombre": "impresion3d_cierre",
       "secciones": [
-        "tecnologia"
-      ]
-    },
-    {
-      "pagina": 5,
-      "nombre": "educacion_ciencia",
-      "secciones": [
-        "upc",
-        "educacion",
-        "ciencia"
-      ]
-    },
-    {
-      "pagina": 6,
-      "nombre": "finanzas",
-      "secciones": [
-        "finanzas",
-        "glosario"
-      ]
-    },
-    {
-      "pagina": 7,
-      "nombre": "boca",
-      "secciones": [
-        "boca"
-      ]
-    },
-    {
-      "pagina": 8,
-      "nombre": "contratapa",
-      "secciones": [
-        "disco",
-        "microrelato",
-        "poesia",
-        "clima",
-        "fe_de_erratas",
-        "fuentes"
+        "impresion3d"
       ]
     }
   ],
   "orden_recorte": [
-    "humor",
-    "ciencia_segunda",
-    "mundo",
-    "cultura_adicional",
     "breves_menores",
-    "educacion_general",
-    "cordoba_adicional",
-    "tecnologia_menor"
+    "empresas_menor",
+    "tecnologia_menor",
+    "ia_menor",
+    "impresion3d_menor"
   ],
   "nunca_recortar": [
     "portada",
     "principal",
-    "boca",
     "clima",
-    "finanzas",
-    "disco",
-    "microrelato",
-    "poesia",
+    "dolar",
     "glosario",
     "fe_de_erratas"
   ],
@@ -158,49 +111,26 @@
     "min": 3,
     "max": 4
   },
-  "activos": [
-    {
-      "simbolo": "BTC",
-      "nombre": "Bitcoin",
-      "coingecko_id": "bitcoin"
-    },
-    {
-      "simbolo": "ETH",
-      "nombre": "Ethereum",
-      "coingecko_id": "ethereum"
-    },
-    {
-      "simbolo": "BNB",
-      "nombre": "BNB",
-      "coingecko_id": "binancecoin"
-    },
-    {
-      "simbolo": "0G",
-      "nombre": "0G",
-      "coingecko_id": "zero-gravity",
-      "verificado": "2026-10-12",
-      "nota": "Proyecto 0G Labs (IA + blockchain, data availability). No confundir con W0G, ST0G ni A0G."
-    }
-  ],
   "clima": {
-    "lugar": "Los Cocos",
-    "latitud": -30.92548,
-    "longitud": -64.50251,
-    "altitud_m": 1179,
+    "lugar": "Villa Urquiza",
+    "latitud": -34.573,
+    "longitud": -58.488,
     "dias_pronostico": 4,
-    "dias_previos": 3,
+    "dias_previos": 2,
     "cambio_brusco_grados": 6
   },
-  "boca": {
-    "espn_team_id": 5,
-    "liga_espn": "arg.1",
-    "copa_argentina_espn": "arg.copa"
+  "periodicidad": "diaria",
+  "ventana_hechos_horas": 48,
+  "dolar": {
+    "casas": [
+      "oficial"
+    ],
+    "nota": "Al lector le interesa el dólar oficial. La tabla muestra compra, venta y variación contra la edición anterior."
   },
-  "impresora": {
-    "nombre": "HP Laser wifi",
-    "modelo": "HP Laser 107w",
-    "papel": "A4",
-    "color": false,
-    "script_red": "scripts/ensure-hp107w-wifi.ps1"
+  "entrega": {
+    "repo_github": "tomasdg/midiario",
+    "rama": "main",
+    "artifact_url": null,
+    "nota": "Cada edición se publica en la página de Claude \"Mi Diario Semanal\" (artifact_url), siempre en el mismo link. El PDF y el registro anti-repetición se guardan en este repositorio (ediciones/ e historial/ediciones/). El aviso por mail lo manda la tarea programada al terminar, con el resumen final de la corrida."
   }
 }

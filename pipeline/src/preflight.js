@@ -1,5 +1,4 @@
 // Preflight geométrico y de densidad sobre la página renderizada en Chromium.
-import { PNG } from 'pngjs';
 
 // Se ejecuta dentro del navegador. Devuelve errores de geometría por página.
 export async function geometria(page) {
@@ -39,7 +38,7 @@ export async function geometria(page) {
         }
         }
       }
-      for (const cont of pg.querySelectorAll('.flow, .cuerpo, .secundarias, .pb, .col, .fin, .boca, .contra')) {
+      for (const cont of pg.querySelectorAll('.flow, .cuerpo, .secundarias, .pb, .col, .cierre')) {
         if (cont.scrollWidth > cont.clientWidth + 1) errores.push({ pagina: n, tipo: 'overflow_horizontal', elemento: cont.className, exceso: cont.scrollWidth - cont.clientWidth });
         if (cont.scrollHeight > cont.clientHeight + 1) errores.push({ pagina: n, tipo: 'overflow_vertical', elemento: cont.className, exceso: cont.scrollHeight - cont.clientHeight });
       }
@@ -87,9 +86,9 @@ export async function geometria(page) {
 
 // Densidad sobre PNG: celdas de `celdaPx` dentro del área útil; una celda está ocupada si tiene al menos
 // `minOscuros` píxeles con luminancia < 200. Devuelve ocupación y el mayor rectángulo vacío (fracción del área útil).
-export function densidad(pngBuffer, { margenPx, celdaPx = 36, minOscuros = 6 }) {
-  const png = PNG.sync.read(pngBuffer);
-  const { width, height, data } = png;
+// Recibe los píxeles ya decodificados ({ width, height, data } RGBA). Es autocontenida para poder
+// ejecutarse dentro del navegador (build.js la serializa), así el pipeline no depende de pngjs.
+export function densidad({ width, height, data }, { margenPx, celdaPx = 36, minOscuros = 6 }) {
   const x0 = margenPx, y0 = margenPx, x1 = width - margenPx, y1 = height - margenPx;
   const cols = Math.floor((x1 - x0) / celdaPx), filas = Math.floor((y1 - y0) / celdaPx);
   const grid = Array.from({ length: filas }, () => new Uint8Array(cols));

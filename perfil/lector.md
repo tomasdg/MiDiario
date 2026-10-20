@@ -1,23 +1,20 @@
 # Perfil del lector
 
-Archivo separado de las reglas editoriales. Se edita sin tocar el documento maestro y la skill lo lee al armar cada edición.
+Archivo separado de las reglas editoriales. Se edita sin tocar el documento maestro y se lee al armar cada edición. Para cambiar los temas del diario, este es el archivo a tocar (y, si cambia la estructura de páginas, `config/edicion.json`).
 
-- Nombre: Christian Di Guardia.
-- Lugar: Los Cocos, departamento Punilla, Córdoba, Argentina.
-- Formación: analista universitario en Ciencias de la Computación, MBA.
-- Programador con aproximadamente 30 años de experiencia.
-- Cofundador de YiQi ERP. Trabaja con SaaS, .NET, Azure SQL, integraciones, automatización e IA aplicada.
-- Profesor universitario. Coordinador de Programación Full Stack y Desarrollo de Software y coordinador transversal en la Universidad Provincial de Córdoba (UPC).
+- Lugar: Villa Urquiza, Ciudad de Buenos Aires, Argentina.
+- Lee el diario cada mañana por mail y a veces lo imprime.
 
 ## Intereses que orientan la selección
 
-- Córdoba, Punilla y la información hiperlocal verificable sobre Los Cocos y alrededores.
-- Boca Juniors.
-- Criptomonedas: BTC, ETH, BNB y 0G (infraestructura descentralizada para IA: blockchain más disponibilidad y gestión de datos).
-- Piano, jazz, música clásica, teatro, literatura, ciencia, huerta y tecnología.
+1. **Avances de inteligencia artificial**: modelos nuevos, capacidades, herramientas y agentes, anuncios de los laboratorios (Anthropic, OpenAI, Google, Meta, Microsoft, Mistral, xAI, DeepSeek y otros), regulación que importe.
+2. **Tecnología en general**: lanzamientos de productos, software, hardware, seguridad informática, tendencias.
+3. **Impresión 3D**: impresoras nuevas, materiales, software de laminado, usos industriales y caseros, novedades de fabricantes (Bambu Lab, Prusa, Creality, Formlabs, Elegoo, Anycubic y otros).
+4. **Noticias de empresas de tecnología**: resultados trimestrales, compras y fusiones, inversiones, despidos, cambios de liderazgo, juicios y regulación.
+5. **Dólar oficial**: cotización de compra y venta.
 
 ## Nivel esperado
 
-- Las notas técnicas asumen experiencia profesional: arquitectura, modelos, benchmarks, seguridad, infraestructura, agentes, herramientas de desarrollo.
-- Las notas de educación se leen desde la mirada de un profesor y coordinador de carrera.
-- Las notas económicas deben traducirse a consecuencias prácticas para una pyme SaaS y para un hogar en Córdoba.
+- Lector interesado y con buen manejo de tecnología. Las notas pueden usar términos técnicos, pero la primera vez que aparece uno poco común se explica en pocas palabras o va al glosario.
+- Separar siempre el anuncio comercial de la mejora comprobable: cifras, benchmarks publicados, precio, disponibilidad en Argentina cuando corresponda.
+- Si una novedad tiene impacto práctico para quien vive y trabaja en Argentina (precio, disponibilidad, idioma, regulación), decirlo.

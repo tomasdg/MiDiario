@@ -1,10 +1,10 @@
-// Utilidades compartidas: formato es-AR, fechas en hora de Córdoba, escape HTML, carga de archivos.
+// Utilidades compartidas: formato es-AR, fechas en hora argentina, escape HTML, carga de archivos.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
-export const TZ = 'America/Argentina/Cordoba';
+export const TZ = 'America/Argentina/Buenos_Aires';
 
 export function leerJson(p) {
   return JSON.parse(fs.readFileSync(p, 'utf8'));

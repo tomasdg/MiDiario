@@ -2,83 +2,90 @@
   "apis": {
     "clima": {
       "proveedor": "Open-Meteo",
-      "url": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max,wind_gusts_10m_max&timezone=America%2FArgentina%2FCordoba&forecast_days={dias}&past_days={previos}",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max,wind_gusts_10m_max&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days={dias}&past_days={previos}",
       "codigos": "WMO 4677 (weather_code)",
       "licencia": "CC BY 4.0, uso no comercial sin clave"
     },
     "alertas": {
       "proveedor": "Servicio Meteorológico Nacional",
       "url": "https://www.smn.gob.ar/alertas",
-      "nota": "Consultar manualmente al cierre si hay alertas para Punilla"
-    },
-    "cripto_precios": {
-      "proveedor": "CoinGecko (API pública)",
-      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids={ids}&price_change_percentage=24h,7d,30d,1y",
-      "limite": "Aproximadamente 30 llamadas por minuto sin clave; esperar 2 s entre llamadas"
-    },
-    "cripto_historico": {
-      "proveedor": "CoinGecko (API pública)",
-      "url": "https://api.coingecko.com/api/v3/coins/{id}/market_chart?vs_currency=usd&days={dias}",
-      "nota": "days=365 devuelve puntos diarios; days=7 devuelve puntos horarios. Si falla por límite, derivar 7 y 30 días de la serie de 365."
+      "nota": "Consultar al cierre si hay alertas para la Ciudad de Buenos Aires"
     },
     "dolar": {
       "proveedor": "DolarApi",
-      "url": "https://dolarapi.com/v1/dolares",
-      "casas": ["oficial", "blue", "bolsa", "contadoconliqui", "mayorista", "tarjeta"]
+      "url": "https://dolarapi.com/v1/dolares/oficial",
+      "respaldo": "https://www.bna.com.ar/Personas (cotización billetes del Banco Nación)"
     },
-    "riesgo_pais": {
-      "proveedor": "ArgentinaDatos",
-      "url": "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais/ultimo"
-    },
-    "inflacion": {
-      "proveedor": "ArgentinaDatos (datos INDEC)",
-      "url": "https://api.argentinadatos.com/v1/finanzas/indices/inflacion",
-      "nota": "Variación mensual del IPC. INDEC publica el dato del mes anterior alrededor del día 14."
-    },
-    "futbol_tabla": {
-      "proveedor": "ESPN (API pública no documentada)",
-      "url": "https://site.api.espn.com/apis/v2/sports/soccer/{liga}/standings",
-      "nota": "Contrastar siempre con Promiedos o la Liga Profesional antes de publicar"
-    },
-    "futbol_fixture": {
-      "proveedor": "ESPN (API pública no documentada)",
-      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/{liga}/teams/{team_id}/schedule",
-      "nota": "Sólo trae la competición indicada. El próximo partido se verifica además en bocajuniors.com.ar y un medio deportivo."
-    }
+    "acceso": "En la nube la terminal no llega a estas APIs: se leen con WebFetch pidiendo el JSON crudo, y se guardan en ediciones/AAAA-MM-DD/datos/."
   },
-
   "medios_aceptados": {
-    "oficiales": [
-      "argentina.gob.ar", "indec.gob.ar", "bcra.gob.ar", "boletinoficial.gob.ar",
-      "cba.gov.ar", "boletinoficial.cba.gov.ar", "legislaturacba.gob.ar",
-      "upc.edu.ar", "smn.gob.ar",
-      "bocajuniors.com.ar", "ligaprofesional.ar", "afa.com.ar", "conmebol.com", "copaargentina.org"
-    ],
-    "nacionales": [
-      "lanacion.com.ar", "clarin.com", "infobae.com", "pagina12.com.ar", "perfil.com",
-      "ambito.com", "cronista.com", "iprofesional.com", "chequeado.com", "telam.com.ar"
-    ],
-    "cordoba_punilla": [
-      "lavoz.com.ar", "cadena3.com", "eldoce.tv", "cba24n.com.ar",
-      "eldiariodecarlospaz.com.ar", "laestafetaonline.com", "punillahoy.com.ar", "elgraficocordoba.com"
-    ],
-    "deportes": [
-      "ole.com.ar", "tycsports.com", "espn.com.ar", "promiedos.com.ar", "infobae.com/deportes"
+    "ia_oficiales": [
+      "anthropic.com",
+      "openai.com",
+      "blog.google",
+      "deepmind.google",
+      "ai.meta.com",
+      "mistral.ai",
+      "x.ai",
+      "huggingface.co",
+      "microsoft.com/blog",
+      "nvidia.com/blog",
+      "github.blog",
+      "arxiv.org"
     ],
     "tecnologia": [
-      "blogs oficiales de los fabricantes (Microsoft, Anthropic, OpenAI, Google, AWS)", "github.com (release notes)",
-      "arstechnica.com", "theregister.com", "thenewstack.io", "infoq.com", "simonwillison.net",
-      "nvd.nist.gov", "msrc.microsoft.com", "techcommunity.microsoft.com"
+      "theverge.com",
+      "techcrunch.com",
+      "arstechnica.com",
+      "wired.com",
+      "theregister.com",
+      "reuters.com/technology",
+      "bloomberg.com/technology",
+      "cnbc.com/technology",
+      "theinformation.com",
+      "9to5mac.com",
+      "tomshardware.com",
+      "xataka.com",
+      "genbeta.com",
+      "hipertextual.com",
+      "infobae.com/tecno",
+      "lanacion.com.ar/tecnologia",
+      "iproup.com"
     ],
-    "ciencia": [
-      "nature.com", "science.org", "nobelprize.org", "nasa.gov", "esa.int", "conicet.gov.ar", "agenciasinc.es", "quantamagazine.org"
+    "empresas": [
+      "sec.gov",
+      "investor relations de cada empresa",
+      "reuters.com",
+      "bloomberg.com",
+      "cnbc.com",
+      "ft.com",
+      "wsj.com"
     ],
-    "educacion": [
-      "upc.edu.ar", "cin.edu.ar", "coneau.gob.ar", "educacion.gob.ar", "oecd.org", "unesco.org", "universidad.pagina12.com.ar", "infobae.com/educacion"
+    "impresion_3d": [
+      "all3dp.com",
+      "3dprintingindustry.com",
+      "voxelmatters.com",
+      "fabbaloo.com",
+      "3dprint.com",
+      "tomshardware.com/3d-printing",
+      "blog.prusa3d.com",
+      "bambulab.com/blog",
+      "formlabs.com/blog",
+      "creality.com",
+      "hackaday.com"
+    ],
+    "oficiales_ar": [
+      "bcra.gob.ar",
+      "bna.com.ar",
+      "smn.gob.ar",
+      "argentina.gob.ar",
+      "buenosaires.gob.ar"
     ]
   },
-
   "medios_evitados": [
-    "agregadores sin autoría", "cuentas de redes sociales no institucionales", "sitios de rumores deportivos sin firma"
+    "agregadores sin autoría",
+    "cuentas de redes sociales no institucionales",
+    "notas patrocinadas o comunicados sin dato verificable",
+    "sitios de rumores sin firma"
   ]
 }

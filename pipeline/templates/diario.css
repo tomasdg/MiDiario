@@ -1,9 +1,9 @@
-/* El Diario de Yrigoyen — hoja de estilos de impresión. Monocromo, A4 por defecto (variables desde render.js). */
+/* Mi Diario Semanal — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
 @page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
 
 :root {
   --serif: Georgia, Cambria, 'Times New Roman', serif;
-  --sans: 'Segoe UI', Calibri, Arial, sans-serif;
+  --sans: 'Segoe UI', Calibri, 'DejaVu Sans', Arial, sans-serif;
   --negro: #000;
   --gris-texto: #333;
   --gris-regla: #888;
@@ -187,3 +187,28 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .chart-infl { margin: 1.5mm 0 1mm; } .chart-infl .chart { width: 100%; }
 .clima .tabla tr.obs td { color: var(--gris-texto); font-style: italic; }
 .contra .art.lit p.fuente { font-size: 0.74em; text-align: left; }
+
+/* Página de cierre: impresión 3D en dos columnas + columna de datos */
+.cierre { display: grid; grid-template-columns: 2fr 1fr; gap: var(--col-gap); height: 100%; }
+.cierre > .flow { height: 100%; min-height: 0; }
+.cierre .col { min-height: 0; display: flex; flex-direction: column; gap: 2mm; border-left: 0.5pt solid var(--negro); padding-left: 3mm; overflow: hidden; }
+.cierre .col p { text-align: left; }
+.dolar-cifras { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; margin: 0.6mm 0 1mm; font-family: var(--sans); }
+.dolar-cifras > div { border: 0.6pt solid var(--negro); padding: 1mm 1.5mm; }
+.dolar-cifras .et { display: block; font-size: 6.6pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); }
+.dolar-cifras .num { display: block; font-size: 13pt; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.dolar .obs, .clima .obs { font-size: 0.9em; margin: 0.6mm 0 0; }
+.cierre .clima .dias { grid-template-columns: repeat(4, 1fr); gap: 1mm; }
+.cierre .clima .dia { font-size: 6.4pt; padding: 0.8mm 0.2mm; }
+.cierre .clima .dia .wicon { width: 7mm; height: 7mm; }
+.cierre .clima .dia .tt b { font-size: 8.5pt; }
+.cierre .glos dd { text-align: left; }
+
+/* Portada: cuerpo de la principal balanceado en dos columnas y agenda debajo */
+.principal .cuerpo { flex: 0 0 auto; column-fill: balance; }
+.agenda { margin-top: 2mm; border-top: 1.2pt solid var(--negro); padding-top: 1.2mm; font-family: var(--sans); font-size: 7.8pt; }
+.agenda h3 { font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; color: var(--gris-texto); }
+.agenda ul { margin: 0; padding: 0; list-style: none; column-count: 2; column-gap: var(--col-gap); }
+.agenda li { margin: 0 0 1mm; line-height: 1.25; break-inside: avoid; }
+.secundarias { display: flex; flex-direction: column; justify-content: flex-start; }
+.secundarias h3 { flex: 0 0 auto; }

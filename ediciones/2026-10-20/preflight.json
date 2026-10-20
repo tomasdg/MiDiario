@@ -1,0 +1,100 @@
+{
+  "generado": "2026-10-20T18:46:43.396Z",
+  "edicion": {
+    "numero": 1,
+    "fecha": "2026-10-20",
+    "cierre": "2026-10-20T15:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9.25,
+        8.75,
+        9,
+        9.25
+      ],
+      "iteraciones": 3
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.836,
+        "mayor_rectangulo_vacio": 0.048,
+        "hueco_mm": {
+          "x": 129,
+          "y": 209,
+          "ancho": 57,
+          "alto": 43
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.824,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.812,
+        "mayor_rectangulo_vacio": 0.08,
+        "hueco_mm": {
+          "x": 129,
+          "y": 200,
+          "ancho": 57,
+          "alto": 71
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.843,
+        "mayor_rectangulo_vacio": 0.034,
+        "hueco_mm": {
+          "x": 62,
+          "y": 243,
+          "ancho": 62,
+          "alto": 29
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "pendiente",
+      "rubrica": "EL_DIARIO_DE_YRIGOYEN.md §7.6",
+      "nota": "La completa el modelo generador leyendo los PNG; se registra en este archivo."
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/repo/MiDiario/ediciones/2026-10-20/Mi-Diario-Semanal-N1-2026-10-20.pdf"
+}
