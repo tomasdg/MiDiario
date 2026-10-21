@@ -1,9 +1,9 @@
 {
-  "generado": "2026-10-21T09:16:25.975Z",
+  "generado": "2026-10-21T11:55:26.468Z",
   "edicion": {
     "numero": 2,
     "fecha": "2026-10-21",
-    "cierre": "2026-10-21T05:45:00-03:00",
+    "cierre": "2026-10-21T08:45:00-03:00",
     "lugar": "Villa Urquiza, Buenos Aires",
     "papel": "A4"
   },
@@ -35,7 +35,7 @@
     "densidad": [
       {
         "pagina": 1,
-        "ocupacion": 0.841,
+        "ocupacion": 0.872,
         "mayor_rectangulo_vacio": 0.027,
         "hueco_mm": {
           "x": 129,
@@ -71,13 +71,13 @@
       },
       {
         "pagina": 4,
-        "ocupacion": 0.814,
-        "mayor_rectangulo_vacio": 0.08,
+        "ocupacion": 0.87,
+        "mayor_rectangulo_vacio": 0.027,
         "hueco_mm": {
-          "x": 129,
-          "y": 186,
+          "x": 0,
+          "y": 248,
           "ancho": 57,
-          "alto": 71
+          "alto": 24
         },
         "ok": true
       }
@@ -89,19 +89,19 @@
     },
     "revision_visual": {
       "estado": "aprobada",
-      "revisado": "2026-10-21T06:25:00-03:00",
+      "revisado": "2026-10-21T09:00:00-03:00",
       "hallazgos": [
-        "Portada: la nota principal desbordaba 14 px en el primer armado.",
-        "Página 3: aire al pie de la tercera columna (9% del área útil, dentro del umbral).",
-        "Dólar y clima sin datos: se muestra el recuadro 'dato no disponible' en portada y página 4."
+        "Rearmado con el nuevo nombre, dólar de cierre del 20/10 y clima de MET Norway (08:23).",
+        "Página 4 afirmaba 'Sin alertas del SMN' sin que nadie lo hubiera consultado.",
+        "Portada: la tira de clima queda algo apretada junto al dólar, pero se lee bien."
       ],
       "correcciones": [
-        "Se acortó la nota principal (de 380 a 359 palabras) y se rearmó; geometría y densidad ok."
+        "Se quitó la frase por defecto sobre alertas del SMN: ahora sólo se muestra si hay un dato consultado."
       ]
     },
     "texto_pdf": {
       "estado": "no_implementado"
     }
   },
-  "pdf": "/home/claude/midiario/ediciones/2026-10-21/El-Diario-Semanal-de-Tom-N2-2026-10-21.pdf"
+  "pdf": "/home/claude/midiario/ediciones/2026-10-21/De-Villa-Urquiza-al-Mundo-N2-2026-10-21.pdf"
 }

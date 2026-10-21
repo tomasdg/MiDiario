@@ -1,7 +1,7 @@
 {
   "numero": 2,
   "fecha": "2026-10-21",
-  "cierre": "2026-10-21T05:45:00-03:00",
+  "cierre": "2026-10-21T08:45:00-03:00",
   "temas": [
     {
       "seccion": "principal",
@@ -142,13 +142,17 @@
       "https://support.claude.com/es/articles/17454700-comienza-con-claude-dashboards"
     ]
   },
-  "dolar_oficial": null,
+  "dolar_oficial": {
+    "compra": 1495,
+    "venta": 1545,
+    "fecha": "2026-10-21"
+  },
   "fuentes_datos": [
     "MET Norway (api.met.no)",
     "DolarApi"
   ],
   "preflight": {
     "ok": true,
-    "generado": "2026-10-21T09:16:25.975Z"
+    "generado": "2026-10-21T11:55:26.468Z"
   }
 }

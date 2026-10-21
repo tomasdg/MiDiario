@@ -1,4 +1,4 @@
-/* El Diario Semanal de Tom — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
+/* De Villa Urquiza al Mundo — hoja de estilos de impresión (basada en El Diario de Yrigoyen). Monocromo, A4 por defecto (variables desde render.js). */
 @page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
 
 :root {

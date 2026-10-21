@@ -29,6 +29,13 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - En la corrida programada de la edición Nº 2, WebFetch no pudo leer DolarApi ni MET Norway (dos intentos cada una). Se publicó "dato no disponible" para dólar y clima, sin inferir valores.
 - `datos.js`, `render.js` y el esquema ahora aceptan una edición sin pronóstico (clima con `dias` vacío y su propio `no_disponible`), en lugar de cortar el armado.
 
+## Pedidos del lector — 21 de octubre de 2026
+
+- El diario pasa a llamarse **De Villa Urquiza al Mundo** (antes "El Diario Semanal de Tom"), porque sale todos los días. El PDF cambia de nombre desde la edición Nº 2; los registros anteriores no se tocan.
+- Dólar: como el diario cierra antes de que abra el mercado (10:00), se publica siempre la cotización de cierre del último día hábil, aclarado en la tabla. No es un dato faltante.
+- Clima: no se acepta "no disponible" sin agotar la cadena de respaldo del procedimiento (MET Norway con dos URLs, control de `updated_at` por cachés viejas y, si hace falta, el pronóstico del SMN u otro servicio reconocido).
+- La edición Nº 2 se rearmó con el nuevo nombre, el dólar de cierre del martes 20 ($ 1.495 / $ 1.545) y el pronóstico de MET Norway de las 08:23.
+
 ## Fe de erratas pendiente
 
 (ninguna)

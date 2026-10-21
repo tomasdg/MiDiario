@@ -1,4 +1,4 @@
-# El Diario Semanal de Tom
+# De Villa Urquiza al Mundo
 
 Documento maestro editorial y técnico de un diario personal generado con IA. Basado en El Diario de Yrigoyen: se conservan sus reglas de selección, verificación, maquetación y preflight; cambian el lector, los temas, la periodicidad y la entrega.
 
@@ -17,7 +17,7 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 
 ## 1. Identidad
 
-- Nombre: **El Diario Semanal de Tom** (se llama así por decisión del lector, aunque sale todos los días). Lugar: Villa Urquiza, Buenos Aires.
+- Nombre: **De Villa Urquiza al Mundo** (antes "El Diario Semanal de Tom"; el lector lo cambió el 21 de octubre de 2026 porque sale todos los días). Lugar: Villa Urquiza, Buenos Aires.
 - Periodicidad: **diaria**, con cierre a las 07:00 hora argentina. Numeración correlativa.
 - Objetivo: una edición cerrada, seleccionada y agradable de leer, con aspecto de diario impreso. No replicar el flujo infinito de un portal.
 - Formato: A4, blanco y negro, cuatro páginas. Se lee en pantalla (página de Claude, link fijo) y se imprime desde el PDF.

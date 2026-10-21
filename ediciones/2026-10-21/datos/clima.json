@@ -1,17 +1,43 @@
 {
   "lugar": "Villa Urquiza",
-  "corte": "2026-10-21T08:57:11.583Z",
+  "corte": "2026-10-21T11:23:13Z",
   "fuente": "MET Norway (api.met.no)",
-  "dias": [],
+  "dias": [
+    {
+      "fecha": "2026-10-21",
+      "codigo_wmo": 1,
+      "max": 20,
+      "min": 14.1,
+      "precip_mm": 2.5,
+      "viento_kmh": 26
+    },
+    {
+      "fecha": "2026-10-22",
+      "codigo_wmo": 3,
+      "max": 20.4,
+      "min": 14,
+      "precip_mm": 3.8,
+      "viento_kmh": 26
+    },
+    {
+      "fecha": "2026-10-23",
+      "codigo_wmo": 3,
+      "max": 21.4,
+      "min": 15.9,
+      "precip_mm": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-10-24",
+      "codigo_wmo": 3,
+      "max": 18.7,
+      "min": 14.2,
+      "precip_mm": 0.7,
+      "viento_kmh": 17
+    }
+  ],
   "previos": [],
   "cambio_brusco": null,
   "alertas": null,
-  "no_disponible": [
-    {
-      "dato": "Pronóstico del clima",
-      "fuente_intentada": "MET Norway (api.met.no)",
-      "hora_intento": "2026-10-21T08:57:11.583Z",
-      "motivo": "La consulta no se pudo completar desde la tarea programada (dos intentos)."
-    }
-  ]
+  "no_disponible": []
 }

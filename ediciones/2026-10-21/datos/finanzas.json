@@ -1,18 +1,19 @@
 {
-  "corte": "2026-10-21T08:57:11.583Z",
-  "dolar": [],
+  "corte": "2026-10-20T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1495,
+      "venta": 1545,
+      "actualizado": "2026-10-20T18:00:00.000Z"
+    }
+  ],
   "anterior": {
     "compra": 1490,
     "venta": 1540,
     "fecha": "2026-10-20"
   },
-  "comentario": "",
-  "no_disponible": [
-    {
-      "dato": "Cotización del dólar oficial",
-      "fuente_intentada": "DolarApi /v1/dolares/oficial",
-      "hora_intento": "2026-10-21T08:57:11.583Z",
-      "motivo": "La consulta no se pudo completar desde la tarea programada (dos intentos)."
-    }
-  ]
+  "comentario": "Cotización de cierre del martes 20 de octubre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "no_disponible": []
 }

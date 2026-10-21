@@ -192,7 +192,7 @@ function cierre(ctx, secciones, pagina) {
         ${cl.dias.length ? `<div class="dias">${dias}</div>
         <table class="tabla"><thead><tr><th class="l">Día</th><th>Lluvia</th>${conProb ? '<th>Prob.</th>' : ''}<th>${conRaf ? 'Viento (ráf.)' : 'Viento máx.'}</th></tr></thead><tbody>${filas}</tbody></table>
         ${cl.cambio_brusco ? `<p class="obs"><b>Cambio de temperatura:</b> ${parrafo(cl.cambio_brusco)}</p>` : ''}
-        ${cl.alertas ? `<p class="obs"><b>Alertas:</b> ${parrafo(cl.alertas)}</p>` : '<p class="obs">Sin alertas del SMN para la Ciudad al cierre.</p>'}
+        ${cl.alertas ? `<p class="obs"><b>Alertas:</b> ${parrafo(cl.alertas)}</p>` : ''}
         <p class="aviso">Fuente: ${esc(cl.fuente)}, consultado ${esc(fechaHora(cl.corte))} hora argentina. Viento en km/h.</p>` : (cl.no_disponible || []).map(noDisponible).join('')}
       </div>
       <div><h3 class="h3">Glosario</h3><dl class="glos">${glos}</dl></div>

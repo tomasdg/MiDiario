@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://midiario.local/esquema/contenido.schema.json",
-  "title": "Contenido de una edición de El Diario Semanal de Tom",
+  "title": "Contenido de una edición de De Villa Urquiza al Mundo",
   "type": "object",
   "required": [
     "edicion",

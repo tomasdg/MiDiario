@@ -1,4 +1,4 @@
-# Pipeline de El Diario Semanal de Tom
+# Pipeline de De Villa Urquiza al Mundo
 
 Node + Playwright (Chromium). En la nube de Claude no hace falta instalar nada: `src/deps.js` usa el Playwright y el Chromium preinstalados. En otra máquina, `npm install` en esta carpeta.
 

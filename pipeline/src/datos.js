@@ -7,7 +7,7 @@
 //                              { "updated_at": ISO, "dias": [{ fecha, max_c, min_c, precip_mm, viento_max_kmh, symbol_code }] }
 //   meteo.json (alternativa)   respuesta cruda de Open-Meteo, si se pudo descargar
 //   consultado_meteo_utc.txt   hora UTC de la consulta del clima (ISO)
-//   comentarios.json (opcional) { "finanzas": "...", "clima_alertas": "...", "clima_cambio_brusco": "..." }
+//   comentarios.json (opcional) { "finanzas": "...", "clima_fuente": "...", "clima_alertas": "...", "clima_cambio_brusco": "...", "dolar_motivo": "...", "clima_motivo": "..." }
 import fs from 'node:fs';
 import path from 'node:path';
 import { RAIZ, leerJson, escribirJson } from './util.js';
@@ -63,7 +63,7 @@ const meteo = leerSi('meteo.json');
 let todos, consultado, fuenteClima;
 if (metno) {
   consultado = metno.updated_at || ahora;
-  fuenteClima = 'MET Norway (api.met.no)';
+  fuenteClima = comentarios.clima_fuente || 'MET Norway (api.met.no)';
   todos = metno.dias.map(d => ({ fecha: d.fecha, codigo_wmo: wmoDeSimbolo(d.symbol_code), max: d.max_c, min: d.min_c, precip_mm: d.precip_mm, prob_precip: d.prob_precip, viento_kmh: d.viento_max_kmh, rafagas_kmh: d.rafagas_kmh }));
 } else if (meteo) {
   consultado = fs.existsSync(path.join(dir, 'consultado_meteo_utc.txt')) ? fs.readFileSync(path.join(dir, 'consultado_meteo_utc.txt'), 'utf8').trim() : ahora;
