@@ -27,7 +27,7 @@ const lista = Array.isArray(crudo) ? crudo : crudo ? [crudo] : [];
 const nombresCasa = { oficial: 'Oficial (BNA)', blue: 'Blue', bolsa: 'MEP (bolsa)', contadoconliqui: 'Contado con liqui', mayorista: 'Mayorista', tarjeta: 'Tarjeta' };
 const dolar = lista.filter(d => config.dolar.casas.includes(d.casa) && typeof d.venta === 'number')
   .map(d => ({ casa: nombresCasa[d.casa] || d.casa, clave: d.casa, compra: d.compra, venta: d.venta, actualizado: d.fechaActualizacion }));
-if (!dolar.length) noDisponible.push({ dato: 'Cotización del dólar oficial', fuente_intentada: 'DolarApi /v1/dolares/oficial', hora_intento: ahora, motivo: 'Sin respuesta válida de la API.' });
+if (!dolar.length) noDisponible.push({ dato: 'Cotización del dólar oficial', fuente_intentada: 'DolarApi /v1/dolares/oficial', hora_intento: ahora, motivo: comentarios.dolar_motivo || 'Sin respuesta válida de la API.' });
 
 // Valor de la edición anterior, para la variación diaria.
 const dirHist = path.join(RAIZ, 'historial', 'ediciones');
@@ -65,12 +65,18 @@ if (metno) {
   consultado = metno.updated_at || ahora;
   fuenteClima = 'MET Norway (api.met.no)';
   todos = metno.dias.map(d => ({ fecha: d.fecha, codigo_wmo: wmoDeSimbolo(d.symbol_code), max: d.max_c, min: d.min_c, precip_mm: d.precip_mm, prob_precip: d.prob_precip, viento_kmh: d.viento_max_kmh, rafagas_kmh: d.rafagas_kmh }));
-} else {
+} else if (meteo) {
   consultado = fs.existsSync(path.join(dir, 'consultado_meteo_utc.txt')) ? fs.readFileSync(path.join(dir, 'consultado_meteo_utc.txt'), 'utf8').trim() : ahora;
   fuenteClima = 'Open-Meteo';
   const dd = meteo.daily;
   todos = dd.time.map((t, i) => ({ fecha: t, codigo_wmo: dd.weather_code[i], max: dd.temperature_2m_max[i], min: dd.temperature_2m_min[i], precip_mm: dd.precipitation_sum?.[i], prob_precip: dd.precipitation_probability_max?.[i], viento_kmh: dd.wind_speed_10m_max?.[i], rafagas_kmh: dd.wind_gusts_10m_max?.[i] }));
+} else {
+  // Ninguna fuente de clima respondió: se publica "dato no disponible", nunca un pronóstico inferido.
+  consultado = ahora;
+  fuenteClima = 'MET Norway (api.met.no)';
+  todos = [];
 }
+const ndClima = todos.length ? [] : [{ dato: 'Pronóstico del clima', fuente_intentada: 'MET Norway (api.met.no)', hora_intento: ahora, motivo: comentarios.clima_motivo || 'Sin respuesta válida de la API.' }];
 todos = todos.map(x => Object.fromEntries(Object.entries(x).filter(([, v]) => v !== null && v !== undefined)));
 const previos = todos.filter(x => x.fecha < hoy);
 const dias = todos.filter(x => x.fecha >= hoy).slice(0, config.clima.dias_pronostico);
@@ -81,7 +87,7 @@ if (cambio === null && previos.length && dias.length) {
   if (maxProx - promPrev >= config.clima.cambio_brusco_grados) cambio = `la máxima sube hasta ${Math.round(maxProx)}° frente a un promedio de ${Math.round(promPrev)}° en los días previos.`;
   else if (promPrev - minProx >= config.clima.cambio_brusco_grados) cambio = `la máxima baja hasta ${Math.round(minProx)}° frente a un promedio de ${Math.round(promPrev)}° en los días previos.`;
 }
-const clima = { lugar: config.clima.lugar, corte: consultado, fuente: fuenteClima, dias, previos, cambio_brusco: cambio, alertas: comentarios.clima_alertas || null };
+const clima = { lugar: config.clima.lugar, corte: consultado, fuente: fuenteClima, dias, previos, cambio_brusco: cambio, alertas: comentarios.clima_alertas || null, no_disponible: ndClima };
 
 escribirJson(path.join(dir, 'finanzas.json'), finanzas);
 escribirJson(path.join(dir, 'clima.json'), clima);

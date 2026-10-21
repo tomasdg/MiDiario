@@ -75,7 +75,7 @@ function portada(ctx) {
   const clima = c.clima.dias.slice(0, 2).map(d => {
     const ic = iconoPorWmo(d.codigo_wmo);
     return `<div class="dia">${svgIcono(ic.nombre)}<div class="t"><div><b>${numero(d.max, 0)}°</b> / ${numero(d.min, 0)}°</div><div>${esc(capitalizar(diaSemana(d.fecha)))} · ${esc(ic.texto)}</div></div></div>`;
-  }).join('');
+  }).join('') || '<p class="nd-strip">Dato no disponible al cierre.</p>';
   const of = c.finanzas.dolar.find(d => (d.clave || '').toLowerCase() === 'oficial') || c.finanzas.dolar[0];
   const ant = c.finanzas.anterior;
   const varOf = of && ant?.venta ? (of.venta - ant.venta) / ant.venta * 100 : null;
@@ -189,11 +189,11 @@ function cierre(ctx, secciones, pagina) {
       <div><h3 class="h3">Dólar oficial</h3>${dolar}${ndFin}</div>
       <div class="clima">
         <h3 class="h3">Clima en ${esc(cl.lugar)}</h3>
-        <div class="dias">${dias}</div>
+        ${cl.dias.length ? `<div class="dias">${dias}</div>
         <table class="tabla"><thead><tr><th class="l">Día</th><th>Lluvia</th>${conProb ? '<th>Prob.</th>' : ''}<th>${conRaf ? 'Viento (ráf.)' : 'Viento máx.'}</th></tr></thead><tbody>${filas}</tbody></table>
         ${cl.cambio_brusco ? `<p class="obs"><b>Cambio de temperatura:</b> ${parrafo(cl.cambio_brusco)}</p>` : ''}
         ${cl.alertas ? `<p class="obs"><b>Alertas:</b> ${parrafo(cl.alertas)}</p>` : '<p class="obs">Sin alertas del SMN para la Ciudad al cierre.</p>'}
-        <p class="aviso">Fuente: ${esc(cl.fuente)}, consultado ${esc(fechaHora(cl.corte))} hora argentina. Viento en km/h.</p>
+        <p class="aviso">Fuente: ${esc(cl.fuente)}, consultado ${esc(fechaHora(cl.corte))} hora argentina. Viento en km/h.</p>` : (cl.no_disponible || []).map(noDisponible).join('')}
       </div>
       <div><h3 class="h3">Glosario</h3><dl class="glos">${glos}</dl></div>
       <div class="erratas"><h3 class="h3">Fe de erratas</h3>${erratas}</div>

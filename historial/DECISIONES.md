@@ -24,6 +24,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Se incrustan las fuentes (Lora e Inter) en el HTML, el PDF y la página web, así el control y la pantalla del lector usan la misma tipografía.
 - El preflight ahora revisa llamadas, agenda y la nota principal de portada, y el cuerpo de la principal entra en el ajuste automático.
 
+## Datos no disponibles — 21 de octubre de 2026
+
+- En la corrida programada de la edición Nº 2, WebFetch no pudo leer DolarApi ni MET Norway (dos intentos cada una). Se publicó "dato no disponible" para dólar y clima, sin inferir valores.
+- `datos.js`, `render.js` y el esquema ahora aceptan una edición sin pronóstico (clima con `dias` vacío y su propio `no_disponible`), en lugar de cortar el armado.
+
 ## Fe de erratas pendiente
 
 (ninguna)

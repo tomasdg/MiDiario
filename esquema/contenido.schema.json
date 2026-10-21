@@ -239,7 +239,7 @@
         },
         "dias": {
           "type": "array",
-          "minItems": 2,
+          "minItems": 0,
           "items": {
             "type": "object",
             "required": [
