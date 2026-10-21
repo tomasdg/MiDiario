@@ -25,7 +25,7 @@ La terminal no tiene salida a esas APIs: se leen con WebFetch. **Dólar y clima 
 
 1. WebFetch a `https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-34.573&lon=-58.488`.
 2. **Controlar `updated_at`**: si tiene más de 6 horas, la respuesta vino de una caché. Repetir con `https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-34.57&lon=-58.49` (otra URL, otra caché) y quedarse con la más reciente.
-3. Si MET Norway no responde o ambas son viejas: WebSearch "pronóstico extendido Villa Urquiza" o "pronóstico Buenos Aires SMN", abrir el pronóstico del SMN o de otro servicio meteorológico reconocido y completar el mismo JSON (`updated_at` = hora de consulta; `symbol_code` con el código de MET Norway más parecido: clearsky_day, fair_day, partlycloudy_day, cloudy, lightrain, rain, heavyrain, rainshowers_day, thunder). Anotar el servicio en `comentarios.json` → `clima_fuente`.
+3. Si MET Norway no responde o ambas son viejas: WebFetch a `https://www.smn.gob.ar/pronostico` (URL autorizada en la tarea programada) o, si tampoco anda, WebSearch "pronóstico extendido Villa Urquiza" o "pronóstico Buenos Aires SMN", abrir el pronóstico del SMN o de otro servicio meteorológico reconocido y completar el mismo JSON (`updated_at` = hora de consulta; `symbol_code` con el código de MET Norway más parecido: clearsky_day, fair_day, partlycloudy_day, cloudy, lightrain, rain, heavyrain, rainshowers_day, thunder). Anotar el servicio en `comentarios.json` → `clima_fuente`.
 4. Sólo si todo eso falla, registrar el faltante en `no_disponible` y decirlo en el resumen final.
 
 Después, correr `node pipeline/src/datos.js ediciones/$FECHA $FECHA`.
