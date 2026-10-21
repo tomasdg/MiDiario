@@ -1,0 +1,18 @@
+{
+  "corte": "2026-10-21T08:57:11.583Z",
+  "dolar": [],
+  "anterior": {
+    "compra": 1490,
+    "venta": 1540,
+    "fecha": "2026-10-20"
+  },
+  "comentario": "",
+  "no_disponible": [
+    {
+      "dato": "Cotización del dólar oficial",
+      "fuente_intentada": "DolarApi /v1/dolares/oficial",
+      "hora_intento": "2026-10-21T08:57:11.583Z",
+      "motivo": "La consulta no se pudo completar desde la tarea programada (dos intentos)."
+    }
+  ]
+}

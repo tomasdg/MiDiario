@@ -1,0 +1,107 @@
+{
+  "generado": "2026-10-21T09:16:25.975Z",
+  "edicion": {
+    "numero": 2,
+    "fecha": "2026-10-21",
+    "cierre": "2026-10-21T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9,
+        9.25,
+        8.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.841,
+        "mayor_rectangulo_vacio": 0.027,
+        "hueco_mm": {
+          "x": 129,
+          "y": 229,
+          "ancho": 57,
+          "alto": 24
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.93,
+        "mayor_rectangulo_vacio": 0.013,
+        "hueco_mm": {
+          "x": 48,
+          "y": 5,
+          "ancho": 138,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.833,
+        "mayor_rectangulo_vacio": 0.09,
+        "hueco_mm": {
+          "x": 129,
+          "y": 190,
+          "ancho": 57,
+          "alto": 81
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.814,
+        "mayor_rectangulo_vacio": 0.08,
+        "hueco_mm": {
+          "x": 129,
+          "y": 186,
+          "ancho": 57,
+          "alto": 71
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-10-21T06:25:00-03:00",
+      "hallazgos": [
+        "Portada: la nota principal desbordaba 14 px en el primer armado.",
+        "Página 3: aire al pie de la tercera columna (9% del área útil, dentro del umbral).",
+        "Dólar y clima sin datos: se muestra el recuadro 'dato no disponible' en portada y página 4."
+      ],
+      "correcciones": [
+        "Se acortó la nota principal (de 380 a 359 palabras) y se rearmó; geometría y densidad ok."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-21/El-Diario-Semanal-de-Tom-N2-2026-10-21.pdf"
+}

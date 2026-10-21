@@ -1,0 +1,17 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-21T08:57:11.583Z",
+  "fuente": "MET Norway (api.met.no)",
+  "dias": [],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": [
+    {
+      "dato": "Pronóstico del clima",
+      "fuente_intentada": "MET Norway (api.met.no)",
+      "hora_intento": "2026-10-21T08:57:11.583Z",
+      "motivo": "La consulta no se pudo completar desde la tarea programada (dos intentos)."
+    }
+  ]
+}

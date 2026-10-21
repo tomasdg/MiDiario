@@ -1,0 +1,154 @@
+{
+  "numero": 2,
+  "fecha": "2026-10-21",
+  "cierre": "2026-10-21T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "El borrador de la salida a bolsa de Anthropic muestra ingresos de US$ 16.300 millones en seis meses",
+      "urls": [
+        "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928",
+        "https://finance.yahoo.com/technology/ai/articles/anthropic-revenue-hits-16-3-201707100.html",
+        "https://mixed-news.com/en/anthropic-ipo-november-third-quarter-numbers-report/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude diseñó 17 proteínas que se pegan a toxinas de escorpión",
+      "urls": [
+        "https://interestingengineering.com/ai-robotics/claude-scorpion-toxin-protein-binders"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI cuenta cómo dos de sus agentes apagaron la vigilancia que debía controlarlos",
+      "urls": [
+        "https://www.unite.ai/openai-discloses-two-cases-of-agents-weakening-misalignment-monitoring/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Estados Unidos ordena sacar DeepSeek de las computadoras de sus agencias civiles",
+      "urls": [
+        "https://thenextweb.com/news/us-bars-deepseek-federal-agencies"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Mistral lanza Voxtral 3 para armar agentes que atienden por voz",
+      "urls": [
+        "https://mistral.ai/news/voxtral-3/",
+        "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "OpenAI guarda el contexto hasta 12 horas",
+      "urls": [
+        "https://developers.openai.com/api/docs/guides/prompt-caching"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Netflix gana más de lo esperado pero recorta su meta de publicidad y cae en bolsa",
+      "urls": [
+        "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html",
+        "https://www.investing.com/news/transcripts/earnings-call-transcript-netflix-beats-q3-2026-estimates-but-shares-fall-after-hours-93CH-4961240",
+        "https://www.fastcompany.com/91625107/tech-layoffs-2026-update-mass-job-cuts-october-netflix-hubspot-flock-more"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "La inteligencia artificial ya aporta más de la mitad de los ingresos de SpaceX",
+      "urls": [
+        "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Nvidia invertirá en cuatro startups alemanas de robots, salud, sonido y satélites",
+      "urls": [
+        "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Muse, la app de IA de Meta, llegó a 10 millones de descargas en Estados Unidos en 40 días",
+      "urls": [
+        "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Bandas de ransomware explotan una falla de las VPN de Palo Alto Networks",
+      "urls": [
+        "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Tesla, Meta, IBM y SAP presentan hoy",
+      "urls": [
+        "https://www.openingbelldailynews.com/p/stock-market-week-ahead-oct-19-2026",
+        "https://electrek.co/2026/10/20/tesla-tsla-q3-2026-earnings-preview/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "SolidCraft, un CAD gratuito al estilo Fusion que escribieron agentes de Claude",
+      "urls": [
+        "https://botmonster.com/ai/solidcraft-is-a-fusion-360-alternative-ai-wrote-in-10-days/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Siraya Tech vende soportes que se despegan solos para nailon y PPA",
+      "urls": [
+        "https://all3dp.com/4/siraya-tech-launches-dedicated-breakaway-support-filaments-for-nylon-ppa-and-pet/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Unión en forma de C: la más fuerte para encastrar piezas de PLA sin pegamento",
+      "urls": [
+        "https://all3dp.com/4/ditch-the-glue-researchers-find-c-shaped-joints-outperform-dovetails-in-pla-prints/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Aparece en el laminador de Creality una impresora chica que todavía no anunció",
+      "urls": [
+        "https://www.fabbaloo.com/?p=241321"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Solukon presenta una máquina para limpiar piezas metálicas de hasta una tonelada",
+      "urls": [
+        "https://3dprint.com/335041/solukon-goes-big-with-new-sfm-at850-depowdering-system/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Formulario S-1",
+    "Minibinder",
+    "Diarización",
+    "Klipper"
+  ],
+  "claude_tip": {
+    "titulo": "Pedile a Claude un tablero que se actualice solo",
+    "urls": [
+      "https://ruben.substack.com/p/claude-motion-and-dashboards",
+      "https://support.claude.com/es/articles/17454700-comienza-con-claude-dashboards"
+    ]
+  },
+  "dolar_oficial": null,
+  "fuentes_datos": [
+    "MET Norway (api.met.no)",
+    "DolarApi"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-21T09:16:25.975Z"
+  }
+}
