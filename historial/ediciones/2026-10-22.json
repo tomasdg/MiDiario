@@ -1,0 +1,184 @@
+{
+  "numero": 3,
+  "fecha": "2026-10-22",
+  "cierre": "2026-10-22T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "PHP corrige dos fallas críticas que dejan tomar servidores web",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+        "https://www.tenable.com/blog/php2shell-cve-2026-109618-cve-2026-109619-frequently-asked-questions-about-critical-php-remote",
+        "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic presenta Claude Duet, un agente que avisa antes de que le pidas",
+      "urls": [
+        "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/",
+        "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Los avisos de ChatGPT llegan a la Argentina",
+      "urls": [
+        "https://qz.com/openai-chatgpt-ads-26-countries-89-total-102126",
+        "https://www.unite.ai/openai-extends-chatgpt-ads-to-89-countries-with-26-market-expansion/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Los modelos de OpenAI ya se venden en Google Cloud",
+      "urls": [
+        "https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-its-frontier-ai-models-to-google-cloud/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI compra Orchestra Bio para acelerar el desarrollo de fármacos",
+      "urls": [
+        "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un físico de Harvard entra al fideicomiso que controla Anthropic",
+      "urls": [
+        "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Meta vende 26% más, pero el gasto en IA y un acuerdo judicial le recortan la ganancia",
+      "urls": [
+        "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html",
+        "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/",
+        "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Tesla gana 43% menos y estudia fusionarse con SpaceX",
+      "urls": [
+        "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+        "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
+        "https://gizmodo.com/insiders-reportedly-say-tesla-spacex-merger-must-close-before-trump-leaves-office-2000829228"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "IBM supera lo esperado, pero la consultoría decepciona y la acción cae 5%",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm",
+        "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Texas Instruments vende 28% más por los centros de datos y los autos",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000165/q32026txnex99-eredgar.htm"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SAP crece 26% en la nube y mejora su previsión",
+      "urls": [
+        "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Nokia y Lam Research, empujadas por la IA",
+      "urls": [
+        "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Alphabet y Microsoft presentan el miércoles 28",
+      "urls": [
+        "https://thefinanceflow.substack.com/p/the-next-two-weeks-decide-the-ai",
+        "https://marketbeat.com/instant-alerts/upcoming-intel-intc-expected-to-announce-earnings-on-thursday-2026-10-22"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Nvidia libera un motor de CAD para que cualquiera arme sus propias herramientas",
+      "urls": [
+        "https://www.fabbaloo.com/news/a-powerful-cad-kernel-is-now-available-for-3d-printing-developers"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Snapmaker agrega blanco para mezclar colores con cuatro bobinas",
+      "urls": [
+        "https://all3dp.com/4/snapmaker-adds-white-to-the-mix-for-far-more-color-options-from-four-spools/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Carbon ya imprimió un millón de asientos de bicicleta",
+      "urls": [
+        "https://all3dp.com/6/carbon-passes-1-million-mark-for-dls-printed-bike-saddles/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Imprimir repuestos que ya nadie fabrica, el desafío de una central nuclear que vuelve",
+      "urls": [
+        "https://www.fabbaloo.com/news/rebuilding-palisades-can-3d-printing-solve-nuclears-legacy-parts-problem"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un configurador libre para armar tu propia impresora",
+      "urls": [
+        "https://www.fabbaloo.com/news/build-your-own-3d-printer-with-3d-print-rig"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Polymaker tiñe pellets de cualquier color",
+      "urls": [
+        "https://www.fabbaloo.com/news/polymakers-cymphonik-creates-any-color-with-pellets"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "CADlingo 2.0 diseña piezas a partir de texto",
+      "urls": [
+        "https://3dprint.com/335333/3d-printing-news-briefs-10-21-2026/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Use-after-free",
+    "WAF",
+    "Flujo de caja libre",
+    "Kernel geométrico"
+  ],
+  "claude_tip": {
+    "titulo": "Mandá a Claude Code a investigar con fuentes cruzadas",
+    "urls": [
+      "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
+      "https://code.claude.com/docs/en/workflows",
+      "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1495,
+    "venta": 1545,
+    "fecha": "2026-10-22"
+  },
+  "fuentes_datos": [
+    "Meteored (MET Norway y SMN no respondieron)",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-22T09:24:31.496Z"
+  }
+}

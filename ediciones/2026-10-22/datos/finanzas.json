@@ -1,0 +1,20 @@
+{
+  "corte": "2026-10-21T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1495,
+      "venta": 1545,
+      "actualizado": "2026-10-21T18:00:00.000Z"
+    }
+  ],
+  "anterior": {
+    "compra": 1495,
+    "venta": 1545,
+    "fecha": "2026-10-21"
+  },
+  "comentario": "Cotización de cierre del miércoles 21 de octubre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "fuente": "Ámbito",
+  "no_disponible": []
+}

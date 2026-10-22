@@ -42,6 +42,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - NotebookLM no tiene conector ni API pública: Claude arma la fuente y las instrucciones de personalización; el lector genera el video y lo sube a mano. El guion lo hace NotebookLM.
 - Tarea programada aparte, los domingos (`pipeline/SEMANAL.md`), con página propia de link fijo.
 
+## Datos de respaldo — 22 de octubre de 2026
+
+- Edición Nº 3: WebFetch no pudo leer DolarApi, las dos URLs de MET Norway ni el SMN (el permiso para esas URLs no se concedió a tiempo en la corrida programada). Se siguió la cadena de respaldo: dólar de cierre del miércoles 21 según Ámbito ($ 1.495 / $ 1.545) y pronóstico de Meteored.
+- `datos.js` acepta `dolar_fuente` en `comentarios.json` y la página de cierre muestra esa fuente en lugar de "DolarApi" fijo.
+
 ## Fe de erratas pendiente
 
 (ninguna)

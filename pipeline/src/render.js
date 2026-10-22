@@ -169,7 +169,7 @@ function cierre(ctx, secciones, pagina) {
       <div class="dolar-cifras"><div><span class="et">Compra</span><span class="num">$ ${numero(of.compra, 2)}</span></div><div><span class="et">Venta</span><span class="num">$ ${numero(of.venta, 2)}</span></div></div>
       ${dif !== null ? `<p class="datos">Edición anterior (${esc(fechaCorta(ant.fecha))}): venta $ ${numero(ant.venta, 2)} · variación ${dif > 0 ? '+' : dif < 0 ? '−' : ''}$ ${numero(Math.abs(dif), 2)} (${porcentaje(dif / ant.venta * 100, 2)}).</p>` : ''}
       ${f.comentario ? `<p class="obs">${parrafo(f.comentario)}</p>` : ''}
-      <p class="aviso">Cotización del Banco Nación vía DolarApi, actualizada ${esc(fechaHora(of.actualizado))} hora argentina. No es recomendación de inversión.</p>
+      <p class="aviso">Cotización del Banco Nación vía ${esc(f.fuente || 'DolarApi')}, actualizada ${esc(fechaHora(of.actualizado))} hora argentina. No es recomendación de inversión.</p>
     </div>` : '';
   const ndFin = (f.no_disponible || []).map(noDisponible).join('');
   const dias = cl.dias.map(x => {
@@ -197,7 +197,7 @@ function cierre(ctx, secciones, pagina) {
       </div>
       <div><h3 class="h3">Glosario</h3><dl class="glos">${glos}</dl></div>
       <div class="erratas"><h3 class="h3">Fe de erratas</h3>${erratas}</div>
-      <p class="fuentes-ed"><b>Medios consultados:</b> ${listaMedios}. <b>Datos:</b> ${esc(cl.fuente)}, DolarApi (BNA). Cada nota indica su fuente y fecha al pie.</p>
+      <p class="fuentes-ed"><b>Medios consultados:</b> ${listaMedios}. <b>Datos:</b> ${esc(cl.fuente)}, ${esc(f.fuente || 'DolarApi')} (BNA). Cada nota indica su fuente y fecha al pie.</p>
       <p class="pie-legal">${esc(ctx.config.nombre)} es una publicación de uso personal, generada con asistencia de IA y verificada al cierre (${esc(fechaHora(c.edicion.cierre))} hora argentina).</p>
     </div>
   </div>`;

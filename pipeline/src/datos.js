@@ -39,6 +39,7 @@ const finanzas = {
   dolar,
   anterior,
   comentario: comentarios.finanzas || '',
+  fuente: comentarios.dolar_fuente || 'DolarApi',
   no_disponible: noDisponible,
 };
 

@@ -1,0 +1,110 @@
+{
+  "generado": "2026-10-22T09:24:31.496Z",
+  "edicion": {
+    "numero": 3,
+    "fecha": "2026-10-22",
+    "cierre": "2026-10-22T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.75,
+        8.75,
+        9.25,
+        8.75
+      ],
+      "iteraciones": 3
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.847,
+        "mayor_rectangulo_vacio": 0.032,
+        "hueco_mm": {
+          "x": 129,
+          "y": 224,
+          "ancho": 57,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.899,
+        "mayor_rectangulo_vacio": 0.027,
+        "hueco_mm": {
+          "x": 129,
+          "y": 248,
+          "ancho": 57,
+          "alto": 24
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.798,
+        "mayor_rectangulo_vacio": 0.106,
+        "hueco_mm": {
+          "x": 129,
+          "y": 176,
+          "ancho": 57,
+          "alto": 95
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.87,
+        "mayor_rectangulo_vacio": 0.04,
+        "hueco_mm": {
+          "x": 62,
+          "y": 238,
+          "ancho": 62,
+          "alto": 33
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-10-22T06:55:00-03:00",
+      "hallazgos": [
+        "Página 4: la columna de datos desbordaba 5 px (glosario largo).",
+        "Página 3: la línea de fuente de SAP quedaba sola al tope de la tercera columna.",
+        "Página 4: el aviso del dólar decía 'vía DolarApi' aunque el dato salió del respaldo (Ámbito)."
+      ],
+      "correcciones": [
+        "Definiciones del glosario acortadas.",
+        "Nota de SAP recortada para que la fuente quede con su texto.",
+        "datos.js/render.js aceptan dolar_fuente en comentarios.json; el aviso dice 'vía Ámbito'.",
+        "Se quitaron OrcaSlicer 2.5, Form Studio 1 y TorchNeuron porque ya salieron en la edición Nº 1."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-22/De-Villa-Urquiza-al-Mundo-N3-2026-10-22.pdf"
+}

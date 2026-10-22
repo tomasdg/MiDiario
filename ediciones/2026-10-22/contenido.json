@@ -1,0 +1,700 @@
+{
+ "edicion": {
+  "numero": 3,
+  "fecha": "2026-10-22",
+  "cierre": "2026-10-22T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "php2shell",
+   "seccion": "principal",
+   "titulo": "PHP corrige dos fallas críticas que dejan tomar servidores web",
+   "bajada": "Las vulnerabilidades, llamadas PHP2Shell, ya tienen intentos de ataque y la única solución completa es actualizar.",
+   "cuerpo": [
+    "El equipo de seguridad de PHP, el lenguaje con el que funciona cerca del 70% de los sitios web cuyo lenguaje de servidor se conoce, publicó el miércoles 21, después de haberlas anunciado el martes, versiones de emergencia para corregir dos fallas que permiten ejecutar código en un servidor a distancia y sin credenciales. Se identifican como CVE-2026-109618 y CVE-2026-109619, recibieron 9,2 puntos sobre 10 en la escala de gravedad CVSS y se conocen en conjunto como PHP2Shell.",
+    "Las dos tienen el mismo origen: PHP puede quedar con la memoria corrupta cuando una solicitud termina de forma anormal. La primera se dispara con pedidos armados para agotar la memoria; la segunda es un error de tipo use-after-free (ver glosario) en datos que sobreviven de una solicitud a la siguiente. Afectan a PHP-FPM, Apache con mod_php, php-cgi, FrankenPHP y LiteSpeed, y el riesgo es mayor con mod_php, donde ya se demostró un ataque. La firma Calif, que publicó el análisis técnico, dice haber logrado la ejecución remota contra versiones de WordPress, Drupal, Joomla y Magento.",
+    "Las versiones corregidas son 8.5.12, 8.4.27, 8.3.36 y 8.2.35. Para las ramas 7.4 a 8.1 sólo hay parches mínimos de código fuente, y de la 5.4 a la 7.3 no habrá arreglo. Amazon detectó un primer intento de explotación el 17 de octubre, cuatro días antes del anuncio, y Cloudflare informó ataques que ya filtra con su firewall de aplicaciones web (WAF). Según cálculos citados por Tenable, hay entre 1,3 y 1,9 millones de servidores PHP expuestos a internet.",
+    "Hay además un dato de época: entre quienes encontraron las fallas figuran investigadores de Wiz, de Calif y de OpenAI, y Calif y Wiz dijeron que usaron modelos de IA en la búsqueda. Para quien tenga un sitio propio o en un alojamiento contratado, el consejo de los especialistas es actualizar PHP ya o pedirle al proveedor que confirme que lo hizo. Los ajustes de configuración sugeridos mientras tanto reducen el riesgo pero no lo eliminan, y el equipo de respuesta de la Unión Europea recomienda sacar de internet las aplicaciones expuestas hasta verificar que el parche está aplicado y funciona."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+     "medio": "BleepingComputer",
+     "titulo": "PHP ships emergency patches for critical PHP2Shell flaws",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.tenable.com/blog/php2shell-cve-2026-109618-cve-2026-109619-frequently-asked-questions-about-critical-php-remote",
+     "medio": "Tenable",
+     "titulo": "php2shell (CVE-2026-109618, CVE-2026-109619): Frequently asked questions",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php/",
+     "medio": "Rapid7",
+     "titulo": "CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Claude Duet, el agente que escribe primero",
+    "resumen": "Revisa las apps conectadas, manda un resumen matinal y pide permiso antes de actuar. Por ahora, lista de espera para Pro y Max en Estados Unidos.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Llegan los avisos de ChatGPT al país",
+    "resumen": "OpenAI extendió la publicidad a 26 países, entre ellos la Argentina. Sólo la ven los planes Free y Go; Plus y Pro siguen sin avisos.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Meta factura más, pero gasta todavía más en IA",
+    "resumen": "Ingresos de US$ 64.600 millones, 26% más. Un acuerdo judicial y la inversión en centros de datos dejaron su flujo de caja en rojo.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Tesla gana 43% menos y mira a SpaceX",
+    "resumen": "Ingresos planos y fuerte suba del gasto en investigación. Musk confirmó comités para estudiar una fusión; Bloomberg habla de un acuerdo en 2027.",
+    "pagina": 3
+   },
+   {
+    "titulo": "OpenAI llega a la nube de Google",
+    "resumen": "Sus modelos y Codex se suman al catálogo de Google Cloud: OpenAI ya está en las tres grandes nubes de Estados Unidos.",
+    "pagina": 2
+   },
+   {
+    "titulo": "IBM cae 5% pese a superar lo esperado",
+    "resumen": "Facturó US$ 17.100 millones, 5% más, pero la consultoría quedó por debajo de lo previsto y la acción bajó fuera de hora.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Nvidia abre un motor de CAD",
+    "resumen": "SMLib, el núcleo que hace las operaciones con sólidos, queda libre para uso comercial: base para nuevas herramientas de diseño e impresión 3D.",
+    "pagina": 4
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Cómo poner a varios agentes a investigar y cruzar fuentes.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Tesla y SpaceX formaron comités para evaluar una fusión.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Snapmaker suma blanco para mezclar más de cien colores.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Lluvia y viento del este en Villa Urquiza; máxima de 20°.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Miércoles 28 de octubre",
+    "texto": "Alphabet y Microsoft presentan resultados; Amazon, esa misma semana."
+   },
+   {
+    "cuando": "Jueves 29 de octubre",
+    "texto": "Intel presenta resultados del tercer trimestre, tras el cierre de Wall Street."
+   },
+   {
+    "cuando": "Noviembre",
+    "texto": "Debut previsto de Anthropic en la bolsa, según The Wall Street Journal."
+   },
+   {
+    "cuando": "19 de enero de 2027",
+    "texto": "Entra en vigor la nueva clase de acciones sin voto de Meta."
+   },
+   {
+    "cuando": "Primer semestre de 2027",
+    "texto": "Plazo que buscan Tesla y SpaceX para anunciar una fusión, según Bloomberg."
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "US$ 34.906 millones",
+   "texto": "Lo que invirtió Meta en un solo trimestre, sobre todo en centros de datos para IA: casi el doble que un año atrás."
+  }
+ },
+ "notas": [
+  {
+   "id": "claude-duet",
+   "seccion": "ia",
+   "titulo": "Anthropic presenta Claude Duet, un agente que avisa antes de que le pidas",
+   "bajada": "Revisa las apps conectadas cada pocas horas, manda un resumen a la mañana y trabaja en su propia máquina virtual; por ahora es sólo para Pro y Max en Estados Unidos.",
+   "cuerpo": [
+    "Anthropic abrió el miércoles 21 la lista de espera de Claude Duet, un agente «proactivo» en vista previa de investigación. A diferencia del chat, no espera una consulta: se conecta a las aplicaciones que el usuario ya vinculó a su cuenta de Claude, las revisa cada pocas horas y escribe sólo cuando algo pide atención. Cada mañana manda un resumen breve con los pendientes. Usa el modelo Opus 5.5 y corre en una máquina virtual propia, con navegador, así que sigue con una tarea aunque el usuario cierre la sesión.",
+    "Puede agendar reuniones, armar tableros, preparar proyecciones de ventas o prototipar aplicaciones web. Aprovecha la memoria, las habilidades y los conectores de la cuenta, y todo pasa en un único hilo de conversación. Antes de enviar un mensaje, pagar, firmar un documento o borrar un archivo pide permiso; según la empresa, nunca ve contraseñas ni credenciales, y un clasificador revisa cada mensaje para evitar que se filtren datos sensibles.",
+    "Llega después de Muse, de Meta, y de Dots, de OpenAI. Engadget remarca una diferencia de precio: Dots exige el plan Pro de OpenAI, desde US$ 100 por mes, mientras que Duet llegará al plan Pro de Claude, de US$ 20, cuando salga en forma general. Por ahora se usa en la web y en una app para iOS; la de Android vendrá después. Una advertencia práctica: gasta los mismos límites de uso que el resto de Claude, incluidas sus revisiones en segundo plano. Desde la Argentina todavía no es posible anotarse."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/",
+     "medio": "MacRumors",
+     "titulo": "Anthropic Launches Claude Duet, a Proactive AI Agent",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
+     "medio": "Engadget",
+     "titulo": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-avisos-ar",
+   "seccion": "ia",
+   "titulo": "Los avisos de ChatGPT llegan a la Argentina",
+   "bajada": "OpenAI sumó 26 países, entre ellos 14 latinoamericanos, y ya muestra publicidad en 89 mercados a los usuarios de los planes gratuito y Go.",
+   "cuerpo": [
+    "OpenAI anunció el miércoles 21 que extiende la publicidad en ChatGPT a 26 países más, con lo que llega a 89. Entre los nuevos hay 14 de América Latina —Argentina, Chile, Colombia y Perú, entre otros—, que se suman a México y Brasil, además de Nigeria, Sudáfrica, Ucrania y Pakistán.",
+    "Los avisos aparecen sólo en los planes Free y Go; Plus, Pro y Enterprise siguen sin publicidad. La empresa asegura que no comparte conversaciones con los anunciantes ni vende datos de sus clientes. Desde que estrenó el formato, hace poco más de ocho meses, más de 100.000 anunciantes hicieron campañas. En agosto OpenAI dijo que la publicidad ya facturaba a un ritmo de US$ 1.000 millones anuales, y Reuters informó que apunta a US$ 2.500 millones este año. ChatGPT supera los 1.200 millones de usuarios semanales."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://qz.com/openai-chatgpt-ads-26-countries-89-total-102126",
+     "medio": "Quartz",
+     "titulo": "OpenAI is rolling out ChatGPT ads in 26 more countries, bringing its total to 89",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.unite.ai/openai-extends-chatgpt-ads-to-89-countries-with-26-market-expansion/",
+     "medio": "Unite.AI",
+     "titulo": "OpenAI Extends ChatGPT Ads to 89 Countries with 26-Market Expansion",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-google-cloud",
+   "seccion": "ia",
+   "titulo": "Los modelos de OpenAI ya se venden en Google Cloud",
+   "bajada": "Con el acuerdo, la empresa de ChatGPT queda en las tres grandes nubes de Estados Unidos, incluida la de su competidor directo.",
+   "cuerpo": [
+    "OpenAI y Google anunciaron el miércoles 21 que los modelos de frontera de OpenAI y los flujos de trabajo de Codex, su agente de programación, se suman a Model Garden, el catálogo de modelos de Google Cloud, donde los clientes pueden comprarlos. La integración con Gemini Agent y con Antigravity, el entorno de programación de Google, llegará más adelante. El anuncio no detalló qué modelos entran ni con qué precios.",
+    "Las nubes se convierten en el principal canal de venta de los laboratorios: según PYMNTS, Anthropic obtuvo el 47% de sus ingresos de 2025 a través de las plataformas de Amazon y Google, que suelen cobrar un porcentaje de lo que se vende en ellas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-its-frontier-ai-models-to-google-cloud/",
+     "medio": "PYMNTS",
+     "titulo": "OpenAI Brings Its Frontier AI Models to Google Cloud",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-orchestra",
+   "seccion": "ia",
+   "titulo": "OpenAI compra Orchestra Bio para acelerar el desarrollo de fármacos",
+   "cuerpo": [
+    "OpenAI anunció el miércoles 21 la compra de Orchestra Bio, una startup cuyos agentes siguen los ensayos clínicos de los laboratorios, detectan cuándo un problema —por ejemplo, un lote de producción fallido— pone en riesgo los plazos y proponen alternativas. Se integrará a Rosalind, la plataforma de OpenAI para ciencias de la vida, que incluye el modelo GPT-Rosalind. No se informó el precio. Desarrollar un medicamento en Estados Unidos lleva en promedio de 10 a 15 años; OpenAI ya trabaja con Novo Nordisk y Moderna."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/",
+     "medio": "The Decoder",
+     "titulo": "OpenAI acquires Orchestra Bio to build AI agents that speed up drug development",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "stubbs-ltbt",
+   "seccion": "breve",
+   "titulo": "Un físico de Harvard entra al fideicomiso que controla Anthropic",
+   "cuerpo": [
+    "Christopher Stubbs, que participó del descubrimiento de la expansión acelerada del universo y asesora al gobierno de Estados Unidos en el grupo JASON, se sumó el miércoles al Long-Term Benefit Trust, el órgano independiente que designa a la mayoría del directorio de Anthropic."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+     "medio": "Anthropic",
+     "titulo": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "ia"
+  },
+  {
+   "id": "meta-resultados",
+   "seccion": "empresas",
+   "titulo": "Meta vende 26% más, pero el gasto en IA y un acuerdo judicial le recortan la ganancia",
+   "bajada": "Facturó US$ 64.600 millones en el trimestre, más de lo esperado; invirtió US$ 34.900 millones y su flujo de caja libre quedó en rojo.",
+   "cuerpo": [
+    "Meta presentó el miércoles 21 sus resultados del tercer trimestre: ingresos de US$ 64.601 millones, 26% más que un año antes y por encima de los US$ 63.300 millones que esperaban los analistas. La ganancia neta fue de US$ 9.860 millones (US$ 3,83 por acción), golpeada por un cargo de US$ 9.890 millones por el acuerdo de agosto con 52 fiscales generales de Estados Unidos por el efecto de las redes en la salud mental de los adolescentes. Sin ese cargo, la ganancia por acción habría sido de US$ 7,40. El margen operativo bajó a 20%, contra 40% un año atrás.",
+    "La inversión en centros de datos para IA sigue en alza: US$ 34.906 millones en el trimestre, contra US$ 19.400 millones un año antes. Eso dejó el flujo de caja libre (ver glosario) en US$ 2.120 millones negativos. Para todo 2026 estrechó la previsión de inversión a US$ 135.000-145.000 millones, y para el cuarto trimestre espera ingresos de US$ 73.000-76.000 millones, una guía que el mercado leyó bien: la acción subía 1,5% fuera de hora.",
+    "Meta tiene 3.640 millones de usuarios diarios en sus aplicaciones y 66.775 empleados, 15% menos que hace un año. Además, el directorio aprobó una nueva clase de acciones sin voto: cada accionista recibirá una acción clase C por cada A o B, con vigencia prevista para el 19 de enero de 2027."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html",
+     "medio": "StockTitan (comunicado de Meta)",
+     "titulo": "Meta Q3 2026 earnings: revenue up 26% to $64.6B",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/",
+     "medio": "Fortune",
+     "titulo": "Meta's revenue surges 26% to $64.6 billion",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth",
+     "medio": "Newsquawk",
+     "titulo": "Daily US Equity Opening News",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "tesla-resultados",
+   "seccion": "empresas",
+   "titulo": "Tesla gana 43% menos y estudia fusionarse con SpaceX",
+   "bajada": "Los ingresos quedaron planos en US$ 28.050 millones, el gasto en investigación subió 69% y la acción cayó 4,3% fuera de hora.",
+   "cuerpo": [
+    "Tesla informó el miércoles 21 ingresos de US$ 28.050 millones en el tercer trimestre, iguales a los de un año antes, y una ganancia neta de US$ 787 millones, 43% menos. La ganancia ajustada por acción, de US$ 0,48, superó los US$ 0,45 esperados, y el margen bruto automotriz sin créditos regulatorios mejoró a 18,1%. Pero el gasto en investigación y desarrollo trepó 69%, a US$ 2.760 millones, y el resultado operativo cayó 56%, a US$ 718 millones.",
+    "El robotaxi acumula casi 2 millones de millas sin supervisión y el Cybercab ya circula en Austin; las suscripciones activas al manejo asistido FSD llegaron a 1,74 millones. En paralelo, Elon Musk dijo que Tesla y SpaceX formaron comités especiales para evaluar una fusión, y Bloomberg informó, con fuentes anónimas, que buscan anunciar un acuerdo en el primer semestre de 2027. Ninguna de las dos empresas confirmó plazos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+     "medio": "Electrek",
+     "titulo": "Tesla (TSLA) releases Q3 2026 financial results",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
+     "medio": "Teslarati",
+     "titulo": "Tesla Q3 2026 Earnings results",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://gizmodo.com/insiders-reportedly-say-tesla-spacex-merger-must-close-before-trump-leaves-office-2000829228",
+     "medio": "Gizmodo",
+     "titulo": "Insiders Reportedly Say Tesla-SpaceX Merger Must Close Before Trump Leaves Office",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "ibm-resultados",
+   "seccion": "empresas",
+   "titulo": "IBM supera lo esperado, pero la consultoría decepciona y la acción cae 5%",
+   "cuerpo": [
+    "IBM facturó US$ 17.100 millones en el tercer trimestre, 5% más que un año antes, según el comunicado que presentó el miércoles 21 ante la SEC. Software creció 8%, con Red Hat 11% arriba, e infraestructura 4%, aunque los mainframes IBM Z cayeron 20%. Consultoría quedó plana en US$ 5.300 millones, algo debajo de lo previsto. La ganancia operativa por acción fue de US$ 2,95, contra US$ 2,86 esperados. IBM mantuvo su meta de crecer 4% a 5% en 2026 y mejoró la de flujo de caja libre, pero la acción cayó 5% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm",
+     "medio": "IBM (SEC, 8-K)",
+     "titulo": "IBM third-quarter 2026 results",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth",
+     "medio": "Newsquawk",
+     "titulo": "Daily US Equity Opening News",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "txn-resultados",
+   "seccion": "empresas",
+   "titulo": "Texas Instruments vende 28% más por los centros de datos y los autos",
+   "cuerpo": [
+    "El fabricante de chips analógicos facturó US$ 6.055 millones en el tercer trimestre, 28% más que un año antes, y ganó US$ 2.425 millones, 78% más. Para el cuarto trimestre prevé ventas de US$ 5.800 a 6.300 millones. Su presidente, Haviv Ilan, habló de un crecimiento amplio en industria, automotriz y centros de datos. La acción casi no se movió por los planes de mayor inversión."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000165/q32026txnex99-eredgar.htm",
+     "medio": "Texas Instruments (SEC, 8-K)",
+     "titulo": "TI reports Q3 2026 financial results",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "sap-resultados",
+   "seccion": "empresas",
+   "titulo": "SAP crece 26% en la nube y mejora su previsión",
+   "cuerpo": [
+    "La alemana SAP facturó 10.300 millones de euros en el tercer trimestre, por encima de los 10.100 millones esperados. Los ingresos de la nube subieron 26%, a 6.668 millones, y la cartera de contratos de nube firmados creció 28%, a 24.144 millones. El resultado operativo ajustado fue de 3.000 millones, contra 2.930 millones previstos, y prevé cerrar el año con la nube en la parte alta de su rango. Su acción subía 2% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth",
+     "medio": "Newsquawk",
+     "titulo": "Daily US Equity Opening News",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "nokia-lam",
+   "seccion": "breve",
+   "titulo": "Nokia y Lam Research, empujadas por la IA",
+   "cuerpo": [
+    "Nokia ganó 605 millones de euros operativos ajustados, contra 454 millones esperados, con ventas a clientes de IA y nube 123% arriba. Lam Research superó las estimaciones y prevé que el mercado de equipos para fabricar obleas pase los US$ 200.000 millones en 2027."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news---tsla-falls-after-earnings-tsla--spcx-said-to-target-h1-2027-merger-meta-rises-on-beatoutlook-ibm-falls-despite-beat-sap-gy-rises-on-cloud-growth",
+     "medio": "Newsquawk",
+     "titulo": "Daily US Equity Opening News",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "resultados-proximos",
+   "seccion": "breve",
+   "titulo": "Alphabet y Microsoft presentan el miércoles 28",
+   "cuerpo": [
+    "La temporada de balances de las grandes tecnológicas sigue el miércoles 28 con Alphabet y Microsoft; Amazon presenta esa misma semana e Intel, el jueves 29 después del cierre de Wall Street."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thefinanceflow.substack.com/p/the-next-two-weeks-decide-the-ai",
+     "medio": "The Finance Flow",
+     "titulo": "The Next Two Weeks Decide the AI Trade",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    },
+    {
+     "url": "https://marketbeat.com/instant-alerts/upcoming-intel-intc-expected-to-announce-earnings-on-thursday-2026-10-22",
+     "medio": "MarketBeat",
+     "titulo": "Intel (INTC) Expected to Announce Earnings",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "nvidia-smlib",
+   "seccion": "impresion3d",
+   "titulo": "Nvidia libera un motor de CAD para que cualquiera arme sus propias herramientas",
+   "bajada": "SMLib, el núcleo geométrico que hace las operaciones con sólidos, queda con licencia Apache 2.0 y uso comercial permitido.",
+   "cuerpo": [
+    "Nvidia publicó como código abierto SMLib, un kernel geométrico (ver glosario) para crear y editar modelos sólidos precisos, como parte de su biblioteca USD BRep. Es la pieza que trabaja debajo de cualquier programa de CAD: une y corta sólidos, redondea aristas y describe superficies curvas con ecuaciones, en lugar de los triángulos planos de un archivo STL. Se distribuye con licencia Apache 2.0, que permite usarlo en productos comerciales, e incluye conexión con Python para modelar con guiones.",
+    "Para la impresión 3D abre puertas concretas: un desarrollador podría generar soportes a medida a partir de dimensiones, editar diseños a partir de texto, revisar reglas de fabricación o convertir un sólido en malla para el laminador sin pagar la licencia de un núcleo comercial. Fabbaloo, que lo informó el 19 de octubre, aclara los límites: no es un programa completo, no trae interfaz, bocetos ni laminador, y por ahora Nvidia no acepta contribuciones externas. FreeCAD usa otro núcleo libre, Open CASCADE, así que SMLib aparece como alternativa para evaluar."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-19",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/a-powerful-cad-kernel-is-now-available-for-3d-printing-developers",
+     "medio": "Fabbaloo",
+     "titulo": "A Powerful CAD Kernel Is Now Available For 3D Printing Developers",
+     "fecha_publicacion": "2026-10-19",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-blanco",
+   "seccion": "impresion3d",
+   "titulo": "Snapmaker agrega blanco para mezclar colores con cuatro bobinas",
+   "cuerpo": [
+    "Snapmaker lanzó el martes 20 una nueva edición de su paquete PLA Full Spectrum para la U1, su impresora con cambiador de herramientas: reemplaza la bobina gris por una blanca, para aclarar mezclas e imprimir zonas blancas, y reformula el cian, el magenta y el amarillo. El sistema alterna capas finas de filamento semitranslúcido y el ojo percibe el color combinado; con cuatro bobinas salen más de cien tonos. No logra negro puro ni sirve para piezas planas o muy detalladas: recomiendan boquilla de 0,4 mm o menos y capas de 0,1 mm. Cuesta US$ 69,99 los cuatro kilos en la tienda de Estados Unidos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/snapmaker-adds-white-to-the-mix-for-far-more-color-options-from-four-spools/",
+     "medio": "All3DP",
+     "titulo": "Snapmaker Adds White to the Mix for Far More Color Options From Four Spools",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "carbon-sillines",
+   "seccion": "impresion3d",
+   "titulo": "Carbon ya imprimió un millón de asientos de bicicleta",
+   "cuerpo": [
+    "La empresa estadounidense superó el millón de sillines fabricados con su proceso de resina DLS, en los que la espuma se reemplaza por una celosía impresa. Los usan 11 marcas en más de 60 modelos, entre ellos el fizik Argo Adaptive con el que corrió Tadej Pogačar en el Tour de Francia y el nuevo Selle Italia Unica."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/6/carbon-passes-1-million-mark-for-dls-printed-bike-saddles/",
+     "medio": "All3DP",
+     "titulo": "Carbon has now 3D printed more than 1 million bike saddles",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "palisades-repuestos",
+   "seccion": "impresion3d",
+   "titulo": "Imprimir repuestos que ya nadie fabrica, el desafío de una central nuclear que vuelve",
+   "cuerpo": [
+    "Holtec intenta reiniciar Palisades, una central de unos 800 MW en Michigan que había comprado en 2022 para desmantelarla, con un préstamo federal de US$ 1.520 millones y US$ 300 millones del estado. La obra resultó más compleja de lo previsto y en julio quedaban más de 5.000 tareas menores. Un análisis publicado en Fabbaloo el 20 de octubre propone escanear las piezas obsoletas y guardar modelos digitales certificados para imprimirlas cuando hagan falta, y recuerda que el laboratorio de Oak Ridge imprimió un álabe de turbina de acero en 12 horas, contra esperas de hasta dos años por fundición."
+   ],
+   "tipo": "analisis",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/rebuilding-palisades-can-3d-printing-solve-nuclears-legacy-parts-problem",
+     "medio": "Fabbaloo",
+     "titulo": "Rebuilding Palisades: Can 3D Printing Solve Nuclear's Legacy Parts Problem?",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "print-rig",
+   "seccion": "breve",
+   "titulo": "Un configurador libre para armar tu propia impresora",
+   "cuerpo": [
+    "3D Print Rig, un proyecto abierto en GitHub, deja elegir pórtico, cabezal, extrusor y ventilación y muestra la máquina en 3D a medida que se cambian piezas. Exporta la lista en un archivo JSON para comprarlas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/build-your-own-3d-printer-with-3d-print-rig",
+     "medio": "Fabbaloo",
+     "titulo": "Build Your Own 3D Printer with 3D Print Rig",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "polymaker-cymphonik",
+   "seccion": "breve",
+   "titulo": "Polymaker tiñe pellets de cualquier color",
+   "cuerpo": [
+    "CymphoniK mezcla pellets, el material en grano de las impresoras industriales de gran formato, a partir de seis bases: cian, magenta, amarillo, negro, blanco y neutro. Un programa calcula con IA la receta para un color pedido. No informó precio."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/polymakers-cymphonik-creates-any-color-with-pellets",
+     "medio": "Fabbaloo",
+     "titulo": "Polymaker's CymphoniK Creates Any Color With Pellets",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "cadlingo-2",
+   "seccion": "breve",
+   "titulo": "CADlingo 2.0 diseña piezas a partir de texto",
+   "cuerpo": [
+    "El servicio genera modelos paramétricos editables, exportables en STEP, desde una descripción escrita; ahora arma conjuntos de varias piezas y pregunta cuando faltan datos. Está en beta: bajar el STL es gratis y el STEP, pago."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/335333/3d-printing-news-briefs-10-21-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, October 21, 2026",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-22T06:15:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  }
+ ],
+ "claude_tip": {
+  "titulo": "Mandá a Claude Code a investigar con fuentes cruzadas",
+  "donde": "Claude Code (planes pagos; en Pro hay que activarlo)",
+  "origen": "Visto en el blog de Simon Willison",
+  "texto": [
+   "El 16 de octubre, Simon Willison contó que armó sparqlite, un motor de consultas SPARQL dentro de SQLite, con Claude Code en modo «ultracode»: el agente escribió un guion que coordinó una red de subagentes durante más de 12 horas. Esa misma función, los flujos de trabajo dinámicos, trae lista una receta más modesta y útil para cualquiera: /deep-research.",
+   "Sirve porque reparte una pregunta entre varios agentes que buscan en paralelo, contrastan las fuentes entre sí y descartan lo que no se sostiene; al final entrega un único informe con citas, y la sesión queda libre mientras tanto."
+  ],
+  "pasos": [
+   "En el plan Pro, escribí /config y activá «Dynamic workflows» (en Max, Team y Enterprise ya viene activado).",
+   "Lanzá la pregunta: «/deep-research ¿Qué cambió en el modelo de permisos de Node.js entre la versión 20 y la 22?» y aprobá el plan.",
+   "Seguí el avance con /workflows. Para una tarea propia, empezá el pedido con «ultracode:» y, si el resultado sirve, guardalo con la tecla s.",
+   "Ojo: gasta bastante más uso que una sesión normal; probá primero con algo acotado."
+  ],
+  "fuentes": [
+   {
+    "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
+    "medio": "Simon Willison's Weblog",
+    "titulo": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
+    "fecha_publicacion": "2026-10-16",
+    "consultado": "2026-10-22T06:15:00-03:00"
+   },
+   {
+    "url": "https://code.claude.com/docs/en/workflows",
+    "medio": "Documentación de Claude Code",
+    "titulo": "Orchestrate subagents at scale with dynamic workflows",
+    "fecha_publicacion": "2026-10-22",
+    "consultado": "2026-10-22T06:15:00-03:00"
+   },
+   {
+    "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+    "medio": "Blog de Claude",
+    "titulo": "Introducing dynamic workflows in Claude Code",
+    "fecha_publicacion": "2026-05-28",
+    "consultado": "2026-10-22T06:15:00-03:00"
+   }
+  ]
+ },
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Use-after-free",
+   "definicion": "Falla en la que un programa sigue usando memoria que ya liberó; permite a un atacante ejecutar su propio código.",
+   "ejemplo": "Una de las dos fallas de PHP2Shell.",
+   "nota_relacionada": "php2shell"
+  },
+  {
+   "termino": "WAF",
+   "definicion": "Firewall de aplicaciones web: filtro delante de un sitio que bloquea pedidos con patrones de ataque conocidos.",
+   "ejemplo": "Cloudflare frena así los primeros ataques contra PHP.",
+   "nota_relacionada": "php2shell"
+  },
+  {
+   "termino": "Flujo de caja libre",
+   "definicion": "Efectivo que genera la operación menos lo invertido en equipos e instalaciones.",
+   "ejemplo": "Meta quedó en US$ 2.120 millones negativos.",
+   "nota_relacionada": "meta-resultados"
+  },
+  {
+   "termino": "Kernel geométrico",
+   "definicion": "Núcleo matemático de un programa de CAD: calcula las uniones, cortes y superficies de los sólidos. Las aplicaciones le ponen encima la interfaz y las herramientas.",
+   "ejemplo": "SMLib, el que liberó Nvidia.",
+   "nota_relacionada": "nvidia-smlib"
+  }
+ ],
+ "fe_de_erratas": []
+}

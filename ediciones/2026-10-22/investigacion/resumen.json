@@ -1,0 +1,26 @@
+{
+  "consultado_el": "2026-10-22T06:15:00-03:00",
+  "nota": "Investigación directa con WebSearch/WebFetch; las notas finales están en contenido.json.",
+  "descartadas": [
+    {
+      "tema": "Tenstorrent Serie E",
+      "motivo": "ya publicada el 20/10"
+    },
+    {
+      "tema": "Renuncias en DeepMind",
+      "motivo": "fuente encontrada era de julio"
+    },
+    {
+      "tema": "Proyecto de ley de Anthropic",
+      "motivo": "hecho del 17/10, fuera de ventana"
+    },
+    {
+      "tema": "Detalles de SAP en finanztrends",
+      "motivo": "fechas inconsistentes"
+    }
+  ],
+  "datos": {
+    "dolar": "DolarApi no respondió a WebFetch (2 intentos, permiso no concedido a tiempo); se usó Ámbito 21/10 16:22: $1.495/$1.545",
+    "clima": "MET Norway (2 URLs) y SMN no respondieron a WebFetch; se usó Meteored"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-22T08:55:00Z",
+  "fuente": "Meteored (MET Norway y SMN no respondieron)",
+  "dias": [
+    {
+      "fecha": "2026-10-22",
+      "codigo_wmo": 63,
+      "max": 20,
+      "min": 14,
+      "precip_mm": 7.1,
+      "viento_kmh": 47
+    },
+    {
+      "fecha": "2026-10-23",
+      "codigo_wmo": 61,
+      "max": 20,
+      "min": 15,
+      "precip_mm": 0.9,
+      "viento_kmh": 32
+    },
+    {
+      "fecha": "2026-10-24",
+      "codigo_wmo": 61,
+      "max": 19,
+      "min": 13,
+      "precip_mm": 0.5,
+      "viento_kmh": 43
+    },
+    {
+      "fecha": "2026-10-25",
+      "codigo_wmo": 61,
+      "max": 17,
+      "min": 11,
+      "precip_mm": 2.8,
+      "viento_kmh": 31
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": []
+}

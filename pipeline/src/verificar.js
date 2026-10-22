@@ -102,7 +102,7 @@ export function registroEdicion(contenido, preflight) {
     glosario: contenido.glosario.map(g => g.termino),
     claude_tip: contenido.claude_tip ? { titulo: contenido.claude_tip.titulo, urls: contenido.claude_tip.fuentes.map(f => f.url) } : null,
     dolar_oficial: of ? { compra: of.compra, venta: of.venta, fecha: contenido.edicion.fecha } : null,
-    fuentes_datos: [contenido.clima.fuente, 'DolarApi'],
+    fuentes_datos: [contenido.clima.fuente, contenido.finanzas.fuente || 'DolarApi'],
     preflight: { ok: preflight.ok, generado: preflight.generado },
   };
 }
