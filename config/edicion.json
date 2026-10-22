@@ -131,6 +131,7 @@
     "repo_github": "tomasdg/midiario",
     "rama": "main",
     "artifact_url": "https://claude.ai/artifact/RxHG9iJuGy7fV5YpHDTuYu",
-    "nota": "Cada edición se publica en la página de Claude \"De Villa Urquiza al Mundo\" (artifact_url), siempre en el mismo link. El PDF y el registro anti-repetición se guardan en este repositorio (ediciones/ e historial/ediciones/). El aviso por mail lo manda la tarea programada al terminar, con el resumen final de la corrida."
+    "nota": "Cada edición se publica en la página de Claude \"De Villa Urquiza al Mundo\" (artifact_url), siempre en el mismo link. El PDF y el registro anti-repetición se guardan en este repositorio (ediciones/ e historial/ediciones/). El aviso por mail lo manda la tarea programada al terminar, con el resumen final de la corrida.",
+    "artifact_semanal_url": "https://claude.ai/artifact/TrPYjYbpky1iCi7whqvZtM"
   }
 }

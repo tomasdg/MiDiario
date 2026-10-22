@@ -36,6 +36,12 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Clima: no se acepta "no disponible" sin agotar la cadena de respaldo del procedimiento (MET Norway con dos URLs, control de `updated_at` por cachés viejas y, si hace falta, el pronóstico del SMN u otro servicio reconocido).
 - La edición Nº 2 se rearmó con el nuevo nombre, el dólar de cierre del martes 20 ($ 1.495 / $ 1.545) y el pronóstico de MET Norway de las 08:23.
 
+## Resumen semanal para NotebookLM y YouTube — 21 de octubre de 2026
+
+- Pedido del lector: con las ediciones de la semana, armar material para que NotebookLM haga un podcast o video y subir un video por semana a YouTube.
+- NotebookLM no tiene conector ni API pública: Claude arma la fuente y las instrucciones de personalización; el lector genera el video y lo sube a mano. El guion lo hace NotebookLM.
+- Tarea programada aparte, los domingos (`pipeline/SEMANAL.md`), con página propia de link fijo.
+
 ## Fe de erratas pendiente
 
 (ninguna)

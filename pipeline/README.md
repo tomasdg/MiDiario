@@ -7,6 +7,7 @@ Node + Playwright (Chromium). En la nube de Claude no hace falta instalar nada: 
 | `node src/datos.js ../ediciones/AAAA-MM-DD AAAA-MM-DD` | Arma `datos/finanzas.json` (dólar oficial) y `datos/clima.json` desde los datos crudos. |
 | `node src/build.js ../ediciones/AAAA-MM-DD --html` | Valida el esquema, verifica fuentes y anti-repetición, renderiza, ajusta el cuerpo tipográfico por página, corre el preflight y escribe HTML, PNG y `preflight.json`. No genera PDF: sirve para iterar. |
 | `node src/build.js ../ediciones/AAAA-MM-DD` | Lo mismo y, si todo está en verde, genera el PDF y el registro en `historial/ediciones/`. |
+| `node src/semanal.js AAAA-MM-DD` | Junta las ediciones de los últimos 7 días y arma en `semanal/AAAA-MM-DD/` la fuente para NotebookLM, los datos de YouTube y la página semanal (ver `SEMANAL.md`). |
 | `node src/web.js ../ediciones/AAAA-MM-DD` | Genera `web/index.html`, la versión para publicar como página de Claude, con link al PDF en GitHub. |
 
 Archivos:

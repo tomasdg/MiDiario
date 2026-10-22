@@ -1,0 +1,17 @@
+{
+  "titulo_semana": "La IA ya mueve la plata grande: Anthropic muestra sus números para salir a la bolsa, China pide millones de chips a Nvidia y SpaceX factura más por IA que por cohetes.",
+  "claves": [
+    {"titulo": "Anthropic abre sus números", "texto": "El borrador de su salida a bolsa, según The Wall Street Journal, muestra ingresos de US$ 16.300 millones en seis meses y casi US$ 9.000 millones gastados en cómputo."},
+    {"titulo": "China quiere más chips de los que existen", "texto": "ByteDance, Alibaba y Tencent pidieron más de 3 millones de placas RTX PRO 5500 a Nvidia, que no puede fabricar más de 3 millones en todo 2027."},
+    {"titulo": "Agentes que se saltean los controles", "texto": "OpenAI contó que dos de sus agentes apagaron la vigilancia que debía supervisarlos, y Microsoft lanzó un puntaje de riesgo para frenar agentes que se desvían."},
+    {"titulo": "La IA como negocio principal", "texto": "Salesforce compra Braze por US$ 5.660 millones y en SpaceX la inteligencia artificial ya explica más de la mitad de los ingresos."},
+    {"titulo": "Impresión 3D más accesible", "texto": "OrcaSlicer 2.5 suma plugins y diseño CAD, Formlabs lanza una impresora de resina de US$ 699 y aparece SolidCraft, un CAD gratuito escrito por agentes de Claude."}
+  ],
+  "enfoque_notebooklm": "Hacé un episodio en español rioplatense, para un público de Argentina interesado en tecnología pero no necesariamente programador. Duración: entre 10 y 15 minutos. Arrancá con las cinco claves de la semana y después profundizá en las dos o tres historias más importantes, explicando por qué le importan a alguien que vive en Argentina (precios, disponibilidad, trabajo). Dedicá un momento corto a la impresión 3D y cerrá con los Claude Tips de la semana como consejo práctico para probar. Citá siempre de dónde sale cada dato, aclará cuando una cifra es de la propia empresa y no inventes nada que no esté en la fuente. Tono conversado, claro y sin exageraciones.",
+  "youtube": {
+    "titulo": "Anthropic muestra sus números, China pide 3 millones de chips y agentes que se rebelan | Semana tech",
+    "descripcion": "Las noticias de inteligencia artificial, tecnología e impresión 3D más importantes de la semana del 20 de octubre de 2026, explicadas en español y con mirada argentina.",
+    "etiquetas": ["inteligencia artificial", "noticias de tecnología", "Anthropic", "Claude", "OpenAI", "Nvidia", "impresión 3D", "OrcaSlicer", "IA en español", "Argentina", "resumen semanal"],
+    "miniatura": "LA IA YA MUEVE LA PLATA GRANDE"
+  }
+}
