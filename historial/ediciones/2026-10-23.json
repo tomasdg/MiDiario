@@ -1,0 +1,180 @@
+{
+  "numero": 4,
+  "fecha": "2026-10-23",
+  "cierre": "2026-10-23T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "OpenAI baja la vara de su valuación y Anthropic podría mostrar hoy sus números para salir a la bolsa",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+        "https://www.newsquawk.com/headlines/openai-closes-in-on-new-funding-round-at-a-usd-125tln-valuation-led-by-uae-investors-according-to-cnbc-citing-sources",
+        "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-could-file-ipo-paperwork-as-soon-as-friday/",
+        "https://finance.yahoo.com/technology/ai/articles/dear-future-anthropic-ipo-investors-184540568.html",
+        "https://investrade.com/market-review-october-22-2026/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude escribió pruebas matemáticas de que 123 bibliotecas libres no se rompen, y encontró cientos de errores en el camino",
+      "urls": [
+        "https://www.unite.ai/anthropic-says-claude-proved-security-properties-across-123-libraries/",
+        "https://interestingengineering.com/ai-robotics/claude-formal-verification-software-security"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Microsoft publica en Science que su sistema de diagnóstico acierta 83% de los casos difíciles",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "DeepSeek levantaría US$ 15.000 millones días después del veto estadounidense",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Las habilidades de Claude pasan a una fundación neutral, junto con aportes de OpenAI, Hugging Face y Alibaba",
+      "urls": [
+        "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Una ingeniera de DeepMind renuncia por los contratos militares de Google",
+      "urls": [
+        "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "El Nasdaq cae 2,6% y vuelven las dudas sobre cuándo rendirá el gasto en IA",
+      "urls": [
+        "https://investrade.com/market-review-october-22-2026/",
+        "https://www.fxstreet.com/analysis/tech-rally-fades-fast-ai-doubts-and-middle-east-alert-triggers-global-weakness-202610221149",
+        "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Western Digital vende 55% más gracias a los discos para IA",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026066882/a4ex991-pressreleaseq127.htm"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Spotify llega a 788 millones de usuarios y suma un agente para pedir música charlando",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Hackers ligados a China usaron una herramienta con IA para meterse en cientos de empresas vía ConnectWise",
+      "urls": [
+        "https://whtc.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Walmart abre la puerta a los agentes de compra que Amazon bloquea",
+      "urls": [
+        "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "La sueca Legora vale US$ 8.800 millones con IA para abogados",
+      "urls": [
+        "https://thenextweb.com/news/legora-series-e-550m-8-8bn-valuation"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un laboratorio sin producto ya vale US$ 6.000 millones",
+      "urls": [
+        "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una impresora de resina que también lava y seca las piezas sale a Kickstarter",
+      "urls": [
+        "https://all3dp.com/4/from-print-to-dry-uniformation-s10-reimagines-resin-3d-printing-ahead-of-kickstarter-launch/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Toybox lanza una impresora multicolor para chicos desde seis años",
+      "urls": [
+        "https://all3dp.com/4/toyboxs-new-luna-is-a-kid-friendly-3d-printer-capable-of-multicolor-prints/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Un taller rumano cotiza impresiones 3D desde Claude y ChatGPT",
+      "urls": [
+        "https://foro3d.com/en/2026/octubre/3descu-integra-presupuestos-de-impresion-3d-en-asistentes-de-ia-median.html"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Roboze consigue US$ 10 millones para crecer en Estados Unidos",
+      "urls": [
+        "https://www.tctmagazine.com/roboze-raises-10m-to-support-us-expansion/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "SprintRay quiere que la luz de la impresora de resina se cambie como un cartucho",
+      "urls": [
+        "https://www.fabbaloo.com/news/sprintray-patent-turns-resin-printer-lighting-into-a-replaceable-cartridge"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "VulcanForms propone mover los láseres de metal sin espejos",
+      "urls": [
+        "https://www.fabbaloo.com/news/vulcanforms-patent-combines-phased-arrays-with-risley-prism-beam-steering"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Bambu Lab muestra hoy un adelanto de su próximo anuncio",
+      "urls": [
+        "https://www.voxelmatters.com/the-next-bambu-lab-teaser-video-premieres-on-voxelmatters-on-october-23/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Verificación formal",
+    "Fuzzing",
+    "Valuación pre-money",
+    "Servidor MCP"
+  ],
+  "claude_tip": {
+    "titulo": "Enseñale al modo automático de Claude Code qué es de confianza",
+    "urls": [
+      "https://code.claude.com/docs/en/auto-mode-config",
+      "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-304/"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1500,
+    "venta": 1550,
+    "fecha": "2026-10-23"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación; viento del fin de semana, Meteored (MET Norway y SMN directo no respondieron)",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-23T09:33:47.854Z"
+  }
+}

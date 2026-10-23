@@ -1,0 +1,41 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-23T08:55:00Z",
+  "fuente": "SMN vía La Nación; viento del fin de semana, Meteored (MET Norway y SMN directo no respondieron)",
+  "dias": [
+    {
+      "fecha": "2026-10-23",
+      "codigo_wmo": 63,
+      "max": 20,
+      "min": 15,
+      "prob_precip": 40,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-10-24",
+      "codigo_wmo": 61,
+      "max": 19,
+      "min": 14,
+      "prob_precip": 40,
+      "viento_kmh": 40
+    },
+    {
+      "fecha": "2026-10-25",
+      "codigo_wmo": 3,
+      "max": 17,
+      "min": 13,
+      "viento_kmh": 31
+    },
+    {
+      "fecha": "2026-10-26",
+      "codigo_wmo": 2,
+      "max": 19,
+      "min": 10,
+      "prob_precip": 0
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": []
+}

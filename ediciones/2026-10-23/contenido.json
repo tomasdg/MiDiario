@@ -1,0 +1,672 @@
+{
+ "edicion": {
+  "numero": 4,
+  "fecha": "2026-10-23",
+  "cierre": "2026-10-23T05:44:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "openai-anthropic-bolsa",
+   "seccion": "principal",
+   "titulo": "OpenAI baja la vara de su valuación y Anthropic podría mostrar hoy sus números para salir a la bolsa",
+   "bajada": "OpenAI negocia hasta US$ 30.000 millones a una valuación menor que la que buscaba hace un mes, mientras Anthropic se prepara para hacer público su prospecto.",
+   "cuerpo": [
+    "OpenAI está cerca de cerrar una ronda de hasta US$ 30.000 millones con una valuación previa a la inversión de US$ 1,25 billones, según informó el jueves 22 la cadena CNBC con fuentes anónimas, y recogió TechCrunch. La encabezarían el fondo Coatue e inversores de los Emiratos Árabes Unidos, y el aporte emiratí podría venir atado a un acuerdo para que OpenAI consiga más capacidad de cómputo en ese país. Los términos todavía pueden cambiar y la empresa no hizo comentarios.",
+    "La cifra es más baja que la que circulaba a fines de septiembre: entonces Bloomberg hablaba de la misma suma a una valuación de US$ 1,4 billones. Aun así, sería la más alta lograda por una empresa privada y supera en casi la mitad los US$ 852.000 millones de la ronda de marzo. OpenAI presentó en junio, en forma confidencial, los papeles para cotizar en bolsa, pero por ahora parece preferir otra ronda privada; eso le sube la vara a cualquier salida a bolsa posterior, que tendrá que justificar un precio mayor.",
+    "Su competidor directo va por el camino contrario. Anthropic podría hacer público su prospecto, el formulario S-1, desde hoy, viernes 23, según Yahoo Finance, que citó a tres personas al tanto del plan; la empresa no lo confirmó. La regla de la SEC, el regulador bursátil estadounidense, obliga a publicarlo al menos 15 días antes de salir a buscar inversores, así que el debut quedaría para noviembre. Según Reuters, Anthropic les dijo a posibles inversores que facturó US$ 16.800 millones en el tercer trimestre, 45% más que en el anterior. En mayo la valuaron en US$ 965.000 millones y en Wall Street se habla de entre 1,5 y 2 billones para el debut.",
+    "El clima no ayuda. El jueves el índice Nasdaq cayó 2,6%, arrastrado por las dudas sobre cuándo rendirá el gasto en IA (ver página 3), y en Corea la empresa Elice se hundió 32% en su primer día de cotización. Para quien sigue el tema desde la Argentina, el prospecto de Anthropic será el primer documento auditado de un laboratorio de frontera: mostrará cuánto gana, cuánto pierde y cuánto le cuesta el cómputo que hoy alimenta a Claude."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "medio": "TechCrunch",
+     "titulo": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://www.newsquawk.com/headlines/openai-closes-in-on-new-funding-round-at-a-usd-125tln-valuation-led-by-uae-investors-according-to-cnbc-citing-sources",
+     "medio": "Newsquawk (citando a CNBC)",
+     "titulo": "OpenAI closes in on new funding round at a USD 1.25tln valuation",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-could-file-ipo-paperwork-as-soon-as-friday/",
+     "medio": "PYMNTS",
+     "titulo": "Anthropic Could File IPO Paperwork as Soon as Friday",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/dear-future-anthropic-ipo-investors-184540568.html",
+     "medio": "Barchart en Yahoo Finance",
+     "titulo": "Dear Future Anthropic IPO Investors, Mark Your Calendars for October 23",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://investrade.com/market-review-october-22-2026/",
+     "medio": "Investrade",
+     "titulo": "Market Review: October 22, 2026",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Claude verificó 123 bibliotecas libres",
+    "resumen": "Anthropic y Theorem produjeron 180 millones de líneas de pruebas formales y hallaron cientos de errores que los fuzzers no habían detectado.",
+    "pagina": 2
+   },
+   {
+    "titulo": "El Nasdaq cae 2,6% por dudas sobre la IA",
+    "resumen": "Una previsión floja de Lam Research y la palabra «burbuja» en boca de Ken Griffin golpearon a las tecnológicas el jueves.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Microsoft: 83% de aciertos en casos difíciles",
+    "resumen": "Su sistema MAI-DxO superó a médicos generalistas en una simulación publicada en Science; ahora vendrá una prueba con pacientes reales en Boston.",
+    "pagina": 2
+   },
+   {
+    "titulo": "DeepSeek levantaría US$ 15.000 millones",
+    "resumen": "Tencent y CATL estarían entre los inversores, dos días después de que Estados Unidos sacara su IA de las agencias federales.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Hackers usaron IA contra clientes de ConnectWise",
+    "resumen": "Microsoft culpa a un grupo ligado a China que automatizó el ataque con una herramienta libre conectada a modelos de IA.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Western Digital crece 55%",
+    "resumen": "La demanda de discos para centros de datos de IA llevó sus ventas a US$ 4.381 millones y espera más para el próximo trimestre.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Resina sin enchastre: imprime, lava y seca",
+    "resumen": "La UniFormation S10 sale a Kickstarter desde US$ 999 y automatiza casi todo el posprocesado. Entregas previstas para marzo de 2027.",
+    "pagina": 4
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Cómo enseñarle al modo automático qué es de confianza.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Spotify suma un agente para armar listas conversando.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Una impresora de cuatro colores para chicos, a US$ 349.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Chaparrones por la tarde en Villa Urquiza; máxima de 20°.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Hoy, 10:00",
+    "texto": "Bambu Lab estrena el adelanto de su próximo producto."
+   },
+   {
+    "cuando": "Desde hoy",
+    "texto": "Anthropic podría hacer público su prospecto para salir a la bolsa."
+   },
+   {
+    "cuando": "Miércoles 28 de octubre",
+    "texto": "Alphabet y Microsoft presentan resultados del trimestre."
+   },
+   {
+    "cuando": "Jueves 29 de octubre",
+    "texto": "Intel presenta resultados, tras el cierre de Wall Street."
+   },
+   {
+    "cuando": "Noviembre",
+    "texto": "Walmart suma perfiles separados para cada agente de compras."
+   },
+   {
+    "cuando": "Marzo de 2027",
+    "texto": "Primeras entregas previstas de la UniFormation S10."
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "180 millones",
+   "texto": "Líneas de demostración formal que Claude escribió y el verificador aceptó para 123 bibliotecas de código abierto."
+  }
+ },
+ "notas": [
+  {
+   "id": "claude-verificacion",
+   "seccion": "ia",
+   "titulo": "Claude escribió pruebas matemáticas de que 123 bibliotecas libres no se rompen, y encontró cientos de errores en el camino",
+   "bajada": "Anthropic y la firma Theorem usaron el modelo para verificar formalmente código que ya había pasado billones de pruebas automáticas.",
+   "cuerpo": [
+    "Anthropic publicó el jueves 22 un trabajo hecho con Theorem, una empresa de verificación de software: Claude produjo pruebas formales, chequeadas por una máquina, de que 239 puntos de entrada de 123 bibliotecas de código abierto terminan bien, sin errores de memoria ni aserciones fallidas, para cualquier entrada de hasta 64 MB. El punto de partida fueron las pruebas de fuzzing (ver glosario) que esos proyectos ya tenían en OSS-Fuzz, el servicio de Google: Claude las convirtió en especificaciones y después escribió la demostración.",
+    "Las pruebas se escriben en Rocq, un verificador independiente, así que nadie tiene que revisar cada línea a mano. Son enormes: unos 180 millones de líneas aceptadas, sobre cerca de 1.000 millones escritas; la del analizador cJSON, de 391 líneas, ocupa 630.000. En el proceso aparecieron cientos de errores que los fuzzers no habían detectado, entre ellos una escritura fuera de límites en un descompresor, una falla de un decodificador de imágenes que sólo se dispara con 64 MB de entrada y la reaparición de una vulnerabilidad ya conocida en libexpat.",
+    "La propia Anthropic marca los límites: las pruebas cubren binarios RISC-V de un solo hilo sobre un Linux modelado, cuando casi todo corre en x86 o ARM, y sólo garantizan lo que la especificación describe. Theorem ofrece el mismo proceso gratis a proyectos libres."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.unite.ai/anthropic-says-claude-proved-security-properties-across-123-libraries/",
+     "medio": "Unite.AI",
+     "titulo": "Anthropic Says Claude Proved Security Properties Across 123 Libraries",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://interestingengineering.com/ai-robotics/claude-formal-verification-software-security",
+     "medio": "Interesting Engineering",
+     "titulo": "Claude digs up bugs that survived trillions of tests across open-source software",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "mai-dxo",
+   "seccion": "ia",
+   "titulo": "Microsoft publica en Science que su sistema de diagnóstico acierta 83% de los casos difíciles",
+   "bajada": "Los médicos generalistas del estudio acertaron 36%, pero la prueba fue una simulación y gran parte de la mejora viene de los modelos de OpenAI.",
+   "cuerpo": [
+    "Microsoft publicó el jueves 22 en la revista Science los resultados de MAI-DxO, un sistema que coordina varios agentes de IA como si fueran un panel de médicos: interrogan al paciente, piden estudios y discuten el diagnóstico. Sobre casos complejos del New England Journal of Medicine acertó 83%, contra 36% de médicos de atención primaria y clínica que trabajaron solos con material de consulta; no se compararon especialistas.",
+    "El orquestador también ahorra: con GPT-5 bajó unos US$ 3.000 el costo simulado de estudios por caso. En casos de guardia la mejora fue mínima. El próximo paso es una prueba real con el Beth Israel Deaconess de Boston, donde los pacientes que acepten recibirán también la opinión del sistema."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+     "medio": "TechCrunch",
+     "titulo": "Microsoft's Mustafa Suleyman says its AI outperforms doctors on hard cases",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "deepseek-ronda",
+   "seccion": "ia",
+   "titulo": "DeepSeek levantaría US$ 15.000 millones días después del veto estadounidense",
+   "bajada": "Tencent y la fabricante de baterías CATL estarían entre los inversores, según Bloomberg.",
+   "cuerpo": [
+    "El laboratorio chino DeepSeek cerraría una ronda de unos US$ 15.000 millones, unos 100.000 millones de yuanes, con Tencent y CATL entre los aportantes, informó Bloomberg el jueves 22 y recogió TechCrunch. No trascendió la valuación: en junio había recibido más de US$ 7.000 millones a US$ 50.000 millones. La noticia llega dos días después de que el gobierno de Estados Unidos ordenara sacar su tecnología de las agencias federales civiles. DeepSeek no respondió."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+     "medio": "TechCrunch",
+     "titulo": "DeepSeek reportedly raises $15B days after US restrictions",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "aaif-skills",
+   "seccion": "ia",
+   "titulo": "Las habilidades de Claude pasan a una fundación neutral, junto con aportes de OpenAI, Hugging Face y Alibaba",
+   "cuerpo": [
+    "La Agentic AI Foundation, que depende de la Linux Foundation, sumó el jueves 22 cuatro proyectos: Agent Skills, el formato de Anthropic para empaquetar instrucciones y guiones que un agente carga cuando los necesita; Open Responses, la especificación de OpenAI para que distintas IA usen la misma interfaz; OpenEnv, de Hugging Face, para entornos de entrenamiento, y OpenSandbox, de Alibaba, para ejecutar agentes aislados. Con MCP y AGENTS.md, ya son diez proyectos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+     "medio": "Linux Foundation",
+     "titulo": "Agentic AI Foundation Announces Four New Projects",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "deepmind-renuncia",
+   "seccion": "ia",
+   "titulo": "Una ingeniera de DeepMind renuncia por los contratos militares de Google",
+   "cuerpo": [
+    "Sofia Liguori, ingeniera de investigación de Google DeepMind desde 2023, dejó la empresa esta semana en protesta por Project Nimbus, el contrato con el gobierno israelí, y por los acuerdos con el Pentágono, contó The Intercept. Dice que otros se fueron por lo mismo sin hacerlo público. Google respondió que revisa cada contrato según sus principios de IA y prohíbe represalias."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/",
+     "medio": "The Intercept",
+     "titulo": "Google DeepMind researcher resigns over military AI",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "nasdaq-cae",
+   "seccion": "empresas",
+   "titulo": "El Nasdaq cae 2,6% y vuelven las dudas sobre cuándo rendirá el gasto en IA",
+   "bajada": "Una previsión floja de Lam Research, advertencias de Ken Griffin y Larry Fink y una alerta en Arabia Saudita golpearon a las tecnológicas.",
+   "cuerpo": [
+    "Wall Street cerró el jueves 22 con las tecnológicas en rojo: el Nasdaq perdió 2,6% y terminó en 26.008 puntos, el S&P 500 cedió 1,2% y el Dow Jones quedó sin cambios. El fondo que sigue al sector tecnológico bajó 3,3%, mientras subían las acciones sensibles a las tasas.",
+    "El disparador fue Lam Research, que fabrica equipos para hacer chips: sus resultados estuvieron en línea, pero prevé crecer 5% en el trimestre, debajo del 6% que esperaba el mercado, y la acción llegó a caer cerca de 8% antes de la apertura. Se sumaron Ken Griffin, de Citadel, que dijo que «casi con certeza» hay una burbuja de IA, y Larry Fink, de BlackRock, que advirtió que las demoras en los centros de datos pueden mantener caro el cómputo. Arabia Saudita pidió además a los estadounidenses que dejen el país y el Brent superó los US$ 111.",
+    "La pregunta de fondo, resumió el analista Kenny Polcari, es cuánta plata sale antes de que vuelva. Alphabet y Microsoft presentan el miércoles 28 e Intel, el jueves 29."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://investrade.com/market-review-october-22-2026/",
+     "medio": "Investrade",
+     "titulo": "Market Review: October 22, 2026",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://www.fxstreet.com/analysis/tech-rally-fades-fast-ai-doubts-and-middle-east-alert-triggers-global-weakness-202610221149",
+     "medio": "FXStreet",
+     "titulo": "Tech rally fades fast, AI doubts, and Middle East alert triggers global weakness",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    },
+    {
+     "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+     "medio": "Intel",
+     "titulo": "Intel to Report Third-Quarter 2026 Financial Results",
+     "fecha_publicacion": "2026-10-06",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "wdc-resultados",
+   "seccion": "empresas",
+   "titulo": "Western Digital vende 55% más gracias a los discos para IA",
+   "cuerpo": [
+    "Western Digital facturó US$ 4.381 millones en el trimestre cerrado el 2 de octubre, 55% más que un año antes, con un margen bruto de 57,8% y una ganancia de US$ 4,63 por acción. La empresa, que ahora sólo hace discos rígidos, atribuyó el salto a más exabytes vendidos y mejores precios por la demanda de almacenamiento para IA. Espera unos US$ 5.100 millones para el próximo trimestre y sube 17% el dividendo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+     "medio": "Western Digital (SEC, 8-K)",
+     "titulo": "Western Digital Reports Fiscal First Quarter 2027 Financial Results",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "spotify-resultados",
+   "seccion": "empresas",
+   "titulo": "Spotify llega a 788 millones de usuarios y suma un agente para pedir música charlando",
+   "cuerpo": [
+    "Spotify cerró el tercer trimestre con 788 millones de usuarios mensuales, 11% más que un año atrás, y 306 millones de suscriptores pagos. Facturó 4.969 millones de euros, 16% más, con una ganancia operativa de 672 millones. Entre las novedades destacó la integración con Muse, el agente de Meta, para armar listas conversando. Para fin de año espera 818 millones de usuarios."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm",
+     "medio": "Spotify (SEC, 6-K)",
+     "titulo": "Spotify Technology S.A. Q3 2026 Shareholder Deck",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "storm-0940",
+   "seccion": "tecnologia",
+   "titulo": "Hackers ligados a China usaron una herramienta con IA para meterse en cientos de empresas vía ConnectWise",
+   "cuerpo": [
+    "Microsoft atribuyó a Storm-0940, un grupo alineado con el Estado chino, el ataque que comprometió el servicio de copias de seguridad en la nube de ConnectWise y apuntó a cientos de organizaciones de defensa, energía, finanzas y gobierno. Según Reuters, usaron ARTEX, una herramienta libre de pruebas de penetración a la que se le conecta cualquier modelo de IA para automatizar el reconocimiento y la extracción de datos. ConnectWise advirtió que cortar las conexiones no elimina accesos ya instalados: cada cliente debe revisar los suyos. China negó estar detrás."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://whtc.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/",
+     "medio": "Reuters (vía WHTC)",
+     "titulo": "Chinese-linked hackers compromise ConnectWise, target hundreds in global attack, Microsoft says",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "walmart-agentes",
+   "seccion": "tecnologia",
+   "titulo": "Walmart abre la puerta a los agentes de compra que Amazon bloquea",
+   "cuerpo": [
+    "Walmart lanzó Agent Gateway, un servidor MCP para que agentes de IA aprobados busquen productos y compren en nombre del cliente. El usuario decide si aprueba cada compra o fija un tope de gasto; el agente no ve los datos de pago y, si se equivoca, rige la política de devoluciones. El mes próximo cada agente tendrá su perfil separado en la cuenta. Amazon, en cambio, empezó a bloquear este tipo de agentes."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+     "medio": "TechCrunch",
+     "titulo": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "legora-ronda",
+   "seccion": "empresas",
+   "titulo": "La sueca Legora vale US$ 8.800 millones con IA para abogados",
+   "cuerpo": [
+    "Legora levantó US$ 550 millones liderados por Atreides Management. Dice superar los US$ 200 millones de ingresos anuales recurrentes y tener 140.000 usuarios en más de 2.400 estudios y departamentos legales. Su rival Harvey vale US$ 15.500 millones."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/legora-series-e-550m-8-8bn-valuation",
+     "medio": "The Next Web",
+     "titulo": "Swedish legal AI firm Legora raises $550M led by Atreides at $8.8B valuation",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "flapping-airplanes",
+   "seccion": "breve",
+   "titulo": "Un laboratorio sin producto ya vale US$ 6.000 millones",
+   "cuerpo": [
+    "Flapping Airplanes, que busca entrenar modelos con menos datos y menos cómputo, levantó US$ 1.000 millones liderados por Index Ventures y Lux Capital. En enero valía la cuarta parte."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation",
+     "medio": "The Next Web",
+     "titulo": "AI lab Flapping Airplanes is now worth $6B, four times its January value",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "uniformation-s10",
+   "seccion": "impresion3d",
+   "titulo": "Una impresora de resina que también lava y seca las piezas sale a Kickstarter",
+   "bajada": "La UniFormation S10 promete sacar del medio la parte más sucia de imprimir con resina; las primeras entregas serían en marzo de 2027.",
+   "cuerpo": [
+    "UniFormation abrió el jueves 22 la campaña de la S10, una impresora de resina de escritorio que hace casi todo el proceso dentro de la misma máquina cerrada. Imprime con una pantalla LCD monocromática de 10,1 pulgadas y 16K (15.360 por 6.540 píxeles) sobre un volumen de 223 por 126 por 200 milímetros. Al terminar, la plataforma gira e inclina la pieza para devolver la resina sobrante al tanque, la lava en dos ciclos y la seca con aire caliente a entre 35 y 45 grados.",
+    "Sigue habiendo trabajo manual: sacar la pieza, quitar los soportes y hacer el curado final con luz ultravioleta, para el que vende un módulo aparte. Suma alimentación y calentamiento automáticos de la resina, detección de objetos extraños por presión y monitoreo remoto.",
+    "El precio de lista previsto es US$ 1.299 y en Kickstarter arranca en US$ 999. Como todo financiamiento colectivo, es una preventa con riesgo: hay que esperar las primeras unidades, previstas para marzo de 2027, y comprarla desde la Argentina implica sumar envío e impuestos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/from-print-to-dry-uniformation-s10-reimagines-resin-3d-printing-ahead-of-kickstarter-launch/",
+     "medio": "All3DP",
+     "titulo": "From Print to Dry: UniFormation S10 Reimagines Resin 3D Printing Ahead of Kickstarter Launch",
+     "fecha_publicacion": "2026-10-20",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "toybox-luna",
+   "seccion": "impresion3d",
+   "titulo": "Toybox lanza una impresora multicolor para chicos desde seis años",
+   "cuerpo": [
+    "Toybox presentó la Luna, su primera impresora de cuatro colores: una sola boquilla que alterna entre cuatro bobinas de PLA, con un volumen de 260 milímetros por lado, cama caliente con placa flexible, nivelación automática, cámara y Wi-Fi. No necesita laminador: los modelos se eligen en una app con control parental y una biblioteca moderada de 25.000 diseños. Cuesta US$ 349 de lanzamiento (US$ 519 de lista) y, según All3DP, parece basada en la Anycubic Kobra X, socia del proyecto."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://all3dp.com/4/toyboxs-new-luna-is-a-kid-friendly-3d-printer-capable-of-multicolor-prints/",
+     "medio": "All3DP",
+     "titulo": "Toybox's New Luna Is a Kid-Friendly 3D Printer Capable of Multicolor Prints",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "3descu-mcp",
+   "seccion": "impresion3d",
+   "titulo": "Un taller rumano cotiza impresiones 3D desde Claude y ChatGPT",
+   "cuerpo": [
+    "3Descu, un servicio de impresión con más de 200 máquinas, publicó un servidor MCP que permite pedirle a Claude, ChatGPT o Cursor el precio de una pieza: se pasa el enlace al STL u OBJ, el material y la cantidad, y devuelve el mismo presupuesto que su calculadora web, sin registro ni clave. El servidor está en el registro oficial de MCP y el pedido final lo valida una persona. Es una muestra de cómo los talleres empiezan a atender a través de asistentes."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://foro3d.com/en/2026/octubre/3descu-integra-presupuestos-de-impresion-3d-en-asistentes-de-ia-median.html",
+     "medio": "Foro3D",
+     "titulo": "3Descu integrates 3D printing budgets into AI assistants via MCP",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "roboze-ronda",
+   "seccion": "impresion3d",
+   "titulo": "Roboze consigue US$ 10 millones para crecer en Estados Unidos",
+   "cuerpo": [
+    "La italiana Roboze, que imprime piezas finales en polímeros de alto rendimiento para aeroespacial y defensa, sumó US$ 10 millones liderados por Rialto Ventures. Los usará para producir en serie en Estados Unidos y avanzar en compuestos de matriz cerámica."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tctmagazine.com/roboze-raises-10m-to-support-us-expansion/",
+     "medio": "TCT Magazine",
+     "titulo": "Roboze raises $10M to support US expansion",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "sprintray-patente",
+   "seccion": "breve",
+   "titulo": "SprintRay quiere que la luz de la impresora de resina se cambie como un cartucho",
+   "cuerpo": [
+    "Una solicitud de patente de la marca de impresoras dentales describe un módulo con la pantalla LCD que se engancha debajo del tanque y se saca con una traba rápida, para reemplazarlo cuando se degrada sin desarmar la máquina. No hay producto anunciado."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/sprintray-patent-turns-resin-printer-lighting-into-a-replaceable-cartridge",
+     "medio": "Fabbaloo",
+     "titulo": "SprintRay Patent Turns Resin Printer Lighting Into A Replaceable Cartridge",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "vulcanforms-patente",
+   "seccion": "breve",
+   "titulo": "VulcanForms propone mover los láseres de metal sin espejos",
+   "cuerpo": [
+    "Otra solicitud de patente, de VulcanForms, combina un arreglo óptico en fase con prismas giratorios para dirigir varios haces a la vez sobre el lecho de polvo metálico, en lugar de los espejos galvanométricos actuales. La idea es acortar los trabajos; no se sabe si ya lo usa."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-21",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fabbaloo.com/news/vulcanforms-patent-combines-phased-arrays-with-risley-prism-beam-steering",
+     "medio": "Fabbaloo",
+     "titulo": "VulcanForms Patents Steerable Laser Beams",
+     "fecha_publicacion": "2026-10-21",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  },
+  {
+   "id": "bambu-teaser",
+   "seccion": "breve",
+   "titulo": "Bambu Lab muestra hoy un adelanto de su próximo anuncio",
+   "cuerpo": [
+    "El video se estrena a las 10 hora argentina en VoxelMatters. La marca no dio pistas: el producto sigue bajo embargo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/the-next-bambu-lab-teaser-video-premieres-on-voxelmatters-on-october-23/",
+     "medio": "VoxelMatters",
+     "titulo": "The next Bambu Lab teaser video premieres on VoxelMatters on October 23",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-10-23T06:20:00-03:00"
+    }
+   ],
+   "seccion_destino": "impresion3d"
+  }
+ ],
+ "claude_tip": {
+  "titulo": "Enseñale al modo automático de Claude Code qué es de confianza",
+  "donde": "Claude Code (Pro, Max, Team, Enterprise o clave de API)",
+  "origen": "Visto en la cuenta ClaudeDevs en X y en guías de usuarios en GitHub",
+  "texto": [
+   "El modo automático deja trabajar a Claude Code sin pedir permiso a cada paso: un clasificador frena lo irreversible o lo que sale de tu entorno. El problema es que, de entrada, sólo confía en la carpeta y el repositorio actuales, y bloquea pushes a otros repos de tu organización o descargas de tus servidores. La versión 2.1.304, del 19 de octubre, llevó /auto-mode-setup también a Bedrock, Vertex y Foundry.",
+   "Sirve porque, en vez de escribir las reglas a mano, Claude lee el proyecto y tus sesiones recientes y te propone la lista de repositorios, dominios y servicios de confianza para que la revises."
+  ],
+  "pasos": [
+   "Actualizá con «claude update» y abrí una sesión en el proyecto.",
+   "Escribí «/auto-mode-setup», contestá cómo usás el proyecto y elegí si suma el historial de la terminal.",
+   "Revisá el borrador antes de aceptarlo: se guarda en ~/.claude/settings.json. Precaución: aceptá sólo destinos que de verdad controlás.",
+   "Confirmá el resultado con «claude auto-mode config»."
+  ],
+  "fuentes": [
+   {
+    "url": "https://code.claude.com/docs/en/auto-mode-config",
+    "medio": "Documentación de Claude Code",
+    "titulo": "Configure auto mode",
+    "fecha_publicacion": "2026-10-23",
+    "consultado": "2026-10-23T06:20:00-03:00"
+   },
+   {
+    "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-304/",
+    "medio": "AI/TLDR",
+    "titulo": "Claude Code 2.1.304 — guided auto mode setup",
+    "fecha_publicacion": "2026-10-19",
+    "consultado": "2026-10-23T06:20:00-03:00"
+   }
+  ]
+ },
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Verificación formal",
+   "definicion": "Demostrar matemáticamente que un programa cumple una propiedad para todas las entradas posibles, en lugar de probarlo con ejemplos.",
+   "ejemplo": "Lo que hizo Claude con 123 bibliotecas.",
+   "nota_relacionada": "claude-verificacion"
+  },
+  {
+   "termino": "Fuzzing",
+   "definicion": "Técnica que bombardea un programa con millones de entradas al azar o deformadas para ver si se cuelga o corrompe la memoria.",
+   "ejemplo": "OSS-Fuzz, de Google, la aplica a cientos de proyectos libres.",
+   "nota_relacionada": "claude-verificacion"
+  },
+  {
+   "termino": "Valuación pre-money",
+   "definicion": "Lo que vale una empresa antes de sumar el dinero de la ronda; la post-money incluye ese aporte.",
+   "ejemplo": "US$ 1,25 billones en la ronda que negocia OpenAI.",
+   "nota_relacionada": "openai-anthropic-bolsa"
+  },
+  {
+   "termino": "Servidor MCP",
+   "definicion": "Programa que expone datos o acciones de un servicio con el protocolo MCP, para que un asistente de IA pueda usarlos.",
+   "ejemplo": "Agent Gateway, de Walmart, o el cotizador de 3Descu.",
+   "nota_relacionada": "walmart-agentes"
+  }
+ ],
+ "fe_de_erratas": []
+}

@@ -47,6 +47,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Edición Nº 3: WebFetch no pudo leer DolarApi, las dos URLs de MET Norway ni el SMN (el permiso para esas URLs no se concedió a tiempo en la corrida programada). Se siguió la cadena de respaldo: dólar de cierre del miércoles 21 según Ámbito ($ 1.495 / $ 1.545) y pronóstico de Meteored.
 - `datos.js` acepta `dolar_fuente` en `comentarios.json` y la página de cierre muestra esa fuente en lugar de "DolarApi" fijo.
 
+## Datos de respaldo — 23 de octubre de 2026
+
+- Edición Nº 4: otra vez WebFetch no pudo leer DolarApi, las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada; dos intentos en DolarApi). Dólar de cierre del jueves 22 según Ámbito ($ 1.500 / $ 1.550). Clima: pronóstico del SMN publicado por La Nación y viento del fin de semana de Meteored.
+
 ## Fe de erratas pendiente
 
 (ninguna)

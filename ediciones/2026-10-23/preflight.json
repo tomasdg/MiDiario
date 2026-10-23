@@ -1,0 +1,109 @@
+{
+  "generado": "2026-10-23T09:33:47.854Z",
+  "edicion": {
+    "numero": 4,
+    "fecha": "2026-10-23",
+    "cierre": "2026-10-23T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9,
+        10,
+        8.5
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.856,
+        "mayor_rectangulo_vacio": 0.032,
+        "hueco_mm": {
+          "x": 129,
+          "y": 224,
+          "ancho": 57,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.915,
+        "mayor_rectangulo_vacio": 0.016,
+        "hueco_mm": {
+          "x": 67,
+          "y": 257,
+          "ancho": 57,
+          "alto": 14
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.818,
+        "mayor_rectangulo_vacio": 0.106,
+        "hueco_mm": {
+          "x": 129,
+          "y": 176,
+          "ancho": 57,
+          "alto": 95
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.821,
+        "mayor_rectangulo_vacio": 0.103,
+        "hueco_mm": {
+          "x": 62,
+          "y": 186,
+          "ancho": 62,
+          "alto": 86
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-10-23T06:45:00-03:00",
+      "rubrica": "DE_VILLA_URQUIZA_AL_MUNDO.md §6",
+      "hallazgos": [
+        "Página 4: con cinco notas la segunda columna quedaba con un hueco de 162 mm (densidad 0,725).",
+        "Página 4: la nota de la S10 atribuía a UniFormation una nacionalidad que la fuente no confirma."
+      ],
+      "correcciones": [
+        "Se sumaron dos breves ya verificados (solicitudes de patente de SprintRay y VulcanForms) y datos concretos de la Luna y de 3Descu; ocupación 0,821.",
+        "Se quitó «china» de la nota de la S10.",
+        "Sin superposiciones, texto cortado ni huecos no intencionales en las cuatro páginas; pie y número presentes."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-23/De-Villa-Urquiza-al-Mundo-N4-2026-10-23.pdf"
+}
