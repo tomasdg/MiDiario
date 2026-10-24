@@ -1,0 +1,5 @@
+{"updated_at":"2026-10-24T08:50:00Z","dias":[
+{"fecha":"2026-10-24","max_c":18,"min_c":12,"precip_mm":2.6,"prob_precip":80,"viento_max_kmh":43,"symbol_code":"lightrain"},
+{"fecha":"2026-10-25","max_c":15,"min_c":10,"precip_mm":0.5,"prob_precip":50,"viento_max_kmh":36,"symbol_code":"cloudy"},
+{"fecha":"2026-10-26","max_c":16,"min_c":8,"precip_mm":0,"prob_precip":0,"viento_max_kmh":null,"symbol_code":"partlycloudy_day"},
+{"fecha":"2026-10-27","max_c":18,"min_c":12,"precip_mm":0.3,"prob_precip":30,"viento_max_kmh":null,"symbol_code":"lightrain"}]}

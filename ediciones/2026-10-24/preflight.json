@@ -1,0 +1,116 @@
+{
+  "generado": "2026-10-24T09:29:59.108Z",
+  "edicion": {
+    "numero": 5,
+    "fecha": "2026-10-24",
+    "cierre": "2026-10-24T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": [
+        {
+          "tipo": "fuente_ya_usada",
+          "url": "https://thefinanceflow.substack.com/p/the-next-two-weeks-decide-the-ai",
+          "edicion": "2026-10-22"
+        },
+        {
+          "tipo": "fuente_ya_usada",
+          "url": "https://www.voxelmatters.com/the-next-bambu-lab-teaser-video-premieres-on-voxelmatters-on-october-23/",
+          "edicion": "2026-10-23"
+        }
+      ]
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9.25,
+        9.25,
+        8.5
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.851,
+        "mayor_rectangulo_vacio": 0.042,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 38
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.905,
+        "mayor_rectangulo_vacio": 0.037,
+        "hueco_mm": {
+          "x": 129,
+          "y": 238,
+          "ancho": 57,
+          "alto": 33
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.806,
+        "mayor_rectangulo_vacio": 0.117,
+        "hueco_mm": {
+          "x": 129,
+          "y": 167,
+          "ancho": 57,
+          "alto": 105
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.84,
+        "mayor_rectangulo_vacio": 0.075,
+        "hueco_mm": {
+          "x": 62,
+          "y": 209,
+          "ancho": 62,
+          "alto": 62
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Página 4: primera línea de la nota de la patente con espaciado justificado muy abierto por el número de patente largo.",
+        "Huecos al pie de la tercera columna en página 3 y de la columna central en página 4, dentro de los umbrales de densidad."
+      ],
+      "correcciones": [
+        "Se reescribió el arranque de la nota de la patente y el número pasó al final; se reconstruyó y se volvió a mirar."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-24/De-Villa-Urquiza-al-Mundo-N5-2026-10-24.pdf"
+}

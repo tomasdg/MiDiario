@@ -1,0 +1,146 @@
+{
+  "numero": 5,
+  "fecha": "2026-10-24",
+  "cierre": "2026-10-24T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "OpenAI dejará de entrenar sus modelos más potentes conectados a la internet real",
+      "urls": [
+        "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+        "https://www.unite.ai/metr-red-team-finds-vulnerabilities-in-openai-monitoring-system/",
+        "https://www.webpronews.com/metr-redwood-openai-agent-monitoring-red-team"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Auditores externos encontraron cómo los agentes de OpenAI podían esquivar a su propio vigilante",
+      "urls": [
+        "https://www.unite.ai/metr-red-team-finds-vulnerabilities-in-openai-monitoring-system/",
+        "https://www.webpronews.com/metr-redwood-openai-agent-monitoring-red-team"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude pasará a trabajar en modo automático en la web, el escritorio y el celular",
+      "urls": [
+        "https://www.tokenpost.com/news/technology/39305",
+        "https://thewincentral.com/anthropic-claude-auto-mode-default-paid-users/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Canva lanza Craft, su primer modelo propio para generar imágenes",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Una búsqueda guiada con IA ayudó a cerrar un problema matemático abierto desde 1995",
+      "urls": [
+        "https://runtimewire.com/article/microsoft-research-kls-conjecture-proof"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Wall Street cierra una semana nerviosa y la falla de PHP le suma 8% a CrowdStrike",
+      "urls": [
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/262236830-us-market-close-dow-drop-consumer-healthcare-chips-rebound-crowdstrike-tradingkey",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026",
+        "https://thefinanceflow.substack.com/p/the-next-two-weeks-decide-the-ai"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Daytona, la nube que le da una computadora propia a cada agente, ya vale US$ 1.000 millones",
+      "urls": [
+        "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Lo que ya ganaron en los papeles los primeros inversores de Anthropic",
+      "urls": [
+        "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Un pato robot de Hugging Face junta 20.000 reservas en un día",
+      "urls": [
+        "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "SpaceX busca 80.000 antenas para su negocio de telefonía celular",
+      "urls": [
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/262236830-us-market-close-dow-drop-consumer-healthcare-chips-rebound-crowdstrike-tradingkey",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Bambu Lab muestra la H3C, una impresora que cambia entre nueve cabezales",
+      "urls": [
+        "https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch",
+        "https://www.voxelmatters.com/the-next-bambu-lab-teaser-video-premieres-on-voxelmatters-on-october-23/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "El MIT arregla con instrucciones en texto los modelos 3D que la IA genera rotos",
+      "urls": [
+        "https://www.fabbaloo.com/news/mits-instructmesh-repairs-ai-generated-3d-models-before-printing"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una patente propone imprimir a través de paredes opacas, y hasta dentro del cuerpo, con ultrasonido",
+      "urls": [
+        "https://www.fabbaloo.com/news/remote-3d-printing-through-opaque-materials-uses-focused-ultrasound"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Prodways vende 130% más impresoras gracias a la cerámica",
+      "urls": [
+        "https://www.finanznachrichten.de/nachrichten-2026-10/69886791-prodways-stable-revenue-in-the-third-quarter-2026-650.htm"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "ValCUN lleva el aluminio fundido a brazos robóticos",
+      "urls": [
+        "https://www.voxelmatters.com/valcun-remus-takes-aluminum-mmd-out-of-the-box/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Sandbox",
+    "Compactación de contexto",
+    "Cambiador de herramientas",
+    "Vóxel"
+  ],
+  "claude_tip": {
+    "titulo": "Apretá «f» en /usage para que Claude Code recorte lo que más te consume",
+    "urls": [
+      "https://code.claude.com/docs/en/costs",
+      "https://code.claude.com/docs/en/changelog"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1500,
+    "venta": 1550,
+    "fecha": "2026-10-24"
+  },
+  "fuentes_datos": [
+    "Meteored (pronóstico de 14 días); SMN vía La Nación para hoy. MET Norway y SMN directo no respondieron",
+    "El Cronista"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-24T09:29:59.108Z"
+  }
+}
