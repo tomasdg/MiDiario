@@ -18,7 +18,9 @@ NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos
   "titulo_semana": "una oración que resuma la semana",
   "claves": [{ "titulo": "3 a 5 palabras", "texto": "una o dos oraciones con el dato concreto" }],
   "enfoque_notebooklm": "instrucciones para personalizar el resumen en NotebookLM",
-  "youtube": { "titulo": "", "descripcion": "", "etiquetas": [], "miniatura": "" }
+  "youtube": { "titulo": "", "descripcion": "", "etiquetas": [], "miniatura": "" },
+  "excluir": [],
+  "secciones": {}
 }
 ```
 
@@ -27,6 +29,8 @@ NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos
 - **youtube.titulo**: hasta 90 caracteres, con las dos o tres historias más fuertes y nombres propios que la gente busca. Terminar con "| Semana tech". Sin mayúsculas sostenidas ni signos de exclamación; nada que prometa más de lo que el video cuenta.
 - **youtube.descripcion**: dos oraciones que digan qué semana cubre y para quién es. El script agrega la lista de temas, las fuentes y la aclaración de que se hizo con IA.
 - **youtube.etiquetas**: 10 a 15, en español, mezclando temas generales y nombres propios de la semana.
+- **excluir** (opcional): lista de `id` de notas a dejar afuera de la fuente: breves de agenda que ya quedaron superados por la nota con el resultado («X presenta hoy») o anticipos de algo que la semana después contó completo.
+- **secciones** (opcional): `{ "id": "seccion" }` para corregir la sección de una nota, sobre todo de las principales, cuya sección se adivina por palabras (p. ej. una falla de seguridad que cae en IA y va en `tecnologia`).
 - **youtube.miniatura**: 3 a 6 palabras en mayúsculas, la idea más fuerte.
 
 ## 3. Generar y revisar

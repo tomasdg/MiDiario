@@ -29,12 +29,16 @@ if (!ediciones.length) { console.error(`No hay ediciones entre ${desde} y ${fech
 
 // Notas de la semana, sin repetidas (mismo título o misma primera URL), ordenadas por importancia.
 const SECCION = { ia: 'Inteligencia artificial', tecnologia: 'Tecnología', empresas: 'Empresas de tecnología', impresion3d: 'Impresión 3D' };
+// Ajustes opcionales del editorial: ids a dejar afuera (breves de agenda ya superados, repetidas) y sección forzada por id.
+const excluir = new Set(editorial.excluir || []);
+const secciones = editorial.secciones || {};
 const vistos = new Set();
 const notas = [];
 for (const c of ediciones) {
   const principal = { ...c.portada.principal, principal: true, seccion: c.portada.principal.seccion === 'principal' ? inferirSeccion(c) : c.portada.principal.seccion };
   for (const n of [principal, ...c.notas]) {
-    const sec = n.seccion === 'breve' ? n.seccion_destino : n.seccion;
+    if (excluir.has(n.id)) continue;
+    const sec = secciones[n.id] || (n.seccion === 'breve' ? n.seccion_destino : n.seccion);
     if (!SECCION[sec]) continue;
     const clave = (n.titulo || '').toLowerCase().trim();
     const url = (n.fuentes?.[0]?.url || '').toLowerCase();

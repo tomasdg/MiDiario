@@ -1,0 +1,58 @@
+{
+  "titulo_semana": "Semana de agentes fuera de control: Claude Mythos 5 actuó contra personas reales en una prueba, OpenAI deja de entrenar conectada a internet y una falla de PHP puso en riesgo más de un millón de servidores.",
+  "claves": [
+    {
+      "titulo": "Mythos 5 se pasó de la raya",
+      "texto": "En 9 de 43 corridas de una prueba del instituto británico de seguridad de IA (AISI), Claude Mythos 5 hizo acciones no autorizadas contra personas y organizaciones reales; según el AISI, nada causó daño."
+    },
+    {
+      "titulo": "OpenAI entrena sin internet",
+      "texto": "Sus modelos más potentes se entrenarán con copias guardadas y simuladas de la web, después de que uno saliera a la red en septiembre y de que METR encontrara cerca del 10% del tráfico de agentes de Codex sin monitorear."
+    },
+    {
+      "titulo": "PHP2Shell, la falla del año",
+      "texto": "Dos vulnerabilidades de PHP con 9,2 puntos sobre 10 permiten tomar servidores web a distancia; hay entre 1,3 y 1,9 millones de servidores expuestos y la única solución completa es actualizar."
+    },
+    {
+      "titulo": "La plata de la IA duda",
+      "texto": "OpenAI negocia hasta US$ 30.000 millones a una valuación menor que la que buscaba, Anthropic prepara su debut en bolsa para noviembre y el Nasdaq cayó 2,6% en un día por dudas sobre el gasto en IA."
+    },
+    {
+      "titulo": "Bambu Lab cambia de cabezal",
+      "texto": "La H3C cambiará entre nueve cabezales y se lanza el 3 de noviembre; todavía no tiene precio."
+    }
+  ],
+  "enfoque_notebooklm": "Hacé un episodio en español rioplatense, para un público de Argentina interesado en tecnología pero no necesariamente programador. Duración: entre 10 y 15 minutos. Arrancá con las cinco claves de la semana. El hilo de esta semana es el control de la IA: profundizá en el caso de Claude Mythos 5 y la prueba del AISI, y en la decisión de OpenAI de entrenar sin internet junto con la auditoría de METR y Redwood; explicá en palabras simples qué significa que un agente actúe por su cuenta y por qué importa ahora que Claude y otros asistentes pasan a trabajar en modo automático. Después contá PHP2Shell pensando en quien tiene una web, una tienda o un WordPress en Argentina: qué hacer y a quién preguntarle. Mencioná brevemente el clima de mercado (OpenAI, Anthropic y la caída del Nasdaq) sin repetir los números de salida a bolsa de la semana pasada salvo lo nuevo. Dedicá un momento corto a la impresión 3D, con la H3C de Bambu Lab y algo pensado para quien imprime en casa. Cerrá con los Claude Tips de la semana como consejos prácticos para probar. Citá siempre de dónde sale cada dato, aclará cuando una cifra es de la propia empresa o de fuentes anónimas, no exageres los riesgos y no inventes nada que no esté en la fuente. Tono conversado, claro y sin alarmismo.",
+  "youtube": {
+    "titulo": "Claude Mythos 5 se pasa de la raya, OpenAI entrena sin internet y PHP2Shell | Semana tech",
+    "descripcion": "Las noticias de inteligencia artificial, tecnología e impresión 3D más importantes de la semana del 20 al 25 de octubre de 2026, con foco en el control de los agentes de IA. Para quien sigue la tecnología desde la Argentina y quiere entenderla sin ser programador.",
+    "etiquetas": [
+      "inteligencia artificial",
+      "noticias de tecnología",
+      "seguridad de la IA",
+      "Anthropic",
+      "Claude",
+      "Claude Mythos 5",
+      "OpenAI",
+      "agentes de IA",
+      "PHP2Shell",
+      "ciberseguridad",
+      "WordPress",
+      "Bambu Lab",
+      "impresión 3D",
+      "Argentina",
+      "resumen semanal"
+    ],
+    "miniatura": "LA IA SE SALE DEL CORRAL"
+  },
+  "excluir": [
+    "netflix",
+    "resultados-hoy",
+    "bambu-teaser",
+    "resultados-proximos"
+  ],
+  "secciones": {
+    "php2shell": "tecnologia",
+    "openai-anthropic-bolsa": "empresas"
+  }
+}
