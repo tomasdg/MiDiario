@@ -62,7 +62,15 @@ export function verificarContenido(contenido, config) {
   const ids = new Set();
   for (const n of notas) { if (ids.has(n.id)) errores.push({ tipo: 'id_repetido', nota: n.id }); ids.add(n.id); }
   const corteFin = new Date(contenido.finanzas.corte).getTime();
-  if (contenido.finanzas.dolar.length && cierre - corteFin > 36 * 3600 * 1000) errores.push({ tipo: 'dolar_corte_viejo', horas: Math.round((cierre - corteFin) / 3600000) });
+  // El dólar publicado es el cierre del último día hábil: los sábados y domingos entre el corte
+  // y el cierre de la edición no cuentan para la antigüedad (decisión del 25/10/2026).
+  let diasFinde = 0;
+  for (let t = corteFin + 24 * 3600 * 1000; t <= cierre; t += 24 * 3600 * 1000) {
+    const dia = new Date(t - 3 * 3600 * 1000).getUTCDay();
+    if (dia === 0 || dia === 6) diasFinde++;
+  }
+  const limiteDolarMs = (36 + 24 * diasFinde) * 3600 * 1000;
+  if (contenido.finanzas.dolar.length && cierre - corteFin > limiteDolarMs) errores.push({ tipo: 'dolar_corte_viejo', horas: Math.round((cierre - corteFin) / 3600000) });
   const corteClima = new Date(contenido.clima.corte).getTime();
   if (cierre - corteClima > 12 * 3600 * 1000) errores.push({ tipo: 'clima_corte_viejo' });
   if (contenido.glosario.length < config.glosario.min || contenido.glosario.length > config.glosario.max) errores.push({ tipo: 'glosario_fuera_de_rango', cantidad: contenido.glosario.length });

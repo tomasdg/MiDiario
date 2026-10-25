@@ -1,0 +1,106 @@
+{
+  "generado": "2026-10-25T09:22:34.948Z",
+  "edicion": {
+    "numero": 6,
+    "fecha": "2026-10-25",
+    "cierre": "2026-10-25T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9,
+        9.75,
+        9.25
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.837,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 200,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.852,
+        "mayor_rectangulo_vacio": 0.069,
+        "hueco_mm": {
+          "x": 129,
+          "y": 209,
+          "ancho": 57,
+          "alto": 62
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.793,
+        "mayor_rectangulo_vacio": 0.117,
+        "hueco_mm": {
+          "x": 129,
+          "y": 167,
+          "ancho": 57,
+          "alto": 105
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.893,
+        "mayor_rectangulo_vacio": 0.029,
+        "hueco_mm": {
+          "x": 62,
+          "y": 248,
+          "ancho": 62,
+          "alto": 24
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Primera maquetación: principal desbordada e intersección de la agenda con las llamadas en portada; columna de datos de la página 4 desbordada.",
+        "Revisión final de los cuatro PNG: sin superposiciones, sin texto cortado, títulos pegados a su texto, tablas e iconos visibles, pie y número de página presentes. Quedan huecos menores al pie de la columna derecha de las páginas 1 y 3, dentro de la densidad admitida."
+      ],
+      "correcciones": [
+        "Principal acortada y agenda reducida a seis fechas.",
+        "Glosario abreviado y nota de Elegoo descartada para que entre la columna de datos de la página 4."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-25/De-Villa-Urquiza-al-Mundo-N6-2026-10-25.pdf"
+}

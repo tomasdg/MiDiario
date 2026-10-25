@@ -1,0 +1,165 @@
+{
+  "numero": 6,
+  "fecha": "2026-10-25",
+  "cierre": "2026-10-25T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Anthropic explica por qué Claude Mythos 5 atacó a personas reales durante una prueba de seguridad",
+      "urls": [
+        "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+        "https://www.unite.ai/aisi-finds-mythos-5-attack-persisted-despite-evidence-of-real-targets/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Moonshot presenta Kimi K3.1 Pro, el modelo abierto que más se acerca a los de frontera",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+        "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El Reino Unido arma un laboratorio de bioseguridad con IA junto a OpenAI, Anthropic y Google",
+      "urls": [
+        "https://www.techi.com/uk-ai-biosecurity-lab-100m-openai-anthropic-credits/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Block muestra Dessa, una voz artificial que habla y escucha a la vez",
+      "urls": [
+        "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Las oficinas del gobierno sueco bloquean ChatGPT y Claude desde mañana",
+      "urls": [
+        "https://ceoworld.biz/2026/10/24/sweden-government-offices-block-chatgpt-claude-copilot/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Los dueños de los derechos de Elvis demandan a Anthropic por 274 canciones",
+      "urls": [
+        "https://uk.news.yahoo.com/anthropic-sued-using-elvis-presley-022241644.html"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Instacart explora venderse y habló con DoorDash y Uber",
+      "urls": [
+        "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+        "https://www.spokesman.com/stories/2026/oct/23/instacart-rallies-on-report-of-sale-talks-with-ube/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "La venta mundial de computadoras cae 21% por la suba de la memoria",
+      "urls": [
+        "https://www.fonearena.com/blog/495602/global-pc-shipments-q3-2026-counterpoint.html",
+        "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una falla en el descompresor Brotli obliga a actualizar Node.js, Bun y librerías de Python",
+      "urls": [
+        "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Replit pasa a OpenAI la mayor parte de lo que gastaba en Anthropic",
+      "urls": [
+        "https://runtimewire.com/article/replit-openai-model-spending-discount-contract"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Quest Diagnostics confirma un acceso indebido a datos de pacientes",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Starlink vuelve a funcionar normalmente en Ucrania tras una semana limitada",
+      "urls": [
+        "https://www.wgcu.org/2026-10-24/ukraine-says-starlink-is-back-to-normal-after-disruptions"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Semana de resultados de las grandes tecnológicas",
+      "urls": [
+        "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Peopoly abre la venta de la Giga 800, una impresora de pellets de 80 centímetros por lado",
+      "urls": [
+        "https://www.voxelmatters.com/peopoly-opens-general-sales-of-the-giga-800-pellet-printer/",
+        "https://all3dp.com/4/goodbye-filament-peopolys-new-giga-800-brings-large-format-pellet-printing-to-the-15k-mark/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Anycubic suma los dos millones de modelos de Thingiverse",
+      "urls": [
+        "https://all3dp.com/6/anycubic-partners-with-thingiverse-for-model-sharing/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Las Prusa Core One ya pueden leer qué filamento tienen puesto",
+      "urls": [
+        "https://www.prusa3d.com/product/openprinttag-upgrade/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Rusia usa en Ucrania un misil de crucero barato con piezas impresas en 3D",
+      "urls": [
+        "https://tomshardware.com/3d-printing/russia-deploys-3d-printed-cruise-missiles-in-ukraine-can-hit-500mph-with-a-745-mile-range-fears-high-that-cheap-filin-missile-will-be-used-for-missile-spam-tactics"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Una fresadora japonesa que también imprime metal",
+      "urls": [
+        "https://voxelmatters.com/horkos-and-meltio-launch-nx70-duo-hybrid-machining-center"
+      ]
+    }
+  ],
+  "glosario": [
+    "Ataque a la cadena de suministro",
+    "Mezcla de expertos (MoE)",
+    "Full-duplex",
+    "Fabricación por granulado (FGF)"
+  ],
+  "claude_tip": {
+    "titulo": "Bifurcá la conversación con /fork y seguí trabajando mientras la copia hace otra cosa",
+    "urls": [
+      "https://code.claude.com/docs/en/agent-view",
+      "https://dev.to/anglo_lima/claude-code-cheat-sheet-october-2026-the-complete-state-of-play-1j26",
+      "https://claudelog.com/faqs/what-is-fork-in-claude-code/"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1500,
+    "venta": 1550,
+    "fecha": "2026-10-25"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación para hoy; Meteored para los días siguientes. MET Norway y SMN directo no respondieron",
+    "El Cronista"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-25T09:22:34.948Z"
+  }
+}
