@@ -56,6 +56,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Edición Nº 6: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 23 según El Cronista ($ 1.500 / $ 1.550). Clima: SMN vía La Nación para hoy y Meteored para los días siguientes.
 - `verificar.js`: el control `dolar_corte_viejo` (36 horas) fallaba los domingos y lunes, aunque la regla es publicar el cierre del último día hábil. Ahora suma 24 horas por cada sábado o domingo entre el corte y el cierre.
 
+## Datos de respaldo — 26 de octubre de 2026
+
+- Edición Nº 7: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 23 según La Nación ($ 1.500 / $ 1.550). Clima: SMN vía La Nación para hoy y Meteored para los días siguientes.
+
 ## Fe de erratas pendiente
 
 (ninguna)
