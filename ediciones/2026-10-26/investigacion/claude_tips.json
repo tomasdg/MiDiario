@@ -1,0 +1,40 @@
+{
+ "tema": "claude_tips",
+ "consultado_el": "2026-10-26T06:30:00-03:00",
+ "candidatos": [
+  "Entrevista con AskUserQuestion (The AI Maker, 25/10; docs de buenas prácticas)",
+  "/btw para preguntas laterales",
+  "Importar cookies de Chrome al navegador integrado"
+ ],
+ "elegido": {
+  "titulo": "Hacé que Claude te entreviste antes de arrancar un trabajo grande",
+  "donde": "Claude Code y claude.ai",
+  "origen": "Visto en el newsletter The AI Maker",
+  "texto": [
+   "En su repaso de novedades de octubre, publicado el domingo 25, Wyndo y Dheeraj Sharma recomiendan cerrar cada encargo con una parte que llaman «preguntá primero»: pedirle a Claude que te haga preguntas antes de empezar. La guía oficial de buenas prácticas de Claude Code propone lo mismo con la herramienta de preguntas de opción múltiple.",
+   "Sirve porque Claude pregunta por casos raros y decisiones que uno no había pensado, y el resultado es una especificación escrita que después se ejecuta en una sesión limpia, sin el contexto gastado en la charla."
+  ],
+  "pasos": [
+   "Escribí «Quiero hacer [descripción breve]. Entrevistame en detalle con la herramienta AskUserQuestion».",
+   "Agregá «No hagas preguntas obvias; metete en lo difícil, los casos borde y los costos de cada opción».",
+   "Cerrá con «Cuando terminemos, escribí la especificación completa en SPEC.md».",
+   "Abrí una sesión nueva y pedile que implemente SPEC.md."
+  ],
+  "fuentes": [
+   {
+    "url": "https://aimaker.substack.com/p/claude-code-updates-october-2026",
+    "medio": "The AI Maker",
+    "titulo": "Claude & Claude Code Updates: October 2026 Walkthrough",
+    "fecha_publicacion": "2026-10-25",
+    "consultado": "2026-10-26T06:30:00-03:00"
+   },
+   {
+    "url": "https://code.claude.com/docs/en/best-practices",
+    "medio": "Documentación de Claude Code",
+    "titulo": "Best practices for Claude Code",
+    "fecha_publicacion": "2026-10-26",
+    "consultado": "2026-10-26T06:30:00-03:00"
+   }
+  ]
+ }
+}

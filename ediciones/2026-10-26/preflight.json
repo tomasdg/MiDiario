@@ -1,0 +1,108 @@
+{
+  "generado": "2026-10-26T09:27:33.476Z",
+  "edicion": {
+    "numero": 7,
+    "fecha": "2026-10-26",
+    "cierre": "2026-10-26T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9,
+        9,
+        9.25,
+        9
+      ],
+      "iteraciones": 2
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.837,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 209,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.919,
+        "mayor_rectangulo_vacio": 0.013,
+        "hueco_mm": {
+          "x": 48,
+          "y": 5,
+          "ancho": 138,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.902,
+        "mayor_rectangulo_vacio": 0.032,
+        "hueco_mm": {
+          "x": 129,
+          "y": 243,
+          "ancho": 57,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.89,
+        "mayor_rectangulo_vacio": 0.016,
+        "hueco_mm": {
+          "x": 0,
+          "y": 257,
+          "ancho": 57,
+          "alto": 14
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "fecha": "2026-10-26T06:55:00-03:00",
+      "hallazgos": [
+        "Página 3: la línea de fuente de la nota de SoftBank quedaba sola al tope de la tercera columna.",
+        "Primera pasada: hueco de 57x114 mm al pie de la tercera columna de la página 3."
+      ],
+      "correcciones": [
+        "Se ampliaron con datos ya verificados las notas de SpaceX, iPhone Duo y Apple para cerrar el hueco.",
+        "Se acortó una oración de SoftBank para que su fuente quede pegada al texto."
+      ],
+      "rubrica": "DE_VILLA_URQUIZA_AL_MUNDO.md §6: sin superposiciones, sin texto cortado, títulos pegados, tablas alineadas, iconos visibles, sin huecos, pie y número presentes."
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-26/De-Villa-Urquiza-al-Mundo-N7-2026-10-26.pdf"
+}

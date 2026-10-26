@@ -1,0 +1,45 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-26T08:55:00Z",
+  "fuente": "SMN vía La Nación para hoy; Meteored para los días siguientes. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-10-26",
+      "codigo_wmo": 2,
+      "max": 18,
+      "min": 9,
+      "precip_mm": 0,
+      "prob_precip": 10,
+      "viento_kmh": 31
+    },
+    {
+      "fecha": "2026-10-27",
+      "codigo_wmo": 2,
+      "max": 18,
+      "min": 12,
+      "precip_mm": 0,
+      "viento_kmh": 24
+    },
+    {
+      "fecha": "2026-10-28",
+      "codigo_wmo": 2,
+      "max": 20,
+      "min": 13,
+      "precip_mm": 0,
+      "viento_kmh": 29
+    },
+    {
+      "fecha": "2026-10-29",
+      "codigo_wmo": 61,
+      "max": 22,
+      "min": 14,
+      "precip_mm": 1.6,
+      "prob_precip": 60,
+      "viento_kmh": 30
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": []
+}

@@ -1,0 +1,150 @@
+{
+  "numero": 7,
+  "fecha": "2026-10-26",
+  "cierre": "2026-10-26T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Claude pidió por su cuenta un acceso pago a datos electorales de Georgia",
+      "urls": [
+        "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+        "https://techtimes.com/articles/329484/20261026/claude-duet-passed-safety-review-then-accessed-georgia-paywall-its-own-without-being-asked.htm"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "La ONU advierte que África y América Latina tienen apenas 3,3% de los centros de datos del mundo",
+      "urls": [
+        "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Grok muestra los primeros siete minutos de su «Odisea» hecha con IA",
+      "urls": [
+        "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El economista jefe de Apollo dice que la IA todavía no le dejó ganancias a casi ninguna empresa fuera de la tecnología",
+      "urls": [
+        "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El foro r/opensource de Reddit prohíbe los proyectos hechos con IA",
+      "urls": [
+        "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Musk dice que SpaceX cerró US$ 40.000 millones de deuda para comprar placas de IA",
+      "urls": [
+        "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+        "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SoftBank prepara US$ 50.000 millones para IA y centros de datos en Malasia",
+      "urls": [
+        "https://technode.global/2026/10/26/softbanks-son-plans-50b-malaysia-tech-outlay-says-pm-anwar-report/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SK hynix estudia repartir US$ 12.000 millones con lo que ganó en Kioxia",
+      "urls": [
+        "https://en.fnnews.com/news/202610261019234793"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "iFixit desarma el iPhone Duo y encuentra una pista de por qué se rompen sus pantallas",
+      "urls": [
+        "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+        "https://www.phonearena.com/news/the-iphone-duo-may-be-only-for-people-with-very-clean-pockets_id183711"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Apple presenta el miércoles su primera MacBook Pro con pantalla táctil",
+      "urls": [
+        "https://www.91mobiles.com/hub/apple-october-28th-pro-and-tell-event-touchscreen-macbook-pro-oled/",
+        "https://www.techmeme.com/261025/p2"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Bambu Lab tendría una segunda impresora con cambiador de cabezales: la P3C",
+      "urls": [
+        "https://www.tinkersignal.com/news/",
+        "https://all3dp.com/6/so-bambu-lab-has-revealed-its-h3c-toolchanger-thoughts/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Elegoo lanza el jueves su primer escáner 3D, el M1 Ultra",
+      "urls": [
+        "https://www.tinkersignal.com/elegoo-m1-ultra-3d-scanner/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "El láser R1 de Bambu Lab ya se vende sin reserva, a US$ 2.499",
+      "urls": [
+        "https://www.tinkersignal.com/news/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una universidad de Montreal convierte sus fallas de impresión en filamento nuevo",
+      "urls": [
+        "https://3dprint.com/335411/3d-printing-news-briefs-10-24-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Aprueban en Estados Unidos un implante de cervical con titanio impreso",
+      "urls": [
+        "https://3dprint.com/335411/3d-printing-news-briefs-10-24-2026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "eSUN anuncia un secador para cuatro bobinas",
+      "urls": [
+        "https://www.tinkersignal.com/news/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Token de acceso",
+    "Neocloud",
+    "Deuda rescatable",
+    "Láser de CO2"
+  ],
+  "claude_tip": {
+    "titulo": "Hacé que Claude te entreviste antes de arrancar un trabajo grande",
+    "urls": [
+      "https://aimaker.substack.com/p/claude-code-updates-october-2026",
+      "https://code.claude.com/docs/en/best-practices"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1500,
+    "venta": 1550,
+    "fecha": "2026-10-26"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación para hoy; Meteored para los días siguientes. MET Norway y SMN directo no respondieron",
+    "La Nación"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-26T09:27:33.476Z"
+  }
+}
