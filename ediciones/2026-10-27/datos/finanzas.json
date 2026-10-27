@@ -1,0 +1,20 @@
+{
+  "corte": "2026-10-26T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1510,
+      "venta": 1560,
+      "actualizado": "2026-10-26T18:00:00.000Z"
+    }
+  ],
+  "anterior": {
+    "compra": 1500,
+    "venta": 1550,
+    "fecha": "2026-10-26"
+  },
+  "comentario": "Cotización de cierre del lunes 26 de octubre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "fuente": "La Nación",
+  "no_disponible": []
+}

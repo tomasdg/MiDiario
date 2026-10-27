@@ -1,0 +1,111 @@
+{
+  "generado": "2026-10-27T09:39:36.369Z",
+  "edicion": {
+    "numero": 8,
+    "fecha": "2026-10-27",
+    "cierre": "2026-10-27T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": [
+        {
+          "tipo": "fuente_ya_usada",
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+          "edicion": "2026-10-25"
+        }
+      ]
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.75,
+        8.5,
+        9.25,
+        8.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.828,
+        "mayor_rectangulo_vacio": 0.058,
+        "hueco_mm": {
+          "x": 129,
+          "y": 205,
+          "ancho": 57,
+          "alto": 52
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.898,
+        "mayor_rectangulo_vacio": 0.032,
+        "hueco_mm": {
+          "x": 129,
+          "y": 243,
+          "ancho": 57,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.886,
+        "mayor_rectangulo_vacio": 0.037,
+        "hueco_mm": {
+          "x": 129,
+          "y": 238,
+          "ancho": 57,
+          "alto": 33
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.827,
+        "mayor_rectangulo_vacio": 0.103,
+        "hueco_mm": {
+          "x": 62,
+          "y": 186,
+          "ancho": 62,
+          "alto": 86
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Portada: hueco moderado bajo las secundarias en la columna derecha, dentro de los límites de densidad.",
+        "Página 4: fuente de Guinness mostraba una fecha de publicación inventada (1 ene)."
+      ],
+      "correcciones": [
+        "Se quitó la fecha de publicación de la fuente de Guinness y se reconstruyó; sin superposiciones, textos cortados ni títulos separados de su texto; pie y número de página presentes en las cuatro páginas."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-27/De-Villa-Urquiza-al-Mundo-N8-2026-10-27.pdf"
+}

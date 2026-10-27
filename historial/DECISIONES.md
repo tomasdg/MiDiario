@@ -60,6 +60,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 
 - Edición Nº 7: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 23 según La Nación ($ 1.500 / $ 1.550). Clima: SMN vía La Nación para hoy y Meteored para los días siguientes.
 
+## Datos de respaldo — 27 de octubre de 2026
+
+- Edición Nº 8: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del lunes 26 según La Nación ($ 1.510 / $ 1.560), coincidente con El Destape. Clima: pronóstico de Meteored para los cuatro días; sin dato de viento máximo para hoy.
+
 ## Fe de erratas pendiente
 
 (ninguna)

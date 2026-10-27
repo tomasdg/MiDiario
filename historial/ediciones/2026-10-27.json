@@ -1,0 +1,160 @@
+{
+  "numero": 8,
+  "fecha": "2026-10-27",
+  "cierre": "2026-10-27T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Anthropic abre sus cuentas para salir a la bolsa y revela que frenó un mes su próximo modelo",
+      "urls": [
+        "https://ca.finance.yahoo.com/news/anthropic-discloses-month-long-training-161626067.html",
+        "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
+        "https://tech-insider.org/anthropic-ipo-s-1-filing-ant-nasdaq-16-3b-revenue-2026/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI lanza GPT-6.1 Terra, un modelo barato para manejar la computadora",
+      "urls": [
+        "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use",
+        "https://cybersecuritynews.com/openai-unveils-gpt-6-1-terra/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI dice que sus modelos refutaron una hipótesis clave de la computación",
+      "urls": [
+        "https://tech-insider.org/openai-three-science-discoveries-eth-kakeya-qcd-2026/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Cohere descubre que un modelo abierto de Alibaba intentó mandar un archivo a Pekín",
+      "urls": [
+        "https://betakit.com/concerning-behaviour-cohere-discovers-alibabas-open-source-qwen3-8-model-can-send-a-diagnostic-file-to-china-unprompted/",
+        "https://thenextweb.com/news/cohere-alibaba-qwen-beijing-bucket-upload-test"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Una startup de exfuncionarios del DOGE entró a sistemas internos de Anthropic con agentes de IA",
+      "urls": [
+        "https://techstartups.com/2026/10/26/ex-doge-ai-cybersecurity-startup-cathedral-breaches-anthropics-internal-systems-in-under-12-hours-using-ai-agents-exposing-sensitive-employee-data/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude suma un complemento gratis para organizaciones sin fines de lucro",
+      "urls": [
+        "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Intel compra Classiq por US$ 2.200 millones para armar su plataforma cuántica",
+      "urls": [
+        "https://siliconangle.com/2026/10/26/intel-buys-quantum-software-pioneer-classiq-for-2-2b/",
+        "https://startupfortune.com/intel-agrees-to-buy-israeli-quantum-software-startup-classiq-for-22-billion/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Itaú compra la startup brasileña de IA NeoSpace por US$ 589 millones",
+      "urls": [
+        "https://theaiinsider.tech/2026/10/26/brazils-itau-unibanco-to-acquire-ai-startup-neospace-for-589m/",
+        "https://techstartups.com/2026/10/26/tech-news-today-october-26-2026-nvidia-metas-95b-ai-funding-plan-spacexs-40b-chip-deal-and-anthropic-security-breach/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Un archivo AGENTS.md en la carpeta de descargas puede tomar el control de un agente de programación",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Verizon cierra un acuerdo de más de US$ 2.000 millones con AWS y mejora su previsión",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000049/a2026q3exhibit99.htm"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Cadence crece 22% con el diseño de chips para IA y deja un pedido récord",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Semana decisiva: Microsoft, Alphabet, Amazon e Intel presentan resultados",
+      "urls": [
+        "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "LAIKA imprimió más de 142.000 caras a todo color para «Wildwood»",
+      "urls": [
+        "https://www.voxelmatters.com/laika-3d-printed-over-142000-full-color-faces-for-wildwood/",
+        "https://www.guinnessworldrecords.com/world-records/693110-most-3d-printed-faces-made-for-a-stop-motion-film"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "WASP alterna capas de tierra y plástico para imprimir piezas que después se separan",
+      "urls": [
+        "https://3dprint.com/335150/dwasp-makes-dual-extruder-for-reversible-composites/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Freemelt imprimirá 7.000 piezas de tungsteno para la fuente de neutrones europea",
+      "urls": [
+        "https://mfn.se/a/freemelt/freemelt-awarded-sek-28-million-order-from-ess-to-manufacture-tungsten-components"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "El Pentágono encarga a Nikon impresoras de metal de dos metros para fabricar misiles Tomahawk",
+      "urls": [
+        "https://asdnews.com/news/defense/2026/10/22/nikon-advanced-manufacturing-announces-contract-with-dow-cota-tomahawk-production",
+        "https://3dprint.com/335341/the-pentagon-turns-to-nikon-advanced-manufacturing-to-ramp-up-tomahawk-production/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un ingeniero italiano muestra una impresora de resina sin cubeta",
+      "urls": [
+        "https://www.voxelmatters.com/davide-marin-develops-a-vatless-resin-3d-printing-prototype/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Bono convertible",
+    "Hipótesis del tiempo exponencial",
+    "Programa de recompensas por errores",
+    "Fusión por haz de electrones"
+  ],
+  "claude_tip": {
+    "titulo": "Escribí «ultrathink» para que Claude Code piense a fondo sólo en ese turno",
+    "urls": [
+      "https://dev.classmethod.jp/en/articles/20261027-cc-updates-v2-1-311/",
+      "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-311/"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-27"
+  },
+  "fuentes_datos": [
+    "Meteored (pronóstico consultado 05:50). MET Norway y SMN directo no respondieron",
+    "La Nación"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-27T09:39:36.369Z"
+  }
+}
