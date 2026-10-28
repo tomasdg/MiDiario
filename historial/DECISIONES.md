@@ -64,6 +64,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 
 - Edición Nº 8: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del lunes 26 según La Nación ($ 1.510 / $ 1.560), coincidente con El Destape. Clima: pronóstico de Meteored para los cuatro días; sin dato de viento máximo para hoy.
 
+## Datos de respaldo — 28 de octubre de 2026
+
+- Edición Nº 9: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 27 según Ámbito ($ 1.510 / $ 1.560). Clima: SMN vía Ámbito, Infocampo y Perfil de miércoles a viernes; Meteored para el sábado.
+
 ## Fe de erratas pendiente
 
 (ninguna)
