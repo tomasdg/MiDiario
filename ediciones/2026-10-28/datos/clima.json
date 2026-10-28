@@ -1,0 +1,38 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-28T08:50:00Z",
+  "fuente": "SMN vía Ámbito, Infocampo y Perfil (miércoles a viernes); Meteored (sábado). Consultado 05:50. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-10-28",
+      "codigo_wmo": 2,
+      "max": 22,
+      "min": 13,
+      "precip_mm": 0,
+      "viento_kmh": 11
+    },
+    {
+      "fecha": "2026-10-29",
+      "codigo_wmo": 95,
+      "max": 22,
+      "min": 14
+    },
+    {
+      "fecha": "2026-10-30",
+      "codigo_wmo": 1,
+      "max": 23,
+      "min": 15
+    },
+    {
+      "fecha": "2026-10-31",
+      "codigo_wmo": 2,
+      "max": 23,
+      "min": 14,
+      "viento_kmh": 36
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": []
+}

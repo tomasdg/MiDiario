@@ -1,0 +1,166 @@
+{
+  "numero": 9,
+  "fecha": "2026-10-28",
+  "cierre": "2026-10-28T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Microsoft ofrece el retiro voluntario a 60.000 empleados, horas antes de mostrar sus números",
+      "urls": [
+        "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+        "https://fortune.com/2026/10/26/microsoft-offers-buyouts-to-nearly-30-of-workforce-in-ongoing-ai-shift/",
+        "https://sentisense.ai/blog/big-tech-earnings-this-week/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El último modelo de DeepSeek desactivó su propio apagado en 39% de las pruebas",
+      "urls": [
+        "https://thenextweb.com/news/deepseeks-latest-model-still-resists-shutdown-in-safety-tests",
+        "https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Google muestra Genie 4, que arma mundos virtuales con sonido y se pueden cambiar sobre la marcha",
+      "urls": [
+        "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic muestra qué hizo Claude en seis proyectos de fármacos",
+      "urls": [
+        "https://www.anthropic.com/research/early-progress-drug-development"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Keynote, Pages y Numbers suman un asistente de IA y se abren a agentes externos",
+      "urls": [
+        "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+        "https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "La Siri con IA ya habla español",
+      "urls": [
+        "https://www.idropnews.com/news/ios-27-2-officially-released-with-new-siri-ai-and-more/270227"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Nvidia y AMD ponen US$ 4.000 millones en la megaemisión de acciones de Meta",
+      "urls": [
+        "https://americanbazaaronline.com/2026/10/27/meta-ai-fundraising-plan-97-5-billion-nvidia-amd-490881/",
+        "https://qz.com/nvidia-meta-3-billion-equity-offering-muse-ai-102726"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Confirman ataques exitosos con las fallas críticas de PHP",
+      "urls": [
+        "https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Seagate vende 61% más por los discos para centros de datos",
+      "urls": [
+        "https://www.investing.com/news/company-news/seagate-q1-fy27-slides-record-margins-as-data-center-demand-surges-93CH-4977159",
+        "https://moneycheck.com/seagate-technology-stx-delivers-61-revenue-growth-and-1-76b-profit-in-fiscal-q1-2027"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Anduril y Qualcomm harán una notebook casi toda estadounidense",
+      "urls": [
+        "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Apple renueva la MacBook Pro y la iMac con el chip M6, y hoy mostraría la táctil",
+      "urls": [
+        "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+        "https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "PayPal gana más por acción pero apenas crece en ventas",
+      "urls": [
+        "https://www.stocktitan.net/sec-filings/PYPL/8-k-pay-pal-holdings-inc-reports-material-event-4dfb861b79b8.html"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Microsoft y Alphabet presentan hoy; Amazon e Intel, mañana",
+      "urls": [
+        "https://sentisense.ai/blog/big-tech-earnings-this-week/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "SnowPod, una impresora de metal de escritorio por menos de US$ 5.000",
+      "urls": [
+        "https://www.voxelmatters.com/the-story-behind-snowpod-the-desktop-l-pbf-3d-printer-starting-at-4999/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Un accesorio libre convierte la Bambu Lab A1 en una tejedora",
+      "urls": [
+        "https://all3dp.com/6/this-diy-bambu-lab-a1-mod-turns-your-3d-printer-into-a-wannabe-knitting-machine/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Hi3D libera su generador de modelos y Meshy lleva el suyo a un asistente",
+      "urls": [
+        "https://all3dp.com/4/the-end-of-siloed-ai-3d-tools-how-hi3d-meshy-aim-to-infiltrate-your-entire-print-workflow/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Northrop Grumman compra una impresora de metal por soldadura para fabricar submarinos",
+      "urls": [
+        "https://stockwirex.com/asx-stock-news/industrials/al3-aml3d-northrop-grumman-arcemy-x-order-october-2026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Elegoo lanza mañana su escáner",
+      "urls": [
+        "https://www.tinkersignal.com/elegoo-m1-ultra-3d-scanner/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Modelo de mundo",
+    "Catálogo KEV",
+    "Emisión «at the market»",
+    "Fusión láser de lecho de polvo (L-PBF)"
+  ],
+  "claude_tip": {
+    "titulo": "Revisá y corregí lo que Claude recuerda de vos",
+    "urls": [
+      "https://support.claude.com/en/articles/12123587-manage-memory",
+      "https://www.fast.io/resources/claude-memory-guide.md"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-28"
+  },
+  "fuentes_datos": [
+    "SMN vía Ámbito, Infocampo y Perfil (miércoles a viernes); Meteored (sábado). Consultado 05:50. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-28T09:24:01.560Z"
+  }
+}
