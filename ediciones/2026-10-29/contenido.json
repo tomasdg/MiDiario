@@ -1,0 +1,627 @@
+{
+ "edicion": {
+  "numero": 10,
+  "fecha": "2026-10-29",
+  "cierre": "2026-10-29T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "microsoft-alphabet-resultados",
+   "seccion": "principal",
+   "titulo": "Microsoft sube y Alphabet cae: la nube crece como nunca, pero el gasto en IA divide a Wall Street",
+   "bajada": "Las dos presentaron el miércoles números de nube récord; a Microsoft le premiaron la previsión y a Alphabet le castigaron un flujo de caja otra vez negativo.",
+   "cuerpo": [
+    "Microsoft y Alphabet mostraron el miércoles 28, después del cierre de Wall Street, sus resultados del trimestre julio-septiembre, y el mercado los leyó de manera opuesta. Microsoft facturó US$ 92.280 millones, 19% más que un año antes, frente a los US$ 90.690 millones que esperaban los analistas, y ganó US$ 4,89 por acción contra US$ 4,73 previstos. Azure, su nube, creció más de 48%. La acción subió cerca de 4% fuera de hora.",
+    "Lo que más gustó fue la previsión: Microsoft anticipa que Azure crecerá entre 49% y 50% en el trimestre que viene, cuando el mercado calculaba 45%. Gastó US$ 45.200 millones en inversiones de capital, sobre todo centros de datos, menos de lo que temían algunos analistas, y su flujo de caja libre bajó 27%, a US$ 18.630 millones. Los usuarios de Microsoft 365 Copilot crecieron 50% en el trimestre, aunque la empresa no dice cuántos pagan. Un documento presentado ante el regulador mostró además que OpenAI le dejó US$ 10.000 millones en el período, casi 11% de todos sus ingresos. En Windows, en cambio, las licencias para fabricantes de computadoras cayeron 22%.",
+    "Alphabet facturó US$ 127.600 millones, 25% más, en línea con lo esperado. Google Cloud duplicó sus ventas, a US$ 30.700 millones (+103%), y su crecimiento se aceleró en cada trimestre del año: 63%, 82% y ahora 103%. Sundar Pichai contó que la aplicación Gemini llegó a mil millones de usuarios. Pero la búsqueda, su negocio central, creció 12%, menos que en la primera mitad del año, y los avisos de YouTube apenas 9%. La ganancia por acción cayó a US$ 2,12 por una pérdida contable de US$ 8.700 millones en participaciones en otras empresas.",
+    "El golpe vino por el lado del gasto: Alphabet invirtió US$ 51.400 millones en el trimestre, más del doble que un año antes, su flujo de caja libre quedó en US$ 9.100 millones negativos y la directora financiera, Anat Ashkenazi, avisó que en 2027 la inversión aumentará de forma significativa. La acción llegó a caer más de 9% después del cierre. Hoy, jueves 29, presentan Amazon e Intel; Apple lo hará el lunes 2 de noviembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/",
+     "medio": "SiliconANGLE",
+     "titulo": "Microsoft's stock rises on solid earnings and revenue beat, with Azure growing 48%",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:50:00-03:00"
+    },
+    {
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+     "medio": "TechCrunch",
+     "titulo": "Microsoft recorded $10 billion in revenue from OpenAI",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:51:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/articles/alphabet-q3-2026-earnings-google-cloud-doubles-search-slows",
+     "medio": "Stock Titan",
+     "titulo": "Google Earnings: Cloud Revenue Up 103%, Capex Reaches $51.4 Billion",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:52:00-03:00"
+    },
+    {
+     "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/",
+     "medio": "Fortune",
+     "titulo": "Alphabet's Google Cloud revenue doubles to $31 billion as cash flow stays deep red",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:53:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Gemini 4 Carbon",
+    "resumen": "El nuevo modelo de Google lidera un índice independiente y cuesta menos que Claude Opus 5.5, pero por ahora sólo lo usan especialistas en ciberseguridad.",
+    "pagina": 2
+   },
+   {
+    "titulo": "OpenAI, mejor que Xbox",
+    "resumen": "Microsoft facturó US$ 10.000 millones por sus acuerdos con OpenAI en el trimestre, casi 11% de todos sus ingresos, y su participación bajó a 24%.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Datos cruzados en Cloudflare",
+    "resumen": "Un error en la caché del modelo GLM 5.3 hizo que 155 respuestas de Workers AI llevaran fragmentos de pedidos de otros clientes.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Samsung, récord histórico",
+    "resumen": "Ganó 107,4 billones de wones en el trimestre gracias a la memoria para IA, mientras su negocio de celulares y televisores perdió plata.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Memoria escasa hasta 2030",
+    "resumen": "SK hynix anticipa que no alcanzará la oferta por años y que bajarán las ventas de computadoras y celulares por los precios.",
+    "pagina": 3
+   },
+   {
+    "titulo": "La Mac se deja tocar",
+    "resumen": "Apple presentó su primera MacBook Pro con pantalla táctil, OLED en tándem y chips M5 Pro y M5 Max, desde US$ 2.899.",
+    "pagina": 3
+   },
+   {
+    "titulo": "BigRep sale de la bolsa",
+    "resumen": "El fabricante alemán vuelve a manos privadas y lanza la ALTRA 670, que imprime plásticos de ingeniería en piezas de más de un metro.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Hoy, jueves 29",
+    "texto": "Amazon e Intel presentan resultados después del cierre."
+   },
+   {
+    "cuando": "Hoy, jueves 29",
+    "texto": "Sale el escáner 3D M1 Ultra de Elegoo."
+   },
+   {
+    "cuando": "Lunes 2 de noviembre",
+    "texto": "Apple presenta sus resultados trimestrales."
+   },
+   {
+    "cuando": "Martes 3 de noviembre",
+    "texto": "Bambu Lab presenta la impresora H3C."
+   },
+   {
+    "cuando": "Viernes 6 de noviembre",
+    "texto": "Sale a la venta la MacBook Pro táctil."
+   },
+   {
+    "cuando": "31 de diciembre",
+    "texto": "Vence el precio introductorio de Gemini 4 Carbon, según Artificial Analysis."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Una revisión de código con una flota de agentes.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Tecnología",
+    "texto": "Samsung gana como nunca con la memoria para IA.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Varios metales en una misma capa, en Finlandia.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Tormentas y chaparrones; máxima de 22°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "US$ 10.000 millones",
+   "texto": "Lo que Microsoft facturó por sus acuerdos con OpenAI en un solo trimestre, casi 11% de sus ingresos."
+  }
+ },
+ "notas": [
+  {
+   "id": "gemini-4-carbon",
+   "seccion": "ia",
+   "titulo": "Google presenta Gemini 4 Carbon, su modelo más capaz, pero por ahora sólo para defensores informáticos",
+   "bajada": "Encabeza el índice independiente de Artificial Analysis y cuesta menos que Claude Opus 5.5, aunque el acceso amplio depende de cómo funcionen sus salvaguardas.",
+   "cuerpo": [
+    "Google DeepMind lanzó el miércoles 28 Gemini 4 Carbon, dos semanas después de Gemini 4 Argon. Está pensado para trabajos largos de agentes, como proyectos de programación de varios días, y para todo el ciclo de la ciberdefensa: encontrar fallas, comprobar si se pueden explotar y parchearlas.",
+    "En mediciones independientes, Carbon quedó primero en el índice de inteligencia de Artificial Analysis, con 59 puntos contra 50 de Argon, y primero en la tabla de texto de Arena. En el índice de agentes de programación, en cambio, sigue detrás de Claude Opus 5.5 (59 contra 62). Las cifras de seguridad las publica Google: 88,2% en SEC-bench Pro, que mide si encuentra vulnerabilidades, 54,8% en ExploitGym y 71% en CWE-bench, de corrección de fallas. En una prueba de Artificial Analysis, eso sí, subió su tasa de respuestas inventadas, de 4% a 11%.",
+    "El precio introductorio es de US$ 2 por millón de tokens de entrada y US$ 10 por millón de salida, la mitad del precio de lista, y según Artificial Analysis rige hasta fin de año. Por tarea, sale cerca de 23% más barato que Opus 5.5.",
+    "El acceso, sin embargo, es restringido: primero lo reciben especialistas en ciberseguridad elegidos por Google, a través de su programa Fairwind, y después socios de confianza. Google dice que lo abrirá a desarrolladores y al público cuando termine de ajustar las salvaguardas; no dio fecha, ni para la Argentina ni para ningún otro país."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+     "medio": "The Decoder",
+     "titulo": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:54:00-03:00"
+    },
+    {
+     "url": "https://www.digitaltrends.com/computing/googles-new-ai-model-gemini-4-carbon-is-built-for-complex-coding-and-cybersecurity-tasks/",
+     "medio": "Digital Trends",
+     "titulo": "Google's Gemini 4 Carbon is built for complex coding and cybersecurity tasks",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:55:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-microsoft-10000",
+   "seccion": "ia",
+   "titulo": "OpenAI ya le deja a Microsoft más plata que Bing o Xbox",
+   "bajada": "Un documento ante el regulador muestra que la sociedad aportó US$ 10.000 millones en el trimestre, casi 11% de todos los ingresos de Microsoft.",
+   "cuerpo": [
+    "Microsoft registró US$ 10.000 millones de ingresos por sus acuerdos comerciales con OpenAI en el trimestre que terminó el 30 de septiembre, incluidos los pagos por reparto de ingresos, según una presentación regulatoria difundida el miércoles 28. Equivale a casi 11% de los US$ 92.300 millones que facturó en total.",
+    "El documento muestra también que OpenAI le debía US$ 7.200 millones a fin de septiembre, contra US$ 6.000 millones en junio, y que la participación de Microsoft en el laboratorio bajó a cerca de 24%, desde 25% en junio y 27% tras la reestructuración de octubre de 2025. La empresa no explicó por qué se diluyó."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+     "medio": "TechCrunch",
+     "titulo": "Microsoft recorded $10 billion in revenue from OpenAI",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T05:56:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "cloudflare-cache-kv",
+   "seccion": "ia",
+   "titulo": "Un error en la nube de IA de Cloudflare mezcló datos de clientes en 155 respuestas",
+   "bajada": "Afectó sólo al modelo GLM 5.3 entre agosto y septiembre; la empresa dice que no encontró uso malicioso.",
+   "cuerpo": [
+    "Cloudflare contó el martes 27 que su servicio Workers AI, donde los clientes usan modelos alojados por la empresa, devolvió en 155 respuestas fragmentos de pedidos de otros clientes. Pasó entre el 27 de agosto y el 9 de septiembre y sólo con GLM 5.3, el modelo de la china Z.ai; todos los casos tenían instrucciones de más de 681.280 tokens.",
+    "La causa fue un ajuste de configuración que activó una falla en SGLang, el programa que ejecuta los modelos, y dejó compartidas entre pedidos distintos páginas de la caché KV, la memoria temporal que el modelo usa para no recalcular. Cloudflare retiró el modelo, lo corrigió y lo volvió a habilitar el 9 de septiembre; la corrección llegó a SGLang en la versión 0.5.20."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://tech-insider.org/cloudflare-glm-5-3-workers-ai-kv-cache-leak-155-responses-2026/",
+     "medio": "Tech Insider",
+     "titulo": "Cloudflare GLM-5.3 Workers AI KV cache leak: 155 responses",
+     "fecha_publicacion": "2026-10-27",
+     "consultado": "2026-10-29T05:57:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-gsa-gobiernos",
+   "seccion": "ia",
+   "titulo": "Anthropic ofrece Claude con 40% de descuento a todos los niveles del Estado estadounidense",
+   "bajada": "El nuevo acuerdo con la agencia de compras federal suma a estados, municipios y territorios.",
+   "cuerpo": [
+    "Anthropic amplió el martes 27 su acuerdo con la Administración de Servicios Generales de Estados Unidos (GSA), que centraliza las compras del Estado. Ahora el gobierno federal, los estados, los municipios, las tribus y los territorios pueden comprar Claude Enterprise, Claude for Government y la API con 40% de descuento, sin gasto mínimo.",
+    "La empresa calcula un ahorro de unos US$ 1.000 millones y dice que unas 500 organizaciones públicas ya usan Claude; el uso semanal de Claude for Government se multiplicó por ocho desde febrero. El descuento ya rige por la vía directa y llegará en los próximos meses a las compras a través de Amazon y Google Cloud."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+     "medio": "Anthropic",
+     "titulo": "Expanding our partnership with the GSA",
+     "fecha_publicacion": "2026-10-27",
+     "consultado": "2026-10-29T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "axiom-teorema-enorme",
+   "seccion": "ia",
+   "titulo": "Agentes de IA reescriben en 24 días una prueba matemática de 15.000 páginas",
+   "bajada": "Axiom dice haber verificado por computadora la clasificación de los grupos simples finitos, aunque nadie auditó todavía su trabajo.",
+   "cuerpo": [
+    "La startup Axiom anunció el martes 27 que sus enjambres de agentes de IA traspasaron a Lean, un lenguaje que permite comprobar cada paso de una demostración con software, la clasificación de los grupos simples finitos, conocida como «teorema enorme». La prueba original reúne unas 15.000 páginas en más de 500 artículos de un centenar de matemáticos.",
+    "El trabajo llevó 24 días y unas 43,1 millones de líneas; en el camino aparecieron 34 problemas serios, uno de los cuales exigió matemática nueva. Que sea la primera prueba completa verificada es una afirmación de la empresa; no hay todavía una revisión independiente publicada."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://officechai.com/ai/axiom-enormous-theorem/",
+     "medio": "OfficeChai",
+     "titulo": "AI Startup Axiom Formally Verifies 15,000-Page “Enormous Theorem”",
+     "fecha_publicacion": "2026-10-27",
+     "consultado": "2026-10-29T05:59:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "samsung-record",
+   "seccion": "empresas",
+   "titulo": "Samsung gana más de 100 billones de wones en un trimestre, la primera tecnológica en lograrlo",
+   "bajada": "La memoria para centros de datos de IA explica casi todo: el negocio de chips tuvo un margen de 72% mientras celulares y televisores perdieron plata.",
+   "cuerpo": [
+    "Samsung Electronics presentó el jueves 29, hora de Corea, sus resultados del tercer trimestre: ventas de 195,3 billones de wones, 127% más que un año antes, y una ganancia operativa de 107,4 billones de wones (unos US$ 75.000 millones), 783% más, con un margen de 55%. Según la empresa, es la primera tecnológica que supera los 100 billones de wones de ganancia en un trimestre.",
+    "Casi todo vino de los semiconductores: la división de chips vendió 147,1 billones y ganó 106,5 billones, con un margen de 72%. Las ventas de memoria crecieron 427% interanual y las de HBM4, la memoria apilada que usan las placas de IA de Nvidia y otras, se triplicaron contra el trimestre anterior y ya son 60% de lo que vende en HBM. Samsung dice que su producción de HBM para 2027 ya está vendida a precios pactados.",
+    "La otra cara es la división de celulares, televisores y electrodomésticos, que perdió 0,8 billones de wones con ventas de 52,1 billones, castigada por el costo de la propia memoria. La ganancia neta, de 75,1 billones, quedó por debajo de lo que esperaba el mercado y la acción bajó en Seúl.",
+    "Para quien compra en la Argentina el mensaje es el mismo que vienen dando los fabricantes: la memoria seguirá cara, y con ella los teléfonos y las computadoras."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.investing.com/news/company-news/samsung-q3-2026-slides-first-tech-firm-to-top-100t-won-profit-93CH-4981381",
+     "medio": "Investing.com",
+     "titulo": "Samsung Q3 2026 slides: first tech firm to top 100T won profit",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-29T06:03:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "sk-hynix-escasez-2030",
+   "seccion": "empresas",
+   "titulo": "SK hynix avisa que faltará memoria al menos hasta 2030",
+   "bajada": "La surcoreana multiplicó por más de cuatro sus ventas y ya tiene comprometida más de la mitad de su producción de 2027 y 2028.",
+   "cuerpo": [
+    "SK hynix, el otro gran fabricante coreano de memoria, informó el miércoles 28 ventas de 104,6 billones de wones en el trimestre, 328% más que un año antes, y una ganancia operativa de 87,68 billones. Al presentar los números dijo que la escasez de memoria va a durar por lo menos hasta 2030: la IA empuja la inversión en centros de datos y las fábricas nuevas tardan años en construirse.",
+    "Tiene acuerdos de largo plazo con 14 grandes compradores que se quedarán con más de la mitad de su producción de 2027 y 2028. Su directora financiera, Kim Woo-hyun, anticipó que bajarán las ventas de computadoras y celulares por la memoria cara. La acción subió cerca de 3%."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+     "medio": "The Register (vía Pipedot)",
+     "titulo": "SK Hynix says memory shortages to persist until 2030",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:04:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-tactil",
+   "seccion": "tecnologia",
+   "titulo": "Apple lleva por primera vez la pantalla táctil a la Mac",
+   "bajada": "La nueva MacBook Pro tiene una pantalla OLED que se puede tocar, chips M5 Pro y M5 Max, y arranca en US$ 2.899.",
+   "cuerpo": [
+    "Apple presentó el miércoles 28 la MacBook Pro con pantalla PROLED XDR, un panel OLED en tándem (dos capas de diodos, para más brillo y duración) que además es táctil. «Por primera vez, llevamos el tacto a la Mac», dijo John Ternus en la presentación.",
+    "Viene en 14 y 16 pulgadas con chips M5 Pro o M5 Max, no con el M6 que Apple estrenó esta semana en las MacBook Pro de pantalla tradicional. Cuesta desde US$ 2.899 (14 pulgadas, 24 GB y 1 TB) y US$ 3.399 (16 pulgadas); la configuración más alta llega a US$ 14.549. Saldría a la venta el 6 de noviembre en Estados Unidos; Apple no informó precio ni fecha para la Argentina."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://tech-insider.org/apple-touchscreen-macbook-pro-proled-xdr-2899-nov-6-2026/",
+     "medio": "Tech Insider",
+     "titulo": "Apple Touchscreen MacBook Pro: $2,899, Nov. 6",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:05:00-03:00"
+    },
+    {
+     "url": "https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/",
+     "medio": "9to5Mac",
+     "titulo": "Apple announces all-new MacBook Pro with PROLED XDR display, its first touchscreen Mac",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:06:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "github-cuatro-millones-nucleos",
+   "seccion": "tecnologia",
+   "titulo": "GitHub suma cuatro millones de núcleos porque los agentes de IA la están desbordando",
+   "bajada": "En septiembre hubo 7.400 millones de commits, cinco veces más que un año antes, y el servicio se cayó varias veces este año.",
+   "cuerpo": [
+    "GitHub anunció el miércoles 28 que agregará cuatro millones de núcleos de procesador y 160 petabytes de almacenamiento rápido, además de más capacidad para GitHub Actions, después de un año con caídas en febrero, abril y agosto. La causa es el volumen: en septiembre registró 7.400 millones de commits, cinco veces más que un año antes, empujados por agentes de IA que escriben código.",
+    "También separará cómputo y almacenamiento y terminará de mudarse a varias regiones de Azure a comienzos de 2027. En el mismo anuncio, Copilot Fusion, que reparte cada tarea entre distintos modelos para gastar menos, pasó a disponibilidad general, y Copilot quedó incluido para todos los usuarios de GitHub Enterprise, que pagan por los tokens que consumen."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
+     "medio": "The Register (vía Pipedot)",
+     "titulo": "GitHub powering up four million extra cores to stop its service going down",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:07:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "oracle-ebs-peoplesoft",
+   "seccion": "tecnologia",
+   "titulo": "Ya intentan explotar una falla crítica de Oracle E-Business Suite",
+   "bajada": "Hay parche desde la actualización de octubre; en PeopleSoft, una banda usó otras tres fallas desde mayo.",
+   "cuerpo": [
+    "Una inyección de SQL sin autenticación en Oracle E-Business Suite (CVE-2026-101767), que puede terminar en ejecución remota de código, ya recibe intentos de ataque: Defused Cyber los vio el martes 27 en sus servidores señuelo. Horizon3, que la descubrió, dice que permite llegar a datos de finanzas, sueldos y compras. Oracle la corrigió en su parche de octubre.",
+    "En PeopleSoft, el identificador CVE-2026-35273 agrupa en realidad tres fallas, entre ellas una SSRF, según la Zero Day Initiative. El grupo ShinyHunters las usó desde mayo y dijo haber comprometido más de 100 organizaciones. Parchear no alcanza: hay que buscar accesos que los atacantes hayan dejado instalados."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+     "medio": "The Register (vía Pipedot)",
+     "titulo": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:08:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "amazon-intel-hoy",
+   "seccion": "breve",
+   "seccion_destino": "empresas",
+   "titulo": "Amazon e Intel presentan hoy; Apple, el lunes",
+   "cuerpo": [
+    "Amazon muestra sus números después del cierre: se esperan ventas de unos US$ 202.000 millones y un crecimiento de AWS cercano a 35%. Intel presenta a la misma hora, con conferencia a las 18. Apple lo hará el lunes 2 de noviembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview",
+     "medio": "Pepperstone",
+     "titulo": "Amazon Q3 2026 earnings preview",
+     "fecha_publicacion": "2026-10-27",
+     "consultado": "2026-10-29T06:11:00-03:00"
+    },
+    {
+     "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+     "medio": "Intel",
+     "titulo": "Intel to Report Third-Quarter 2026 Financial Results",
+     "fecha_publicacion": "2026-10-06",
+     "consultado": "2026-10-29T06:12:00-03:00"
+    },
+    {
+     "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+     "medio": "MacTrast",
+     "titulo": "Apple to Announce Fiscal Q4 2026 Earnings on November 2",
+     "fecha_publicacion": "2026-10-07",
+     "consultado": "2026-10-29T06:13:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "bigrep-altra-670",
+   "seccion": "impresion3d",
+   "titulo": "BigRep deja la bolsa y lanza la ALTRA 670, una impresora industrial de más de un metro",
+   "bajada": "La alemana vuelve a manos de tres inversores familiares y apuesta a una máquina para plásticos de ingeniería que ya acepta pedidos en todo el mundo.",
+   "cuerpo": [
+    "BigRep, el fabricante alemán de impresoras 3D de gran formato, anunció el miércoles 28 que deja de cotizar en bolsa unos dos años después de haber salido. La empresa queda en manos de tres inversores que ya eran accionistas, Koehler Invest, DeKrassny y Hage Holding, todas compañías familiares, y los accionistas aprobaron una estructura más simple. No se informó el precio de la operación.",
+    "Su director ejecutivo, Thomas Janics-Jakomini, reconoció que la salida a bolsa se basó en una expectativa de crecimiento del mercado de fabricación aditiva más optimista de lo que finalmente fue. Aun así, dice que los ingresos de BigRep crecieron cerca de 45% en los últimos doce meses.",
+    "En paralelo presentó la ALTRA 670, hermana mayor de la ALTRA 280. Imprime piezas de hasta 1.200 por 700 por 800 milímetros con dos extrusores que llegan a 450 °C y una cámara y una cama que se calientan hasta 140 °C, lo que le permite trabajar con policarbonato y otros plásticos de alto rendimiento. Conserva los motores servo y los husillos de bolas de la versión chica, pensados para precisión industrial.",
+    "Los pedidos ya están abiertos en todo el mundo y las primeras unidades de serie están en producción. BigRep no publicó el precio ni la velocidad de impresión."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprintingindustry.com/news/bigrep-goes-private-and-launches-altra-670-large-format-3d-printer-256007/",
+     "medio": "3D Printing Industry",
+     "titulo": "BigRep Goes Private and Launches ALTRA 670 Large-Format 3D Printer",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-29T06:14:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "kratos-amcm-hipersonicos",
+   "seccion": "impresion3d",
+   "titulo": "Kratos instalará una impresora de metal de ocho láseres para fabricar piezas hipersónicas",
+   "cuerpo": [
+    "La contratista de defensa estadounidense Kratos sumará una AMCM M 8K, de EOS, en su planta de Odon, Indiana, cerca de un centro de la Marina, según informó TCT el martes 27. La máquina funde polvo metálico con ocho láseres de 1,2 kilovatios y fabrica piezas de hasta 800 por 800 por 1.200 milímetros. Kratos la usará en sistemas hipersónicos de bajo costo, como su programa de pruebas MACH-TB. No se informó cuánto pagó."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tctmagazine.com/kratos-expands-metal-3d-printing-capacity-with-amcm-m-8k-system/",
+     "medio": "TCT Magazine",
+     "titulo": "Kratos expands metal 3D printing capacity with AMCM M 8K system",
+     "fecha_publicacion": "2026-10-27",
+     "consultado": "2026-10-29T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "turku-multimaterial",
+   "seccion": "impresion3d",
+   "titulo": "Una universidad finlandesa imprime varios metales en una misma capa",
+   "cuerpo": [
+    "La Universidad de Turku agregó a su impresora de metal por láser Aconity MIDI+ un sistema de Schaeffler Aerosint con tres tambores de polvo, que deposita metales distintos en zonas elegidas de cada capa antes de fundirlas. El objetivo, dentro del proyecto europeo AM4Plasma, es fabricar piezas para generadores de plasma y reactores de fusión: una parte que aguante el calor extremo y otra que lo lleve hacia los canales de refrigeración. Ahora estudiarán cómo se unen los materiales y qué grietas aparecen."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tctmagazine.com/finnish-university-explores-multi-material-metal-3d-printing-with-recoater-technology/",
+     "medio": "TCT Magazine",
+     "titulo": "Finnish university explores multi-material metal 3D printing with recoater technology",
+     "fecha_publicacion": "2026-10-26",
+     "consultado": "2026-10-29T06:16:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "pollypolymer-suzhou",
+   "seccion": "impresion3d",
+   "titulo": "PollyPolymer construye en China una fábrica de US$ 75 millones para imprimir zapatillas y piezas de robots",
+   "cuerpo": [
+    "La china PollyPolymer empezó a construir su sede y fábrica en Wujiang, Suzhou, con una inversión de 500 millones de yuanes (unos US$ 75 millones) en un terreno de 18.338 metros cuadrados. Usa una tecnología propia, HALS, que según la empresa es de 20 a 100 veces más rápida que la impresión 3D convencional, y trabaja con más de 100 marcas de calzado y con fabricantes de robots, para los que hace piezas blandas como almohadillas de pie. La planta empezaría a producir en enero de 2029."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-26",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprintingindustry.com/news/pollypolymer-breaks-ground-on-us75m-3d-printing-headquarters-and-factory-in-suzhou-255903/",
+     "medio": "3D Printing Industry",
+     "titulo": "PollyPolymer Breaks Ground on US$75M 3D Printing Headquarters and Factory in Suzhou",
+     "fecha_publicacion": "2026-10-26",
+     "consultado": "2026-10-29T06:17:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "elegoo-m1-ultra-hoy",
+   "seccion": "breve",
+   "seccion_destino": "impresion3d",
+   "titulo": "El escáner de Elegoo sale hoy y promete 0,02 mm de precisión",
+   "cuerpo": [
+    "El M1 Ultra, primer escáner 3D de Elegoo, figura en su tienda a US$ 2.999, con descuentos de lanzamiento y 1.400 marcadores de regalo; un medio lo informó a US$ 2.299. No hay fecha de envío."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 1,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.elegoo.com/products/elegoo-m1-ultra-3d-scanner",
+     "medio": "Elegoo",
+     "titulo": "ELEGOO M1 Ultra 3D Scanner",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-29T06:18:00-03:00"
+    },
+    {
+     "url": "https://foro3d.com/en/2026/octubre/elegoo-m1-ultra-escaner-3d-todo-en-uno-por-2299-dolares.html",
+     "medio": "Foro3D",
+     "titulo": "Elegoo M1 Ultra: all-in-one 3D scanner for 2,299 dollars",
+     "fecha_publicacion": "2026-10-24",
+     "consultado": "2026-10-29T06:19:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Caché KV",
+   "definicion": "Memoria temporal donde un modelo de lenguaje guarda cálculos de lo ya leído para no repetirlos en cada palabra nueva.",
+   "ejemplo": "La que quedó compartida en Workers AI.",
+   "nota_relacionada": "cloudflare-cache-kv"
+  },
+  {
+   "termino": "HBM",
+   "definicion": "Memoria de alto ancho de banda: chips de memoria apilados junto al procesador, clave en las placas para IA.",
+   "ejemplo": "El 60% de lo que Samsung vende en HBM ya es HBM4.",
+   "nota_relacionada": "samsung-record"
+  },
+  {
+   "termino": "Lean",
+   "definicion": "Lenguaje y programa que verifica demostraciones matemáticas paso por paso, sin depender de la revisión humana.",
+   "ejemplo": "Donde Axiom reescribió el «teorema enorme».",
+   "nota_relacionada": "axiom-teorema-enorme"
+  },
+  {
+   "termino": "SSRF",
+   "definicion": "Falsificación de pedidos del lado del servidor: el atacante logra que el servidor haga pedidos internos que él no podría hacer.",
+   "ejemplo": "Una de las fallas de PeopleSoft.",
+   "nota_relacionada": "oracle-ebs-peoplesoft"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Pedí una revisión a fondo con /code-review ultra antes de mezclar un cambio grande",
+  "donde": "Claude Code",
+  "origen": "Visto en guías de la comunidad (MindStudio) y en las notas de versión de Claude Code",
+  "texto": [
+   "Una guía de MindStudio recomienda reservar la revisión «ultra» para lo que no puede fallar: pagos, autenticación, migraciones. La documentación oficial confirma cómo se usa hoy.",
+   "A diferencia de /code-review, corre en la nube: una flota de agentes revisa la rama en paralelo y sólo informa errores que otro agente pudo reproducir. Tarda de 15 a 25 minutos. Pro y Max tienen tres revisiones gratis; después cuesta entre US$ 5 y 25 en créditos de uso."
+  ],
+  "pasos": [
+   "Entrá con tu cuenta de claude.ai (con una clave de API sola no funciona) y pará en la rama con los cambios.",
+   "Escribí «/code-review ultra revisá mis cambios en el login»; para un pull request, «/code-review ultra 1234».",
+   "Confirmá en el cuadro, que muestra el costo estimado, y seguí con «/tasks».",
+   "Ojo: en modo rama sube el repositorio a la nube; revisá que no haya claves sin commitear."
+  ],
+  "fuentes": [
+   {
+    "url": "https://code.claude.com/docs/en/ultrareview",
+    "medio": "Documentación de Claude Code",
+    "titulo": "Find bugs with ultrareview",
+    "fecha_publicacion": "2026-10-29",
+    "consultado": "2026-10-29T06:20:00-03:00"
+   },
+   {
+    "url": "https://www.mindstudio.ai/blog/claude-code-ultra-review-5-things-to-know-before-running",
+    "medio": "MindStudio",
+    "titulo": "Claude Code Ultra Review: 5 things to know before running",
+    "fecha_publicacion": "2026-05-04",
+    "consultado": "2026-10-29T06:21:00-03:00"
+   }
+  ]
+ }
+}

@@ -68,6 +68,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 
 - Edición Nº 9: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 27 según Ámbito ($ 1.510 / $ 1.560). Clima: SMN vía Ámbito, Infocampo y Perfil de miércoles a viernes; Meteored para el sábado.
 
+## Datos de respaldo — 29 de octubre de 2026
+
+- Edición Nº 10: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del miércoles 28 según Ámbito ($ 1.510 / $ 1.560). Clima: SMN vía La Nación (jueves y viernes) y Canal 26 (sábado y domingo); sin lluvia en mm ni viento máximo salvo hoy.
+
 ## Fe de erratas pendiente
 
 (ninguna)

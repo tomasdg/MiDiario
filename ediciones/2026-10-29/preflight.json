@@ -1,0 +1,108 @@
+{
+  "generado": "2026-10-29T09:31:45.287Z",
+  "edicion": {
+    "numero": 10,
+    "fecha": "2026-10-29",
+    "cierre": "2026-10-29T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        8.5,
+        9.25,
+        9
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.827,
+        "mayor_rectangulo_vacio": 0.058,
+        "hueco_mm": {
+          "x": 129,
+          "y": 205,
+          "ancho": 57,
+          "alto": 52
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.921,
+        "mayor_rectangulo_vacio": 0.013,
+        "hueco_mm": {
+          "x": 48,
+          "y": 5,
+          "ancho": 138,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.875,
+        "mayor_rectangulo_vacio": 0.037,
+        "hueco_mm": {
+          "x": 129,
+          "y": 238,
+          "ancho": 57,
+          "alto": 33
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.87,
+        "mayor_rectangulo_vacio": 0.052,
+        "hueco_mm": {
+          "x": 62,
+          "y": 229,
+          "ancho": 62,
+          "alto": 43
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-10-29T06:40:00-03:00",
+      "hallazgos": [
+        "Primer armado: el recuadro Claude Tips quedaba fuera del área útil de la página 2 (pasaba a una cuarta columna).",
+        "Sin superposiciones, texto cortado ni huecos no intencionales en la versión final; pie y número de página presentes en las cuatro páginas."
+      ],
+      "correcciones": [
+        "Se quitaron de la página 2 las notas de Opera WebAI y los breves de AI for Science y Países Bajos, y se acortaron Gemini 4 Carbon, Axiom y el tip.",
+        "Se quitaron de la página 3 las notas de Constellation y Fujifilm.",
+        "Se aclaró que el fin del precio introductorio de Gemini 4 Carbon lo informa Artificial Analysis y se mencionó la SSRF en la nota de Oracle (término del glosario)."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-29/De-Villa-Urquiza-al-Mundo-N10-2026-10-29.pdf"
+}

@@ -1,0 +1,160 @@
+{
+  "numero": 10,
+  "fecha": "2026-10-29",
+  "cierre": "2026-10-29T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Microsoft sube y Alphabet cae: la nube crece como nunca, pero el gasto en IA divide a Wall Street",
+      "urls": [
+        "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/",
+        "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+        "https://www.stocktitan.net/articles/alphabet-q3-2026-earnings-google-cloud-doubles-search-slows",
+        "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Google presenta Gemini 4 Carbon, su modelo más capaz, pero por ahora sólo para defensores informáticos",
+      "urls": [
+        "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+        "https://www.digitaltrends.com/computing/googles-new-ai-model-gemini-4-carbon-is-built-for-complex-coding-and-cybersecurity-tasks/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI ya le deja a Microsoft más plata que Bing o Xbox",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Un error en la nube de IA de Cloudflare mezcló datos de clientes en 155 respuestas",
+      "urls": [
+        "https://tech-insider.org/cloudflare-glm-5-3-workers-ai-kv-cache-leak-155-responses-2026/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic ofrece Claude con 40% de descuento a todos los niveles del Estado estadounidense",
+      "urls": [
+        "https://www.anthropic.com/news/expanding-partnership-gsa"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Agentes de IA reescriben en 24 días una prueba matemática de 15.000 páginas",
+      "urls": [
+        "https://officechai.com/ai/axiom-enormous-theorem/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Samsung gana más de 100 billones de wones en un trimestre, la primera tecnológica en lograrlo",
+      "urls": [
+        "https://www.investing.com/news/company-news/samsung-q3-2026-slides-first-tech-firm-to-top-100t-won-profit-93CH-4981381"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SK hynix avisa que faltará memoria al menos hasta 2030",
+      "urls": [
+        "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Apple lleva por primera vez la pantalla táctil a la Mac",
+      "urls": [
+        "https://tech-insider.org/apple-touchscreen-macbook-pro-proled-xdr-2899-nov-6-2026/",
+        "https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "GitHub suma cuatro millones de núcleos porque los agentes de IA la están desbordando",
+      "urls": [
+        "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Ya intentan explotar una falla crítica de Oracle E-Business Suite",
+      "urls": [
+        "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Amazon e Intel presentan hoy; Apple, el lunes",
+      "urls": [
+        "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview",
+        "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+        "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "BigRep deja la bolsa y lanza la ALTRA 670, una impresora industrial de más de un metro",
+      "urls": [
+        "https://3dprintingindustry.com/news/bigrep-goes-private-and-launches-altra-670-large-format-3d-printer-256007/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Kratos instalará una impresora de metal de ocho láseres para fabricar piezas hipersónicas",
+      "urls": [
+        "https://www.tctmagazine.com/kratos-expands-metal-3d-printing-capacity-with-amcm-m-8k-system/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una universidad finlandesa imprime varios metales en una misma capa",
+      "urls": [
+        "https://www.tctmagazine.com/finnish-university-explores-multi-material-metal-3d-printing-with-recoater-technology/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "PollyPolymer construye en China una fábrica de US$ 75 millones para imprimir zapatillas y piezas de robots",
+      "urls": [
+        "https://3dprintingindustry.com/news/pollypolymer-breaks-ground-on-us75m-3d-printing-headquarters-and-factory-in-suzhou-255903/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "El escáner de Elegoo sale hoy y promete 0,02 mm de precisión",
+      "urls": [
+        "https://www.elegoo.com/products/elegoo-m1-ultra-3d-scanner",
+        "https://foro3d.com/en/2026/octubre/elegoo-m1-ultra-escaner-3d-todo-en-uno-por-2299-dolares.html"
+      ]
+    }
+  ],
+  "glosario": [
+    "Caché KV",
+    "HBM",
+    "Lean",
+    "SSRF"
+  ],
+  "claude_tip": {
+    "titulo": "Pedí una revisión a fondo con /code-review ultra antes de mezclar un cambio grande",
+    "urls": [
+      "https://code.claude.com/docs/en/ultrareview",
+      "https://www.mindstudio.ai/blog/claude-code-ultra-review-5-things-to-know-before-running"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-29"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (jueves y viernes) y Canal 26 (sábado y domingo). Consultado 05:55. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-29T09:31:45.287Z"
+  }
+}
