@@ -1,0 +1,46 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-30T08:55:00Z",
+  "fuente": "SMN vía La Nación (viernes y sábado) e Infobae (domingo y lunes); lluvia y viento de Meteored. Consultado 05:55. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-10-30",
+      "codigo_wmo": 95,
+      "max": 23,
+      "min": 14,
+      "precip_mm": 9.8,
+      "prob_precip": 70,
+      "viento_kmh": 40
+    },
+    {
+      "fecha": "2026-10-31",
+      "codigo_wmo": 2,
+      "max": 24,
+      "min": 14,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 33
+    },
+    {
+      "fecha": "2026-11-01",
+      "codigo_wmo": 95,
+      "max": 25,
+      "min": 15,
+      "precip_mm": 7.8,
+      "prob_precip": 80,
+      "viento_kmh": 30
+    },
+    {
+      "fecha": "2026-11-02",
+      "codigo_wmo": 2,
+      "max": 26,
+      "min": 16,
+      "prob_precip": 10,
+      "viento_kmh": 26
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Alerta amarilla del SMN por tormentas para el viernes en el centro y este de la provincia de Buenos Aires, incluida la Ciudad.",
+  "no_disponible": []
+}

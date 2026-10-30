@@ -1,0 +1,687 @@
+{
+ "edicion": {
+  "numero": 11,
+  "fecha": "2026-10-30",
+  "cierre": "2026-10-30T05:44:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "amazon-intel-resultados",
+   "seccion": "principal",
+   "titulo": "La nube de Amazon crece al ritmo más alto en cinco años, pero Amazon e Intel se hunden fuera de hora",
+   "bajada": "AWS vendió 39% más, pero el gasto en centros de datos dejó a Amazon con caja negativa; Intel superó lo previsto y aun así cayó 20% por una previsión floja y una explosión en su planta de Israel.",
+   "cuerpo": [
+    "Amazon e Intel presentaron el jueves 29, después del cierre de Wall Street, sus resultados del trimestre julio-septiembre, y el mercado los castigó a los dos, aunque por motivos distintos. Amazon facturó US$ 201.900 millones, 12% más que un año antes, y AWS, su nube, vendió US$ 46.000 millones, 39% más: el crecimiento más rápido en casi cinco años. Andy Jassy, su director ejecutivo, anticipó que AWS crecerá más de 40% en 2027 y en 2028.",
+    "Lo que asustó fue la caja. En los últimos doce meses Amazon quemó US$ 42.400 millones de flujo de caja libre, cuando un año antes había generado US$ 14.800 millones, por la construcción de centros de datos para IA. Mantiene un gasto de capital de unos US$ 220.000 millones para 2026. La ganancia neta bajó a US$ 20.700 millones porque el año pasado había sumado US$ 9.500 millones por su participación en Anthropic. La acción, que ya había cerrado con una baja de 4,25%, cedía entre 6% y 7% fuera de hora.",
+    "Intel facturó US$ 16.500 millones, 21% más, y ganó US$ 0,52 por acción ajustada, por encima de lo previsto. El negocio de centros de datos creció 78% y la división de fabricación para terceros, 58%. Pero para el último trimestre del año anticipa ventas de US$ 15.000 a 16.000 millones, cuando los analistas esperaban US$ 17.070 millones, y una ganancia ajustada de US$ 0,25 por acción contra US$ 0,43. La acción, que había cerrado en US$ 92,07, llegó a tocar US$ 73,50, una caída de alrededor de 20%.",
+    "Intel atribuyó la previsión a dos golpes. Las ventas de chips para computadoras cayeron 5%, a US$ 8.100 millones, y la empresa espera que la debilidad siga al menos hasta mediados de 2027. Además, una explosión en octubre en su planta de Kiryat Gat, en Israel, que fabrica chips para servidores, mató a dos personas y frenó la producción unas dos semanas: calcula perder unos US$ 300 millones de ventas en este trimestre y otro tanto en el siguiente. La semana deja una lectura: la demanda de IA existe, pero el mercado ya no premia gastar sin mostrar caja."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+     "medio": "Amazon (relación con inversores)",
+     "titulo": "Amazon.com Announces Third Quarter Results",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:03:00-03:00"
+    },
+    {
+     "url": "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/",
+     "medio": "The Motley Fool",
+     "titulo": "AWS Jumps 39% as Amazon's Cash Flow Sinks: Rapid Earnings Reaction",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:20:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/news/INTC/intel-reports-third-quarter-2026-financial-45kjlqvhkaar.html",
+     "medio": "Stock Titan (comunicado de Intel)",
+     "titulo": "Intel Reports Third-Quarter 2026 Financial Results",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:03:00-03:00"
+    },
+    {
+     "url": "https://calcalistech.com/ctechnews/article/7djs538lu",
+     "medio": "Calcalist",
+     "titulo": "Intel shares plunge as Israel factory blast compounds weak outlook",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:21:00-03:00"
+    },
+    {
+     "url": "https://www.shacknews.com/article/151202/intel-intc-q3-2026-earnings-results",
+     "medio": "Shacknews",
+     "titulo": "Intel (INTC) Q3 2026 earnings results beat EPS and revenue expectations, Q4 guidance disappoints",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:18:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Mistral libera Large 4",
+    "resumen": "El modelo europeo de un billón de parámetros ya se puede descargar; según la empresa, empata con los mejores modelos abiertos chinos en tareas de programación.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Espías chinos con agentes de IA",
+    "resumen": "CrowdStrike detalla cómo un grupo vinculado a China usó modelos de DeepSeek para atacar a más de 200 organizaciones en 14 países.",
+    "pagina": 2
+   },
+   {
+    "titulo": "GitHub reparte el trabajo entre modelos",
+    "resumen": "Copilot Fusion elige qué modelo hace cada paso de una tarea; los agentes ya inician más de 40% de los pull requests.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Sandisk factura casi cinco veces más",
+    "resumen": "La memoria para centros de datos le dio ventas de US$ 11.000 millones en el trimestre, pero la acción cayó igual.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Un socio de OpenAI compra ADT",
+    "resumen": "Thrive Holdings pagará US$ 10 por acción por la empresa de alarmas, una operación de US$ 15.300 millones con deuda incluida.",
+    "pagina": 3
+   },
+   {
+    "titulo": "La compra de Hugging Face, bajo la lupa",
+    "resumen": "El Departamento de Justicia estadounidense pregunta si Nvidia podría controlar el principal punto de distribución de modelos abiertos.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Stratasys guarda una sorpresa para Formnext",
+    "resumen": "Presentará el 17 de noviembre una impresora para producir piezas de plástico en serie, junto con su FDM más grande.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Lun 2 nov",
+    "texto": "Apple presenta resultados (19 h)."
+   },
+   {
+    "cuando": "Mar 3 nov",
+    "texto": "Bambu Lab lanza la H3C."
+   },
+   {
+    "cuando": "Mar 3 nov",
+    "texto": "Elecciones legislativas en EE.UU."
+   },
+   {
+    "cuando": "Mediados nov",
+    "texto": "Envíos de los XREAL Aura."
+   },
+   {
+    "cuando": "17-20 nov",
+    "texto": "Formnext, en Fráncfort."
+   },
+   {
+    "cuando": "20 nov",
+    "texto": "Sandisk cotiza dividida en ocho."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Recuperá el pedido que borraste sin querer.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Tecnología",
+    "texto": "Malasia frena otro envío de chips de IA.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Implantes de PEEK, silicona y metal bajo un mismo techo.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Alerta amarilla por tormentas; máxima de 23°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "110 millones",
+   "texto": "Pull requests que empezaron en septiembre con un borrador hecho por un agente de IA en GitHub, más de 40% del total."
+  }
+ },
+ "notas": [
+  {
+   "id": "mistral-large-4-pesos",
+   "seccion": "ia",
+   "titulo": "Mistral publica los pesos de Large 4, su modelo de un billón de parámetros",
+   "bajada": "Es el modelo abierto europeo más grande hasta ahora y, según sus propias pruebas, alcanza a los mejores modelos abiertos chinos en programación.",
+   "cuerpo": [
+    "La francesa Mistral AI subió el jueves 29 a Hugging Face los pesos de Mistral Large 4, el modelo que había presentado en versión preliminar a comienzos de octubre. Tiene alrededor de un billón de parámetros en total, pero por su diseño de mezcla de expertos sólo usa unos 52.000 millones en cada paso, lo que abarata el cálculo. Se entrenó durante unos dos meses con cerca de 3.800 placas Grace Blackwell de Nvidia en centros de datos europeos.",
+    "Según cifras de la propia empresa, en Terminal-Bench 4.0, una prueba de tareas de programación en la terminal, pasó de 28% en la versión preliminar a 41%, apenas por encima del chino GLM-5.3 (40%), y en CyberGym-E2E, de ciberseguridad, llegó a 79%. En el índice de agentes de programación de Artificial Analysis queda a la par de GLM-5.3 usando 47% menos tokens por tarea. Todavía no hay mediciones independientes completas, y los modelos cerrados de frente siguen bastante adelante.",
+    "Large 4 usa una licencia propia, no la Apache 2.0 de su antecesor. Descargarlo es gratis, pero correrlo no es para cualquiera: aun en su versión comprimida necesita cuatro placas B200 o B300. Para un desarrollador argentino, la vía práctica es la API de Mistral, cuyo precio para la versión final no figuraba en la fuente al cierre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
+     "medio": "The Next Web",
+     "titulo": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:10:00-03:00"
+    },
+    {
+     "url": "https://thenewstack.io/mistral-large-4-weights/",
+     "medio": "The New Stack",
+     "titulo": "Mistral Large 4 weights",
+     "fecha_publicacion": "2026-10-06",
+     "consultado": "2026-10-30T06:09:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "vapor-panda-artex",
+   "seccion": "ia",
+   "titulo": "Un grupo de espionaje chino usó agentes con DeepSeek contra más de 200 organizaciones",
+   "bajada": "Es la primera vez que CrowdStrike ve a este grupo atacar con agentes de IA, y la escala creció en consecuencia.",
+   "cuerpo": [
+    "CrowdStrike publicó el jueves 29 un informe sobre Vapor Panda, un grupo vinculado a China que desde 2021 ataca gobiernos, centros de estudio y empresas de energía. Desde el 17 de octubre usó ARTEX, un sistema de agentes de IA en el que un agente principal coordina a otros que planifican y ejecutan cada paso de la intrusión, con un operador humano que decide en los momentos clave.",
+    "En once días, un solo servidor de control apuntó a más de 200 organizaciones en al menos 14 países: cancillerías, fabricantes de chips, empresas de defensa, farmacéuticas, nucleares y de telecomunicaciones. En nueve de ellas los atacantes entraron e instalaron una puerta trasera. El modelo principal fue DeepSeek, junto con otro comercial que no se pudo identificar; en una sola intrusión, los agentes leyeron unos 1.400 millones de tokens."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+     "medio": "CrowdStrike",
+     "titulo": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:10:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "github-copilot-fusion",
+   "seccion": "ia",
+   "titulo": "GitHub presenta Copilot Fusion y confirma que los agentes ya inician 40% de los pull requests",
+   "cuerpo": [
+    "En su conferencia Universe, GitHub presentó el miércoles 28 Copilot Fusion, un sistema que decide qué modelo de IA, o qué combinación, hace cada paso de una tarea de programación. Según la empresa, la versión Fusion Max queda a dos puntos de Claude Opus 5.5 Max en un índice de Artificial Analysis, a la mitad del costo; es una cifra propia, sin verificación externa. Los clientes de GitHub Enterprise podrán usar todo Copilot pagando sólo los créditos que consuman.",
+    "El informe anual Octoverse mostró la escala del cambio: en septiembre, más de 40% de los pull requests nacieron de un borrador de un agente, contra 17% en marzo. La plataforma tiene más de 225 millones de desarrolladores."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents",
+     "medio": "The Next Web",
+     "titulo": "GitHub launches Copilot Fusion as agents start 40% of pull requests",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:09:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-nemotron-transcribe",
+   "seccion": "ia",
+   "titulo": "Nvidia libera un modelo abierto que transcribe 40 idiomas y separa a ocho hablantes",
+   "cuerpo": [
+    "Nvidia publicó el miércoles 28 Nemotron 3.5 Transcribe, un modelo de reconocimiento de voz de pesos abiertos y uso comercial libre. Transcribe 40 idiomas, traduce 31 de ellos desde o hacia el inglés, distingue hasta ocho voces y procesa grabaciones de hasta una hora, aunque no sirve para audio en vivo. La fuente no publica la lista de idiomas.",
+    "Encabeza entre los modelos abiertos la tabla de reconocimiento en inglés de Hugging Face, con una tasa de error por palabra de 5,33%, y corre en una sola placa de Nvidia. Junto con el modelo liberó Granary 2, un conjunto de 463.062 horas de habla en 48 idiomas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/nvidia-nemotron-3-5-transcribe-granary-v2-open-speech",
+     "medio": "The Next Web",
+     "titulo": "Nvidia releases an open speech model that transcribes 40 languages",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:14:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-informes-equipos",
+   "seccion": "ia",
+   "titulo": "Anthropic ofrece a las empresas informes de qué hace y cuánto cuesta cada equipo con Claude",
+   "cuerpo": [
+    "Anthropic lanzó el miércoles 28 herramientas para clientes corporativos que muestran, por equipo y período, qué se produjo con Claude, cuánto costó y dónde se trabó el trabajo, con recomendaciones para mejorar. También permite juntar presupuestos de varios equipos para administrar el gasto en tokens. La empresa dice que no usa esos datos para entrenar modelos.",
+    "Llega cuando el gasto crece rápido: un relevamiento de Jellyfish citado por TechCrunch atribuye a herramientas con modelos de Anthropic casi un tercio de los cambios de código propuestos, con un gasto diez veces mayor que a comienzos de año."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+     "medio": "TechCrunch",
+     "titulo": "Anthropic just launched tools to show companies what their AI spending is buying",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:17:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-centro-electoral",
+   "seccion": "breve",
+   "seccion_destino": "ia",
+   "titulo": "OpenAI arma un centro de vigilancia para las elecciones de Estados Unidos",
+   "cuerpo": [
+    "OpenAI asignó cientos de empleados a un centro de operaciones que vigilará el mal uso de sus herramientas desde esta semana hasta que se cuenten los votos de las elecciones legislativas del martes 3, según Politico."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://runtimewire.com/article/openai-election-operations-center-midterms-2026",
+     "medio": "Runtime Wire (con datos de Politico)",
+     "titulo": "OpenAI assigns hundreds of employees to election monitoring ahead of midterms",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:24:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "sandisk-resultados",
+   "seccion": "empresas",
+   "titulo": "Sandisk vende casi cinco veces más que hace un año, y la acción cae igual",
+   "bajada": "La memoria para centros de datos de IA le dio ventas récord y un margen de 85%; la empresa dividirá cada acción en ocho.",
+   "cuerpo": [
+    "Sandisk presentó el jueves 29 los números del trimestre julio-septiembre: facturó US$ 11.000 millones, 378% más que un año antes y 23% más que en el trimestre anterior, por encima de los US$ 10.700 millones que esperaban los analistas. La ganancia ajustada fue de US$ 49,51 por acción, contra US$ 47,15 previstos, y el margen bruto llegó a 85,1%, una cifra excepcional para un fabricante de memoria.",
+    "El motor son los centros de datos para IA: esas ventas subieron 61% en tres meses, a US$ 4.800 millones. Para el trimestre actual anticipa entre US$ 12.200 y 12.600 millones. Aprobó dividir cada acción en ocho, con cotización ajustada desde el 20 de noviembre.",
+    "Aun así, la acción, que vale más de US$ 1.300, perdió 5,3% en la rueda y otro 2,6% fuera de hora. Como en el caso de SK hynix y Samsung, la escasez de memoria que le infla las ganancias es la misma que encarece computadoras y teléfonos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sandisk-beats-q1-2027-estimates-shares-fall-93CH-4985403",
+     "medio": "Investing.com",
+     "titulo": "Earnings call transcript: Sandisk beats Q1 2027 estimates, shares fall",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:24:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "thrive-adt",
+   "seccion": "empresas",
+   "titulo": "Thrive Holdings, socia de OpenAI, compra ADT en una operación de US$ 15.300 millones",
+   "cuerpo": [
+    "Thrive Holdings, el brazo de inversión de largo plazo creado por la firma Thrive Capital, de Josh Kushner, acordó el jueves 29 comprar ADT, la empresa de alarmas y seguridad para el hogar, a US$ 10 por acción en efectivo. Las acciones valen unos US$ 7.600 millones y, con la deuda, la operación suma US$ 15.300 millones.",
+    "OpenAI es socia e inversora de Thrive Holdings, a cuyas empresas les aporta modelos, tecnología e ingenieros. ADT será la base de su negocio de seguridad hogareña, aunque no se anunciaron productos con IA concretos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+     "medio": "TechCrunch",
+     "titulo": "OpenAI-backed Thrive Holdings acquires ADT",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:11:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "doj-nvidia-hugging-face",
+   "seccion": "empresas",
+   "titulo": "La justicia estadounidense pregunta por la compra de Hugging Face por Nvidia",
+   "cuerpo": [
+    "El Departamento de Justicia de Estados Unidos indaga cómo afectaría a la competencia la compra de Hugging Face por Nvidia, acordada en septiembre por US$ 12.900 millones, según informó Reuters el miércoles 28 con dos fuentes anónimas. Los funcionarios quieren saber si Nvidia podría quedarse con un punto clave de distribución de la IA y usarlo contra rivales.",
+    "La consulta se suma a una investigación más amplia sobre las prácticas comerciales de Nvidia. La empresa y el Departamento no comentaron; el cierre de la compra está previsto para el primer semestre de 2027."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry",
+     "medio": "The Next Web (con datos de Reuters)",
+     "titulo": "DOJ looks into Nvidia's $12.9B Hugging Face deal, Reuters reports",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:14:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "xreal-aura",
+   "seccion": "tecnologia",
+   "titulo": "Salen a la venta los XREAL Aura, los primeros anteojos con Android XR",
+   "cuerpo": [
+    "XREAL abrió el miércoles 28 los pedidos de Aura, anteojos de realidad aumentada con Android XR y el asistente Gemini. Cuestan US$ 1.099 hasta diciembre (luego US$ 1.279), pesan menos de 95 gramos, ofrecen un campo de visión de 70 grados y se conectan por cable a una unidad de cómputo con chip de Qualcomm. Los envíos empiezan a mediados de noviembre, sólo en Estados Unidos, Canadá, Japón y Corea del Sur; no hay fecha para la Argentina, donde habría que traerlos por courier y pagar impuestos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.androidheadlines.com/2026/10/xreal-aura-launch-price-availability.html",
+     "medio": "Android Headlines",
+     "titulo": "XREAL Aura launch, price and availability",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:19:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "gitee-credenciales",
+   "seccion": "tecnologia",
+   "titulo": "Un investigador encuentra 26.400 claves vigentes en el GitHub chino",
+   "cuerpo": [
+    "Ben Zimmermann revisó durante un mes 7.256.531 repositorios públicos de Gitee, la principal plataforma china de código, y encontró 26.400 credenciales que todavía funcionaban, según Runtime Wire. Su utilidad depende de que los proveedores puedan identificar las cuentas y revocar las claves; quien publique código debería revisar que no haya contraseñas ni tokens en sus repositorios, y revocar de inmediato cualquier clave que se haya subido por error, aunque después se borre del historial."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://runtimewire.com/article/ben-zimmermann-gitee-live-credentials-scan",
+     "medio": "Runtime Wire",
+     "titulo": "Gitee scan finds 26,400 live credentials across 7.25 million repositories",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:14:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "malasia-chips",
+   "seccion": "tecnologia",
+   "titulo": "Malasia secuestra 30 servidores con chips de IA en el aeropuerto de Kuala Lumpur",
+   "cuerpo": [
+    "La aduana malaya anunció el miércoles 28 el secuestro de 30 servidores con chips avanzados de IA por unos US$ 12,1 millones, declarados como componentes electrónicos y en tránsito entre dos países asiáticos que no identificó. Es el quinto caso del año vinculado a la misma red sospechada de contrabando.",
+    "No hubo detenidos. Malasia exige desde el año pasado un permiso para hacer pasar chips de IA por su territorio, y las multas a empresas llegan a unos US$ 4,9 millones. El caso coincide con el intento de Estados Unidos de frenar el desvío de chips avanzados hacia China a través de terceros países."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/malaysia-seizes-12-1m-of-ai-chips-at-kuala-lumpur-airport",
+     "medio": "The Next Web",
+     "titulo": "Malaysia seizes $12.1M of AI chips at Kuala Lumpur airport",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:27:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "apple-presenta-lunes",
+   "seccion": "breve",
+   "seccion_destino": "empresas",
+   "titulo": "Apple presenta sus números el lunes",
+   "cuerpo": [
+    "Apple dará a conocer el lunes 2 los resultados de su año fiscal, a las 19 hora argentina, con John Ternus ya como director ejecutivo. Los analistas mirarán sobre todo las ventas del iPhone y el avance de sus funciones de IA."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+     "medio": "MacTrast",
+     "titulo": "Apple to Announce Fiscal Q4 2026 Earnings on November 2",
+     "fecha_publicacion": "2026-10-07",
+     "consultado": "2026-10-30T06:18:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "stratasys-formnext",
+   "seccion": "impresion3d",
+   "titulo": "Stratasys mostrará en Formnext una impresora para producir piezas de plástico en serie",
+   "bajada": "La empresa reserva el nombre y los datos para el 17 de noviembre; en la feria también debuta en Europa su FDM más grande.",
+   "cuerpo": [
+    "Stratasys anunció el jueves 29 que presentará en Formnext, la feria de manufactura aditiva de Fráncfort que se hace del 17 al 20 de noviembre, una impresora nueva pensada para la producción en volumen de piezas finales de polímero. No adelantó nombre ni especificaciones: los dará a conocer el 17 a las 13, en su stand.",
+    "En la misma feria hará su debut europeo la F870, su impresora FDM de gran formato, con una cámara calefaccionada de 1.000 × 610 × 610 milímetros pensada para moldes, plantillas y dispositivos de sujeción. También mostrará la resina Somos ShellCast y el programa ShellGen para su impresora estereolitográfica Neo 800+, una unidad de curado para la Origin P3 y un material PolyJet negro más resistente.",
+    "El anuncio apunta al terreno donde la impresión 3D industrial busca crecer: pasar de prototipos y piezas únicas a series de producción que compitan con la inyección de plástico."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://3dprinting.com/news/stratasys-to-unveil-serial-production-3d-printer-at-formnext-2026",
+     "medio": "3DPrinting.com",
+     "titulo": "Stratasys to Unveil Serial Production 3D Printer at Formnext 2026",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:12:00-03:00"
+    },
+    {
+     "url": "https://voxelmatters.com/stratasys-to-unveil-high-volume-polymer-production-system-at-formnext",
+     "medio": "VoxelMatters",
+     "titulo": "Stratasys to unveil high-volume polymer production system at Formnext",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:13:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "horizon-satelites",
+   "seccion": "impresion3d",
+   "titulo": "Horizon recibe medio millón de euros para fabricar piezas impresas para satélites",
+   "cuerpo": [
+    "Horizon Microtechnologies obtuvo una subvención de unos 500.000 euros para un proyecto de dos años que llevará a producción sus microcomponentes de polímero impreso y metalizado. La meta es fabricar hasta 50.000 carcasas de blindaje para constelaciones de satélites, con precios y plazos de producción en serie."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, October 29, 2026",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:12:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "munich-hub-medico",
+   "seccion": "impresion3d",
+   "titulo": "Tres empresas de Múnich abren un centro compartido para imprimir implantes",
+   "cuerpo": [
+    "Munich Medical Devices, que hace implantes craneales de PEEK a medida; Spectroplast, que imprime silicona, y FIDENTIS, que combina metales como cromo-cobalto y oro en prótesis dentales, inauguraron un centro de producción compartido en Múnich. Juntan máquinas, conocimiento regulatorio y otros recursos para no duplicar costos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-22",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://voxelmatters.com/munich-medical-devices-spectroplast-and-fidentis-open-shared-am-hub-in-munich",
+     "medio": "VoxelMatters",
+     "titulo": "Munich Medical Devices, Spectroplast and FIDENTIS open shared AM hub in Munich",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "shining3d-moldes",
+   "seccion": "impresion3d",
+   "titulo": "Un escáner 3D baja de tres semanas a menos de una las pruebas de moldes",
+   "cuerpo": [
+    "Danyang Sanyou, fabricante chino de ópticas para faros de autos, redujo sus ciclos de prueba de moldes de dos o tres semanas a menos de una con el escáner fijo OptimScan Q9 de SHINING 3D. Escanea cada lente en minutos y compara los moldes con una medición inicial para planificar su reemplazo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-28",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/shining-3ds-optimscan-q9-cuts-mold-trials-to-under-a-week/",
+     "medio": "VoxelMatters",
+     "titulo": "SHINING 3D's OptimScan Q9 cuts mold trials to under a week",
+     "fecha_publicacion": "2026-10-28",
+     "consultado": "2026-10-30T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meld-virginia",
+   "seccion": "impresion3d",
+   "titulo": "MELD construye una planta para imprimir metal en piezas más grandes",
+   "cuerpo": [
+    "MELD PrintWorks levanta en Christiansburg, Virginia, una planta de unos 1.100 metros cuadrados que estará lista en 2027. Usará impresoras de deposición en estado sólido, que no funden el metal, para piezas de aluminio, cobre y titanio para defensa, aeroespacial y astilleros."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, October 29, 2026",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:12:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "polyu-asiento-bici",
+   "seccion": "breve",
+   "seccion_destino": "impresion3d",
+   "titulo": "Un asiento de bicicleta impreso de una sola pieza gana un Red Dot",
+   "cuerpo": [
+    "Un equipo de la Universidad Politécnica de Hong Kong ganó un premio Red Dot con Air One, un asiento de bicicleta de una sola pieza impreso con fibra continua en una Markforged. Pesa 171 gramos y se probó durante más de 1.000 kilómetros."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, October 29, 2026",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:12:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-fondo",
+   "seccion": "breve",
+   "seccion_destino": "impresion3d",
+   "titulo": "Snapmaker premia 20 proyectos para su impresora con cambiador de cabezales",
+   "cuerpo": [
+    "Snapmaker eligió a los ganadores de la primera etapa de su fondo para la U1, entre ellos un sistema que conecta cuatro unidades Anycubic ACE para tener 16 bobinas y un firmware con acceso por SSH. La segunda etapa recibe propuestas hasta el 24 de diciembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, October 29, 2026",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-10-30T06:12:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Pesos abiertos",
+   "definicion": "Modelo cuyos parámetros se publican para descargarlo y correrlo en equipos propios, no siempre con licencia libre.",
+   "nota_relacionada": "mistral-large-4-pesos"
+  },
+  {
+   "termino": "Puerta trasera",
+   "definicion": "Programa que un atacante deja instalado para volver a entrar sin pasar por los controles.",
+   "nota_relacionada": "vapor-panda-artex"
+  },
+  {
+   "termino": "Tasa de error por palabra",
+   "definicion": "Porcentaje de palabras mal transcriptas, omitidas o agregadas por un sistema de voz.",
+   "nota_relacionada": "nvidia-nemotron-transcribe"
+  },
+  {
+   "termino": "Desdoblamiento de acciones",
+   "definicion": "División de cada acción en varias más baratas, sin cambiar el valor total de la empresa.",
+   "nota_relacionada": "sandisk-resultados"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Recuperá con la flecha arriba el pedido que borraste con Ctrl+C",
+  "donde": "Claude Code",
+  "origen": "Visto en los reportes de usuarios en GitHub y en las notas de versión de Claude Code",
+  "texto": [
+   "Durante meses, usuarios de Claude Code se quejaron en GitHub de perder pedidos largos por apretar Ctrl+C por reflejo, pensando en copiar: el cuadro se vaciaba sin aviso. La versión 2.1.288, del 2 de octubre, agregó la solución, y muchos todavía no la conocen.",
+   "Con el cuadro vacío, la flecha arriba devuelve el borrador completo, incluidos el texto y las imágenes pegadas. Sirve justo cuando más duele: después de armar un pedido largo con contexto, capturas y archivos."
+  ],
+  "pasos": [
+   "Actualizá con «claude update» y verificá con «claude --version» que tenés la 2.1.288 o posterior.",
+   "Si se te borró el pedido con Ctrl+C, no escribas nada: con el cuadro vacío, apretá la flecha arriba.",
+   "Revisá que volvieran las imágenes pegadas y enviá. En versiones viejas, Ctrl+Shift+_ (deshacer) también lo recupera, según usuarios."
+  ],
+  "fuentes": [
+   {
+    "url": "https://www.havoptic.com/r/claude-code-2.1.288",
+    "medio": "Havoptic (notas de versión de Claude Code)",
+    "titulo": "Claude Code v2.1.288",
+    "fecha_publicacion": "2026-10-02",
+    "consultado": "2026-10-30T06:31:00-03:00"
+   },
+   {
+    "url": "https://github.com/anthropics/claude-code/issues/59408",
+    "medio": "GitHub (issues de Claude Code)",
+    "titulo": "[BUG] Ctrl+C and Ctrl+Shift+C silently clear prompt input with no confirmation or recovery",
+    "fecha_publicacion": "2026-10-02",
+    "consultado": "2026-10-30T06:33:00-03:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,186 @@
+{
+  "numero": 11,
+  "fecha": "2026-10-30",
+  "cierre": "2026-10-30T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "La nube de Amazon crece al ritmo más alto en cinco años, pero Amazon e Intel se hunden fuera de hora",
+      "urls": [
+        "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+        "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/",
+        "https://www.stocktitan.net/news/INTC/intel-reports-third-quarter-2026-financial-45kjlqvhkaar.html",
+        "https://calcalistech.com/ctechnews/article/7djs538lu",
+        "https://www.shacknews.com/article/151202/intel-intc-q3-2026-earnings-results"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Mistral publica los pesos de Large 4, su modelo de un billón de parámetros",
+      "urls": [
+        "https://thenextweb.com/news/mistral-large-4-open-weights-release",
+        "https://thenewstack.io/mistral-large-4-weights/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Un grupo de espionaje chino usó agentes con DeepSeek contra más de 200 organizaciones",
+      "urls": [
+        "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "GitHub presenta Copilot Fusion y confirma que los agentes ya inician 40% de los pull requests",
+      "urls": [
+        "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Nvidia libera un modelo abierto que transcribe 40 idiomas y separa a ocho hablantes",
+      "urls": [
+        "https://thenextweb.com/news/nvidia-nemotron-3-5-transcribe-granary-v2-open-speech"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic ofrece a las empresas informes de qué hace y cuánto cuesta cada equipo con Claude",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "OpenAI arma un centro de vigilancia para las elecciones de Estados Unidos",
+      "urls": [
+        "https://runtimewire.com/article/openai-election-operations-center-midterms-2026"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Sandisk vende casi cinco veces más que hace un año, y la acción cae igual",
+      "urls": [
+        "https://www.investing.com/news/transcripts/earnings-call-transcript-sandisk-beats-q1-2027-estimates-shares-fall-93CH-4985403"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Thrive Holdings, socia de OpenAI, compra ADT en una operación de US$ 15.300 millones",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "La justicia estadounidense pregunta por la compra de Hugging Face por Nvidia",
+      "urls": [
+        "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Salen a la venta los XREAL Aura, los primeros anteojos con Android XR",
+      "urls": [
+        "https://www.androidheadlines.com/2026/10/xreal-aura-launch-price-availability.html"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Un investigador encuentra 26.400 claves vigentes en el GitHub chino",
+      "urls": [
+        "https://runtimewire.com/article/ben-zimmermann-gitee-live-credentials-scan"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Malasia secuestra 30 servidores con chips de IA en el aeropuerto de Kuala Lumpur",
+      "urls": [
+        "https://thenextweb.com/news/malaysia-seizes-12-1m-of-ai-chips-at-kuala-lumpur-airport"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Apple presenta sus números el lunes",
+      "urls": [
+        "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Stratasys mostrará en Formnext una impresora para producir piezas de plástico en serie",
+      "urls": [
+        "https://3dprinting.com/news/stratasys-to-unveil-serial-production-3d-printer-at-formnext-2026",
+        "https://voxelmatters.com/stratasys-to-unveil-high-volume-polymer-production-system-at-formnext"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Horizon recibe medio millón de euros para fabricar piezas impresas para satélites",
+      "urls": [
+        "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Tres empresas de Múnich abren un centro compartido para imprimir implantes",
+      "urls": [
+        "https://voxelmatters.com/munich-medical-devices-spectroplast-and-fidentis-open-shared-am-hub-in-munich"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Un escáner 3D baja de tres semanas a menos de una las pruebas de moldes",
+      "urls": [
+        "https://www.voxelmatters.com/shining-3ds-optimscan-q9-cuts-mold-trials-to-under-a-week/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "MELD construye una planta para imprimir metal en piezas más grandes",
+      "urls": [
+        "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Un asiento de bicicleta impreso de una sola pieza gana un Red Dot",
+      "urls": [
+        "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Snapmaker premia 20 proyectos para su impresora con cambiador de cabezales",
+      "urls": [
+        "https://3dprint.com/335681/3d-printing-news-briefs-10-29-2026/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Pesos abiertos",
+    "Puerta trasera",
+    "Tasa de error por palabra",
+    "Desdoblamiento de acciones"
+  ],
+  "claude_tip": {
+    "titulo": "Recuperá con la flecha arriba el pedido que borraste con Ctrl+C",
+    "urls": [
+      "https://www.havoptic.com/r/claude-code-2.1.288",
+      "https://github.com/anthropics/claude-code/issues/59408"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-30"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (viernes y sábado) e Infobae (domingo y lunes); lluvia y viento de Meteored. Consultado 05:55. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-30T09:11:31.236Z"
+  }
+}

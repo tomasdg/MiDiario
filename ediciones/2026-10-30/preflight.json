@@ -1,0 +1,116 @@
+{
+  "generado": "2026-10-30T09:11:31.236Z",
+  "edicion": {
+    "numero": 11,
+    "fecha": "2026-10-30",
+    "cierre": "2026-10-30T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": [
+        {
+          "tipo": "fuente_ya_usada",
+          "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
+          "edicion": "2026-10-29"
+        }
+      ]
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.75,
+        8.5,
+        9.25,
+        8.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.847,
+        "mayor_rectangulo_vacio": 0.042,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 38
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.891,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.789,
+        "mayor_rectangulo_vacio": 0.122,
+        "hueco_mm": {
+          "x": 129,
+          "y": 162,
+          "ancho": 57,
+          "alto": 109
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.838,
+        "mayor_rectangulo_vacio": 0.063,
+        "hueco_mm": {
+          "x": 62,
+          "y": 219,
+          "ancho": 62,
+          "alto": 52
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "rubrica": "DE_VILLA_URQUIZA_AL_MUNDO.md §6",
+      "hallazgos": [
+        "Portada: principal y agenda superpuestas con las llamadas en el primer armado",
+        "Página 4: columna de cierre desbordada",
+        "Páginas 3 y 4: huecos al pie de la columna derecha y central"
+      ],
+      "correcciones": [
+        "Principal recortada a 355 palabras y agenda abreviada",
+        "Glosario sin ejemplos y definiciones más cortas",
+        "Se ampliaron las notas de Malasia, Gitee y XREAL y se agregó la breve de Snapmaker"
+      ],
+      "revisado": "2026-10-30T06:55:00-03:00"
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-30/De-Villa-Urquiza-al-Mundo-N11-2026-10-30.pdf"
+}
