@@ -1,0 +1,591 @@
+{
+  "edicion": {
+    "numero": 12,
+    "fecha": "2026-10-31",
+    "cierre": "2026-10-31T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "portada": {
+    "principal": {
+      "id": "openai-ronda-corta",
+      "seccion": "principal",
+      "titulo": "OpenAI juntó menos de la mitad de la plata que salió a buscar",
+      "bajada": "Tenía como meta US$ 30.000 millones y logró compromisos por unos US$ 11.000 millones, en una semana en la que Wall Street castigó el gasto en inteligencia artificial.",
+      "cuerpo": [
+        "OpenAI consiguió compromisos por unos US$ 11.000 millones en su última ronda de inversión, muy lejos de los US$ 30.000 millones que se había propuesto, según informó el viernes 30 The Wall Street Journal. El Financial Times agregó que la empresa ya bajó la meta a unos US$ 20.000 millones y que acepta una valuación de US$ 1,25 billones, por debajo de los US$ 1,4 billones a los que aspiraba. Los inversores comprometidos no trascendieron, y OpenAI no confirmó las cifras.",
+        "Según esos reportes, a la empresa le costó sumar a algunos grandes fondos y ahora planea salir a buscar dinero entre family offices y personas de alto patrimonio en las próximas semanas. El momento no ayuda: la ronda se cruzó con una semana en la que Wall Street castigó el gasto en IA. Amazon mostró que la construcción de centros de datos le dejó el flujo de caja en rojo e Intel tuvo el viernes la peor jornada de su historia, con una caída cercana a 29%. Ese día el Nasdaq perdió alrededor de 2,5% y tocó su nivel más bajo en casi tres meses.",
+        "La comparación con Anthropic pesa en la lectura del mercado. De acuerdo con lo publicado, los ingresos trimestrales de Anthropic se duplicaron con creces en el segundo trimestre, hasta US$ 11.600 millones, con una pequeña ganancia operativa impulsada por la demanda empresarial de Claude Code, mientras que OpenAI facturó unos US$ 6.700 millones, 18% más, con pérdidas operativas en aumento. Anthropic ya presentó los papeles para salir a la bolsa, lo que se espera para noviembre, y en su última ronda había sido valuada en US$ 965.000 millones.",
+        "OpenAI sigue siendo la empresa de IA más valiosa en los papeles y prepara su propia salida a la bolsa para el año próximo. Recuperó algo de mercado después de bajar los precios de sus modelos más recientes. Pero el dato de la ronda es una señal concreta de algo que hasta ahora se discutía en abstracto: el apetito de los inversores por financiar la carrera de la IA a cualquier precio tiene un límite, y las empresas que todavía pierden plata empiezan a sentirlo primero."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4989165",
+          "medio": "Investing.com (sobre The Wall Street Journal)",
+          "titulo": "OpenAI raises just $11bn of $30bn target as AI investor appetite cools - WSJ",
+          "fecha_publicacion": "2026-10-31",
+          "consultado": "2026-10-31T06:14:00-03:00"
+        },
+        {
+          "url": "https://runtimewire.com/article/openai-11b-commitments-30b-target-125t-valuation",
+          "medio": "Runtime Wire",
+          "titulo": "OpenAI has $11B committed toward initial $30B funding target, WSJ reports",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:15:00-03:00"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
+          "medio": "Reuters (vía Honolulu Star-Advertiser)",
+          "titulo": "Intel shares plunge 28.6% as U.S. stocks suffer broad selloff",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:17:00-03:00"
+        }
+      ]
+    },
+    "secundarias": [
+      {
+        "titulo": "Una extensión troyana de Claude Code",
+        "resumen": "La tienda de Cursor distribuyó durante once horas una copia manipulada que instalaba una puerta trasera SSH; pudo llegar a 5.000 usuarios. Anthropic no fue comprometida.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Intel vive su peor día",
+        "resumen": "La acción cayó 29% por una previsión de ventas más de US$ 1.000 millones por debajo de lo esperado, y arrastró a todo el sector de semiconductores.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Golpe histórico a Binance",
+        "resumen": "Le robaron unos US$ 6.300 millones en criptomonedas en 20 minutos; suspendió retiros y apartó fondos propios para reponerlo todo.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Una sola señal contra el entrenamiento",
+        "resumen": "Google, Microsoft, OpenAI y Anthropic respetarán la misma regla de robots.txt para que un sitio pida no ser usado al entrenar modelos.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Claude estrena el plan Ultra",
+        "resumen": "El Max 20x cambia de nombre, mantiene los US$ 200 por mes y elimina el tope de cinco horas para las cuentas verificadas.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Reddit cierra la puerta",
+        "resumen": "Pedirá iniciar sesión porque la búsqueda con IA de Google le quita más de un millón de visitas por semana; la acción cayó 28%.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Una escuela impresa en Qatar",
+        "resumen": "Una impresora de hormigón terminó 30.000 metros cuadrados de muros, en lo que sería el edificio impreso en 3D más grande del mundo.",
+        "pagina": 4
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "Dom 1 nov",
+        "texto": "Binance prevé reanudar los retiros."
+      },
+      {
+        "cuando": "Nov",
+        "texto": "Bambu Lab lanza su escáner S1."
+      },
+      {
+        "cuando": "Nov",
+        "texto": "Anthropic saldría a la bolsa."
+      },
+      {
+        "cuando": "15 dic",
+        "texto": "Bing abre la transición de la nueva señal."
+      },
+      {
+        "cuando": "1 feb 2027",
+        "texto": "Microsoft respeta el token anti-entrenamiento."
+      },
+      {
+        "cuando": "Ene 2027",
+        "texto": "Aurora Labs vota el resto de su ampliación."
+      }
+    ],
+    "llamadas": [
+      {
+        "etiqueta": "Claude Tips",
+        "texto": "Que Claude Code no lea fuera del proyecto.",
+        "pagina": 2
+      },
+      {
+        "etiqueta": "Empresas",
+        "texto": "DoorDash se queda con Instacart.",
+        "pagina": 3
+      },
+      {
+        "etiqueta": "Impresión 3D",
+        "texto": "Turborreactores impresos para drones.",
+        "pagina": 4
+      },
+      {
+        "etiqueta": "Hoy",
+        "texto": "Parcialmente nublado, máxima de 25°.",
+        "pagina": 4
+      }
+    ],
+    "dato_del_dia": {
+      "etiqueta": "La cifra del día",
+      "titulo": "US$ 146.000 millones",
+      "texto": "Valor de mercado que perdió Intel el viernes, en la peor jornada de su historia bursátil."
+    }
+  },
+  "notas": [
+    {
+      "id": "extension-claude-code-troyana",
+      "seccion": "ia",
+      "titulo": "Una copia troyana de la extensión de Claude Code se coló en la tienda de Cursor",
+      "bajada": "Estuvo publicada once horas, pudo llegar a 5.000 usuarios e instalaba una puerta trasera SSH; Anthropic no fue comprometida.",
+      "cuerpo": [
+        "Durante unas once horas del jueves 29, el marketplace de extensiones de Cursor, el editor de código con IA, distribuyó una versión manipulada de la extensión oficial de Claude Code. Según el análisis que Microsoft publicó el viernes 30, las versiones 2.1.312 y 2.1.313 incluían un cargador en JavaScript que se ejecutaba al abrir el editor. Cursor estimó que hasta 5.000 usuarios pudieron recibirla.",
+        "El código malicioso juntaba datos del equipo (usuario, sistema, correo de Git y los nombres, no los valores, de variables con palabras como TOKEN o SECRET), agregaba una clave del atacante al archivo authorized_keys con el comentario «svc-telemetry», intentaba abrir un túnel SSH inverso y se instalaba para arrancar con la máquina en macOS, Linux y Windows. Cursor dijo que errores y pedidos de permisos de administrador frenaron el acceso en la mayoría de las Mac y PC con Windows.",
+        "Microsoft aclaró que el paquete no apareció en el marketplace de Visual Studio Code ni en npm, y que Anthropic no fue comprometida. Anthropic publicó el viernes la versión limpia 2.1.314. Quien use Cursor debería revisar la versión instalada, buscar esa clave en authorized_keys y rotar credenciales si la tuvo."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-29",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+          "medio": "Microsoft Security Blog",
+          "titulo": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:22:00-03:00"
+        },
+        {
+          "url": "https://aiweekly.co/ai-news-today",
+          "medio": "AI Weekly",
+          "titulo": "AI News Today, October 30",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:23:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "token-robots-entrenamiento",
+      "seccion": "ia",
+      "titulo": "Google, Microsoft, OpenAI y Anthropic respetarán una sola señal para no entrenar con un sitio",
+      "cuerpo": [
+        "Las cuatro empresas se comprometieron el viernes 30 a respetar una misma regla en el archivo robots.txt, el token __usage_ai-training, con la que un sitio puede decir si acepta o no que su contenido se use para entrenar modelos generativos. Hasta ahora cada empresa tenía su propio rastreador y su propia forma de excluirse.",
+        "No es un estándar formal: es un borrador individual presentado ante el IETF por Kevin Kelley, de Anthropic, que toma la definición de «entrenamiento» del grupo de trabajo AIPREF, todavía sin terminar. La regla no bloquea el rastreo ni afecta la posición en buscadores, y en Google no alcanza a las respuestas de AI Overviews ni de AI Mode.",
+        "Los plazos difieren. Anthropic dice que ya empezó a aplicarla; Microsoft la respetará desde el 1 de febrero de 2027; Google, «a principios de 2027», y OpenAI, «en los próximos meses»."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://ppc.land/google-microsoft-openai-and-anthropic-back-one-ai-training-opt-out/",
+          "medio": "PPC Land",
+          "titulo": "Google, Microsoft, OpenAI and Anthropic back one AI training opt-out",
+          "fecha_publicacion": "2026-10-31",
+          "consultado": "2026-10-31T06:30:00-03:00"
+        },
+        {
+          "url": "https://aiweekly.co/ai-news-today",
+          "medio": "AI Weekly",
+          "titulo": "AI News Today, October 30",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:23:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "claude-ultra",
+      "seccion": "ia",
+      "titulo": "El plan Max 20x de Claude pasa a llamarse Ultra y pierde el límite de cinco horas",
+      "cuerpo": [
+        "Anthropic renombró el viernes 30 sus planes de pago altos: Max 5x pasa a ser «Max», a US$ 100 por mes, y Max 20x pasa a ser «Ultra», a US$ 200, sin cambios de precio. Para las cuentas Ultra verificadas eliminó el tope de uso que se renovaba cada cinco horas, empezando por la mayoría de los suscriptores actuales; las cuentas nuevas lo mantienen hasta verificarse, como medida contra fraude.",
+        "Los límites semanales no cambian y Max conserva la ventana de cinco horas. Ultra suma además US$ 200 por mes en créditos de API. Quien ya está suscripto no tiene que hacer nada."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://fourweekmba.com/ai-claude-ultra-drops-5-hour-limit-for-verified-users-at-200/",
+          "medio": "FourWeekMBA",
+          "titulo": "Claude Ultra Drops 5-Hour Limit for Verified Users at $200",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:33:00-03:00"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2116220869479428500",
+          "medio": "Claude en X",
+          "titulo": "We're renaming our Max plans",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:33:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "canada-cohere",
+      "seccion": "ia",
+      "titulo": "Canadá se convierte en accionista de Cohere con hasta 1.600 millones de dólares canadienses",
+      "cuerpo": [
+        "El gobierno de Canadá anunció el jueves 29 que invertirá hasta C$ 1.600 millones (unos US$ 1.100 millones), en etapas, a cambio de una participación en Cohere, la empresa de modelos de lenguaje de Toronto. La inversión llega junto con aportes privados de Nvidia, Bell y el grupo Schwarz; el comunicado oficial no informa el porcentaje ni la valuación.",
+        "A cambio, Cohere se compromete a mantener su sede en Canadá, crear al menos 1.000 empleos técnicos y gastar como mínimo otros C$ 1.700 millones en infraestructura de cómputo en el país antes de 2030. El gobierno lo presenta como una apuesta por una IA «soberana»."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-29",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+          "medio": "Primer Ministro de Canadá",
+          "titulo": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
+          "fecha_publicacion": "2026-10-29",
+          "consultado": "2026-10-31T06:28:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "suncatcher-haiku",
+      "seccion": "ia",
+      "titulo": "El satélite de Google con un chip de centro de datos ya responde desde la órbita",
+      "cuerpo": [
+        "Google informó que el prototipo de Project Suncatcher, lanzado el 1 de octubre con SpaceX y construido con Planet, ya está operativo: corre Gemma 4, su modelo abierto, en una TPU de clase centro de datos, y su primera respuesta fue un haiku. La gran prueba pendiente es el calor, que en el vacío sólo se disipa con radiadores. El plan sigue con pruebas térmicas y de radiación y dos satélites unidos por láser en 2027."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.unite.ai/project-suncatchers-orbiting-tpu-delivers-its-first-ai-generated-haiku/",
+          "medio": "Unite.AI",
+          "titulo": "Project Suncatcher's Orbiting TPU Delivers Its First AI-Generated Haiku",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:36:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "intel-peor-dia",
+      "seccion": "empresas",
+      "titulo": "Intel cae 29%, la peor jornada de su historia, y arrastra a todo el sector de chips",
+      "bajada": "Pronosticó para fin de año más de US$ 1.000 millones menos de ventas de lo esperado y avisó que no generará caja en 2026.",
+      "cuerpo": [
+        "La acción de Intel se desplomó 28,6% el viernes 30, hasta unos US$ 65, en la mayor caída de un día de su historia. El jueves, al presentar resultados, la empresa había pronosticado para el cuarto trimestre ingresos de US$ 15.000 a 16.000 millones, contra US$ 17.100 millones que esperaba el mercado, y una ganancia ajustada de US$ 0,25 por acción, frente a US$ 0,43. Además avisó que este año no tendrá flujo de caja positivo.",
+        "El trimestre en sí había sido bueno: facturó US$ 16.500 millones, 21% más, y centros de datos creció 78%. Pero el negocio de chips para PC, casi la mitad de las ventas, cayó 5%, golpeado por la suba de la memoria, que los fabricantes desvían a los chips HBM para IA. Intel tenía US$ 21.840 millones en efectivo contra US$ 46.320 millones de deuda de largo plazo.",
+        "Se evaporaron más de US$ 146.000 millones de valor de mercado; el gobierno de Estados Unidos, dueño de 10%, perdió unos US$ 12.000 millones. El índice de semiconductores bajó 7%, AMD cerca de 10% y ASML más de 6%; Dell perdió 10,4% y HP 8,7%. En Asia, el índice KOSPI de Corea del Sur cedió 3,5%."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.fool.com/investing/2026/10/30/why-intel-stock-crashed-on-friday/",
+          "medio": "The Motley Fool",
+          "titulo": "Why Intel Stock Crashed on Friday",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:19:00-03:00"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123",
+          "medio": "Reuters (vía Investing.com)",
+          "titulo": "Intel on course for worst day ever, triggers global chip rout",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:18:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "binance-hackeo",
+      "seccion": "tecnologia",
+      "titulo": "Binance pierde 6.300 millones de dólares en el mayor robo de criptomonedas de la historia",
+      "cuerpo": [
+        "Binance, la mayor bolsa de criptomonedas del mundo, confirmó el viernes 30 un «ataque complejo» que en unos 20 minutos sacó de sus billeteras operativas unos US$ 6.300 millones en bitcoin, ether, USDT, USDC y otros tokens. Suspendió los retiros, mantuvo los depósitos y estimó reanudarlos en 45 a 48 horas.",
+        "La empresa apartó más de US$ 6.340 millones de recursos propios para reponer los fondos y, con ayuda de los emisores de stablecoins, congeló o protegió unos US$ 3.000 millones. Firmas de seguridad sospechan del grupo norcoreano TraderTraitor, aunque la atribución no está confirmada. El golpe se sintió en Wall Street: Coinbase cayó 13%."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/30/binance-creo-un-fondo-de-mas-de-usd-6300-millones-para-cubrir-las-perdidas-del-hackeo-historico/",
+          "medio": "Infobae",
+          "titulo": "Binance creó un fondo de más de USD 6.300 millones para cubrir las pérdidas del hackeo histórico",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:20:00-03:00"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/",
+          "medio": "Reuters (vía Honolulu Star-Advertiser)",
+          "titulo": "Intel shares plunge 28.6% as U.S. stocks suffer broad selloff",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:17:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "reddit-con-sesion",
+      "seccion": "tecnologia",
+      "titulo": "Reddit pedirá iniciar sesión porque la búsqueda con IA de Google le saca visitas",
+      "cuerpo": [
+        "Reddit anunció el jueves 29, al presentar resultados, que pasará a un modelo en el que lo principal será entrar con cuenta. Dice que en octubre perdió en promedio más de un millón de visitas semanales llegadas desde buscadores, y lo atribuye a los modos de IA de Google; si sigue así, sus usuarios diarios podrían bajar un porcentaje de dos dígitos.",
+        "Las pruebas empiezan este trimestre en mercados fuera de Estados Unidos. El trimestre fue bueno, con ingresos de US$ 895 millones (+53%), pero la previsión quedó corta y la acción perdió 28% el viernes."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-29",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+          "medio": "TechCrunch",
+          "titulo": "As search traffic dries up, Reddit announces it's shifting to a logged-in experience",
+          "fecha_publicacion": "2026-10-29",
+          "consultado": "2026-10-31T06:38:00-03:00"
+        },
+        {
+          "url": "https://thenextweb.com/news/reddit-login-required-google-ai-search-traffic",
+          "medio": "The Next Web",
+          "titulo": "Reddit will make users log in as Google's AI search cuts its traffic",
+          "fecha_publicacion": "2026-10-29",
+          "consultado": "2026-10-31T06:38:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "doordash-instacart",
+      "seccion": "empresas",
+      "titulo": "DoorDash compra Instacart por 17.000 millones de dólares",
+      "cuerpo": [
+        "DoorDash anunció el jueves 29 un acuerdo para comprar Instacart a US$ 65 por acción, unos US$ 17.000 millones, con una prima de 26% sobre el precio previo a los rumores. Al menos 75% se pagará en efectivo, con deuda puente de JPMorgan. El cierre se espera entre fines de 2027 y el primer semestre de 2028, sujeto a los accionistas y a los reguladores de Estados Unidos, Canadá e Israel.",
+        "Cada accionista de Instacart podrá elegir entre cobrar los US$ 65 en efectivo, recibir 0,3372 acciones de DoorDash o una mezcla de US$ 48,75 más 0,0843 acciones, con un tope de 25% del total en papeles. El directorio de Instacart aprobó la operación por unanimidad y accionistas con cerca de 19% del capital ya se comprometieron a votar a favor. La compra une a los dos mayores servicios de reparto a domicilio de Estados Unidos fuera de Amazon y Walmart."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-29",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx",
+          "medio": "DoorDash (relación con inversores)",
+          "titulo": "DoorDash to Acquire Instacart to Help Local Stores Win",
+          "fecha_publicacion": "2026-10-29",
+          "consultado": "2026-10-31T06:21:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce-rune",
+      "seccion": "empresas",
+      "titulo": "Salesforce paga 375 millones de dólares por Rune, una startup de logística militar",
+      "cuerpo": [
+        "Salesforce firmó la compra de Rune Technologies, de Washington, cuyo programa TyrOS ayuda a decidir qué suministros necesita una tropa y cómo llevarlos; tiene un contrato de US$ 99 millones con el Ejército estadounidense. El pago, de US$ 375 millones en efectivo y acciones según Resilience Media, triplica su última valuación. Se suma a Missionforce, la división de defensa de Salesforce, que según la empresa crece 80% por año.",
+        "Rune había levantado unos US$ 30 millones de Andreessen Horowitz, Point72 Ventures e IQT, el fondo vinculado a la CIA, y PitchBook la valuaba en US$ 127 millones. Salesforce confirmó el acuerdo definitivo en su blog, sin detallar la proporción de efectivo y acciones."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/",
+          "medio": "Resilience Media",
+          "titulo": "Scoop: Salesforce is paying $375M for Rune Technologies",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:34:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "escuela-qatar",
+      "seccion": "impresion3d",
+      "titulo": "Termina la impresión de una escuela en Qatar con 30.000 metros cuadrados de muros",
+      "bajada": "La impresora de hormigón de COBOD se armó 15 veces para cubrir un terreno de una hectárea y trabajó de noche por el calor.",
+      "cuerpo": [
+        "La impresora de hormigón BODXL, de la danesa COBOD, terminó de levantar los muros de una escuela pública en Qatar que, según el artículo, es el edificio impreso en 3D más grande construido hasta ahora. El proyecto lo impulsa UCC Holding y forma parte de un plan de 14 escuelas, de las cuales dos se hacen con esta técnica.",
+        "Cada escuela tiene 20.000 metros cuadrados en dos plantas sobre un terreno de 100 por 100 metros. Se depositaron más de 500 kilómetros de capas y 30.000 metros cuadrados de muros. La máquina, de 50 metros de largo, 30 de ancho y 15 de alto, se desarmó y volvió a armar 15 veces para cubrir todo el terreno, y se imprimió de noche para que el calor no arruinara el hormigón.",
+        "La impresión empezó en junio de 2025. Ahora se colocan techo, ventanas, puertas y terminaciones, y los primeros alumnos llegarían pronto."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.3dnatives.com/en/3d-printed-school-qatar-30102026/",
+          "medio": "3Dnatives",
+          "titulo": "A School in Qatar with 30,000 Square Meters of 3D Printed Walls Is Close to Completion",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:40:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "protolabs-q3",
+      "seccion": "impresion3d",
+      "titulo": "Protolabs factura un récord y su negocio de impresión 3D vuelve a crecer",
+      "cuerpo": [
+        "Protolabs, el fabricante estadounidense de piezas a pedido, facturó US$ 154,3 millones en el tercer trimestre, un récord y 14% más que un año antes. El segmento de impresión 3D, que venía de dos trimestres en baja, vendió US$ 22,4 millones, 11,4% más, impulsado por el metal y por la tecnología Multi Jet Fusion de HP, que en sus plantas de Estados Unidos crece más de 40% en el año.",
+        "El segmento también mejoró frente al trimestre anterior, cuando había vendido US$ 20,7 millones, y el ingreso promedio por cliente subió 17% interanual. El artículo no informa la ganancia ni una previsión para el cierre del año."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://3dprint.com/335780/d-protolabs-q3-earnings-record-revenue-overall-3d-printing-segment-rebounds/",
+          "medio": "3DPrint.com",
+          "titulo": "3D Printing Financials: Protolabs Posts Record Q3 Revenue",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:41:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "aurora-labs-turbinas",
+      "seccion": "impresion3d",
+      "titulo": "Aurora Labs junta 6 millones de dólares australianos para fabricar turborreactores impresos",
+      "cuerpo": [
+        "La australiana Aurora Labs colocará acciones por A$ 6 millones (unos US$ 4,2 millones) para pasar de series cortas a volumen con el AU4, un turborreactor para drones de 3,9 kilos y hasta 400 newtons de empuje, hecho con impresión de metal. Entre los compradores está Walkinshaw, que podría usar sus servicios. Tiene pedidos chicos de Australia y Estados Unidos.",
+        "Unos A$ 4,6 millones entran a principios de noviembre y el resto necesita la aprobación de los accionistas, en una junta prevista para enero de 2027. La cartera incluye tres motores AU4 para un programa experimental estadounidense por US$ 42.000, veinte sistemas para Sovereign Propulsion por A$ 250.000 y un acuerdo de colaboración, todavía sin pedido firme, con el fabricante europeo de misiles MBDA."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-30",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://3dprint.com/335774/aurora-labs-raises-a6m-to-scale-3d-printed-turbojet-production/",
+          "medio": "3DPrint.com",
+          "titulo": "Aurora Labs Raises A$6M to Scale 3D Printed Turbojet Production",
+          "fecha_publicacion": "2026-10-30",
+          "consultado": "2026-10-31T06:42:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nike-hodgkinson",
+      "seccion": "impresion3d",
+      "titulo": "Nike suma relieves impresos al traje de la campeona de 800 metros",
+      "cuerpo": [
+        "Keely Hodgkinson ganó los 800 metros del Athlos de Londres en 1:56,80 con un traje de Nike que lleva pequeños relieves triangulares impresos en 3D en hombros, muslos, torso y capucha, pensados para ordenar el aire. Nike no publicó cuánto reducen la resistencia.",
+        "Fue la primera carrera de la británica con el traje. La marca asegura que son los generadores de vórtices más rápidos que desarrolló, pero no informó el material ni el proceso de impresión."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-29",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.3dnatives.com/en/nike-speed-suit-29102026/",
+          "medio": "3Dnatives",
+          "titulo": "How Nike Used 3D Printing to Make Keely Hodgkinson's Speed Suit More Aerodynamic",
+          "fecha_publicacion": "2026-10-29",
+          "consultado": "2026-10-31T06:43:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "align-protector",
+      "seccion": "breve",
+      "seccion_destino": "impresion3d",
+      "titulo": "Align prueba un protector bucal deportivo impreso en 3D",
+      "cuerpo": [
+        "Align, la fabricante de Invisalign, facturó US$ 1.014,8 millones en el trimestre (+1,9%) y lanza en Estados Unidos, como piloto, el Invisalign Sports Guard: un protector a medida impreso directamente desde un escaneo iTero."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-28",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://finviz.com/news/410533/align-technology-announces-third-quarter-2026-financial-results",
+          "medio": "Align Technology (vía Finviz)",
+          "titulo": "Align Technology Announces Third Quarter 2026 Financial Results",
+          "fecha_publicacion": "2026-10-28",
+          "consultado": "2026-10-31T06:44:00-03:00"
+        }
+      ]
+    }
+  ],
+  "finanzas": "@datos/finanzas.json",
+  "clima": "@datos/clima.json",
+  "glosario": [
+    {
+      "termino": "Túnel SSH inverso",
+      "definicion": "Conexión que la máquina infectada abre hacia afuera para que el atacante entre por ella, esquivando los cortafuegos que bloquean conexiones entrantes.",
+      "nota_relacionada": "extension-claude-code-troyana"
+    },
+    {
+      "termino": "robots.txt",
+      "definicion": "Archivo en la raíz de un sitio web con instrucciones para los programas que lo recorren; su cumplimiento es voluntario.",
+      "nota_relacionada": "token-robots-entrenamiento"
+    },
+    {
+      "termino": "Billetera operativa",
+      "definicion": "Cuenta conectada a internet que usa una bolsa de criptomonedas para pagar retiros al instante; por eso es la más expuesta a robos.",
+      "nota_relacionada": "binance-hackeo"
+    },
+    {
+      "termino": "Generador de vórtices",
+      "definicion": "Pequeño relieve que ordena el flujo de aire sobre una superficie para reducir la resistencia o evitar que el aire se despegue.",
+      "nota_relacionada": "nike-hodgkinson"
+    }
+  ],
+  "fe_de_erratas": [],
+  "claude_tip": {
+    "titulo": "Prohibile a Claude Code leer fuera de la carpeta del proyecto",
+    "donde": "Claude Code",
+    "origen": "Visto en DevelopersIO, el blog técnico de Classmethod",
+    "texto": [
+      "Masaki Sato, de Classmethod, probó en octubre la opción «blockReadsOutside­WorkingDirectories», que llegó en la versión 2.1.257, de septiembre. Con la extensión troyana de esta semana y los ataques con archivos plantados en carpetas, vale la pena activarla.",
+      "Con la opción encendida, Claude no puede leer archivos fuera de la carpeta del proyecto y de las que agregues a mano, ni siquiera en modo automático: un archivo malicioso no puede hacerle abrir tus claves o tu ~/.ssh."
+    ],
+    "pasos": [
+      "Abrí «~/.claude/settings.json» y, dentro de «permissions», agregá «blockReadsOutside­WorkingDirectories» con valor «true». En la prueba de Sato, sólo la configuración de usuario funcionó de forma fiable.",
+      "Si necesitás otra carpeta, sumala con «/add-dir <ruta>» durante la sesión.",
+      "Activá el sandbox con «/sandbox»: sin él, los comandos de Bash sólo piden confirmación en vez de bloquearse."
+    ],
+    "fuentes": [
+      {
+        "url": "https://dev.classmethod.jp/articles/claude-code-block-reads-outside-working-directories/",
+        "medio": "DevelopersIO (Classmethod)",
+        "titulo": "Claude Code の blockReadsOutsideWorkingDirectories で作業ディレクトリ外の読み取りを拒否してみた",
+        "fecha_publicacion": "2026-10-03",
+        "consultado": "2026-10-31T06:46:00-03:00"
+      },
+      {
+        "url": "https://code.claude.com/docs/en/changelog#21311",
+        "medio": "Claude Code Docs",
+        "titulo": "Claude Code changelog, versión 2.1.311",
+        "fecha_publicacion": "2026-10-26",
+        "consultado": "2026-10-31T06:47:00-03:00"
+      }
+    ]
+  }
+}

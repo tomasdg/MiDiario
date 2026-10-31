@@ -1,0 +1,153 @@
+{
+  "numero": 12,
+  "fecha": "2026-10-31",
+  "cierre": "2026-10-31T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "OpenAI juntó menos de la mitad de la plata que salió a buscar",
+      "urls": [
+        "https://www.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4989165",
+        "https://runtimewire.com/article/openai-11b-commitments-30b-target-125t-valuation",
+        "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Una copia troyana de la extensión de Claude Code se coló en la tienda de Cursor",
+      "urls": [
+        "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+        "https://aiweekly.co/ai-news-today"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Google, Microsoft, OpenAI y Anthropic respetarán una sola señal para no entrenar con un sitio",
+      "urls": [
+        "https://ppc.land/google-microsoft-openai-and-anthropic-back-one-ai-training-opt-out/",
+        "https://aiweekly.co/ai-news-today"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El plan Max 20x de Claude pasa a llamarse Ultra y pierde el límite de cinco horas",
+      "urls": [
+        "https://fourweekmba.com/ai-claude-ultra-drops-5-hour-limit-for-verified-users-at-200/",
+        "https://x.com/claudeai/status/2116220869479428500"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Canadá se convierte en accionista de Cohere con hasta 1.600 millones de dólares canadienses",
+      "urls": [
+        "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El satélite de Google con un chip de centro de datos ya responde desde la órbita",
+      "urls": [
+        "https://www.unite.ai/project-suncatchers-orbiting-tpu-delivers-its-first-ai-generated-haiku/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Intel cae 29%, la peor jornada de su historia, y arrastra a todo el sector de chips",
+      "urls": [
+        "https://www.fool.com/investing/2026/10/30/why-intel-stock-crashed-on-friday/",
+        "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Binance pierde 6.300 millones de dólares en el mayor robo de criptomonedas de la historia",
+      "urls": [
+        "https://www.infobae.com/economia/2026/10/30/binance-creo-un-fondo-de-mas-de-usd-6300-millones-para-cubrir-las-perdidas-del-hackeo-historico/",
+        "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Reddit pedirá iniciar sesión porque la búsqueda con IA de Google le saca visitas",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+        "https://thenextweb.com/news/reddit-login-required-google-ai-search-traffic"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "DoorDash compra Instacart por 17.000 millones de dólares",
+      "urls": [
+        "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Salesforce paga 375 millones de dólares por Rune, una startup de logística militar",
+      "urls": [
+        "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Termina la impresión de una escuela en Qatar con 30.000 metros cuadrados de muros",
+      "urls": [
+        "https://www.3dnatives.com/en/3d-printed-school-qatar-30102026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Protolabs factura un récord y su negocio de impresión 3D vuelve a crecer",
+      "urls": [
+        "https://3dprint.com/335780/d-protolabs-q3-earnings-record-revenue-overall-3d-printing-segment-rebounds/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Aurora Labs junta 6 millones de dólares australianos para fabricar turborreactores impresos",
+      "urls": [
+        "https://3dprint.com/335774/aurora-labs-raises-a6m-to-scale-3d-printed-turbojet-production/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Nike suma relieves impresos al traje de la campeona de 800 metros",
+      "urls": [
+        "https://www.3dnatives.com/en/nike-speed-suit-29102026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Align prueba un protector bucal deportivo impreso en 3D",
+      "urls": [
+        "https://finviz.com/news/410533/align-technology-announces-third-quarter-2026-financial-results"
+      ]
+    }
+  ],
+  "glosario": [
+    "Túnel SSH inverso",
+    "robots.txt",
+    "Billetera operativa",
+    "Generador de vórtices"
+  ],
+  "claude_tip": {
+    "titulo": "Prohibile a Claude Code leer fuera de la carpeta del proyecto",
+    "urls": [
+      "https://dev.classmethod.jp/articles/claude-code-block-reads-outside-working-directories/",
+      "https://code.claude.com/docs/en/changelog#21311"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-10-31"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (sábado), Ciudad.com (domingo) y El Cronista (lunes y martes). Consultado 05:50. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-31T09:40:12.439Z"
+  }
+}

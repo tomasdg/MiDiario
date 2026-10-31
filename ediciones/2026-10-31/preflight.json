@@ -1,0 +1,107 @@
+{
+  "generado": "2026-10-31T09:40:12.439Z",
+  "edicion": {
+    "numero": 12,
+    "fecha": "2026-10-31",
+    "cierre": "2026-10-31T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9,
+        9.25,
+        9.5,
+        8.5
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.825,
+        "mayor_rectangulo_vacio": 0.048,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 43
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.925,
+        "mayor_rectangulo_vacio": 0.015,
+        "hueco_mm": {
+          "x": 24,
+          "y": 29,
+          "ancho": 162,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.796,
+        "mayor_rectangulo_vacio": 0.117,
+        "hueco_mm": {
+          "x": 129,
+          "y": 167,
+          "ancho": 57,
+          "alto": 105
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.822,
+        "mayor_rectangulo_vacio": 0.103,
+        "hueco_mm": {
+          "x": 62,
+          "y": 186,
+          "ancho": 62,
+          "alto": 86
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Sin superposiciones, texto cortado ni desbordes en las cuatro páginas",
+        "Identificador largo del Claude Tip desbordaba la columna en la página 2",
+        "Aire al pie de la columna derecha de la página 3 y de la central de la página 4, dentro de los márgenes de densidad"
+      ],
+      "correcciones": [
+        "Se partió el identificador con guion opcional y se reconstruyó",
+        "Se ampliaron notas ya investigadas de las páginas 3 y 4 para subir la densidad"
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-10-31/De-Villa-Urquiza-al-Mundo-N12-2026-10-31.pdf"
+}

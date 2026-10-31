@@ -1,0 +1,40 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-10-31T08:50:00Z",
+  "fuente": "SMN vía La Nación (sábado), Ciudad.com (domingo) y El Cronista (lunes y martes). Consultado 05:50. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-10-31",
+      "codigo_wmo": 2,
+      "max": 25,
+      "min": 14,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-01",
+      "codigo_wmo": 95,
+      "max": 25,
+      "min": 15,
+      "prob_precip": 40
+    },
+    {
+      "fecha": "2026-11-02",
+      "codigo_wmo": 2,
+      "max": 26,
+      "min": 17
+    },
+    {
+      "fecha": "2026-11-03",
+      "codigo_wmo": 2,
+      "max": 22,
+      "min": 16,
+      "prob_precip": 10
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": null,
+  "no_disponible": []
+}
