@@ -80,6 +80,10 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 
 - Edición Nº 12: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 30 según Ámbito ($ 1.510 / $ 1.560). Clima: SMN vía La Nación (sábado), Ciudad.com (domingo) y El Cronista (lunes y martes); sin lluvia en mm ni viento máximo salvo hoy.
 
+## Datos de respaldo — 1 de noviembre de 2026
+
+- Edición Nº 13: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 30 según Ámbito ($ 1.510 / $ 1.560). Clima: SMN vía Canal 26 para los cuatro días y Vive Click (lluvia de hoy); sin viento máximo salvo hoy.
+
 ## Fe de erratas pendiente
 
 (ninguna)
