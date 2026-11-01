@@ -1,0 +1,168 @@
+{
+  "numero": 13,
+  "fecha": "2026-11-01",
+  "cierre": "2026-11-01T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Apple Intelligence llega a China con el modelo de Alibaba",
+      "urls": [
+        "https://www.theapplepost.com/2026/10/31/73758/apple-confirms-qwen-support-in-china-as-ios-27-3-beta-arrives-november-4/",
+        "https://news.cgtn.com/news/2026-10-31/Alibaba-s-Qwen-to-integrate-into-Apple-Intelligence-in-landmark-deal-1RHilSeJsbK/p.html",
+        "https://www.channelnews.com.au/apple-ai-tools-cleared-for-china-launch-with-alibaba-and-baidu/",
+        "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI lanza GPT-6 Rosalind, un modelo para biología que contesta más, sólo para elegidos",
+      "urls": [
+        "https://www.i-scoop.eu/gpt-6-rosalind-trusted-access/",
+        "https://www.datastudios.org/post/openai-gpt-6-rosalind-biology-drug-discovery-gpt-6-astra-weights-trusted-access"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic puso a Claude a esquivar su propio filtro de datos de entrenamiento, y lo logró",
+      "urls": [
+        "https://alignment.anthropic.com/2026/automated-em-search/",
+        "https://interestingengineering.com/ai-robotics/anthropic-training-data-deception"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Un programa espía le pide a Claude, Kimi y Gemini que tasen a sus víctimas",
+      "urls": [
+        "https://www.unite.ai/cisco-talos-details-volta-infostealers-llm-victim-ranking-stage/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Rige desde hoy el estándar de Microsoft y los docentes contra los «compañeros» de IA en la escuela",
+      "urls": [
+        "https://digital.nemko.com/news/microsoft-ai-guardrails-for-schools-take-effect-november-1"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Moonshot cierra los Kimi K2 a usuarios nuevos",
+      "urls": [
+        "https://qcode.cc/en/kimi-k2-retirement-2026"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Apple muestra mañana sus números, con la memoria cara como amenaza para el margen",
+      "urls": [
+        "https://www.macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2/",
+        "https://pepperstone.com/en/insights/market-analysis/equities/apple-q4-2026-earnings-preview-rising-memory-costs-test-margins-can-premium-products-support-the-share-price",
+        "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una falla de nota máxima en GitLab ya está siendo atacada",
+      "urls": [
+        "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+        "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Accionistas demandan a Zuckerberg para frenar las acciones de Meta sin voto",
+      "urls": [
+        "https://thenextweb.com/news/meta-shareholders-sue-zuckerberg-class-c-shares"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Discord dejará que Google muestre mensajes de sus servidores públicos",
+      "urls": [
+        "https://www.iphoneincanada.ca/2026/10/28/discord-will-soon-make-public-server-messages-searchable-on-google/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una filtración en Amplitude expone datos de contacto de clientes de Coinbase",
+      "urls": [
+        "https://decrypt.co/382009/coinbase-customer-data-hit-analytics-vendor-breach-funds-not-impacted"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Semana de resultados: Palantir, AMD, Qualcomm, Arm y MercadoLibre",
+      "urls": [
+        "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-2-2026"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Imprimen en un solo paso stents trenzados de nitinol a la medida de cada paciente",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/",
+        "https://foro3d.com/en/2026/octubre/nitinol-trenzado-impreso-en-un-solo-paso-para-stents-a-medida.html"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Llega a California la impresora de casas de concreto más grande del estado",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una máquina japonesa imprime y mecaniza metal con dos cabezales",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "3D Systems dona una impresora de dentaduras a una ONG de atención gratuita",
+      "urls": [
+        "https://manilatimes.net/2026/10/30/tmt-newswire/globenewswire/3d-systems-donates-nextdent-300-3d-printer-to-remote-area-medical-to-expand-access-to-free-denture-care-in-the-us/2457837"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Evology suma una EOS de cuatro láseres",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "AMP elige Austin para su centro de prototipos",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Doble uso",
+    "Ajuste fino",
+    "CVSS",
+    "Nitinol"
+  ],
+  "claude_tip": {
+    "titulo": "Compactá vos la sesión antes de dejar Claude Code solo una hora",
+    "urls": [
+      "https://www.dsebastien.net/2026-10-16-claude-code-idle-compaction-cheaper-to-resume-but-from-a-summary/",
+      "https://code.claude.com/docs/en/changelog#21299"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-11-01"
+  },
+  "fuentes_datos": [
+    "SMN vía Canal 26 (cuatro días) y Vive Click (lluvia de hoy). Consultado 05:50. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-01T09:14:26.932Z"
+  }
+}
