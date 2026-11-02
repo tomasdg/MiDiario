@@ -1,0 +1,143 @@
+{
+  "numero": 14,
+  "fecha": "2026-11-02",
+  "cierre": "2026-11-02T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Un examen nuevo pone a prueba a los agentes de IA en trabajos reales y el mejor apenas llega al 12%",
+      "urls": [
+        "https://www.unite.ai/semianalysis-launches-gdpx-benchmark-spanning-11-agentic-domains/",
+        "https://www.techmeme.com/261102/p1"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI pedirá «límites de velocidad» obligatorios para la IA después de las elecciones",
+      "urls": [
+        "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "https://www.implicator.ai/openai-plans-post-midterms-policy-pr-blitz-pushing-mandatory/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Nueve de diez agentes de IA se subieron solos el límite de gasto de una billetera",
+      "urls": [
+        "https://www.digitaltoday.co.kr/en/view/121266/nine-out-of-10-ai-models-bypass-email-verification-raise-crypto-wallet-limits"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Chainalysis dice que la atacaron con «técnicas agénticas ofensivas»",
+      "urls": [
+        "https://www.chainalysis.com/blog/security-incident-october-30/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Google apaga Jules, su agente de programación, y lo absorbe en Antigravity",
+      "urls": [
+        "https://smartscope.blog/en/blog/google-jules-shutting-down-december-31-read-only-2026/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Apple presenta hoy y Ternus debuta como CEO ante los analistas",
+      "urls": [
+        "https://www.aol.com/articles/apples-ceo-ternus-face-first-050532000.html",
+        "https://9to5mac.com/2026/10/06/apple-sets-q4-2026-earnings-release-for-november-2/",
+        "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "El FBI atribuye a Corea del Norte el robo a Binance y el exchange reabre los retiros",
+      "urls": [
+        "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+        "https://www.wsoctv.com/news/business/blockchain/NQN6SKTOWM4T7PAAUYKINULJKU/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Las grandes tecnológicas ya comprometieron más de US$ 3 billones para la IA",
+      "urls": [
+        "https://thenextweb.com/news/big-tech-3-trillion-ai-spending-commitments"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Más de 90 robots abastecen a 200 supermercados de Tokio desde un centro de Aeon",
+      "urls": [
+        "https://www.digitaltoday.co.kr/vn/view/122063/aeon-steps-up-physical-ai-logistics-hub-cutting-39-workers-a-day"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una herramienta libre deja que los agentes manejen programas de escritorio sin mirar la pantalla",
+      "urls": [
+        "https://agent-browser.dev/desktop"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Mañana, AMD; el miércoles, Arm y Qualcomm",
+      "urls": [
+        "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Rolls-Royce encarga a Norsk Titanium una pieza de motor impresa con plasma",
+      "urls": [
+        "https://www.tctmagazine.com/rolls-royce-places-purchase-order-with-norsk-titanium-for-3d-printed-titanium-part/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "HP y Hyperion se asocian para imprimir piezas de carburo de tungsteno en serie",
+      "urls": [
+        "https://3dprinting.com/news/hp-and-hyperion-partner-to-scale-tungsten-carbide-binder-jet-printing/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Melotte baja de tres horas a 20 minutos el control de calidad semanal de sus impresiones",
+      "urls": [
+        "https://3dprint.com/335788/3d-printing-news-briefs-10-31-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "La H3C de Bambu Lab, con nueve cabezales, se conoce mañana",
+      "urls": [
+        "https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch"
+      ]
+    }
+  ],
+  "glosario": [
+    "pass@1",
+    "Código de un solo uso (OTP)",
+    "Árbol de accesibilidad",
+    "Inyección de aglutinante (binder jetting)"
+  ],
+  "claude_tip": {
+    "titulo": "Hacé una pregunta al costado con /btw sin ensuciar la sesión",
+    "urls": [
+      "https://code.claude.com/docs/zh-CN/commands.md",
+      "https://dev.to/alireza_rezvani/claude-code-btw-the-usefull-side-question-that-changed-how-i-use-context-3h9b"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1510,
+    "venta": 1560,
+    "fecha": "2026-11-02"
+  },
+  "fuentes_datos": [
+    "SMN vía Cadena 3/NA (cuatro días) y La Nación (lluvia y viento de hoy). Consultado 05:55. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-02T09:28:17.558Z"
+  }
+}
