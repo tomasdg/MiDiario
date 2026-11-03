@@ -1,0 +1,164 @@
+{
+  "numero": 15,
+  "fecha": "2026-11-03",
+  "cierre": "2026-11-03T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Anthropic facturó US$ 17.000 millones en tres meses, pero el cómputo de urgencia la llevó a pérdida",
+      "urls": [
+        "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+        "https://capefearadvisors.substack.com/p/anthropic-amended-the-bridge-and",
+        "https://wtaq.com/2026/11/02/anthropic-plans-to-sell-3-5-billion-of-shares-to-japan-investors-in-ipo-filing-shows/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic avisa en su prospecto que podría cruzar «pronto» el umbral de la IA que acelera su propio desarrollo",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "The New York Times y otros tres diarios demandan a Brave por vender su contenido a empresas de IA",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI promete bajar el consumo de sus centros de datos cuando la red eléctrica no dé abasto",
+      "urls": [
+        "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "ChatGPT y Codex compartirán un solo cupo de uso desde diciembre",
+      "urls": [
+        "https://www.notebookcheck.net/ChatGPT-and-Codex-will-share-one-usage-limit-starting-in-December.1440897.0.html"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El Apple Watch empieza a probar resúmenes de las conversaciones del día",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Apple vende US$ 114.500 millones en el primer trimestre de Ternus y avisa que la memoria cara apretará el margen",
+      "urls": [
+        "https://www.macrumors.com/2026/11/02/apple-4q-2026-earnings/",
+        "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Marvell compra Lumentum por US$ 115.000 millones y las dos acciones se desploman",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/marvell-agrees-buy-lumentum-115-142705385.html",
+        "https://www.tokenpost.com/news/business/47326"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Palantir casi duplica sus ventas y el negocio privado en Estados Unidos ya supera al del gobierno",
+      "urls": [
+        "https://www.stocktitan.net/articles/palantir-q3-2026-earnings-us-commercial-revenue-passes-government"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Oracle sale a buscar US$ 20.000 millones para su expansión en IA y su acción cae 7%",
+      "urls": [
+        "https://www.fool.com/investing/2026/11/02/why-oracle-stock-is-down-today/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una segunda ola de ataques informáticos calienta las heladeras de supermercados en diez países europeos",
+      "urls": [
+        "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+        "https://techstartups.com/2026/11/02/hackers-hit-supermarket-fridges-across-europe-hijacking-refrigeration-systems-and-spoiling-food/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Ivanti corrige dos fallas más de sus VPN que ya se usaban en ataques encadenados",
+      "urls": [
+        "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Hoy presentan AMD, Shopify y Block",
+      "urls": [
+        "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Ford, Rivian y GM ya imprimen en 3D desde herramientas hasta piezas del auto",
+      "urls": [
+        "https://www.newsbeep.com/us/901327/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "El Ejército de Estados Unidos hace volar un dron con un motor rotativo impreso en metal",
+      "urls": [
+        "https://www.voxelmatters.com/army-research-lab-flies-3d-printed-heavy-fuel-rotary-engine-in-a-hybrid-drone/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Tronix3D cuadruplica su planta de Pittsburgh para atender a defensa y robótica",
+      "urls": [
+        "https://www.pa.gov/governor/newsroom/2026-press-releases/gov--shapiro-secures-investment-from-tronix3d-creating-47-new-jo"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una empresa brasileña de cohetes aprende con EOS a diseñar motores para imprimir",
+      "urls": [
+        "https://www.voxelmatters.com/bizu-space-turns-to-eos-for-metal-am-training-on-rocket-engine-parts/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Bambu Lab presenta a las 11 su impresora con nueve herramientas",
+      "urls": [
+        "https://3dbite.com/bambu-lab-h3c-teaser-nine-tools-3-november-launch/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Automejora recursiva (RSI)",
+    "Respuesta a la demanda",
+    "Rastreador web (crawler)",
+    "Vulnerabilidad de día cero"
+  ],
+  "claude_tip": {
+    "titulo": "Encontrá con /skill-doctor las skills que te comen contexto sin usarse",
+    "urls": [
+      "https://code.claude.com/docs/es/skills.md",
+      "https://medium.com/@dan.avila7/use-skill-doctor-to-find-the-claude-code-skills-you-never-invoke-92a9665fc4c1"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1515,
+    "venta": 1565,
+    "fecha": "2026-11-03"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (pronóstico extendido de cuatro días y viento de hoy). Consultado 05:50. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-03T09:30:07.961Z"
+  }
+}

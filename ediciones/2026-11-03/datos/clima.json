@@ -1,0 +1,37 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-03T08:50:00Z",
+  "fuente": "SMN vía La Nación (pronóstico extendido de cuatro días y viento de hoy). Consultado 05:50. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-11-03",
+      "codigo_wmo": 63,
+      "max": 22,
+      "min": 16,
+      "prob_precip": 40,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-04",
+      "codigo_wmo": 3,
+      "max": 24,
+      "min": 14
+    },
+    {
+      "fecha": "2026-11-05",
+      "codigo_wmo": 2,
+      "max": 25,
+      "min": 14
+    },
+    {
+      "fecha": "2026-11-06",
+      "codigo_wmo": 63,
+      "max": 25,
+      "min": 16
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Tormentas aisladas posibles hoy por la tarde y el viernes por la tarde, según el SMN",
+  "no_disponible": []
+}

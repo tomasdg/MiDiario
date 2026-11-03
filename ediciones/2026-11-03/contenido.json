@@ -1,0 +1,613 @@
+{
+ "edicion": {
+  "numero": 15,
+  "fecha": "2026-11-03",
+  "cierre": "2026-11-03T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "anthropic-s1a-tercer-trimestre",
+   "seccion": "principal",
+   "titulo": "Anthropic facturó US$ 17.000 millones en tres meses, pero el cómputo de urgencia la llevó a pérdida",
+   "bajada": "El prospecto corregido para salir a la bolsa muestra ventas 47% más altas que en el trimestre anterior, la mitad del ritmo previo, y US$ 895.400 millones de gasto ya comprometido.",
+   "cuerpo": [
+    "Anthropic presentó ayer ante la SEC, el regulador bursátil estadounidense, una versión enmendada del prospecto con el que planea salir a la bolsa, y por primera vez mostró sus números del tercer trimestre. Entre julio y septiembre facturó US$ 16.956 millones, contra US$ 11.600 millones del trimestre anterior y unos US$ 1.400 millones de un año antes. En nueve meses acumula US$ 33.242 millones. El salto sigue siendo enorme, pero se frena: el crecimiento contra el trimestre previo fue de alrededor de 47%, cuando en el segundo había sido de casi 144%.",
+    "Los costos corrieron más rápido que las ventas. Los gastos operativos llegaron a US$ 17.500 millones, desde US$ 10.600 millones, y el gasto en cómputo e infraestructura subió 77,4%. El resultado operativo pasó de una ganancia de US$ 974 millones a una pérdida de US$ 567 millones. La empresa lo explica sobre todo por unos US$ 5.000 millones de cómputo contratado a corto plazo, bastante más caro que el de sus acuerdos plurianuales, y por US$ 2.000 millones de cargos sin salida de caja ligados a un programa de donaciones de empleados. Además resignó unos US$ 600 millones por rebajas de precio y descuentos.",
+    "La pérdida neta fue de US$ 23.300 millones, pero casi toda responde a un cargo contable por la suba del valor de sus bonos convertibles. Sin pagos en acciones ni los cargos por donaciones, el margen operativo ajustado bajó de 19% a 15%: con ese criterio, la empresa sigue ganando plata. Al 30 de septiembre tenía US$ 146.600 millones entre efectivo, inversiones y crédito disponible. Los compromisos de gasto, sobre todo en cómputo, suman US$ 895.400 millones; US$ 213.800 millones de ellos pueden rescindirse o dependen de condiciones.",
+    "El documento todavía no fija tamaño, precio ni valuación de la oferta. En otra presentación, Anthropic informó que venderá hasta US$ 3.500 millones en acciones nuevas a inversores japoneses, con Mizuho a cargo de esa colocación. Según Reuters, algunos inversores hablan de una valuación cercana a US$ 1,5 billones, por debajo de los US$ 2 billones que circulaban. La enmienda trae además una advertencia sobre la IA que ayuda a construir IA (página 2)."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+     "medio": "Fortune",
+     "titulo": "Anthropic's growth slowed and costs jumped in the third quarter, updated IPO filing shows",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:05:00-03:00"
+    },
+    {
+     "url": "https://capefearadvisors.substack.com/p/anthropic-amended-the-bridge-and",
+     "medio": "Cape Fear Advisors (Substack)",
+     "titulo": "Anthropic S-1/A: Short-Term Compute and the SpaceX Line",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:08:00-03:00"
+    },
+    {
+     "url": "https://wtaq.com/2026/11/02/anthropic-plans-to-sell-3-5-billion-of-shares-to-japan-investors-in-ipo-filing-shows/",
+     "medio": "WTAQ (Reuters)",
+     "titulo": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:20:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Anthropic, cerca de la IA que se acelera sola",
+    "resumen": "Su prospecto advierte que podría cruzar «pronto» el umbral de progreso acelerado por la propia IA, aunque ningún modelo actual lo superó.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Cuatro diarios contra Brave",
+    "resumen": "El New York Times y otros tres lo acusan de copiar contenido con un rastreador oculto y vendérselo a Anthropic, Perplexity, Mistral, xAI y Cohere.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Un cupo para ChatGPT y Codex",
+    "resumen": "Desde diciembre, los planes Plus, Pro y Business consumirán de una sola bolsa de tokens; las charlas con Instant no descuentan.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Récord de Apple con memoria cara",
+    "resumen": "Vendió US$ 114.500 millones en el trimestre y promete un diciembre histórico, pero con un margen más bajo por el precio de la memoria.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Marvell paga US$ 115.000 millones",
+    "resumen": "Compra Lumentum con acciones para sumar óptica a sus chips de centros de datos; las dos acciones cayeron más de 12%.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Heladeras hackeadas en Europa",
+    "resumen": "Atacantes subieron hasta 50 grados la temperatura de freezers en supermercados de diez países a través de controladores expuestos en internet.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Automotrices que imprimen",
+    "resumen": "Ford tiene más de 200 impresoras 3D en sus plantas y Rivian dice que cada máquina se paga sola en menos de un año.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Hoy",
+    "texto": "Elecciones en EE. UU.; Bambu Lab muestra la H3C a las 11; presenta AMD."
+   },
+   {
+    "cuando": "Mié 4 nov",
+    "texto": "Arm y Qualcomm presentan resultados; Apple Intelligence se prueba en China."
+   },
+   {
+    "cuando": "13 nov",
+    "texto": "Vence el plazo de CISA para la segunda falla de Ivanti."
+   },
+   {
+    "cuando": "17-20 nov",
+    "texto": "Feria Formnext en Frankfurt."
+   },
+   {
+    "cuando": "Diciembre",
+    "texto": "ChatGPT y Codex pasan a compartir cupo de uso."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Encontrá las skills que no usás.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Palantir casi duplica sus ventas.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Un dron militar con motor impreso.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Nublado, tormentas aisladas, 22°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "US$ 895.400 M",
+   "texto": "Gasto futuro que Anthropic ya comprometió, sobre todo en cómputo, según su prospecto corregido."
+  }
+ },
+ "notas": [
+  {
+   "id": "anthropic-rsi-advertencia",
+   "seccion": "ia",
+   "titulo": "Anthropic avisa en su prospecto que podría cruzar «pronto» el umbral de la IA que acelera su propio desarrollo",
+   "bajada": "La empresa dice que ninguno de sus modelos actuales lo superó, pero que sus estimaciones internas indican que puede pasar de manera inminente.",
+   "cuerpo": [
+    "Entre los factores de riesgo de la versión corregida de su prospecto bursátil, presentada ayer, Anthropic incluyó una advertencia poco habitual para un documento financiero: usar IA para construir IA más capaz «podría también representar un riesgo de seguridad considerable». Según TechCrunch, el texto admite además que en el pasado la empresa no detectó a tiempo aceleraciones importantes de su ritmo de desarrollo, sino recién después de que ocurrieron.",
+    "Su Política de Escalado Responsable, el marco con el que decide qué salvaguardas exige cada modelo, fija un umbral de «progreso drásticamente acelerado atribuible a la IA». Anthropic escribe que sus estimaciones internas sobre modelos futuros indican que podría alcanzarlo «de manera inminente», aunque aclara que no designó a ninguno de sus modelos actuales como por encima de esa marca y que sigue evaluando los datos.",
+    "La empresa dice que no prevé usar Claude para diseñar y construir solo, sin supervisión humana significativa, generaciones sucesivas de modelos de frontera, y que evalúa cambios en esa política para mantener a las personas al mando. No da fechas. Escépticos citados por TechCrunch recuerdan que un prospecto es a la vez un documento de divulgación y de venta, y que la frase también puede leerse como publicidad de capacidad."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+     "medio": "TechCrunch",
+     "titulo": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:12:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "brave-demanda-diarios",
+   "seccion": "ia",
+   "titulo": "The New York Times y otros tres diarios demandan a Brave por vender su contenido a empresas de IA",
+   "bajada": "Acusan al navegador de armar un índice de 30.000 millones de páginas con un rastreador que los editores no pueden bloquear.",
+   "cuerpo": [
+    "The New York Times presentó ayer una demanda contra Brave en el tribunal federal de Manhattan, y Daily News, Chicago Tribune y Orlando Sentinel hicieron otra similar el mismo día. Sostienen que la empresa del navegador copió contenido protegido y lo distribuyó a clientes que la demanda nombra: Anthropic, Perplexity, Mistral, xAI y Cohere. El Times la describe como «proveedor, distribuidor y vendedor de contenido robado» para la industria de la IA.",
+    "Según los demandantes, Brave construyó un índice de más de 30.000 millones de páginas con un rastreador que no se identifica, lo que impide a los sitios bloquearlo. También cuestionan una función del navegador que saltea muros de pago y que bloquee los avisos de los diarios mientras vende los propios. Piden una orden judicial y una indemnización. Brave no respondió a la consulta de TechCrunch."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+     "medio": "TechCrunch",
+     "titulo": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:14:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-grid-protectors",
+   "seccion": "ia",
+   "titulo": "OpenAI promete bajar el consumo de sus centros de datos cuando la red eléctrica no dé abasto",
+   "bajada": "El programa arranca en Georgia, con hasta un gigavatio de demanda que la distribuidora podrá recortar en emergencias.",
+   "cuerpo": [
+    "OpenAI lanzó ayer Grid Protectors, un programa para que sus futuros campus de cómputo reduzcan su demanda eléctrica cuando la red esté exigida. El primer caso es el campus que planea en el condado de Effingham, Georgia, con un acuerdo de hasta 1.000 megavatios de respuesta a la demanda. El contrato con Georgia Power es a 25 años, con entrega de energía por etapas entre 2028 y 2032 y una carga esperada de unos 3.200 megavatios; la empresa paga toda la infraestructura eléctrica.",
+    "Cuánta energía se recorta, con qué rapidez y por cuánto tiempo se definirá en cada lugar con distribuidoras y reguladores, y puede incluir baterías o generación propia. El anuncio llega con los centros de datos convertidos en tema de campaña en las elecciones de hoy en Estados Unidos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/",
+     "medio": "Unite.AI",
+     "titulo": "OpenAI Launches Grid Protectors Program for Compute Campuses",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:21:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-codex-cupo-unico",
+   "seccion": "ia",
+   "titulo": "ChatGPT y Codex compartirán un solo cupo de uso desde diciembre",
+   "bajada": "El cambio alcanza a los planes Plus, Pro y Business; los chats con el modelo Instant no descuentan.",
+   "cuerpo": [
+    "OpenAI confirmó que desde diciembre el uso de ChatGPT y de Codex, su agente de programación, saldrá de una misma bolsa en los planes Plus, Pro y Business. El consumo se mide en tokens, así que los modelos más avanzados y las tareas largas gastan más, mientras que las conversaciones con el modelo Instant no se descuentan. La empresa no dio el día exacto ni el tamaño del cupo de cada plan; dice que la mayoría de los usuarios no tendrá que esperar reinicios más seguido que ahora. Al agotarlo se puede esperar, cambiar de plan o comprar créditos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-31",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.notebookcheck.net/ChatGPT-and-Codex-will-share-one-usage-limit-starting-in-December.1440897.0.html",
+     "medio": "Notebookcheck",
+     "titulo": "ChatGPT and Codex will share one usage limit starting in December",
+     "fecha_publicacion": "2026-11-03",
+     "consultado": "2026-11-03T06:22:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-recaps",
+   "seccion": "ia",
+   "titulo": "El Apple Watch empieza a probar resúmenes de las conversaciones del día",
+   "bajada": "Siri Recaps condensa lo hablado en puntos clave sin guardar el audio, y Live Rewind muestra por escrito los últimos 15 segundos.",
+   "cuerpo": [
+    "Apple liberó para desarrolladores, con iOS 27.3, cuatro funciones de «Audio Intelligence» para el reloj, todas opcionales. Siri Recaps detecta cuándo el usuario participa de una conversación y arma un resumen con una frase y viñetas de fechas, plazos o precios, sin identificar a los hablantes ni conservar el audio; los resúmenes no revisados se borran a los siete días. Live Rewind muestra en la pantalla el texto de los últimos 15 segundos con un doble toque en la corona.",
+    "El reloj detecta la conversación, el iPhone la pasa a texto y el resumen se arma cifrado en Private Cloud Compute, los servidores privados de Apple. Hace falta un Apple Watch Series 12 o Ultra 4. No hay fecha para el público general."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+     "medio": "TechCrunch",
+     "titulo": "Apple Watch's AI features for rewinding and recapping conversations begin beta testing",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:15:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "apple-resultados-q4",
+   "seccion": "empresas",
+   "titulo": "Apple vende US$ 114.500 millones en el primer trimestre de Ternus y avisa que la memoria cara apretará el margen",
+   "bajada": "El iPhone creció 17% y la Mac 24%; para fin de año promete el mejor trimestre de su historia, con margen de 45% a 46%.",
+   "cuerpo": [
+    "Apple cerró su año fiscal con un récord para un trimestre de septiembre: ventas por US$ 114.500 millones, 12% más que un año antes, y ganancia de US$ 30.700 millones. El beneficio por acción fue de US$ 2,10, 14% más, con unos cinco centavos que vienen de devoluciones de aranceles. Fue la primera presentación de John Ternus como presidente ejecutivo.",
+    "El iPhone facturó US$ 57.600 millones (17% más) y la Mac, US$ 10.800 millones (24% más). Servicios marcó un récord de US$ 31.600 millones. Cayeron el iPad (10%) y relojes, auriculares y accesorios (8%). En la Gran China las ventas subieron 21%. En el año fiscal completo, Apple facturó US$ 478.800 millones.",
+    "Para el trimestre de diciembre proyecta un aumento de ventas de 7% a 10%, que lo convertiría en el mejor de su historia, pero un margen bruto de 45% a 46%, contra 47,9% ahora. Ternus calificó de «sin precedentes» la situación de la memoria y anticipó que su precio seguirá subiendo después de diciembre; Mac y iPad seguirán con faltantes. La acción, que había caído 1,8% en la rueda, casi no se movió después del anuncio."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.macrumors.com/2026/11/02/apple-4q-2026-earnings/",
+     "medio": "MacRumors",
+     "titulo": "Apple Reports 4Q 2026 Results: $30.7B Profit on $114.5B Revenue",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/",
+     "medio": "MacRumors",
+     "titulo": "Apple's Q4 2026 Earnings Call Takeaways",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:01:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "marvell-lumentum",
+   "seccion": "empresas",
+   "titulo": "Marvell compra Lumentum por US$ 115.000 millones y las dos acciones se desploman",
+   "bajada": "Es una operación sólo en acciones para sumar láseres y módulos ópticos a los chips de conexión de los centros de datos.",
+   "cuerpo": [
+    "Marvell acordó ayer comprar Lumentum en una operación de unos US$ 115.000 millones con deuda incluida, pagada sólo con acciones: cada acción de Lumentum recibirá 4,5 de Marvell, una prima de 23,9% sobre el precio previo a los rumores. Los accionistas de Lumentum quedarán con cerca de 33% de la empresa combinada. Marvell espera más de US$ 1.000 millones anuales de ahorros y apuesta a que la infraestructura de IA migre a la conexión óptica.",
+    "El mercado no lo celebró: Lumentum cayó 18,6% y Marvell, 12,7%. El cierre está previsto para el primer semestre de 2028 y requiere votos de accionistas y permisos, incluido el del regulador chino, que podría tardar más de un año."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-agrees-buy-lumentum-115-142705385.html",
+     "medio": "Yahoo Finanzas (GuruFocus)",
+     "titulo": "Marvell Agrees to Buy Lumentum in $115 Billion All-Stock Deal",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:16:00-03:00"
+    },
+    {
+     "url": "https://www.tokenpost.com/news/business/47326",
+     "medio": "TokenPost",
+     "titulo": "Lumentum Shares Fall 18.59% After Marvell Announces All-Stock Deal",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:16:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "palantir-q3",
+   "seccion": "empresas",
+   "titulo": "Palantir casi duplica sus ventas y el negocio privado en Estados Unidos ya supera al del gobierno",
+   "bajada": "Facturó US$ 2.313 millones, 96% más, y subió por tercera vez en el año su previsión anual.",
+   "cuerpo": [
+    "Palantir informó ayer ventas del tercer trimestre por US$ 2.313 millones, 96% más que un año antes y US$ 149 millones por encima del techo de su propia previsión. Los ingresos comerciales en Estados Unidos crecieron 148%, a US$ 984 millones, y por primera vez superaron a los del gobierno estadounidense, de US$ 953 millones. La ganancia neta fue de US$ 1.128 millones.",
+    "Para todo 2026 ahora espera unos US$ 8.530 millones, un crecimiento cercano a 91%. La acción osciló fuerte fuera de hora entre US$ 172,50 y US$ 187,90."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/palantir-q3-2026-earnings-us-commercial-revenue-passes-government",
+     "medio": "StockTitan",
+     "titulo": "Palantir Earnings Show Revenue Up 96% and a Higher Revenue Forecast for 2026",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:17:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "oracle-20000-millones",
+   "seccion": "empresas",
+   "titulo": "Oracle sale a buscar US$ 20.000 millones para su expansión en IA y su acción cae 7%",
+   "cuerpo": [
+    "Oracle registró una emisión de US$ 10.000 millones en acciones nuevas y otros US$ 10.000 millones en bonos para financiar inversiones, pagar deuda y eventuales compras. La semana pasada había dicho que no buscaría más de US$ 20.000 millones adicionales para su plan de IA hasta 2030. Los inversores temen la dilución y el peso de la deuda: la acción llegó a perder cerca de 7% al mediodía."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.fool.com/investing/2026/11/02/why-oracle-stock-is-down-today/",
+     "medio": "The Motley Fool",
+     "titulo": "Why Oracle Stock Is Down Today",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:23:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "heladeras-supermercados-europa",
+   "seccion": "tecnologia",
+   "titulo": "Una segunda ola de ataques informáticos calienta las heladeras de supermercados en diez países europeos",
+   "bajada": "Los atacantes entraron a controladores conectados a internet y pusieron freezers en descongelamiento o a 50 grados.",
+   "cuerpo": [
+    "En la noche del domingo al lunes, atacantes manipularon a distancia los sistemas de refrigeración de supermercados en Bélgica, Luxemburgo, Suecia, Irlanda, Países Bajos, Finlandia, Estonia, Portugal e Italia, tres semanas después de un ataque similar contra unos 700 locales en Francia. Delhaize tuvo varias decenas de sucursales afectadas, Carrefour 15 de sus más de 700 en Bélgica y SuperValu 13 en Irlanda; hubo que tirar mercadería.",
+    "En Bélgica pusieron los equipos en modo descongelamiento y en Suecia y Estonia subieron la temperatura fijada hasta 50 °C. Hubo controladores de Danfoss y Copeland involucrados, accesibles desde internet y en muchos casos con contraseñas de fábrica. Nadie se atribuyó los ataques y la fiscalía belga abrió una causa. La recomendación de los especialistas: sacar esos equipos de internet y entrar sólo por una red privada."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+     "medio": "The Hacker News",
+     "titulo": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+     "fecha_publicacion": "2026-11-03",
+     "consultado": "2026-11-03T06:18:00-03:00"
+    },
+    {
+     "url": "https://techstartups.com/2026/11/02/hackers-hit-supermarket-fridges-across-europe-hijacking-refrigeration-systems-and-spoiling-food/",
+     "medio": "Tech Startups",
+     "titulo": "Hackers hit supermarket fridges across Europe",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:17:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "ivanti-dia-cero",
+   "seccion": "tecnologia",
+   "titulo": "Ivanti corrige dos fallas más de sus VPN que ya se usaban en ataques encadenados",
+   "cuerpo": [
+    "Ivanti publicó parches para dos vulnerabilidades de día cero de Connect Secure, su VPN corporativa, que los atacantes combinaban con una tercera para entrar a redes de empresas. Volexity, que descubrió la campaña, la atribuye al grupo UTA0576, y advierte que la herramienta de control de integridad de Ivanti no la detecta. La agencia estadounidense CISA dio a los organismos federales plazo hasta ayer y hasta el 13 de noviembre para corregirlas e investigar si fueron comprometidos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+     "medio": "Help Net Security",
+     "titulo": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:19:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "amd-presenta-hoy",
+   "seccion": "breve",
+   "titulo": "Hoy presentan AMD, Shopify y Block",
+   "seccion_destino": "empresas",
+   "cuerpo": [
+    "En plena jornada electoral en Estados Unidos, AMD, Shopify y Block muestran hoy sus resultados. Mañana siguen Arm, Qualcomm, Uber y DoorDash, y el viernes se conoce el informe de empleo de octubre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/",
+     "medio": "Tech Insider",
+     "titulo": "Apple, Palantir Earnings Nov. 2 and 55K Jobs Est.",
+     "fecha_publicacion": "2026-11-01",
+     "consultado": "2026-11-03T06:24:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "automotrices-impresion-3d",
+   "seccion": "impresion3d",
+   "titulo": "Ford, Rivian y GM ya imprimen en 3D desde herramientas hasta piezas del auto",
+   "bajada": "Ford usó una pieza impresa para no frenar una línea de montaje; Rivian dice que sus máquinas se pagan en menos de un año.",
+   "cuerpo": [
+    "Las automotrices estadounidenses dejaron de usar la impresión 3D sólo para prototipos, según un relevamiento de CNBC. Ford tiene más de 200 impresoras en su programa y prevé laboratorios de impresión en más de 23 plantas antes de fin de año. Imprime llaves de torque y herramientas de mano, a veces diseñadas por los propios operarios, y cerca de Dearborn una máquina expendedora entrega piezas impresas para la línea de la F-150. En un caso imprimió una rueda de mecanizado para que la línea siguiera andando hasta que llegara el repuesto del proveedor.",
+    "Rivian invirtió más de US$ 5 millones en impresoras y gasta unos US$ 1,7 millones por año en materiales. Jared Beck, su responsable de fabricación aditiva, dice que cada máquina se amortiza en menos de un año porque ahorra herramental de proveedores y logística y baja los tiempos de semanas a días u horas. Ya imprime el volante del nuevo SUV R2, guías de tornillos e insertos para prensas, y suma equipos para piezas flexibles de silicona.",
+    "GM, por su parte, lleva 135 componentes impresos en el Cadillac Celestiq y amplía el uso de impresoras industriales de Stratasys para series cortas, investigación y plantas. Ninguna de las dos grandes dio cifras de ahorro. Fadi Abro, director de automotriz de Stratasys, resume la etapa con una consigna: estandarizar primero y escalar después."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-31",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.newsbeep.com/us/901327/",
+     "medio": "NewsBeep (sobre CNBC)",
+     "titulo": "How Rivian, Ford and GM are using 3D printing to reduce costs",
+     "fecha_publicacion": "2026-10-31",
+     "consultado": "2026-11-03T06:27:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "arl-motor-dron",
+   "seccion": "impresion3d",
+   "titulo": "El Ejército de Estados Unidos hace volar un dron con un motor rotativo impreso en metal",
+   "cuerpo": [
+    "El Laboratorio de Investigación del Ejército estadounidense completó un vuelo de demostración con un motor rotativo de combustible pesado construido con impresión 3D en metal, enfriado por aire y combinado en serie con un generador eléctrico de 400 voltios. Lo montó en el VICTOR, un dron mediano de Griffon Aerospace pensado para despegar y aterrizar en vertical. El programa busca motores que usen el mismo combustible que el resto de los vehículos militares. El laboratorio no precisó qué piezas se imprimieron ni con qué aleación."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/army-research-lab-flies-3d-printed-heavy-fuel-rotary-engine-in-a-hybrid-drone/",
+     "medio": "VoxelMatters",
+     "titulo": "Army Research Lab flies 3D printed heavy-fuel rotary engine in a hybrid drone",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:28:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "tronix3d-pittsburgh",
+   "seccion": "impresion3d",
+   "titulo": "Tronix3D cuadruplica su planta de Pittsburgh para atender a defensa y robótica",
+   "cuerpo": [
+    "La empresa de impresión 3D y fabricación Tronix3D invertirá casi US$ 4 millones para pasar de unos 340 a 1.100 metros cuadrados en su sede de Pittsburgh, con 47 puestos nuevos en tres años y los 18 actuales asegurados. El estado de Pensilvania aporta un subsidio de US$ 200.000 para equipos. Trabaja para robótica, autos, aeroespacial, medicina y defensa, y la ampliación apunta sobre todo a clientes de defensa y robótica."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-30",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/gov--shapiro-secures-investment-from-tronix3d-creating-47-new-jo",
+     "medio": "Gobierno de Pensilvania",
+     "titulo": "Gov. Shapiro secures investment from Tronix3D creating 47 new jobs",
+     "fecha_publicacion": "2026-10-30",
+     "consultado": "2026-11-03T06:29:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "bizu-space-eos",
+   "seccion": "impresion3d",
+   "titulo": "Una empresa brasileña de cohetes aprende con EOS a diseñar motores para imprimir",
+   "cuerpo": [
+    "BIZU Space, de São José dos Campos, firmó con el fabricante alemán EOS un programa de formación en diseño para fabricación aditiva para sus ingenieros. El objetivo son piezas de motores de cohete, como cámaras de combustión y turbobombas de ciclo cerrado, hechas en metal impreso."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/bizu-space-turns-to-eos-for-metal-am-training-on-rocket-engine-parts/",
+     "medio": "VoxelMatters",
+     "titulo": "BIZU Space turns to EOS for metal AM training on rocket engine parts",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-03T06:28:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "bambu-h3c-hoy",
+   "seccion": "breve",
+   "titulo": "Bambu Lab presenta a las 11 su impresora con nueve herramientas",
+   "seccion_destino": "impresion3d",
+   "cuerpo": [
+    "La H3C, el nuevo modelo de la serie H con cambiador de herramientas, se muestra hoy a las 9 de la costa este de Estados Unidos, las 11 en la Argentina. Bambu Lab todavía no informó precio, volumen de impresión ni especificaciones."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dbite.com/bambu-lab-h3c-teaser-nine-tools-3-november-launch/",
+     "medio": "3DBite",
+     "titulo": "Bambu Lab H3C Officially Teased: Nine Tools, a Drop-Down Rack and a 3 November Launch",
+     "fecha_publicacion": "2026-10-24",
+     "consultado": "2026-11-03T06:26:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Automejora recursiva (RSI)",
+   "definicion": "Cuando una IA ayuda a diseñar y entrenar a la siguiente, y cada generación acelera el desarrollo de la próxima.",
+   "nota_relacionada": "anthropic-rsi-advertencia"
+  },
+  {
+   "termino": "Respuesta a la demanda",
+   "definicion": "Acuerdo por el que un gran consumidor baja su uso de electricidad cuando la red lo pide, a cambio de mejores condiciones.",
+   "nota_relacionada": "openai-grid-protectors"
+  },
+  {
+   "termino": "Rastreador web (crawler)",
+   "definicion": "Programa que recorre y copia páginas de forma automática; los sitios lo bloquean si se identifica.",
+   "nota_relacionada": "brave-demanda-diarios"
+  },
+  {
+   "termino": "Vulnerabilidad de día cero",
+   "definicion": "Falla que los atacantes explotan antes de que el fabricante la conozca o publique un parche.",
+   "nota_relacionada": "ivanti-dia-cero"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Encontrá con /skill-doctor las skills que te comen contexto sin usarse",
+  "donde": "Claude Code",
+  "origen": "Visto en Medium (Daniel Avila)",
+  "texto": [
+   "Daniel Avila, que arma herramientas para agentes, propuso en Medium una rutina para auditar las skills con /skill-doctor, y la documentación oficial de Claude Code describe el comando en la sección para encontrar skills no utilizadas. Requiere la versión 2.1.252 o posterior.",
+   "Cada skill instalada suma su descripción al contexto en todos los turnos, la uses o no. /skill-doctor muestra cuánto cuesta cada una y cuántas veces se invocó, marca las que nunca usaste y dice dónde desactivarlas, sin desinstalar nada. Menos ruido en el contexto deja más lugar para tu trabajo."
+  ],
+  "pasos": [
+   "Escribí «/skill-doctor»: el informe se abre en la pestaña Stats de /plugin.",
+   "Abrí «/skills», resaltá las que nunca usaste y apretá Espacio hasta dejarlas en «off» o «name-only»; Esc guarda el cambio.",
+   "Corré «/context» antes y después para ver cuánto lugar recuperaste. Las skills de plugins se apagan desde /plugin."
+  ],
+  "fuentes": [
+   {
+    "url": "https://code.claude.com/docs/es/skills.md",
+    "medio": "Claude Code Docs",
+    "titulo": "Skills: encontrar skills no utilizadas",
+    "fecha_publicacion": "2026-10-26",
+    "consultado": "2026-11-03T06:31:00-03:00"
+   },
+   {
+    "url": "https://medium.com/@dan.avila7/use-skill-doctor-to-find-the-claude-code-skills-you-never-invoke-92a9665fc4c1",
+    "medio": "Medium (Daniel Avila)",
+    "titulo": "Use /skill-doctor to find the Claude Code skills you never invoke",
+    "fecha_publicacion": "2026-09-12",
+    "consultado": "2026-11-03T06:36:00-03:00"
+   }
+  ]
+ }
+}

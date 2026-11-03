@@ -1,0 +1,118 @@
+{
+ "generado": "2026-11-03T09:30:07.961Z",
+ "edicion": {
+  "numero": 15,
+  "fecha": "2026-11-03",
+  "cierre": "2026-11-03T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "ok": true,
+ "pasos": {
+  "esquema": {
+   "ok": true,
+   "errores": []
+  },
+  "contenido": {
+   "ok": true,
+   "errores": [],
+   "avisos": [
+    {
+     "tipo": "fuente_ya_usada",
+     "url": "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/",
+     "edicion": "2026-11-02"
+    },
+    {
+     "tipo": "fuente_ya_usada",
+     "url": "https://tech-insider.org/apple-palantir-earnings-october-jobs-report-week-ahead-2026/",
+     "edicion": "2026-11-02"
+    }
+   ]
+  },
+  "ajuste": {
+   "cuerpos": [
+    8.75,
+    8.5,
+    9.25,
+    9
+   ],
+   "iteraciones": 4
+  },
+  "geometria": {
+   "paginas": 4,
+   "errores": [],
+   "avisos": []
+  },
+  "densidad": [
+   {
+    "pagina": 1,
+    "ocupacion": 0.859,
+    "mayor_rectangulo_vacio": 0.048,
+    "hueco_mm": {
+     "x": 129,
+     "y": 214,
+     "ancho": 57,
+     "alto": 43
+    },
+    "ok": true
+   },
+   {
+    "pagina": 2,
+    "ocupacion": 0.927,
+    "mayor_rectangulo_vacio": 0.013,
+    "hueco_mm": {
+     "x": 43,
+     "y": 5,
+     "ancho": 143,
+     "alto": 5
+    },
+    "ok": true
+   },
+   {
+    "pagina": 3,
+    "ocupacion": 0.911,
+    "mayor_rectangulo_vacio": 0.016,
+    "hueco_mm": {
+     "x": 129,
+     "y": 257,
+     "ancho": 57,
+     "alto": 14
+    },
+    "ok": true
+   },
+   {
+    "pagina": 4,
+    "ocupacion": 0.863,
+    "mayor_rectangulo_vacio": 0.075,
+    "hueco_mm": {
+     "x": 62,
+     "y": 209,
+     "ancho": 62,
+     "alto": 62
+    },
+    "ok": true
+   }
+  ],
+  "paginas": {
+   "esperadas": 4,
+   "renderizadas": 4,
+   "en_rango": true
+  },
+  "revision_visual": {
+   "estado": "aprobada",
+   "hallazgos": [
+    "Portada, páginas 2 y 3 sin superposiciones ni texto cortado",
+    "Página 4: hueco moderado al pie de la columna central, dentro de los límites del preflight (7,5%)",
+    "Dos datos sin respaldo en las fuentes del día (consenso de Apple y una frase sobre BIZU Space)"
+   ],
+   "correcciones": [
+    "Se quitaron el consenso de Apple y la frase sin fuente de BIZU Space",
+    "Se alargaron las notas de automotrices y Tronix3D con datos ya verificados para reducir el hueco de la página 4"
+   ]
+  },
+  "texto_pdf": {
+   "estado": "no_implementado"
+  }
+ },
+ "pdf": "/home/claude/midiario/ediciones/2026-11-03/De-Villa-Urquiza-al-Mundo-N15-2026-11-03.pdf"
+}
