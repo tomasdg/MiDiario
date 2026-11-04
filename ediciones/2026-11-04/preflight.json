@@ -1,0 +1,108 @@
+{
+  "generado": "2026-11-04T09:28:40.378Z",
+  "edicion": {
+    "numero": 16,
+    "fecha": "2026-11-04",
+    "cierre": "2026-11-04T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.75,
+        8.75,
+        8.75,
+        8.75
+      ],
+      "iteraciones": 3
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.859,
+        "mayor_rectangulo_vacio": 0.042,
+        "hueco_mm": {
+          "x": 129,
+          "y": 219,
+          "ancho": 57,
+          "alto": 38
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.912,
+        "mayor_rectangulo_vacio": 0.017,
+        "hueco_mm": {
+          "x": 0,
+          "y": 257,
+          "ancho": 62,
+          "alto": 14
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.903,
+        "mayor_rectangulo_vacio": 0.021,
+        "hueco_mm": {
+          "x": 129,
+          "y": 252,
+          "ancho": 57,
+          "alto": 19
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.877,
+        "mayor_rectangulo_vacio": 0.029,
+        "hueco_mm": {
+          "x": 62,
+          "y": 248,
+          "ancho": 62,
+          "alto": 24
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-11-04T06:40:00-03:00",
+      "hallazgos": [
+        "Página 2: una variable de entorno larga desbordaba horizontalmente el recuadro de Claude Tips",
+        "Bajada y secundaria de la H3C decían «sin purgar», dato no confirmado por las fuentes"
+      ],
+      "correcciones": [
+        "Se reescribió el paso del tip con cortes de línea posibles en el nombre de la variable",
+        "Se quitó «sin purgar» y se reconstruyó"
+      ],
+      "rubrica": "Sin superposiciones ni texto cortado; títulos pegados a su texto; tablas de dólar y clima alineadas; iconos visibles; sin huecos no intencionales; pie y número de página presentes en las cuatro páginas."
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-04/De-Villa-Urquiza-al-Mundo-N16-2026-11-04.pdf"
+}

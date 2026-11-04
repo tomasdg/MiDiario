@@ -1,0 +1,620 @@
+{
+  "edicion": {
+    "numero": 16,
+    "fecha": "2026-11-04",
+    "cierre": "2026-11-04T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "portada": {
+    "principal": {
+      "id": "amd-tercer-trimestre",
+      "seccion": "principal",
+      "titulo": "AMD casi duplica sus ventas para centros de datos y promete un cuarto trimestre de US$ 17.000 millones",
+      "bajada": "La división que vende chips para IA y servidores creció 97% en un año y ya es casi dos tercios de la empresa; la acción subió más de 7% fuera de hora.",
+      "cuerpo": [
+        "AMD presentó ayer, después del cierre de Wall Street, los resultados de su tercer trimestre y superó lo que esperaba el mercado en casi todas las líneas. Facturó US$ 13.380 millones entre julio y septiembre, 45% más que un año antes y por encima de los US$ 13.060 millones que estimaban los analistas. La ganancia ajustada por acción fue de US$ 2,09, contra US$ 1,94 previstos y un 74% más que en el mismo período de 2025. En el mercado posterior al cierre la acción subió más de 7%.",
+        "El motor fue, otra vez, la división de centros de datos, la que vende los procesadores EPYC para servidores y las placas aceleradoras Instinct que compiten con Nvidia en el entrenamiento y la ejecución de modelos de IA. Vendió unos US$ 8.500 millones, 97% más que un año antes, y ya representa el 64% de los ingresos de la compañía, cuando hace doce meses era el 47%. Su resultado operativo llegó a US$ 2.900 millones, con un margen de 34%. Lisa Su, presidenta ejecutiva, dijo que la demanda de los productos Instinct y EPYC «siguió fortaleciéndose».",
+        "El resto del negocio quedó atrás. Computadoras personales y consolas sumaron US$ 3.700 millones, 8% menos, por menores ventas de chips a medida para consolas y de placas de video; la división de sistemas embebidos creció 29%, a US$ 1.100 millones. El margen bruto ajustado fue de 56%. La ganancia contable por acción, de US$ 1,46, incluye un cargo sin salida de caja de US$ 1.100 millones ligado a certificados de compra de acciones (warrants) emitidos por la empresa.",
+        "Lo que más pesó en la reacción fue la proyección. AMD espera facturar unos US$ 17.000 millones en el cuarto trimestre, con un margen de 3% hacia arriba o hacia abajo, contra US$ 16.230 millones que esperaba el consenso: sería un salto de 66% interanual y de 27% contra este trimestre. La empresa prevé que centros de datos crezca cerca de 50% en tres meses, impulsado por la nueva serie de aceleradoras Instinct MI450 y los bastidores completos Helios, que se instalan en Anthropic, Meta, Microsoft, OpenAI y Oracle. Para computadoras y consolas anticipa una caída de más de 20%. Las cifras son las que publicó la propia empresa."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.investing.com/news/earnings/amd-stock-jumps-after-hours-as-quarterly-results-revenue-guidance-beat-estimates-4996344",
+          "medio": "Investing.com",
+          "titulo": "AMD stock jumps after hours as quarterly results, revenue guidance beat estimates",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:20:00-03:00"
+        },
+        {
+          "url": "https://www.investing.com/news/company-news/amd-q3-2026-slides-data-center-surges-97-record-earnings-beat-93CH-4996928",
+          "medio": "Investing.com",
+          "titulo": "AMD Q3 2026 slides: data center surges 97%, record earnings beat",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:22:00-03:00"
+        }
+      ]
+    },
+    "secundarias": [
+      {
+        "titulo": "Anthropic quiere probar qué modelo respondió",
+        "resumen": "FlashProve genera una prueba criptográfica por respuesta, verificable en una CPU común sin ver los pesos; por ahora cuesta 70 a 95 veces más que ejecutar el modelo.",
+        "pagina": 2
+      },
+      {
+        "titulo": "ChatGPT, a un quinto de Google",
+        "resumen": "OpenAI estima que sus consultas de búsqueda equivalen al 20% del volumen de Google, aunque no explica de dónde sale el dato de su rival.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Apple teme a los agentes sin permiso",
+        "resumen": "Su informe anual advierte que los agentes de IA pueden comprar, cambiar código o mandar mensajes sin autorización y exponerla a juicios.",
+        "pagina": 2
+      },
+      {
+        "titulo": "CrowdStrike compra seguridad para agentes",
+        "resumen": "Pagará casi US$ 500 millones por Fiddler AI y Dreadnode, que vigilan y atacan a propósito agentes de IA para encontrarles fallas.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Turbinas de avión para la IA",
+        "resumen": "Ante esperas de hasta siete años para conectarse a la red, xAI y Crusoe usan motores de avión reconvertidos, menos eficientes y más contaminantes.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Google ata la IA al buscador escolar",
+        "resumen": "Desde 2027 Gemini y la búsqueda vendrán apagados para alumnos; la escuela que no active la IA tampoco tendrá Google.",
+        "pagina": 3
+      },
+      {
+        "titulo": "La H3C de Bambu Lab, con nueve cabezales",
+        "resumen": "Cuesta US$ 2.499, cambia de material en seis segundos y acepta filamento de 2,85 mm; no hay fecha de envío.",
+        "pagina": 4
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "Hoy",
+        "texto": "Qualcomm presenta resultados después del cierre."
+      },
+      {
+        "cuando": "16 nov",
+        "texto": "Apple exige los nuevos descriptores de edad en su tienda."
+      },
+      {
+        "cuando": "17-20 nov",
+        "texto": "Feria Formnext de impresión 3D en Frankfurt."
+      },
+      {
+        "cuando": "30 nov",
+        "texto": "Se retira el modo rápido de Opus 4.8 en Claude Code."
+      },
+      {
+        "cuando": "2027",
+        "texto": "Google apaga por defecto IA y búsqueda en cuentas escolares."
+      },
+      {
+        "cuando": "2028",
+        "texto": "Orbital Matter prueba en órbita un panel solar de 5 kW."
+      }
+    ],
+    "llamadas": [
+      {
+        "etiqueta": "Claude Tips",
+        "texto": "Subagentes que gastan menos.",
+        "pagina": 2
+      },
+      {
+        "etiqueta": "Empresas",
+        "texto": "Reddit pierde visitas de Google.",
+        "pagina": 3
+      },
+      {
+        "etiqueta": "Impresión 3D",
+        "texto": "Una viga impresa en el espacio.",
+        "pagina": 4
+      },
+      {
+        "etiqueta": "Hoy",
+        "texto": "Mayormente nublado, 25°.",
+        "pagina": 4
+      }
+    ],
+    "dato_del_dia": {
+      "etiqueta": "La cifra del día",
+      "titulo": "64%",
+      "texto": "Parte de las ventas de AMD que ya viene de centros de datos; hace un año era el 47%."
+    }
+  },
+  "notas": [
+    {
+      "id": "anthropic-flashprove",
+      "seccion": "ia",
+      "titulo": "Anthropic publica un sistema para probar qué modelo de IA respondió de verdad",
+      "bajada": "FlashProve genera una prueba criptográfica por cada respuesta que cualquiera puede verificar en su computadora, sin ver los pesos del modelo.",
+      "cuerpo": [
+        "Anthropic dio a conocer FlashProve, un prototipo de código abierto de lo que llama «inferencia demostrable». La idea es resolver un problema que hoy no tiene solución: el usuario de un servicio de IA no puede comprobar que la respuesta salió del modelo que paga. Un proveedor podría cambiar en secreto un modelo caro por uno barato para ahorrar, o al revés para inflar resultados.",
+        "El sistema funciona en dos pasos. Primero, el proveedor publica un compromiso, una huella corta que fija un conjunto exacto de pesos sin revelarlos. Después, para cada pedido genera un archivo de prueba que ata el texto de entrada y los tokens de salida a esa huella. La verificación corre en una CPU común: tardó unos 17 segundos con 24 hilos.",
+        "Todavía es caro: lo probaron sólo con Llama 4 Maverick, un modelo abierto de 400.000 millones de parámetros, y generar las pruebas cuesta de 70 a 95 veces lo que ejecutar el modelo; cada una pesa unos 19 MB y el contexto se limita a 1.024 tokens. El código es libre y, según TechCrunch, Anthropic no planea usarlo por ahora en sus productos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-02",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "medio": "Anthropic",
+          "titulo": "Progress on provable inference for large language models",
+          "fecha_publicacion": "2026-11-02",
+          "consultado": "2026-11-04T06:03:00-03:00"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "medio": "TechCrunch",
+          "titulo": "Anthropic is working on a system to prove AI models' identity",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:03:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-busquedas-google",
+      "seccion": "ia",
+      "titulo": "OpenAI dice que ChatGPT ya recibe una quinta parte de las búsquedas que tiene Google",
+      "bajada": "La cifra es una estimación propia de la empresa y no aclara de dónde sale el volumen de Google.",
+      "cuerpo": [
+        "Adam Fry, responsable de producto de consumo de ChatGPT, afirmó en un encuentro con la prensa y en una entrevista con el newsletter Big Technology que el volumen de consultas de búsqueda de ChatGPT equivale a cerca del 20% del de Google. OpenAI cuenta como búsqueda cualquier pregunta que dispare una consulta a la web; las definiciones o explicaciones que el modelo responde de memoria quedan afuera. Fry también dijo que unos 250 millones de personas usan la entrada por voz.",
+        "La comparación tiene límites: mide volumen de consultas y no participación de mercado, y OpenAI no reveló cómo calculó el dato de Google."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-02",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://dev.to/delimitter/openai-says-chatgpt-search-volume-now-equals-about-20-of-googles-4abm",
+          "medio": "DEV Community (resume a The Verge)",
+          "titulo": "OpenAI says ChatGPT search volume now equals about 20% of Google's",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:12:00-03:00"
+        },
+        {
+          "url": "https://oodaloop.com/briefs/technology/openai-executive-reveals-chatgpt-search-scale-reaches-roughly-20-of-googles-volume",
+          "medio": "OODAloop (resume a Big Technology)",
+          "titulo": "OpenAI Executive Reveals ChatGPT Search Scale Reaches Roughly 20% of Google's Volume",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:24:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "gpt6-astra-hardware",
+      "seccion": "ia",
+      "titulo": "OpenAI cuenta que GPT-6 Astra diseñó un aparato completo en menos de una semana",
+      "bajada": "El modelo hizo la carcasa, la placa, el firmware y la interfaz, pero hicieron falta varias rondas de corrección humana.",
+      "cuerpo": [
+        "OpenAI publicó cómo su equipo de hardware usó GPT-6 Astra en un proyecto paralelo: un dispositivo para hablarle a Codex, su agente de programación. Según la empresa, el modelo se ocupó de todos los pasos, desde la carcasa hasta el diseño de la placa de circuito impreso, con elección de componentes y trazado de pistas, más el firmware y la interfaz. El diseño tomó menos de una semana y un fabricante por encargo hizo un lote corto de prototipos en menos de un mes.",
+        "No fue automático: Astra no siempre tuvo en cuenta tolerancias, restricciones de fabricación y detalles de montaje, y hubo que revisarlo varias veces. OpenAI agrega que un modelo interno más nuevo saca 0,875 en la prueba de diseño BenchCAD 2.0, contra 0,594 de Astra, sin dar detalles de ese modelo."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+          "medio": "The Decoder",
+          "titulo": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:15:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "apple-18-companeros-ia",
+      "seccion": "ia",
+      "titulo": "Apple exigirá clasificación para mayores de 18 a las apps de citas y de compañeros de IA románticos",
+      "bajada": "Desde el 16 de noviembre los desarrolladores deberán declarar esas funciones, aunque sean una más dentro de la app.",
+      "cuerpo": [
+        "Apple cambió las reglas de su tienda de aplicaciones para que los menores no puedan usar apps de citas ni compañeros de IA con contenido sexual o romántico, como los que ofrecen Character.AI o Replika. Esas apps tendrán clasificación 18+, aun cuando la función sea una entre muchas. A partir del 16 de noviembre los desarrolladores deberán completar nuevos descriptores de contenido, que también alcanzan a las apps que comparten la ubicación real del usuario. La clasificación se apoya en la verificación de edad que Apple ya aplica en todo el mundo. Según TechCrunch, hasta mediados de año las principales apps de compañeros de IA sumaban 220 millones de descargas."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+          "medio": "TechCrunch",
+          "titulo": "Apple restricts dating apps and AI companions to users 18 and up",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "apple-10k-agentes",
+      "seccion": "ia",
+      "titulo": "Apple advierte a sus inversores que los agentes de IA pueden actuar sin permiso",
+      "bajada": "Su informe anual suma riesgos nuevos: agentes que hacen compras, cambian código o mandan mensajes que nadie autorizó.",
+      "cuerpo": [
+        "En el informe anual que presentó ayer ante el regulador bursátil, Apple incorporó un riesgo nuevo: los agentes de IA, capaces de actuar por su cuenta, pueden comportarse de maneras «no previstas o impredecibles». Menciona agentes que acceden a sistemas propios o ajenos sin autorización, modifican código, envían comunicaciones o completan transacciones, y dice que eso podría exponerla a juicios y dañar su reputación. Reconoce que su capacidad de controlar agentes de terceros es limitada."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.appicnews.com/apple-warns-of-risks-related-to-ai-agents-behaving-in-unintended-or-unpredictable-ways/",
+          "medio": "AppicNews (resume a CNBC)",
+          "titulo": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:23:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-fiddler-dreadnode",
+      "seccion": "empresas",
+      "titulo": "CrowdStrike paga casi US$ 500 millones por dos empresas que vigilan y ponen a prueba agentes de IA",
+      "bajada": "Compra Fiddler AI, que monitorea agentes en las empresas, y Dreadnode, que los ataca a propósito para encontrarles fallas.",
+      "cuerpo": [
+        "CrowdStrike, una de las mayores empresas de ciberseguridad, anunció ayer la compra de dos startups dedicadas a la seguridad de la inteligencia artificial. Según The Wall Street Journal, citado por TechCrunch, pagará unos US$ 400 millones por Fiddler AI y unos US$ 95 millones por Dreadnode. CrowdStrike no detalló la forma de pago ni la fecha prevista de cierre.",
+        "Fiddler AI, fundada en 2018 y con unos US$ 99 millones recaudados, hace software de observabilidad: registra qué hacen los agentes de IA dentro de una empresa para detectar comportamientos raros. Se integrará a la plataforma Falcon con el nombre Falcon Observe, para evaluar agentes antes de ponerlos en producción y entender sus acciones. Dreadnode, de 2023 y con US$ 14 millones recaudados, automatiza pruebas de ataque contra modelos, aplicaciones y agentes; sus resultados alimentarán Falcon Guardian, el producto de detección y respuesta para agentes, en forma de políticas de seguridad recomendadas.",
+        "La compra llega cuando las empresas empiezan a darles a los agentes acceso real a sistemas, datos y pagos, y los proveedores de seguridad compiten por ofrecer herramientas para controlarlos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+          "medio": "TechCrunch",
+          "titulo": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:08:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "turbinas-avion-centros-datos",
+      "seccion": "tecnologia",
+      "titulo": "Los centros de datos recurren a viejas turbinas de avión porque la red eléctrica no llega a tiempo",
+      "bajada": "xAI, Crusoe y otros instalan motores reconvertidos que encienden un centro en dos años, a costa de más emisiones.",
+      "cuerpo": [
+        "La espera para conectar un centro de datos a la red eléctrica empuja a las empresas de IA a generar su propia energía con turbinas de avión reconvertidas, según un relevamiento del New York Times que resume TechCrunch. xAI, la empresa de Elon Musk, instaló ocho de estas unidades, fabricadas por ProEnergy, en Mississippi para su centro Colossus 2 de Memphis. Crusoe, que construye el campus de Stargate en Abilene, Texas, encargó 13 en abril.",
+        "El problema de fondo son los plazos: conectar 100 megavatios en el norte de Virginia lleva unos siete años, según la Agencia Internacional de Energía, y un ejecutivo de Mitsubishi Power estima que la mayor parte de la nueva generación llegará hacia 2031. Un analista de Rystad Energy calcula que con turbinas de avión un centro puede arrancar en 24 meses. A cambio, estos motores son menos eficientes y contaminan más que las turbinas de una central convencional, y hacen falta más unidades para la misma potencia."
+      ],
+      "tipo": "analisis",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+          "medio": "TechCrunch",
+          "titulo": "Data centers are turning to old jet engines as the wait for power grows",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:13:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "reddit-anuncios-busqueda",
+      "seccion": "empresas",
+      "titulo": "Reddit prueba avisos en su buscador mientras pierde visitas que antes llegaban desde Google",
+      "bajada": "Los usuarios diarios en Estados Unidos bajaron de 53,2 a 50,7 millones en un trimestre.",
+      "cuerpo": [
+        "Reddit empezó a probar anuncios en sus páginas de resultados de búsqueda, con un grupo reducido de anunciantes: quien busque, por ejemplo, una cafetera de espresso podrá ver avisos de máquinas, café o tazas. La empresa atribuye la caída de visitas a que Google responde cada vez más con IA en su propia página y manda menos clics a otros sitios.",
+        "En el tercer trimestre superó lo que esperaba Wall Street en ingresos y ganancia, pero sus usuarios activos diarios en Estados Unidos bajaron de 53,2 a 50,7 millones y los globales quedaron en 130,3 millones. Para el cuarto trimestre proyecta ingresos de US$ 1.000 a 1.030 millones, debajo de los US$ 1.050 millones esperados, y la acción cayó. Además, pasará de a poco a exigir cuenta registrada para leer, empezando fuera de Estados Unidos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
+          "medio": "TechCrunch",
+          "titulo": "Reddit tests ads in search results as traffic declines and growth concerns mount",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:21:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "fal-16000-millones",
+      "seccion": "empresas",
+      "titulo": "Fal, que ejecuta modelos de imagen, video y audio, duplica su valuación a US$ 16.000 millones",
+      "bajada": "Levantó US$ 1.300 millones en una ronda liderada por Bessemer, con Nvidia entre los inversores.",
+      "cuerpo": [
+        "Fal, una empresa de San Francisco que aloja y ejecuta modelos de IA generativa de video, imagen y audio para otras compañías, anunció una ronda Serie F de US$ 1.300 millones liderada por Bessemer Venture Partners, con Nvidia, Sound Ventures y T. Rowe Price. Sumada a la Serie E, recaudó US$ 1.650 millones. Según Bloomberg, la valuación pasó de US$ 8.000 millones en abril a US$ 16.000 millones. A principios de año sus ingresos anualizados superaban los US$ 800 millones. La fundaron en 2021 Burkay Gur y Gorkem Yurtseven."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+          "medio": "TechCrunch",
+          "titulo": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:11:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "google-escuelas-ia-busqueda",
+      "seccion": "tecnologia",
+      "titulo": "Google apagará la IA en las cuentas escolares, pero la que la deje apagada también pierde el buscador",
+      "bajada": "Desde 2027 Gemini y la búsqueda vendrán desactivadas para alumnos de primaria y secundaria; cada escuela decide qué prender.",
+      "cuerpo": [
+        "Google anunció que desde 2027 las cuentas de estudiantes de escuelas primarias y secundarias tendrán desactivados por defecto Gemini y sus versiones Gemini Notebook y Gemini Classroom, y también la búsqueda de Google. Los administradores podrán activar cada servicio por separado. La empresa sostiene que la IA está tan integrada en el buscador, con los resúmenes automáticos y el modo IA, que no puede ofrecer la búsqueda tradicional sin ella: una escuela que no quiera IA deja a sus alumnos sin Google. Para las que la activen, sumará un modo de aprendizaje guiado que acompaña paso a paso en lugar de dar la respuesta."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.androidcentral.com/apps-software/school-google-and-ai",
+          "medio": "Android Central",
+          "titulo": "Google will let schools turn off AI, but they'll have to give up Search too",
+          "fecha_publicacion": "2026-11-04",
+          "consultado": "2026-11-04T06:13:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "ballistic-ventures-fondos",
+      "seccion": "empresas",
+      "titulo": "Un fondo especializado en ciberseguridad busca US$ 490 millones al calor de la IA",
+      "bajada": "Ballistic Ventures, de Ted Schlein, registró dos fondos nuevos ante la SEC.",
+      "cuerpo": [
+        "Ballistic Ventures, la firma de capital de riesgo de Ted Schlein, ex socio de Kleiner Perkins, presentó ante la SEC dos fondos nuevos: uno principal de US$ 360 millones y otro de US$ 130 millones. Las startups de ciberseguridad de Estados Unidos recaudaron US$ 11.500 millones en 2025, el récord desde 2022, y las que usan IA ya son cerca del 72% de los acuerdos del sector."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+          "medio": "TechCrunch",
+          "titulo": "Ted Schlein's Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:27:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "qualcomm-presenta-hoy",
+      "seccion": "breve",
+      "titulo": "Qualcomm presenta hoy con ventas que caerían 10%",
+      "cuerpo": [
+        "Qualcomm muestra hoy, después del cierre, su cuarto trimestre fiscal. Los analistas esperan ingresos de US$ 10.140 millones, 10% menos que un año antes, por la debilidad del mercado de teléfonos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-04",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/qualcomm-stock-faces-november-4-earnings-test-as-revenue-seen-down-10-prozent/70442045",
+          "medio": "Ad-hoc-news",
+          "titulo": "Qualcomm stock faces November 4 earnings test as revenue seen down 10%",
+          "fecha_publicacion": "2026-11-01",
+          "consultado": "2026-11-04T06:24:00-03:00"
+        }
+      ],
+      "seccion_destino": "empresas"
+    },
+    {
+      "id": "bambu-h3c",
+      "seccion": "impresion3d",
+      "titulo": "Bambu Lab lanza la H3C, una impresora de nueve cabezales por US$ 2.499",
+      "bajada": "Cambia de material en seis segundos, acepta filamento de 2,85 mm y TPU muy blando, y llega con un sistema de nueve bobinas con secador.",
+      "cuerpo": [
+        "Bambu Lab presentó ayer la H3C, su primera impresora con cambiador de herramientas: en lugar de una boquilla que purga filamento cada vez que cambia de color, tiene nueve cabezales independientes, cada uno con su propio recorrido de filamento y calentador. Según la marca, el sistema, llamado Swaptek, cambia de material en unos seis segundos. Cuesta US$ 2.499 antes de impuestos en Estados Unidos y € 2.499 con impuestos en Europa; hay tres combos con filamento, accesorios y purificador de aire cuyos precios no se detallaron.",
+        "El volumen de impresión es de 330 por 320 por 325 milímetros. Las boquillas llegan a 350 °C, la cama a 120 °C y la cámara calefaccionada a 65 °C, lo que habilita materiales técnicos. Un extrusor dedicado, FlexFeed, admite filamento de 1,75 y de 2,85 milímetros, y TPU de dureza 75A, bastante más blando que el habitual; con el filamento grueso, según 3DPrint.com, el caudal sube 300%. La impresora viene con el AMS 3H, un cargador hermético de nueve bobinas con lectura RFID, dos de ellas con secado hasta 85 °C, y se le pueden sumar unidades AMS anteriores hasta 24 materiales.",
+        "La marca habla de aceleraciones de 25.000 mm/s² y velocidades de hasta 1.400 mm/s, cifras propias. Compite con la Prusa INDX y los modelos de Snapmaker. No se informaron fechas de envío ni disponibilidad por país, así que no hay precio para Argentina."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.3dprintingjournal.com/p/bambu-lab-introduces-h3c-a-3d-printer",
+          "medio": "3D Printing Journal",
+          "titulo": "Bambu Lab introduces H3C, a 3D printer with 9 print tools and support for 2.85 mm 75A TPU filament",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:04:00-03:00"
+        },
+        {
+          "url": "https://3dprint.com/336070/bambu-lab-releases-h3c-printer/",
+          "medio": "3DPrint.com",
+          "titulo": "Bambu Lab Releases $2,499 Full-Color, Multi-Toolhead H3C 3D Printer",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:16:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "orbital-matter-viga-espacio",
+      "seccion": "impresion3d",
+      "titulo": "Una startup alemana imprimió una viga rígida en el vacío del espacio",
+      "bajada": "Orbital Matter hizo una pieza de medio metro a bordo de un satélite pequeño y la usó para desplegar un panel solar.",
+      "cuerpo": [
+        "Orbital Matter informó que imprimió en órbita una viga cilíndrica rígida de unos 50 centímetros a bordo de Replicator-2, un satélite pequeño lanzado este año en una misión compartida de SpaceX. Las impresoras extruyen una resina propia en espiral que se cura con luz ultravioleta. Una de las cuatro impresoras falló, pero el brazo que formó la viga desplegó un panel solar flexible. La empresa, que levantó US$ 3 millones y trabajó con la Agencia Espacial Europea y Thales Alenia, planea en 2028 una prueba con un panel de 5 kW y cree viables brazos de 100 metros."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
+          "medio": "TechCrunch",
+          "titulo": "Orbital Matter 3D-printed the first rigid beam in the vacuum of space",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "scaffoldforge-hueso",
+      "seccion": "impresion3d",
+      "titulo": "Un modelo de IA diseña andamios para hueso en 12 segundos en lugar de dos horas",
+      "bajada": "Es un estudio por computadora: todavía no se imprimió ni se ensayó ninguna pieza.",
+      "cuerpo": [
+        "Investigadores del Hospital de Rehabilitación de Beijing publicaron en PLOS ONE ScaffoldForge, un modelo de difusión que genera la estructura interna de andamios óseos para imprimir a partir de ocho medidas del hueso del paciente, como la densidad y el grosor de las trabéculas. Tarda unos 12 segundos en una GPU, contra 140 minutos de la optimización topológica habitual. La resistencia estimada a la compresión fue de 56,6 MPa, 8,2% más que el método clásico, aunque éste logró algo más de permeabilidad."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-31",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.voxelmatters.com/beijing-rehabilitation-hospital-researchers-cut-bone-scaffold-design-time-to-12-seconds/",
+          "medio": "VoxelMatters",
+          "titulo": "Beijing Rehabilitation Hospital researchers cut bone scaffold design time to 12 seconds",
+          "fecha_publicacion": "2026-10-31",
+          "consultado": "2026-11-04T06:16:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "tripo-agentic-canvas",
+      "seccion": "impresion3d",
+      "titulo": "Tripo arma cadenas de trabajo 3D con un agente que conecta pasos en un lienzo",
+      "bajada": "La herramienta genera, corrige y reutiliza flujos que van del modelo a la pieza lista para imprimir.",
+      "cuerpo": [
+        "Tripo AI lanzó Agentic Canvas, un agente que arma flujos de trabajo 3D sobre un lienzo de nodos: cada nodo hace una operación, como texturizar, retopologizar, segmentar o preparar un modelo para imprimir, y el agente arma la secuencia, revisa resultados y la ajusta. Los flujos se guardan y se aplican en lote a varios modelos. No se informó precio."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.voxelmatters.com/tripo-ai-launches-agentic-canvas-for-node-based-3d-workflows/",
+          "medio": "VoxelMatters",
+          "titulo": "Tripo AI launches Agentic Canvas for node-based 3D workflows",
+          "fecha_publicacion": "2026-11-03",
+          "consultado": "2026-11-04T06:19:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "aurora-labs-turbinas",
+      "seccion": "breve",
+      "titulo": "Aurora Labs junta A$ 6 millones para producir turborreactores impresos",
+      "cuerpo": [
+        "La australiana Aurora Labs levantó A$ 6 millones para ampliar líneas y comprar más impresoras de metal. Ya entrega su sistema de propulsión AU4 y recibió su primer pedido de Estados Unidos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-31",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://3dprinting.com/news/aurora-labs-raises-a6-million-to-scale-up-3d-printed-turbojet-production/",
+          "medio": "3DPrinting.com",
+          "titulo": "Aurora Labs raises A$6 million to scale up 3D printed turbojet production",
+          "fecha_publicacion": "2026-10-31",
+          "consultado": "2026-11-04T06:24:00-03:00"
+        }
+      ],
+      "seccion_destino": "impresion3d"
+    }
+  ],
+  "finanzas": "@datos/finanzas.json",
+  "clima": "@datos/clima.json",
+  "glosario": [
+    {
+      "termino": "Inferencia demostrable",
+      "definicion": "Técnica que acompaña cada respuesta de un modelo de IA con una prueba matemática de que la produjo un modelo determinado, sin revelar sus pesos.",
+      "nota_relacionada": "anthropic-flashprove"
+    },
+    {
+      "termino": "Ingresos anualizados (ARR)",
+      "definicion": "Lo que una empresa facturaría en un año si mantuviera el ritmo de ventas recurrentes de su último mes o trimestre.",
+      "nota_relacionada": "fal-16000-millones"
+    },
+    {
+      "termino": "Observabilidad",
+      "definicion": "Registro continuo de lo que hace un sistema, en este caso un agente de IA, para detectar fallas o conductas anómalas.",
+      "nota_relacionada": "crowdstrike-fiddler-dreadnode"
+    },
+    {
+      "termino": "Andamio óseo (scaffold)",
+      "definicion": "Estructura porosa que se implanta para que el hueso crezca sobre ella y lo reemplace con el tiempo.",
+      "nota_relacionada": "scaffoldforge-hueso"
+    }
+  ],
+  "fe_de_erratas": [],
+  "claude_tip": {
+    "titulo": "Bajale el esfuerzo a los subagentes que sólo buscan",
+    "donde": "Claude Code",
+    "origen": "Visto en Wmedia (Claude Code Hub)",
+    "texto": [
+      "Wmedia publicó el 27 de octubre, y actualizó el 3 de noviembre, una prueba con subagentes de Claude Code: la misma explicación de cinco líneas gastó 10.921 tokens de salida con esfuerzo máximo y 586 con esfuerzo bajo. La versión 2.1.316, del 31 de octubre, sumó una variable de entorno para fijar un nivel por defecto.",
+      "Los subagentes heredan el esfuerzo de tu sesión, así que una búsqueda de archivos puede pensar tanto como una revisión de seguridad. Bajarlo en las tareas mecánicas ahorra cupo y tiempo; en las revisiones conviene dejarlo alto, porque en la prueba el nivel bajo pasó por alto un problema real."
+    ],
+    "pasos": [
+      "Actualizá Claude Code a la 2.1.316 o posterior y, antes de abrirlo, definí la variable CLAUDE_CODE_​SUBAGENT_​EFFORT con el valor «low».",
+      "Para un agente puntual, agregá «effort: low» en el encabezado de su archivo en .claude/agents/.",
+      "O escribí en CLAUDE.md: «Corré los subagentes de búsqueda con esfuerzo bajo y los de revisión con esfuerzo alto»."
+    ],
+    "fuentes": [
+      {
+        "url": "https://wmedia.es/es/tips/claude-code-subagentes-effort-bajo",
+        "medio": "Wmedia (Claude Code Hub)",
+        "titulo": "Subagentes con effort bajo en Claude Code",
+        "fecha_publicacion": "2026-10-27",
+        "consultado": "2026-11-04T06:20:00-03:00"
+      },
+      {
+        "url": "https://www.gradually.ai/en/changelogs/claude-code/",
+        "medio": "Gradually.ai (changelog de Claude Code)",
+        "titulo": "Claude Code Changelog (November 2026)",
+        "fecha_publicacion": "2026-11-03",
+        "consultado": "2026-11-04T06:19:00-03:00"
+      },
+      {
+        "url": "https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn",
+        "medio": "DEV Community",
+        "titulo": "This week in Claude Code, Codex and Gemini CLI (week of November 1, 2026)",
+        "fecha_publicacion": "2026-10-31",
+        "consultado": "2026-11-04T06:18:00-03:00"
+      }
+    ]
+  }
+}

@@ -92,6 +92,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 
 - Edición Nº 15: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del lunes 2 según Ámbito ($ 1.515 / $ 1.565). Clima: pronóstico extendido del SMN vía La Nación para los cuatro días y viento de hoy; sin lluvia en mm ni viento máximo salvo hoy.
 
+## Datos de respaldo — 4 de noviembre de 2026
+
+- Edición Nº 16: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 3 según Ámbito ($ 1.520 / $ 1.570), coincidente con El Destape. Clima: SMN vía La Nación para hoy y Cadena 3 de jueves a sábado; sin lluvia en mm ni viento máximo salvo hoy.
+- Claude Tip: la variable CLAUDE_CODE_SUBAGENT_EFFORT (2.1.316) se verificó en dos copias del changelog (Gradually.ai y DEV Community); la página oficial de changelog devuelta a WebFetch estaba desactualizada (llegaba a 2.1.311).
+
 ## Fe de erratas pendiente
 
 (ninguna)

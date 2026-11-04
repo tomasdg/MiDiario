@@ -1,0 +1,164 @@
+{
+  "numero": 16,
+  "fecha": "2026-11-04",
+  "cierre": "2026-11-04T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "AMD casi duplica sus ventas para centros de datos y promete un cuarto trimestre de US$ 17.000 millones",
+      "urls": [
+        "https://www.investing.com/news/earnings/amd-stock-jumps-after-hours-as-quarterly-results-revenue-guidance-beat-estimates-4996344",
+        "https://www.investing.com/news/company-news/amd-q3-2026-slides-data-center-surges-97-record-earnings-beat-93CH-4996928"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic publica un sistema para probar qué modelo de IA respondió de verdad",
+      "urls": [
+        "https://www.anthropic.com/research/provable-inference",
+        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI dice que ChatGPT ya recibe una quinta parte de las búsquedas que tiene Google",
+      "urls": [
+        "https://dev.to/delimitter/openai-says-chatgpt-search-volume-now-equals-about-20-of-googles-4abm",
+        "https://oodaloop.com/briefs/technology/openai-executive-reveals-chatgpt-search-scale-reaches-roughly-20-of-googles-volume"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI cuenta que GPT-6 Astra diseñó un aparato completo en menos de una semana",
+      "urls": [
+        "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Apple exigirá clasificación para mayores de 18 a las apps de citas y de compañeros de IA románticos",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Apple advierte a sus inversores que los agentes de IA pueden actuar sin permiso",
+      "urls": [
+        "https://www.appicnews.com/apple-warns-of-risks-related-to-ai-agents-behaving-in-unintended-or-unpredictable-ways/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "CrowdStrike paga casi US$ 500 millones por dos empresas que vigilan y ponen a prueba agentes de IA",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Los centros de datos recurren a viejas turbinas de avión porque la red eléctrica no llega a tiempo",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Reddit prueba avisos en su buscador mientras pierde visitas que antes llegaban desde Google",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Fal, que ejecuta modelos de imagen, video y audio, duplica su valuación a US$ 16.000 millones",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Google apagará la IA en las cuentas escolares, pero la que la deje apagada también pierde el buscador",
+      "urls": [
+        "https://www.androidcentral.com/apps-software/school-google-and-ai"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Un fondo especializado en ciberseguridad busca US$ 490 millones al calor de la IA",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Qualcomm presenta hoy con ventas que caerían 10%",
+      "urls": [
+        "https://www.ad-hoc-news.de/boerse/news/corporate-news/qualcomm-stock-faces-november-4-earnings-test-as-revenue-seen-down-10-prozent/70442045"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Bambu Lab lanza la H3C, una impresora de nueve cabezales por US$ 2.499",
+      "urls": [
+        "https://www.3dprintingjournal.com/p/bambu-lab-introduces-h3c-a-3d-printer",
+        "https://3dprint.com/336070/bambu-lab-releases-h3c-printer/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una startup alemana imprimió una viga rígida en el vacío del espacio",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Un modelo de IA diseña andamios para hueso en 12 segundos en lugar de dos horas",
+      "urls": [
+        "https://www.voxelmatters.com/beijing-rehabilitation-hospital-researchers-cut-bone-scaffold-design-time-to-12-seconds/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Tripo arma cadenas de trabajo 3D con un agente que conecta pasos en un lienzo",
+      "urls": [
+        "https://www.voxelmatters.com/tripo-ai-launches-agentic-canvas-for-node-based-3d-workflows/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Aurora Labs junta A$ 6 millones para producir turborreactores impresos",
+      "urls": [
+        "https://3dprinting.com/news/aurora-labs-raises-a6-million-to-scale-up-3d-printed-turbojet-production/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Inferencia demostrable",
+    "Ingresos anualizados (ARR)",
+    "Observabilidad",
+    "Andamio óseo (scaffold)"
+  ],
+  "claude_tip": {
+    "titulo": "Bajale el esfuerzo a los subagentes que sólo buscan",
+    "urls": [
+      "https://wmedia.es/es/tips/claude-code-subagentes-effort-bajo",
+      "https://www.gradually.ai/en/changelogs/claude-code/",
+      "https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1520,
+    "venta": 1570,
+    "fecha": "2026-11-04"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (hoy) y Cadena 3 (jueves a sábado). Consultado 05:50. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-04T09:28:40.378Z"
+  }
+}
