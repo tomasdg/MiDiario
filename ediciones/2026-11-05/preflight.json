@@ -1,0 +1,106 @@
+{
+  "generado": "2026-11-05T09:07:12.793Z",
+  "edicion": {
+    "numero": 17,
+    "fecha": "2026-11-05",
+    "cierre": "2026-11-05T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9.25,
+        9.25,
+        8.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.82,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 209,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.91,
+        "mayor_rectangulo_vacio": 0.014,
+        "hueco_mm": {
+          "x": 38,
+          "y": 29,
+          "ancho": 148,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.8,
+        "mayor_rectangulo_vacio": 0.127,
+        "hueco_mm": {
+          "x": 129,
+          "y": 157,
+          "ancho": 57,
+          "alto": 114
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.906,
+        "mayor_rectangulo_vacio": 0.011,
+        "hueco_mm": {
+          "x": 62,
+          "y": 262,
+          "ancho": 62,
+          "alto": 10
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Página 3: la primera versión dejaba la fuente de Canva sola al tope de la tercera columna y un hueco grande al pie",
+        "Página 3: queda un espacio blanco moderado al pie de la tercera columna (12,7% del área útil, dentro del límite)"
+      ],
+      "correcciones": [
+        "Se agregó el breve de SpaceX y Qualcomm y se completó la nota de Snap con datos del comunicado",
+        "Sin superposiciones, texto cortado ni títulos separados de su texto en las cuatro páginas; encabezados, pies e iconos de clima visibles"
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-05/De-Villa-Urquiza-al-Mundo-N17-2026-11-05.pdf"
+}

@@ -1,0 +1,545 @@
+{
+ "edicion": {
+  "numero": 17,
+  "fecha": "2026-11-05",
+  "cierre": "2026-11-05T05:44:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "openai-948-exploits-linux",
+   "seccion": "principal",
+   "titulo": "Una máquina de OpenAI fabricó en 30 horas 948 formas de tomar el control de Linux",
+   "bajada": "Su sistema automático revisó 2.308 posibles fallas del núcleo y armó ataques que funcionan contra una distribución de uso común; costó US$ 1,2 millones en cómputo.",
+   "cuerpo": [
+    "OpenAI contó ayer cómo una cadena de agentes de IA, apoyada en un modelo especializado en ciberseguridad que todavía no salió al público, analizó el núcleo de Linux durante 30 horas a mediados de octubre. El resultado: 2.308 hallazgos candidatos, 1.724 vulnerabilidades reproducidas en funcionamiento y 948 ataques completos de escalada local de privilegios, es decir, programas que permiten a un usuario con una cuenta común convertirse en administrador (root) de una distribución de Linux «de uso común» que la empresa no identificó. También obtuvo 291 pruebas de fuga de información.",
+    "El proceso tiene cinco etapas: busca errores en el código, los reproduce en máquinas de prueba, evalúa si se pueden explotar y escribe el ataque, propone un parche y, por último, pasa todo a revisión humana antes de avisar a los responsables del núcleo. Según OpenAI, la corrida descubrió al menos diez técnicas de explotación que no se conocían. La cuenta de la API fue de US$ 1.213.430, unos US$ 1.279 por cada ataque funcional, una fracción de lo que cobra un especialista por un hallazgo así.",
+    "Los parches todavía no están en Linux: son propuestas generadas por la máquina. OpenAI dice que trabaja con los mantenedores del núcleo y con Patch the Planet, su programa de corrección de software abierto lanzado en junio junto con Trail of Bits, HackerOne y Calif, y que no publicará el código de los ataques. Ingenieros de Trail of Bits revisan cada caso antes de que llegue a un mantenedor, según Startup Fortune. En junio, una prueba más chica con GPT-5.5-Cyber había producido 24 ataques de este tipo.",
+    "La conclusión de la empresa es incómoda para cualquiera que administre servidores: para un atacante con recursos, una cuenta de bajos privilegios en un sistema que no está al día «debería considerarse equivalente a tener acceso de root». Las cifras provienen de OpenAI y de experimentos controlados por la propia compañía, que reconoce que hizo falta guía de expertos humanos en varias etapas. Para quien tiene servidores o equipos con Linux, también en Argentina, el consejo práctico no cambia pero se vuelve urgente: instalar las actualizaciones del núcleo apenas salgan."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+     "medio": "The Hacker News",
+     "titulo": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-05T06:00:00-03:00"
+    },
+    {
+     "url": "https://startupfortune.com/openais-ai-pipeline-turned-2308-linux-kernel-bugs-into-948-root-exploits/",
+     "medio": "Startup Fortune",
+     "titulo": "OpenAI's AI pipeline turned 2,308 Linux kernel bugs into 948 root exploits",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-05T06:00:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Claude halla fallas graves en Xen",
+    "resumen": "Una máquina virtual maliciosa podía leer y escribir la memoria de las demás del mismo servidor; todas las versiones desde la 4.6 están afectadas.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Gemini 4 Carbon, primero por un punto",
+    "resumen": "Artificial Analysis lo pone por encima de Claude Opus 5.5 y como el modelo que menos inventa, aunque todavía no está abierto a desarrolladores.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Meta compra Conductor",
+    "resumen": "La herramienta, que hace trabajar a varios agentes de programación en paralelo, apaga su servicio en la nube el 20 de noviembre.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Qualcomm cae pese a superar lo esperado",
+    "resumen": "Vendió 26% menos chips para teléfonos, los autos crecieron 89% y advirtió que la memoria y la fabricación más caras le comerán margen.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Arm factura récord, regalías flojas",
+    "resumen": "Ingresó US$ 1.443 millones, 27% más, pero las regalías por chip subieron sólo 8% y la acción bajó fuera de hora.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Canva despide al 22%",
+    "resumen": "Son 1.271 personas; su directora dice que es el año más difícil y el costo de la IA le recortó la proyección de crecimiento.",
+    "pagina": 3
+   },
+   {
+    "titulo": "142.000 caras para Wildwood",
+    "resumen": "LAIKA imprimió a todo color cada gesto de sus muñecos con equipos Stratasys y un controlador de Fraunhofer; hoy se estrena en Alemania.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "Hoy",
+    "texto": "Presentan Cloudflare, Airbnb, Lyft, Sony y Unity."
+   },
+   {
+    "cuando": "Hoy",
+    "texto": "Wildwood, de LAIKA, se estrena en Alemania."
+   },
+   {
+    "cuando": "17 nov",
+    "texto": "Abre Formnext en Frankfurt con Nikon SLM y Stratasys."
+   },
+   {
+    "cuando": "20 nov",
+    "texto": "Conductor apaga su servicio en la nube."
+   },
+   {
+    "cuando": "Dic",
+    "texto": "La Creality K3 llega a Europa."
+   },
+   {
+    "cuando": "2027",
+    "texto": "Admatec envía su impresora cerámica de escritorio."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Tu sesión, ¿cuándo vence?",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Qualcomm cae 6% fuera de hora.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "La K3 de Creality, en camino.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Soleado, 26°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "US$ 1.279",
+   "texto": "Lo que le costó a OpenAI, en cómputo, cada ataque funcional contra Linux que fabricó su sistema automático."
+  }
+ },
+ "notas": [
+  {
+   "id": "claude-xen-xsa523",
+   "seccion": "ia",
+   "titulo": "Claude encontró dos fallas graves en Xen, el programa que reparte servidores entre máquinas virtuales",
+   "bajada": "El proyecto Xen le atribuyó a Anthropic el hallazgo; una máquina virtual maliciosa podía leer y escribir la memoria de las demás del mismo equipo.",
+   "cuerpo": [
+    "El Proyecto Xen publicó el martes el aviso de seguridad XSA-523, que corrige dos vulnerabilidades, CVE-2026-102703 y CVE-2026-102704, y acredita el hallazgo a Anthropic, que las detectó con su modelo Claude. Xen es un hipervisor: el software que permite que varias máquinas virtuales compartan un mismo servidor físico, base de muchos servicios en la nube y de sistemas pensados para el aislamiento, como Qubes OS.",
+    "Las fallas están en la función de copia de concesiones (grant copy), que usan las máquinas virtuales para pasarse datos. Al procesar copias en lote dentro de una misma página de memoria, Xen reutilizaba controles de permisos y en algunos casos no volvía a verificarlos cuando correspondía. Así, una máquina virtual invitada podía leer y escribir la memoria de otras del mismo servidor, incluida la de control (dom0). Stephan Lipp, de Ada Logics, validó el hallazgo, y el equipo de CodeAnt AI lo reportó después por su cuenta.",
+    "Están afectadas todas las versiones desde la 4.6; hay parches para las ramas 4.17 a 4.19 y la de desarrollo, pero no para 4.6 a 4.16, ya sin soporte. Qubes OS avisó que todas sus versiones con soporte están afectadas y publicó una actualización que exige reiniciar; XCP-ng también la sacó el 3 de noviembre. El aviso de Xen no menciona ataques en curso ni hay forma de mitigarlo sin actualizar."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+     "medio": "The Hacker News",
+     "titulo": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "gemini-4-carbon-ranking",
+   "seccion": "ia",
+   "titulo": "Gemini 4 Carbon pasa por un punto a Claude Opus 5.5 en el ranking de Artificial Analysis",
+   "bajada": "El nuevo modelo de Google también es el que menos inventa según esa medición, pero por ahora sólo lo usan defensores de ciberseguridad.",
+   "cuerpo": [
+    "Google presentó la semana pasada Gemini 4 Carbon y la firma independiente Artificial Analysis lo ubicó primero en su índice de inteligencia, con 59 puntos, uno más que Claude Opus 5.5 en su nivel máximo y dos más que GPT-6 Astra. Ganó en cuatro de las nueve pruebas que componen el índice. Cada tarea del índice le costó US$ 7,76, contra US$ 10,04 de Opus 5.5 y US$ 6,25 de GPT-6 Astra, y usó 123.000 tokens de salida contra 173.000 del modelo de Anthropic.",
+    "En la prueba de alucinaciones de esa firma, que premia acertar y castiga inventar, sacó 54 puntos, el mejor resultado de la tabla, con una tasa de invención del 11%. Google, por su parte, afirma que bloqueó todos los intentos de un examen de inyección indirecta de instrucciones; ese dato es de la empresa.",
+    "El precio de lista es de US$ 4 por millón de tokens de entrada y US$ 20 por millón de salida, pero el acceso es escalonado: primero equipos de ciberdefensa y socios del programa Fairwind, y recién después desarrolladores, sin fecha."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
+     "medio": "Tom's Hardware",
+     "titulo": "Google reveals new Gemini 4 Carbon AI model, narrowly beating Claude Opus 5.5",
+     "fecha_publicacion": "2026-11-03",
+     "consultado": "2026-11-05T05:57:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meta-compra-conductor",
+   "seccion": "ia",
+   "titulo": "Meta compra Conductor, que hace trabajar a varios agentes de programación en paralelo",
+   "bajada": "La herramienta usa modelos de Anthropic y OpenAI; su servicio en la nube se apaga el 20 de noviembre.",
+   "cuerpo": [
+    "Meta confirmó a TechCrunch la compra de Conductor, una empresa fundada en 2024 cuya aplicación permite lanzar varios agentes de programación a la vez, cada uno en su propio espacio de trabajo, para avanzar en distintas partes de un proyecto. Los agentes no son propios: vienen de laboratorios como Anthropic y OpenAI. No se informó el precio.",
+    "Charlie Holtz, fundador y director ejecutivo, anunció que el equipo se suma a Meta y que trabajará con Alexandr Wang, jefe de IA de la compañía, y con Nat Friedman. Prometió «algo nuevo» para los clientes a comienzos del año próximo. Hasta entonces la aplicación sigue funcionando, pero el servicio en la nube cierra el 20 de noviembre y después se borrarán los datos guardados allí. Meta ya tiene su propio agente de código, Muse Code, lanzado en agosto."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+     "medio": "TechCrunch",
+     "titulo": "Meta acquires AI coding startup Conductor",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "apple-recorta-gasto-ia",
+   "seccion": "ia",
+   "titulo": "Apple le baja el tope diario de gasto en IA a sus ingenieros",
+   "cuerpo": [
+    "Apple redujo en octubre de US$ 300 a US$ 200 por día lo que cada equipo de ingeniería puede gastar en herramientas de IA, y prepara nuevos recortes que dejarían algunos topes en US$ 100, según Bloomberg. Para el personal que no es de ingeniería evalúa un límite de apenas US$ 25 diarios. La empresa no hizo comentarios. El dato llega después de meses en que muchas compañías incentivaron a sus empleados a usar la mayor cantidad posible de IA y empiezan a revisar cuánto les cuesta."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+     "medio": "TechCrunch (cita a Bloomberg)",
+     "titulo": "Apple is reportedly cutting budgets for its internal AI usage",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:57:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "qualcomm-cuarto-trimestre",
+   "seccion": "empresas",
+   "titulo": "Qualcomm vende menos chips para teléfonos y la acción cae más de 6% aunque superó lo esperado",
+   "bajada": "Los autos crecieron 89% y los centros de datos empiezan a facturar, pero el costo de memoria y fabricación aprieta los márgenes.",
+   "cuerpo": [
+    "Qualcomm facturó US$ 10.322 millones en su cuarto trimestre fiscal, cerrado en septiembre: 8% menos que un año antes, pero por encima de los US$ 10.110 millones que esperaban los analistas. La ganancia ajustada por acción fue de US$ 2,17, un centavo más que el consenso y 28% menos que un año antes. Aun así, la acción cayó más de 6% en las operaciones posteriores al cierre, hasta US$ 161,97.",
+    "La división de chips sumó US$ 9.015 millones. Los procesadores para teléfonos, su negocio principal, vendieron US$ 5.137 millones, 26% menos, golpeados por la suba de la memoria, que encarece los equipos, y por la reducción gradual de lo que le vende a Apple. Los chips para autos marcaron un récord de US$ 1.990 millones, 89% más, y los de internet de las cosas crecieron 4%. Las licencias de patentes aportaron US$ 1.304 millones, 7% menos; la empresa renovó contratos con Apple, Huawei y Transsion.",
+    "Para el trimestre que termina en diciembre proyecta ingresos de US$ 10.400 a 11.200 millones y una ganancia ajustada de US$ 2,15 a 2,35 por acción. Lo que asustó fue la advertencia de que suben los costos de obleas, encapsulado y memoria: Qualcomm los trasladará a precios, pero el efecto pleno sobre el margen llegará recién en la segunda mitad del año fiscal. Mantuvo la meta de US$ 5.000 millones en ventas para centros de datos en 2027."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262276372-qualcomm-earnings-report-q4-handset-decline-automotive-growth-data-center-outlook-tradingkey",
+     "medio": "TradingKey",
+     "titulo": "Qualcomm Q4 Handset Revenue Drops 26%, Dragging Down Overall Revenue and Earnings; Stock Falls 6% After Hours",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T06:01:00-03:00"
+    },
+    {
+     "url": "https://www.marketbeat.com/instant-alerts/earnings-qualcomm-nasdaq-qcom-posts-earnings-results-2026-11-04/",
+     "medio": "MarketBeat",
+     "titulo": "Qualcomm (NASDAQ:QCOM) Posts Earnings Results",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "arm-segundo-trimestre",
+   "seccion": "empresas",
+   "titulo": "Arm factura un récord, pero las regalías crecen poco y la acción baja",
+   "bajada": "Las licencias saltaron 50%; las regalías por cada chip vendido, sólo 8%.",
+   "cuerpo": [
+    "Arm, la empresa británica que diseña la arquitectura de casi todos los procesadores de teléfonos, facturó US$ 1.443 millones en su segundo trimestre fiscal, 27% más que un año antes y por encima de los US$ 1.380 millones que había anticipado. Las licencias sumaron US$ 773 millones, 50% más, mientras que las regalías que cobra por cada chip fabricado subieron sólo 8%, a US$ 670 millones, frenadas por la suba de la memoria que afecta a los teléfonos baratos y medianos.",
+    "La ganancia ajustada por acción fue de US$ 0,52, pero la contable cayó a la mitad por pérdidas en inversiones. Para el trimestre de diciembre espera US$ 1.540 millones. La compañía duplicó, a más de US$ 2.000 millones, la demanda que estima para su primera CPU propia para centros de datos, diseñada con Meta. La acción llegó a caer más de 5% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://finance.biggo.com/news/86a15d33-868e-4c7d-9f1f-626f70aa235a",
+     "medio": "BigGo Finance",
+     "titulo": "Arm's fiscal Q2 revenue hits record with 27% growth, but net income nearly halves",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T06:01:00-03:00"
+    },
+    {
+     "url": "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-4-2026",
+     "medio": "TipRanks",
+     "titulo": "These Are the Stocks Reporting Earnings Today",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "snap-tercer-trimestre",
+   "seccion": "empresas",
+   "titulo": "Snap vuelve a ganar plata y vende 14% más",
+   "cuerpo": [
+    "Snap, dueña de Snapchat, facturó US$ 1.722 millones en el tercer trimestre, 14% más que un año antes, y tuvo una ganancia neta de US$ 56 millones, contra una pérdida de US$ 103 millones en el mismo período de 2025. El resultado operativo ajustado (EBITDA) más que se duplicó, a US$ 383 millones. La empresa no informó usuarios diarios en el comunicado y anunció que desde 2027 medirá su audiencia por usuarios mensuales en lugar de diarios. En los primeros nueve meses del año acumula ventas por US$ 4.850 millones, 15% más, y en el trimestre generó US$ 164 millones de flujo de caja libre. Las proyecciones para fin de año quedaron para la carta a los inversores."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://finviz.com/news/416006/snap-inc-announces-third-quarter-2026-financial-results",
+     "medio": "Snap Inc. vía Business Wire (Finviz)",
+     "titulo": "Snap Inc. Announces Third Quarter 2026 Financial Results",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T06:03:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "canva-despidos",
+   "seccion": "empresas",
+   "titulo": "Canva despide a 1.271 personas, el 22% de su plantilla",
+   "bajada": "La empresa australiana de diseño dice que es su peor año y que el costo de la IA le recortó la proyección de crecimiento.",
+   "cuerpo": [
+    "Canva anunció ayer que despide al 22% de su personal, 1.271 personas. Melanie Perkins, cofundadora y directora ejecutiva, escribió a los empleados que fue «nuestro año más difícil» y que el crecimiento se frenó por primera vez en una década. La empresa fusiona sus equipos de producto, crecimiento y plataforma, reduce especializaciones y pide a los empleados ir a la oficina algunos días por semana.",
+    "El golpe tiene dos caras de la IA. Por un lado, Canva desarrolla modelos propios para depender menos de terceros, pero el costo creciente de la IA ya la había obligado a bajar su proyección de crecimiento de ingresos de 30% a 20%. Por otro, compite con ChatGPT y Gemini, que generan carteles y presentaciones con un pedido. A comienzos de año, sus primeros inversores ya habían bajado su valuación a unos US$ 35.000 millones."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/",
+     "medio": "TechCrunch",
+     "titulo": "Canva lays off over 1,200 people amid slowing growth",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:57:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "presentan-hoy-5-nov",
+   "seccion": "breve",
+   "titulo": "Hoy presentan Cloudflare, Airbnb, Lyft y Sony",
+   "cuerpo": [
+    "La semana de resultados sigue hoy con Cloudflare, Airbnb, Unity, Lyft, Sony, Lumentum y las empresas de computación cuántica IonQ y de voz SoundHound. Mañana es el turno de Moderna y de la eléctrica Vistra."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tipranks.com/news/major-earnings-this-week-november-2-6-2026",
+     "medio": "TipRanks",
+     "titulo": "Major Earnings This Week – November 2-6, 2026",
+     "fecha_publicacion": "2026-11-01",
+     "consultado": "2026-11-05T06:02:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "qualcomm-spacex-starlink",
+   "seccion": "breve",
+   "titulo": "SpaceX elige a Qualcomm para la red 5G de Starlink Mobile",
+   "cuerpo": [
+    "En la presentación de resultados, Qualcomm contó que SpaceX la eligió para la red 5G terrestre de Starlink Mobile en Estados Unidos. El despliegue empieza en 2027 y los ingresos llegarían sobre todo desde el año fiscal 2028. No se informó el monto."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.marketbeat.com/instant-alerts/earnings-qualcomm-nasdaq-qcom-posts-earnings-results-2026-11-04/",
+     "medio": "MarketBeat",
+     "titulo": "Qualcomm (NASDAQ:QCOM) Posts Earnings Results",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-05T05:58:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "laika-wildwood-caras",
+   "seccion": "impresion3d",
+   "titulo": "Más de 142.000 caras impresas en 3D dan vida a los personajes de Wildwood",
+   "bajada": "La nueva película de LAIKA, que hoy se estrena en Alemania, usa impresoras a todo color para cada gesto de sus muñecos.",
+   "cuerpo": [
+    "LAIKA, el estudio de animación cuadro por cuadro de Oregón, imprimió más de 142.000 expresiones faciales para Wildwood, su sexto largometraje, que se estrenó el 23 de octubre en Estados Unidos y llega hoy a los cines de Alemania. La técnica es la animación por reemplazo: en lugar de mover la cara de un muñeco, se cambia por otra pieza con un gesto apenas distinto, hasta 24 por segundo de película.",
+    "Las caras salieron de impresoras Stratasys J750 y J850, que trabajan con chorros de resina en miles de colores, y de Cuttlefish, un controlador desarrollado por el Instituto Fraunhofer IGD de Darmstadt que traduce los colores y la translucidez de la piel digital a la mezcla de materiales que deposita la máquina. LAIKA y Fraunhofer trabajan juntos desde hace unos diez años; el mismo sistema se usó en Missing Link, nominada al Oscar.",
+    "El proyecto llevó años: Travis Knight, director de la película, empezó a adaptar la novela hacia 2010, la producción arrancó en 2021 y el trabajo de animación y efectos se extendió por más de cinco años. Brian McLean, director de prototipado rápido de LAIKA, sostiene que la impresión a todo color permite expresiones que serían imposibles de pintar a mano con la consistencia necesaria. El detalle técnico proviene en parte de un comunicado de Fraunhofer."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.3dnatives.com/en/wildwood-3d-printing-02112026/",
+     "medio": "3Dnatives",
+     "titulo": "More Than 142,000 3D Printed Faces Bring the Characters of Wildwood to Life",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-05T06:04:00-03:00"
+    },
+    {
+     "url": "https://www.newswire.com/news/how-full-color-3d-printing-brings-laika-s-wildwood-characters-to-life-22876525",
+     "medio": "Fraunhofer IGD vía Newswire (comunicado)",
+     "titulo": "How Full-Color 3D Printing Brings LAIKA's Wildwood Characters to Life",
+     "fecha_publicacion": "2026-10-22",
+     "consultado": "2026-11-05T06:04:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "creality-k3-envios",
+   "seccion": "impresion3d",
+   "titulo": "Creality empieza a enviar la K3, con cuatro boquillas, por US$ 849",
+   "bajada": "La impresora multicolor cambia de boquilla en unos cinco segundos; a Europa llega en diciembre.",
+   "cuerpo": [
+    "Creality comenzó el 2 de noviembre los envíos de la K3, su nueva impresora de la serie K, a quienes la habían reservado en Estados Unidos desde octubre. Cuesta desde US$ 849 y usa un sistema de cuatro boquillas que se alternan en unos cinco segundos, con cada filamento listo en su propio canal: la empresa dice que un cambio completo de material lleva menos de 15 segundos.",
+    "Tiene un volumen de 260 × 260 × 260 mm, hasta 500 mm/s de velocidad, boquilla de 300 °C y cama de 100 °C. Según pruebas propias de Creality, reduce hasta 80% el tiempo total y hasta 85% el material desperdiciado frente a las impresoras de una boquilla que purgan en cada cambio de color. Hasta el 30 de noviembre regala cuatro rollos de PLA. La tapa superior y el kit para TPU se venden aparte. Los datos son del comunicado del fabricante."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/creality-k3-now-available-at-849-making-multi-color-3d-printing-more-practical/2460557",
+     "medio": "Creality vía PR Newswire (comunicado)",
+     "titulo": "Creality K3 Now Available at $849, Making Multi-Color 3D Printing More Practical",
+     "fecha_publicacion": "2026-11-03",
+     "consultado": "2026-11-05T06:03:00-03:00"
+    },
+    {
+     "url": "https://3dprint.com/334925/creality-k3-opens-for-pre-order-at-849-advancing-multi-color-3d-printing/",
+     "medio": "3DPrint.com (contenido patrocinado)",
+     "titulo": "Creality K3 Opens for Pre-Order at $849",
+     "fecha_publicacion": "2026-10-16",
+     "consultado": "2026-11-05T06:02:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "formnext-2026-lanzamientos",
+   "seccion": "impresion3d",
+   "titulo": "Formnext se llena de máquinas nuevas: Nikon SLM, Stratasys y una cerámica de escritorio",
+   "bajada": "La feria de Frankfurt abre el 17 de noviembre con lanzamientos de metal, polímeros y cerámica.",
+   "cuerpo": [
+    "La revista TCT adelantó lo que se verá en Formnext, la mayor feria de fabricación aditiva, que abre el martes 17 de noviembre en Frankfurt. Nikon SLM Solutions presentará ese día su serie MACHX de impresoras de metal, con varias máquinas, y Stratasys lanzará un equipo para producción en serie que todavía no nombró; además mostrará por primera vez en Europa la F870, con cámara calefaccionada de 1.000 × 610 × 610 mm.",
+    "Admatec llevará la Admaflex Discovery, una impresora de cerámica de escritorio a US$ 92.500, con pedidos desde este mes y envíos en la primavera boreal de 2027. BMF mostrará la microArch S150, con resolución óptica de 25 micrones, y Lithoz un paquete para sus equipos cerámicos que promete 60% más de resolución."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-03",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tctmagazine.com/formnext-2026-the-machine-launches-applications-not-to-miss/",
+     "medio": "TCT Magazine",
+     "titulo": "Formnext 2026: The machine launches & applications not to miss!",
+     "fecha_publicacion": "2026-11-03",
+     "consultado": "2026-11-05T06:03:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "iot-lentes-luz",
+   "seccion": "impresion3d",
+   "titulo": "Una empresa española imprime lentes progresivos con un destello de luz",
+   "cuerpo": [
+    "IOT, firma madrileña de lentes oftálmicos, presentó Light-Form, un proceso aditivo que forma un lente progresivo personalizado completo en segundos con un único destello de luz, en lugar de tallarlo y pulirlo. La empresa asegura que usa 90% menos energía, genera 76% menos residuos y no consume agua en la fabricación, y que la primera aplicación comercial ya llega a los usuarios. Las cifras son de su comunicado; no hay precio ni lista de ópticas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-10-29",
+   "importancia": 2,
+   "sensible_al_tiempo": false,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://meddeviceguide.com/press-releases/iot-achieves-a-world-first-with-personalized-progressive-lenses-3d-printed-using-light-20261029ln83209",
+     "medio": "IOT vía PR Newswire (comunicado)",
+     "titulo": "IOT achieves a world first with personalized progressive lenses 3D-printed using light",
+     "fecha_publicacion": "2026-10-29",
+     "consultado": "2026-11-05T06:04:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Escalada local de privilegios",
+   "definicion": "Ataque que permite a quien ya tiene una cuenta común en un equipo obtener permisos de administrador (root).",
+   "nota_relacionada": "openai-948-exploits-linux"
+  },
+  {
+   "termino": "Hipervisor",
+   "definicion": "Software que divide un servidor físico en varias máquinas virtuales aisladas entre sí.",
+   "nota_relacionada": "claude-xen-xsa523"
+  },
+  {
+   "termino": "Regalía (royalty)",
+   "definicion": "Pago que una empresa cobra por cada unidad fabricada con su tecnología, además de la licencia inicial.",
+   "nota_relacionada": "arm-segundo-trimestre"
+  },
+  {
+   "termino": "Animación por reemplazo",
+   "definicion": "Técnica de animación cuadro por cuadro que cambia piezas enteras, como la cara de un muñeco, en lugar de moverlas.",
+   "nota_relacionada": "laika-wildwood-caras"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Mirá cuándo vence tu sesión antes de dejar Claude Code trabajando solo",
+  "donde": "Claude Code",
+  "origen": "Visto en el registro de cambios de Claude Code, recopilado por Releasebot",
+  "texto": [
+   "La versión 2.1.318 de Claude Code, del 3 de noviembre, agregó a «claude auth status» la fecha en que vence el inicio de sesión de claude.ai guardado en la computadora, y un aviso en el modo no interactivo («claude -p») que aparece diez días antes.",
+   "Sirve para scripts, tareas nocturnas o integraciones que corren sin nadie mirando: si la sesión vence en el medio, el trabajo se corta con un error de autenticación. Ahora se puede revisar antes y renovar a tiempo."
+  ],
+  "pasos": [
+   "Actualizá con «claude update» a la versión 2.1.318 o posterior.",
+   "Corré «claude auth status» y buscá el campo loginExpiresAt: es la fecha de vencimiento.",
+   "Si tus scripts usan «claude -p», revisá la salida de errores: desde diez días antes verás una línea de aviso; con salida JSON, el dato viene en credential_expires_at.",
+   "Si falta poco, volvé a iniciar sesión con «/login» antes de dejar la tarea programada."
+  ],
+  "fuentes": [
+   {
+    "url": "https://releasebot.io/updates/anthropic",
+    "medio": "Releasebot",
+    "titulo": "Anthropic Release Notes - November 2026",
+    "fecha_publicacion": "2026-11-04",
+    "consultado": "2026-11-05T05:56:00-03:00"
+   }
+  ]
+ }
+}

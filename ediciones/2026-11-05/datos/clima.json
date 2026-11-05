@@ -1,0 +1,45 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-05T08:55:00Z",
+  "fuente": "SMN vía Clarín/Vive Click (hoy) y Meteored (viernes a domingo). Consultado 05:55. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-11-05",
+      "codigo_wmo": 0,
+      "max": 26,
+      "min": 14,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 14
+    },
+    {
+      "fecha": "2026-11-06",
+      "codigo_wmo": 61,
+      "max": 23,
+      "min": 16,
+      "precip_mm": 1.2,
+      "prob_precip": 80,
+      "viento_kmh": 40
+    },
+    {
+      "fecha": "2026-11-07",
+      "codigo_wmo": 61,
+      "max": 19,
+      "min": 11,
+      "precip_mm": 0.3,
+      "prob_precip": 40,
+      "viento_kmh": 45
+    },
+    {
+      "fecha": "2026-11-08",
+      "codigo_wmo": 0,
+      "max": 21,
+      "min": 11,
+      "viento_kmh": 37
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Lluvias débiles y viento del sur con ráfagas el viernes y el sábado; fin de semana fresco",
+  "no_disponible": []
+}

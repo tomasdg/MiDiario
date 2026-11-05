@@ -1,0 +1,142 @@
+{
+  "numero": 17,
+  "fecha": "2026-11-05",
+  "cierre": "2026-11-05T05:44:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Una máquina de OpenAI fabricó en 30 horas 948 formas de tomar el control de Linux",
+      "urls": [
+        "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+        "https://startupfortune.com/openais-ai-pipeline-turned-2308-linux-kernel-bugs-into-948-root-exploits/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude encontró dos fallas graves en Xen, el programa que reparte servidores entre máquinas virtuales",
+      "urls": [
+        "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Gemini 4 Carbon pasa por un punto a Claude Opus 5.5 en el ranking de Artificial Analysis",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Meta compra Conductor, que hace trabajar a varios agentes de programación en paralelo",
+      "urls": [
+        "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Apple le baja el tope diario de gasto en IA a sus ingenieros",
+      "urls": [
+        "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Qualcomm vende menos chips para teléfonos y la acción cae más de 6% aunque superó lo esperado",
+      "urls": [
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/262276372-qualcomm-earnings-report-q4-handset-decline-automotive-growth-data-center-outlook-tradingkey",
+        "https://www.marketbeat.com/instant-alerts/earnings-qualcomm-nasdaq-qcom-posts-earnings-results-2026-11-04/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Arm factura un récord, pero las regalías crecen poco y la acción baja",
+      "urls": [
+        "https://finance.biggo.com/news/86a15d33-868e-4c7d-9f1f-626f70aa235a",
+        "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-4-2026"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Snap vuelve a ganar plata y vende 14% más",
+      "urls": [
+        "https://finviz.com/news/416006/snap-inc-announces-third-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Canva despide a 1.271 personas, el 22% de su plantilla",
+      "urls": [
+        "https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Hoy presentan Cloudflare, Airbnb, Lyft y Sony",
+      "urls": [
+        "https://www.tipranks.com/news/major-earnings-this-week-november-2-6-2026"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "SpaceX elige a Qualcomm para la red 5G de Starlink Mobile",
+      "urls": [
+        "https://www.marketbeat.com/instant-alerts/earnings-qualcomm-nasdaq-qcom-posts-earnings-results-2026-11-04/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Más de 142.000 caras impresas en 3D dan vida a los personajes de Wildwood",
+      "urls": [
+        "https://www.3dnatives.com/en/wildwood-3d-printing-02112026/",
+        "https://www.newswire.com/news/how-full-color-3d-printing-brings-laika-s-wildwood-characters-to-life-22876525"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Creality empieza a enviar la K3, con cuatro boquillas, por US$ 849",
+      "urls": [
+        "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/creality-k3-now-available-at-849-making-multi-color-3d-printing-more-practical/2460557",
+        "https://3dprint.com/334925/creality-k3-opens-for-pre-order-at-849-advancing-multi-color-3d-printing/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Formnext se llena de máquinas nuevas: Nikon SLM, Stratasys y una cerámica de escritorio",
+      "urls": [
+        "https://www.tctmagazine.com/formnext-2026-the-machine-launches-applications-not-to-miss/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una empresa española imprime lentes progresivos con un destello de luz",
+      "urls": [
+        "https://meddeviceguide.com/press-releases/iot-achieves-a-world-first-with-personalized-progressive-lenses-3d-printed-using-light-20261029ln83209"
+      ]
+    }
+  ],
+  "glosario": [
+    "Escalada local de privilegios",
+    "Hipervisor",
+    "Regalía (royalty)",
+    "Animación por reemplazo"
+  ],
+  "claude_tip": {
+    "titulo": "Mirá cuándo vence tu sesión antes de dejar Claude Code trabajando solo",
+    "urls": [
+      "https://releasebot.io/updates/anthropic"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1520,
+    "venta": 1570,
+    "fecha": "2026-11-05"
+  },
+  "fuentes_datos": [
+    "SMN vía Clarín/Vive Click (hoy) y Meteored (viernes a domingo). Consultado 05:55. MET Norway y SMN directo no respondieron",
+    "Ámbito"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-05T09:07:12.793Z"
+  }
+}
