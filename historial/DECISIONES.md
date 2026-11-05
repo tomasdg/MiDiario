@@ -97,6 +97,12 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Edición Nº 16: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 3 según Ámbito ($ 1.520 / $ 1.570), coincidente con El Destape. Clima: SMN vía La Nación para hoy y Cadena 3 de jueves a sábado; sin lluvia en mm ni viento máximo salvo hoy.
 - Claude Tip: la variable CLAUDE_CODE_SUBAGENT_EFFORT (2.1.316) se verificó en dos copias del changelog (Gradually.ai y DEV Community); la página oficial de changelog devuelta a WebFetch estaba desactualizada (llegaba a 2.1.311).
 
+## Datos de respaldo — 5 de noviembre de 2026
+
+- Edición Nº 17: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del miércoles 4 según Ámbito ($ 1.520 / $ 1.570), coincidente con Diario Río Negro. Clima: SMN vía Clarín/Vive Click para hoy y Meteored (actualizado el 4/11 08:30) de viernes a domingo, con lluvia y viento.
+- En esta corrida WebFetch sólo abrió URLs que habían aparecido antes en resultados de WebSearch; las demás quedaron bloqueadas por permiso. Varias notas se apoyan por eso en medios secundarios (The Hacker News, TradingKey, BigGo Finance) en lugar de las fuentes primarias (OpenAI, Arm, Qualcomm), que no se pudieron abrir.
+- Claude Tip: las entradas 2.1.317 y 2.1.318 del changelog se verificaron en Gradually.ai y Releasebot; la documentación oficial de code.claude.com no se pudo abrir.
+
 ## Fe de erratas pendiente
 
 (ninguna)
