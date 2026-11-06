@@ -1,0 +1,110 @@
+{
+  "generado": "2026-11-06T09:00:45.552Z",
+  "edicion": {
+    "numero": 18,
+    "fecha": "2026-11-06",
+    "cierre": "2026-11-06T05:44:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": [
+        {
+          "tipo": "fuente_ya_usada",
+          "url": "https://www.tctmagazine.com/formnext-2026-the-machine-launches-applications-not-to-miss/",
+          "edicion": "2026-11-05"
+        }
+      ]
+    },
+    "ajuste": {
+      "cuerpos": [
+        9,
+        8.5,
+        9.25,
+        8.5
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.821,
+        "mayor_rectangulo_vacio": 0.074,
+        "hueco_mm": {
+          "x": 129,
+          "y": 195,
+          "ancho": 57,
+          "alto": 67
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.942,
+        "mayor_rectangulo_vacio": 0.013,
+        "hueco_mm": {
+          "x": 43,
+          "y": 5,
+          "ancho": 143,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.847,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.897,
+        "mayor_rectangulo_vacio": 0.023,
+        "hueco_mm": {
+          "x": 62,
+          "y": 252,
+          "ancho": 62,
+          "alto": 19
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "hallazgos": [
+        "Primera versión: huecos grandes en la columna 3 de la página 3 y la columna 2 de la página 4."
+      ],
+      "correcciones": [
+        "Se agregaron dos notas de impresión 3D ya investigadas (Creality, Meltio) y cuatro breves de empresas (Qualcomm, IREN, Lam Research, Fastly). Sin superposiciones, sin texto cortado, pie y número de página presentes en las cuatro páginas."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-06/De-Villa-Urquiza-al-Mundo-N18-2026-11-06.pdf"
+}

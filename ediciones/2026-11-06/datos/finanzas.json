@@ -1,0 +1,20 @@
+{
+  "corte": "2026-11-05T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1520,
+      "venta": 1570,
+      "actualizado": "2026-11-05T18:00:00.000Z"
+    }
+  ],
+  "anterior": {
+    "compra": 1520,
+    "venta": 1570,
+    "fecha": "2026-11-05"
+  },
+  "comentario": "Cotización de cierre del jueves 5 de noviembre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "fuente": "Uno Entre Ríos/Examedia",
+  "no_disponible": []
+}

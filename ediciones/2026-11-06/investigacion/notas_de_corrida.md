@@ -1,0 +1,1 @@
+Corrida programada 2026-11-06. WebFetch no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo). Sólo se abrieron URLs aparecidas antes en resultados de WebSearch. Fuentes primarias de OpenAI y Anthropic no se pudieron abrir; se usaron medios secundarios.

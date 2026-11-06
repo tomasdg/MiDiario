@@ -1,0 +1,777 @@
+{
+ "edicion": {
+  "numero": 18,
+  "fecha": "2026-11-06",
+  "cierre": "2026-11-06T05:44:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "nasdaq-correccion-chips",
+   "seccion": "principal",
+   "titulo": "Wall Street castiga a los fabricantes de chips: el Nasdaq cae 5,5% y entra en corrección",
+   "bajada": "El índice de semiconductores tuvo su peor día desde marzo de 2020, golpeado por el temor a que los triunfos demócratas en las elecciones frenen la construcción de centros de datos para IA.",
+   "cuerpo": [
+    "La bolsa de Nueva York tuvo ayer su peor jornada en más de un año y medio. El Nasdaq Composite, donde cotizan las grandes tecnológicas, cerró con una baja de 5,5% y quedó más de 10% por debajo de su récord, lo que en la jerga del mercado se llama una corrección. El S&P 500 perdió 4,4%, su peor día desde abril de 2025, y el Dow Jones cedió 3,4%, unos 1.830 puntos, que borraron lo que había ganado el miércoles tras las elecciones de mitad de mandato en Estados Unidos.",
+    "El golpe se concentró en los chips. El fondo cotizado de semiconductores de iShares cayó más de 12%, su peor día desde marzo de 2020. Micron perdió 17,5%; AMD, 17,3%; Marvell, 16,4%; Arm, 13,1%; Broadcom e Intel, más de 10% cada una; Qualcomm, 9,5%, y Nvidia, 9,3%. También se hundieron las fabricantes de memoria y de discos, como SanDisk, Western Digital y Seagate, y las empresas que construyen la infraestructura eléctrica de los centros de datos. El índice de volatilidad VIX, el llamado termómetro del miedo, subió cerca de 70% y cerró en 28,18.",
+    "La explicación que repitieron los operadores es política. Los demócratas ganaron bancas y gobernaciones en estados clave para la expansión de la IA, incluido Texas, y el mercado teme que se endurezcan los permisos y se frene la construcción de centros de datos. Según un relevamiento de Ballotpedia citado por CNBC, de 41 consultas locales sobre centros de datos votadas el martes en diez estados, en todas menos una ganó la opción de restringirlos. Un día después, OpenAI prometió pagar el costo completo de la electricidad de los centros que construya (ver página 2). A la presión se sumó el pronóstico flojo de Qualcomm para su negocio de teléfonos.",
+    "Hay que poner la caída en contexto: el índice de chips había subido cerca de 70% en lo que iba del año hasta octubre, y la baja de ayer devuelve parte de esa suba, no toda. Para el lector argentino el efecto es directo si tiene CEDEAR de Nvidia, AMD o Micron, que siguen el precio de esas acciones en Nueva York. Fuera de hora, el humor mejoró algo: Cloudflare y Airbnb subieron con sus resultados (página 3), y el índice amplio apenas se movió en las operaciones nocturnas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.staradvertiser.com/2026/11/05/breaking-news/nasdaq-heads-for-correction-as-ai-stocks-plunge-after-midterms/",
+     "medio": "Reuters vía Honolulu Star-Advertiser",
+     "titulo": "Nasdaq heads for correction as AI stocks plunge after midterms",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+     "medio": "Investopedia vía Yahoo Finance",
+     "titulo": "Markets News, Nov. 5, 2026: Nasdaq Plunges More Than 5%, Dow Drops 1,800 Points",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Claude lee tus cuentas",
+    "resumen": "Personal Finance conecta bancos y tarjetas vía Plaid para analizar gastos, sin poder mover plata; por ahora sólo en Estados Unidos y planes pagos.",
+    "pagina": 2
+   },
+   {
+    "titulo": "OpenAI pagará la luz",
+    "resumen": "Promete cubrir toda la electricidad de sus centros de datos propios, dos días después de que los votantes rechazaran casi todas las consultas.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Cat Wu se va a OpenAI",
+    "resumen": "La responsable de producto de Claude Code liderará el área que hace Codex; es la tercera salida de ese equipo en dos semanas.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Cloudflare crece 39%",
+    "resumen": "Su mejor ritmo en casi cuatro años y una previsión anual de US$ 2.963 millones; la acción sube 15% fuera de hora.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Airbnb recomprará US$ 12.000 millones",
+    "resumen": "Vendió 19% más, las noches reservadas crecieron 16% y su propio agente de IA llegará en la primera mitad de 2027.",
+    "pagina": 3
+   },
+   {
+    "titulo": "US$ 500 millones por Clutch",
+    "resumen": "Palo Alto Networks negocia comprar la startup que vigila a los agentes de IA, a unas 50 veces sus ingresos.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Xact Metal, pedidos récord",
+    "resumen": "Crece más de 30% y toma pedidos de la XM300G, una impresora de metal mediana que se entregará a mediados de 2027.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "10 nov",
+    "texto": "Primer día posible de la gira de Anthropic ante inversores."
+   },
+   {
+    "cuando": "17 nov",
+    "texto": "Abre Formnext en Frankfurt."
+   },
+   {
+    "cuando": "30 nov",
+    "texto": "Se retira el modo rápido de Opus 4.8."
+   },
+   {
+    "cuando": "2027",
+    "texto": "Xact Metal entrega la XM300G."
+   },
+   {
+    "cuando": "1.er sem. 2027",
+    "texto": "Airbnb lanza su agente de IA."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Que otra sesión te avise.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Cloudflare sube 15%.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "Prótesis en una hora.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Chaparrones, 25°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "12%",
+   "texto": "Lo que cayó ayer el fondo de semiconductores de iShares, su peor día desde marzo de 2020."
+  }
+ },
+ "notas": [
+  {
+   "id": "claude-finanzas-personales",
+   "seccion": "ia",
+   "titulo": "Claude ya puede leer tus cuentas bancarias, pero sólo en Estados Unidos",
+   "bajada": "Anthropic lanzó en beta Personal Finance, que conecta bancos y tarjetas a través de Plaid para analizar gastos sin poder mover plata.",
+   "cuerpo": [
+    "Anthropic presentó ayer Personal Finance, una función de Claude que permite vincular cuentas bancarias y tarjetas de crédito y hacerle preguntas sobre las propias finanzas. La conexión se hace a través de Plaid, el intermediario que usan muchas aplicaciones financieras de Estados Unidos: el usuario inicia sesión en su banco dentro de Plaid y Claude nunca ve ni pide la contraseña.",
+    "Una vez conectado, Claude puede leer el nombre del banco y de cada cuenta, su tipo, los últimos cuatro dígitos, los saldos, los límites de crédito y hasta dos años de movimientos. Con eso agrupa los gastos por categoría, como alquiler y servicios, comida o compras; marca cobros duplicados, comisiones inesperadas y facturas que suben mes a mes, y explica términos como la tasa anual. También puede mostrar los datos en tableros y calendarios.",
+    "El acceso es de sólo lectura: Anthropic aclara que la función no puede mover, administrar ni invertir dinero, que no da consejos de inversión y que no tiene avisos ni recomendaciones pagas. Las conversaciones de este espacio no se usan para entrenar modelos y las cuentas se pueden desconectar en cualquier momento.",
+    "La beta empezó esta semana para los planes pagos Pro, Max y Ultra, sólo en Estados Unidos. OpenAI lanzó algo parecido en ChatGPT en mayo. En la Argentina no está disponible y Plaid no trabaja con bancos locales, así que por ahora no hay fecha para usarla acá."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+     "medio": "TechCrunch",
+     "titulo": "Claude can now analyze your spending with its new Personal Finance tool",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://9to5mac.com/2026/11/05/anthropic-upgrades-claude-with-new-personal-finance-feature/",
+     "medio": "9to5Mac",
+     "titulo": "Anthropic upgrades Claude with new Personal Finance feature",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-pacto-comunidades",
+   "seccion": "ia",
+   "titulo": "OpenAI promete pagar toda la luz de sus centros de datos tras el rechazo en las urnas",
+   "bajada": "El «Pacto Nacional con las Comunidades» llega dos días después de que los votantes rechazaran casi todas las consultas sobre centros de datos.",
+   "cuerpo": [
+    "OpenAI anunció un «Pacto Nacional con las Comunidades» por el que se compromete a pagar el costo completo de la electricidad, infraestructura incluida, de los futuros centros de datos que sea dueña y opere, y a dar garantías financieras para que los usuarios de las distribuidoras no paguen la cuenta si un proyecto se demora, se achica o se abandona.",
+    "Además promete consultar a los vecinos antes de construir, publicar el consumo de agua y electricidad, encargar estudios de ruido independientes y no firmar acuerdos de confidencialidad con funcionarios públicos. En Georgia, su acuerdo con Georgia Power permite recortarle hasta 1.000 megavatios en momentos de alta demanda. Chris Lehane, jefe de asuntos globales, pidió que estas reglas se vuelvan obligatorias por ley.",
+    "Por ahora es una promesa unilateral: no hay un mecanismo externo que la haga cumplir y sólo alcanza a los centros propios, no a los que alquila."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/",
+     "medio": "TechStartups",
+     "titulo": "OpenAI promises to pay for AI data center electricity as voters push back against rising power bills",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "cat-wu-openai",
+   "seccion": "ia",
+   "titulo": "La responsable de producto de Claude Code se pasa a OpenAI",
+   "bajada": "Cat Wu liderará la gestión de producto de Core Products, el área que hace Codex; es la tercera salida del equipo de Claude Code en dos semanas.",
+   "cuerpo": [
+    "Cat Wu, que dirigió el producto de Claude Code desde sus comienzos, anunció el miércoles que se suma a OpenAI para encabezar la gestión de producto de Core Products, el grupo responsable de Codex, el principal competidor de Claude Code. Su último día en Anthropic fue el 30 de octubre. OpenAI lo confirmó a Business Insider; Anthropic no hizo comentarios.",
+    "Según The Decoder, es la tercera persona que deja el equipo de Claude Code en dos semanas, después de Thariq Shihipar y Anthony Morris, y también se va a OpenAI Austin Lau, de marketing. La salida llega días antes de que Anthropic empiece a presentar su salida a la bolsa a inversores."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
+     "medio": "The Next Web",
+     "titulo": "Claude Code's product lead Cat Wu leaves Anthropic to join OpenAI",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/",
+     "medio": "The Decoder",
+     "titulo": "Anthropic loses product lead Catherine Wu behind Claude Code to OpenAI",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-images-26-gif",
+   "seccion": "ia",
+   "titulo": "ChatGPT ya hace GIF animados",
+   "bajada": "Images 2.6 convierte una frase o una foto en una animación corta, guarda personajes para reusarlos y suma dos modelos más rápidos a la API.",
+   "cuerpo": [
+    "OpenAI lanzó Images 2.6 en ChatGPT y Codex, para todos los planes, en la web, el escritorio y el celular. La novedad más visible es que una frase, una foto o un boceto se pueden convertir en un GIF que se repite en bucle, con velocidad ajustable y cuadros editables uno por uno. También permite guardar imágenes de referencia, como uno mismo, una mascota o un personaje, para reusarlas sin volver a subirlas.",
+    "Para desarrolladores llegan GPT-Image-2.6 Flare y Sunburst, que según OpenAI generan 50% más rápido; Flare puede entregar una imagen en seis segundos con calidad baja. Algunos desarrolladores se quejan en el foro de OpenAI de que las calidades baja y media salen más caras que con el modelo anterior. OpenAI dice que sus usuarios ya generan 4.000 millones de imágenes por semana."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/",
+     "medio": "TestingCatalog",
+     "titulo": "OpenAI launches Images 2.6 with GIFs and image reference",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://tbreak.com/chatgpt-images-2-6-gif-creation/",
+     "medio": "tbreak",
+     "titulo": "ChatGPT Images 2.6 Adds GIF Creation and Faster Models",
+     "fecha_publicacion": "2026-11-06",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-ap-licencia",
+   "seccion": "ia",
+   "titulo": "Anthropic le paga por primera vez a un medio: la agencia AP",
+   "cuerpo": [
+    "Anthropic firmó con Associated Press su primer acuerdo pago de licencia con un medio, para que Claude respondiera con datos de AP en la noche electoral del martes, según Adweek. No se conocen el monto ni la duración. En agosto, la empresa sostenía que el uso de contenido periodístico estaba amparado por el uso legítimo. Su acción cotizará en el Nasdaq como «ANT» y la presentación a inversores no podría empezar antes del 10 de noviembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-paid-news-publisher-154213329.html",
+     "medio": "24/7 Wall St. vía Yahoo Finance",
+     "titulo": "Anthropic Just Paid a News Publisher for the First Time, and It Was AP",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-compra-pierre",
+   "seccion": "ia",
+   "titulo": "OpenAI compra Pierre para guardar el código que escriben sus agentes",
+   "cuerpo": [
+    "OpenAI acordó comprar Pierre Computer, cuyo servicio Code Storage aloja repositorios Git para plataformas como Lovable y Bolt; se integrará a Codex y sus proyectos abiertos seguirán siéndolo. Axios lo leyó como un desafío a GitHub. No se informó el precio."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.unite.ai/openai-to-acquire-pierre-computer-and-bring-code-storage-to-codex/",
+     "medio": "Unite.AI",
+     "titulo": "OpenAI to Acquire Pierre Computer and Bring Code Storage to Codex",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "cloudflare-tercer-trimestre",
+   "seccion": "empresas",
+   "titulo": "Cloudflare crece 39%, su ritmo más alto en casi cuatro años, y sube 15% fuera de hora",
+   "bajada": "La empresa que protege y acelera sitios web superó los US$ 3.000 millones de facturación anualizada y mejoró su previsión para el año.",
+   "cuerpo": [
+    "Cloudflare informó ayer ingresos por US$ 782,5 millones en el tercer trimestre, 39% más que un año antes y por encima de los US$ 737 millones que esperaba el mercado. Es su crecimiento más rápido en casi cuatro años, según su director ejecutivo, Matthew Prince, que dijo que la empresa ya superó los US$ 3.000 millones de facturación anualizada. Los contratos por cobrar en los próximos doce meses crecieron 37%.",
+    "La ganancia ajustada de operación fue de US$ 137,1 millones, 17,5% de los ingresos. Con las normas contables completas, que incluyen el pago en acciones a empleados y cargos de reestructuración por US$ 11 millones, perdió US$ 67,9 millones en la operación y US$ 34,1 millones netos. La empresa anticipa una reducción de personal ligada a lo que llama su paso a un modelo operativo «primero la IA agéntica».",
+    "Para el cuarto trimestre prevé ingresos de US$ 845 a 846 millones, y para todo 2026, de unos US$ 2.963 millones. La acción, que había caído casi 10% durante la rueda, subió cerca de 15% en las operaciones posteriores al cierre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm",
+     "medio": "Cloudflare (SEC, 8-K)",
+     "titulo": "Cloudflare Announces Third Quarter 2026 Financial Results",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+     "medio": "Investopedia vía Yahoo Finance",
+     "titulo": "Markets News, Nov. 5, 2026: Nasdaq Plunges More Than 5%, Dow Drops 1,800 Points",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "airbnb-tercer-trimestre",
+   "seccion": "empresas",
+   "titulo": "Airbnb vende 19% más y anuncia recompras por US$ 12.000 millones",
+   "bajada": "Las noches reservadas crecieron 16% y la empresa mejoró su previsión anual; su propio agente de IA llegará en 2027.",
+   "cuerpo": [
+    "Airbnb facturó US$ 4.900 millones en el tercer trimestre, 19% más que un año antes, y ganó US$ 1.890 millones, contra US$ 1.374 millones de 2025. Las noches y plazas reservadas sumaron 155 millones, 16% más, con una aceleración respecto del trimestre anterior, y el valor bruto de las reservas llegó a US$ 27.700 millones.",
+    "Para el cuarto trimestre espera ingresos de US$ 3.220 a 3.280 millones y ahora prevé que el año cierre con un crecimiento «en la parte alta de la decena». El directorio aprobó recomprar hasta US$ 12.000 millones adicionales de acciones. La empresa planea lanzar su propio agente de IA en el primer semestre de 2027. La acción subió cerca de 11% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001559720/000119312526449727/d437988dex991.htm",
+     "medio": "Airbnb (SEC, 8-K)",
+     "titulo": "Airbnb Q3 2026 Shareholder Letter",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "palo-alto-clutch",
+   "seccion": "empresas",
+   "titulo": "Palo Alto Networks negocia pagar US$ 500 millones por una startup que vigila a los agentes de IA",
+   "bajada": "Clutch Security factura unos US$ 10 millones al año: el precio sería unas 50 veces sus ingresos.",
+   "cuerpo": [
+    "Palo Alto Networks está en conversaciones para comprar Clutch Security, que controla el acceso de los agentes de IA a los sistemas de una empresa, por US$ 500 millones en efectivo más pagos atados a metas, según una persona al tanto citada por TechCrunch; The Information lo informó primero. No hay acuerdo firmado y ninguna de las dos empresas hizo comentarios.",
+    "Clutch valía US$ 85 millones en enero de 2025 y se acerca a US$ 10 millones de ingresos anualizados. Sería la séptima compra del año de Palo Alto, en una carrera de las empresas de ciberseguridad por los agentes: esta semana CrowdStrike acordó comprar Fiddler AI y Dreadnode."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+     "medio": "TechCrunch",
+     "titulo": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "applovin-unity-suben",
+   "seccion": "empresas",
+   "titulo": "En el día negro, AppLovin y Unity remaron contra la corriente",
+   "cuerpo": [
+    "Dos empresas de software para videojuegos y publicidad móvil fueron la excepción de la jornada. AppLovin subió 31% después de superar lo esperado en el tercer trimestre, con una ganancia 72% mayor que un año antes y una facturación récord, US$ 100 millones por encima del techo de su propio pronóstico. Unity, el motor con el que se hacen muchos juegos de celular, subió cerca de 20%: vendió 32% más y tuvo su primer trimestre con ganancia contable desde que salió a la bolsa."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+     "medio": "Investopedia vía Yahoo Finance",
+     "titulo": "Markets News, Nov. 5, 2026: Nasdaq Plunges More Than 5%, Dow Drops 1,800 Points",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "fuera-de-hora-5-nov",
+   "seccion": "breve",
+   "titulo": "Atlassian cae 16% fuera de hora; IonQ cuadruplica sus ventas",
+   "cuerpo": [
+    "Tras el cierre, Atlassian, la empresa de Jira, cayó cerca de 16% con sus resultados. IonQ, de computación cuántica, vendió US$ 173,8 millones, 336% más, y elevó su previsión anual. Lyft reservó viajes récord pero bajó 6%."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "tejas-centros-datos",
+   "seccion": "breve",
+   "titulo": "Texas, con 27% de la capacidad planeada, elige a una gobernadora que pidió frenar centros de datos",
+   "cuerpo": [
+    "La demócrata Gina Hinojosa ganó la gobernación de Texas con la propuesta de una moratoria a los centros de datos. Según Wells Fargo, el estado concentra 27% de la capacidad planificada en Estados Unidos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://startupfortune.com/nasdaq-falls-into-correction-as-midterm-results-spook-chip-stocks/",
+     "medio": "Startup Fortune",
+     "titulo": "Nasdaq Falls Into Correction as Midterm Results Spook Chip Stocks",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "xact-metal-xm300g",
+   "seccion": "impresion3d",
+   "titulo": "Xact Metal tiene pedidos récord y ya vende su impresora de metal mediana",
+   "bajada": "La empresa de Pensilvania creció más de 30% hasta septiembre y toma pedidos de la XM300G, que se entregará a mediados de 2027.",
+   "cuerpo": [
+    "Xact Metal, un fabricante privado de Pensilvania que apunta a impresoras de metal más accesibles que las de los grandes jugadores, informó pedidos récord en el segundo y el tercer trimestre de 2026, con un crecimiento de más de 30% hasta septiembre frente al año anterior, según su director ejecutivo, Juan Mario Gómez.",
+    "La compañía empezó a enviar en el tercer trimestre la XM200G μHD, pensada para piezas muy chicas y detalladas: usa un punto láser de 25 micrones y polvo metálico de menos de 22 micrones. Ahora toma pedidos de la XM300G, una máquina de fusión láser de lecho de polvo de tamaño mediano, con un volumen de impresión de 300 × 300 × 300 milímetros que se puede ampliar a 400 milímetros de alto, y versiones de uno, dos o cuatro láseres. Las entregas se esperan para mediados de 2027.",
+    "La empresa no publicó precios. El dato de crecimiento es propio y no viene acompañado de cifras de facturación."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/336145/3d-printing-news-briefs-11-5-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, November 5, 2026: Tungsten, Color Mixing, Prosthetic Socket, & More",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "3d-systems-littleton",
+   "seccion": "impresion3d",
+   "titulo": "3D Systems abre un centro de 4.600 metros cuadrados en Colorado",
+   "cuerpo": [
+    "3D Systems inauguró un Centro de Tecnología Industrial en Littleton, Colorado, que agrega unos 50.000 pies cuadrados, alrededor de 4.600 metros cuadrados. Con esa planta, su capacidad de fabricación en Estados Unidos y Europa llega a unos 250.000 pies cuadrados. El centro tiene certificaciones para la industria aeroespacial y registro ITAR, el régimen estadounidense que habilita a trabajar en piezas de defensa, el sector que hoy empuja buena parte de la demanda de impresión de metal."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/336145/3d-printing-news-briefs-11-5-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, November 5, 2026: Tungsten, Color Mixing, Prosthetic Socket, & More",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "encaja-protesis",
+   "seccion": "impresion3d",
+   "titulo": "Un encaje de prótesis impreso que se diseña en una hora en vez de ocho",
+   "cuerpo": [
+    "Laura Echeverri-Giraldo, de la Pontificia Universidad Javeriana de Colombia, ganó una distinción del premio James Dyson con ENCAJA, un sistema de bajo costo para fabricar el encaje de prótesis de antebrazo, la pieza que une la prótesis con el muñón. Según el proyecto, reduce el tiempo de diseño de ocho horas a una, un avance pensado para países donde los técnicos ortopédicos escasean."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/336145/3d-printing-news-briefs-11-5-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, November 5, 2026: Tungsten, Color Mixing, Prosthetic Socket, & More",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "toybox-luna",
+   "seccion": "impresion3d",
+   "titulo": "Toybox lanza una impresora de cuatro colores por US$ 349",
+   "cuerpo": [
+    "Toybox, conocida por sus impresoras para chicos, presentó la Luna, de cuatro colores, a un precio de lanzamiento de US$ 349; el combo Luna Pro Mega, con cuatro rollos de filamento, cuesta US$ 385."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/336145/3d-printing-news-briefs-11-5-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, November 5, 2026: Tungsten, Color Mixing, Prosthetic Socket, & More",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-blanco-eplus3d",
+   "seccion": "impresion3d",
+   "titulo": "Snapmaker suma filamentos blancos para mezclar colores; Eplus3D se asocia con Hofmann",
+   "cuerpo": [
+    "Snapmaker vende por US$ 89 un juego de cuatro bobinas de PLA (cian, amarillo, magenta y blanco) para mezclar colores en su U1. La china Eplus3D y la alemana Hofmann CNC, que compró una máquina de metal de dos láseres EP-M300, abrirán un centro de aplicaciones en Alemania."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/336145/3d-printing-news-briefs-11-5-2026/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing News Briefs, November 5, 2026: Tungsten, Color Mixing, Prosthetic Socket, & More",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "qualcomm-fuera-telefonos",
+   "seccion": "breve",
+   "titulo": "Qualcomm apuesta a crecer más de 60% fuera de los teléfonos",
+   "cuerpo": [
+    "Tras vender 26% menos chips para celulares, en parte por menos negocio con Apple, Qualcomm dijo que espera que sus áreas ajenas a los teléfonos, como autos y centros de datos, crezcan más de 60% en el año fiscal 2027. Ayer su acción perdió 9,5%."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "iren-nube-ia",
+   "seccion": "breve",
+   "titulo": "IREN casi triplica sus ingresos de nube para IA",
+   "cuerpo": [
+    "IREN, que pasó de minar bitcoin a alquilar cómputo para IA, facturó US$ 200 millones en ese negocio, casi el triple que el trimestre anterior, y subió 10% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "lam-recompra",
+   "seccion": "breve",
+   "titulo": "Lam Research anuncia recompras por US$ 25.000 millones",
+   "cuerpo": [
+    "El fabricante de equipos para producir chips aprobó un programa de recompra de acciones por US$ 25.000 millones y subió 6% fuera de hora, después de caer con todo el sector durante la rueda."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "fastly-cae",
+   "seccion": "breve",
+   "titulo": "Fastly, rival de Cloudflare, se hunde 27%",
+   "cuerpo": [
+    "La red de distribución de contenidos Fastly cerró con una baja de 26,9% tras sus resultados, el mismo día en que su competidora Cloudflare festejaba fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-05",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 5, 2026",
+     "fecha_publicacion": "2026-11-05",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "creality-reciclado-filamento",
+   "seccion": "impresion3d",
+   "titulo": "Creality llevará a Formnext su primer sistema para reciclar filamento en casa",
+   "cuerpo": [
+    "Creality mostrará en Formnext, del 17 al 20 de noviembre en Frankfurt, el Shredder R1, que tritura piezas fallidas y restos de impresión hasta convertirlos en gránulos, y el Filament Maker M1, que los vuelve a extruir como filamento. Es el primer sistema de reciclado de escritorio de la marca, que dice haber despachado más de seis millones de impresoras a más de 140 países. No informó precio ni fecha de venta, así que por ahora es un anuncio sin datos para comparar con las recicladoras que ya existen."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-04",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/from-the-shenzhen-hq-to-formnext-in-frankfurt-its-a-new-creality/",
+     "medio": "VoxelMatters",
+     "titulo": "From the Shenzhen HQ to Formnext in Frankfurt, it's a new Creality",
+     "fecha_publicacion": "2026-11-04",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meltio-abarth",
+   "seccion": "impresion3d",
+   "titulo": "Un Abarth de carrera con un múltiple de escape impreso en metal",
+   "cuerpo": [
+    "Meltio exhibirá en Formnext un Fiat Abarth 500 de competición cuyo múltiple de escape fabricó la empresa DMZ con deposición de energía dirigida, una técnica que funde alambre metálico con láser. Según el fabricante, el montaje de esa pieza pasó de ocho horas a una, y el auto ya recorrió más de 10.000 kilómetros."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-02",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.tctmagazine.com/formnext-2026-the-machine-launches-applications-not-to-miss/",
+     "medio": "TCT Magazine",
+     "titulo": "Formnext 2026: The machine launches & applications not to miss!",
+     "fecha_publicacion": "2026-11-02",
+     "consultado": "2026-11-06T06:30:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Corrección bursátil",
+   "definicion": "Caída de 10% o más de un índice o una acción desde su máximo reciente; si pasa de 20%, se habla de mercado bajista.",
+   "nota_relacionada": "nasdaq-correccion-chips"
+  },
+  {
+   "termino": "Agregador financiero",
+   "definicion": "Servicio, como Plaid, que conecta una aplicación con las cuentas bancarias del usuario sin que la aplicación vea su contraseña.",
+   "nota_relacionada": "claude-finanzas-personales"
+  },
+  {
+   "termino": "Facturación anualizada",
+   "definicion": "Ingreso de un período corto, como un mes o un trimestre, proyectado a un año completo para mostrar el ritmo actual del negocio.",
+   "nota_relacionada": "cloudflare-tercer-trimestre"
+  },
+  {
+   "termino": "Encaje protésico",
+   "definicion": "Pieza a medida que une una prótesis con el muñón; de su ajuste depende la comodidad y el control de la prótesis.",
+   "nota_relacionada": "encaja-protesis"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Pedile a Claude Code que te avise cuando termine otra sesión",
+  "donde": "Claude Code",
+  "origen": "Visto en VibeCoding.cz y en el blog de Blake Crosley",
+  "texto": [
+   "Patrick Zandl repasó el 4 de noviembre la mensajería entre sesiones de Claude Code, que existe desde la versión 2.1.224 de agosto y poca gente usa: dos sesiones abiertas en la misma computadora pueden mandarse mensajes, y una puede pedir que le avisen cuando la otra quede libre.",
+   "Sirve cuando una sesión corre algo largo, como una migración o las pruebas, y querés seguir en otra sin estar mirando: el aviso llega una sola vez y la sesión vigilada no gasta tokens. Un mensaje nunca aprueba permisos."
+  ],
+  "pasos": [
+   "Poneles nombre a las sesiones con «/rename», por ejemplo «migracion».",
+   "En la otra sesión escribí «/peers» para ver las sesiones a las que llega.",
+   "Pedí: «avisame cuando la sesión migracion termine»; el aviso caduca a las 12 horas.",
+   "Si querés bloquear mensajes, poné «crossSessionInbound» en «refuse» en la configuración."
+  ],
+  "fuentes": [
+   {
+    "url": "https://www.vibecoding.cz/en/sessions-in-claude-code-can-talk-to-each-other/",
+    "medio": "VibeCoding.cz",
+    "titulo": "Sessions in Claude Code can talk to each other",
+    "fecha_publicacion": "2026-11-04",
+    "consultado": "2026-11-06T06:30:00-03:00"
+   },
+   {
+    "url": "https://blakecrosley.com/blog/claude-code-cross-session-messaging",
+    "medio": "Blake Crosley",
+    "titulo": "Cross-Session Messaging in Claude Code",
+    "fecha_publicacion": "2026-08-25",
+    "consultado": "2026-11-06T06:30:00-03:00"
+   }
+  ]
+ }
+}

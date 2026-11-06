@@ -1,0 +1,41 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-06T08:55:00Z",
+  "fuente": "SMN vía La Nación (hoy) y Meteored, actualizado el 4/11 08:30 (sábado a lunes; lluvia de hoy). Consultado 06:00. MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-11-06",
+      "codigo_wmo": 63,
+      "max": 25,
+      "min": 16,
+      "precip_mm": 0.5,
+      "prob_precip": 70,
+      "viento_kmh": 31
+    },
+    {
+      "fecha": "2026-11-07",
+      "codigo_wmo": 2,
+      "max": 19,
+      "min": 12,
+      "viento_kmh": 50
+    },
+    {
+      "fecha": "2026-11-08",
+      "codigo_wmo": 0,
+      "max": 20,
+      "min": 10,
+      "viento_kmh": 37
+    },
+    {
+      "fecha": "2026-11-09",
+      "codigo_wmo": 0,
+      "max": 23,
+      "min": 14,
+      "viento_kmh": 42
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Chaparrones por la tarde y viento del sur con ráfagas de hasta 50 km/h el sábado; domingo y lunes soleados. Sin alertas vigentes",
+  "no_disponible": []
+}

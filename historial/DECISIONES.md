@@ -103,6 +103,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - En esta corrida WebFetch sólo abrió URLs que habían aparecido antes en resultados de WebSearch; las demás quedaron bloqueadas por permiso. Varias notas se apoyan por eso en medios secundarios (The Hacker News, TradingKey, BigGo Finance) en lugar de las fuentes primarias (OpenAI, Arm, Qualcomm), que no se pudieron abrir.
 - Claude Tip: las entradas 2.1.317 y 2.1.318 del changelog se verificaron en Gradually.ai y Releasebot; la documentación oficial de code.claude.com no se pudo abrir.
 
+## Datos de respaldo — 6 de noviembre de 2026
+
+- Edición Nº 18: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del jueves 5 según Uno Entre Ríos/Examedia ($ 1.520 / $ 1.570), coincidente con El Destape y MinutoYA. Clima: SMN vía La Nación para hoy y Meteored (actualizado el 4/11) de sábado a lunes; sin lluvia en mm salvo hoy.
+- Como en la edición anterior, WebFetch sólo abrió URLs aparecidas antes en resultados de WebSearch: las notas de OpenAI y Anthropic se apoyan en TechCrunch, 9to5Mac, The Next Web, The Decoder y otros medios secundarios.
+
 ## Fe de erratas pendiente
 
 (ninguna)
