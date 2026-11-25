@@ -72,7 +72,7 @@ const nEd = ediciones.map(c => c.edicion.numero);
 // ---------- Fuente para NotebookLM ----------
 const L = [];
 L.push(`# ${config.nombre}: resumen de la semana del ${rango}`, '');
-L.push(`Este documento reúne lo más importante de ${ediciones.length} ediciones (Nº ${nEd[0]} a ${nEd.at(-1)}) de ${config.nombre}, un diario personal sobre inteligencia artificial, tecnología, empresas de tecnología e impresión 3D, armado en Villa Urquiza, Buenos Aires. Cada dato tiene su fuente y su fecha.`, '');
+L.push(`Este documento reúne lo más importante de ${ediciones.length} ediciones (Nº ${nEd[0]} a ${nEd.at(-1)}) de ${config.nombre}, un diario personal sobre inteligencia artificial, tecnología y empresas de tecnología, armado en Villa Urquiza, Buenos Aires. Cada dato tiene su fuente y su fecha.`, '');
 L.push(`**En una frase:** ${editorial.titulo_semana}`, "");
 L.push('## Las claves de la semana', '');
 editorial.claves.forEach((k, i) => L.push(`${i + 1}. **${k.titulo}.** ${k.texto}`));

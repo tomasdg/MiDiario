@@ -113,6 +113,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Edición Nº 29. El repositorio no tiene las ediciones Nº 19 a 28 (7 al 24 de noviembre): la página publicada mostraba la Nº 28 del 24/11, así que esas corridas no lograron subir su commit. La numeración y la anti-repetición se tomaron de esa página (variación del dólar contra la Nº 28: venta $ 1.600). En esta corrida `git push` y la escritura por la integración de GitHub dieron 403; el commit quedó sólo en la sesión. WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 24 según Ámbito ($ 1.565 / $ 1.615), venta coincidente con MinutoYA y Cadena 3. Clima: pronóstico extendido del SMN vía Canal 26 (22/11) y Perfil (25/11); sin viento máximo salvo el sábado.
 - `diario.css`: las tarjetas de clima de la página 4 usan `minmax(0, 1fr)` y guionado, porque «Parcialmente nublado» ensanchaba la columna 4 px.
 
+## Pedido del lector — 25 de noviembre de 2026
+
+- Se deja de cubrir **impresión 3D**. Se mantienen las cuatro páginas: la 3 pasa a ser **Empresas** (tres columnas) y la 4, **Tecnología** en dos columnas más la columna de dólar, clima, glosario y fe de erratas (`tecnologia_cierre` en `config/edicion.json`).
+- Se borra `pipeline/prompts/impresion3d.md`; `tecnologia_empresas.md` pide 11 a 14 notas repartidas entre las dos páginas. El esquema conserva `impresion3d` para validar ediciones viejas.
+
 ## Fe de erratas pendiente
 
 (ninguna)

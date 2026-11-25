@@ -57,7 +57,7 @@
     "ocupacion_max": 0.92,
     "mayor_rectangulo_vacio_max": 0.18,
     "ocupacion_min_por_pagina": {
-      "impresion3d_cierre": 0.74
+      "tecnologia_cierre": 0.74
     },
     "nota": "La página de cierre combina notas con cuadros de datos y admite algo menos de ocupación."
   },
@@ -78,17 +78,16 @@
     },
     {
       "pagina": 3,
-      "nombre": "tecnologia_empresas",
+      "nombre": "empresas",
       "secciones": [
-        "tecnologia",
         "empresas"
       ]
     },
     {
       "pagina": 4,
-      "nombre": "impresion3d_cierre",
+      "nombre": "tecnologia_cierre",
       "secciones": [
-        "impresion3d"
+        "tecnologia"
       ]
     }
   ],
@@ -96,8 +95,7 @@
     "breves_menores",
     "empresas_menor",
     "tecnologia_menor",
-    "ia_menor",
-    "impresion3d_menor"
+    "ia_menor"
   ],
   "nunca_recortar": [
     "portada",

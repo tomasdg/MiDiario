@@ -27,8 +27,10 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 
 1. **Portada**: nombre, número, fecha y lugar; franja con clima de hoy y mañana, dólar oficial y cifra del día; nota principal con bajada; seis o siete secundarias con remisión a página; agenda con fechas próximas; cuatro llamadas al pie.
 2. **Inteligencia artificial y Claude Tips**: modelos, herramientas, agentes, anuncios de laboratorios, regulación, seguridad. Al pie, el recuadro fijo **Claude Tips** (§2 bis).
-3. **Tecnología y empresas**: productos, software, hardware, infraestructura; resultados, compras, rondas de inversión, despidos, cambios de liderazgo, juicios.
-4. **Impresión 3D y cierre**: notas de impresión 3D en dos columnas; columna derecha con dólar oficial (compra, venta, variación contra la edición anterior), clima de cuatro días, glosario, fe de erratas y fuentes.
+3. **Empresas**: resultados, compras, rondas de inversión, despidos, cambios de liderazgo, juicios y regulación de las empresas de tecnología, en tres columnas.
+4. **Tecnología y cierre**: notas de tecnología (productos, software, hardware, infraestructura, seguridad informática) en dos columnas; columna derecha con dólar oficial (compra, venta, variación contra la edición anterior), clima de cuatro días, glosario, fe de erratas y fuentes.
+
+Desde el 25 de noviembre de 2026 el diario no cubre impresión 3D (pedido del lector); su espacio pasó a tecnología y empresas.
 
 ## 2 bis. Claude Tips
 
@@ -45,7 +47,7 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 3. No inventar datos, precios, fechas, resultados ni fuentes.
 4. Distinguir hecho, análisis y opinión (campo `tipo` de cada nota).
 5. Cada nota responde qué pasó, quién, cuándo y qué dato o documento lo prueba.
-6. Ventana de hechos: últimas 48 horas para IA, tecnología y empresas. Impresión 3D tiene menos volumen diario y admite hasta siete días, priorizando lo más reciente.
+6. Ventana de hechos: últimas 48 horas para IA, tecnología y empresas.
 7. Separar el anuncio comercial de la mejora comprobable: cifras, benchmarks, precio, disponibilidad. Si la fuente no publica un dato, decirlo. Los benchmarks propios de una empresa se presentan como tales.
 8. Si una novedad cambia algo para quien vive en Argentina (precio, disponibilidad, regulación), decirlo.
 9. No repetir notas de ediciones anteriores salvo que haya un hecho nuevo; el registro por edición lo controla.
@@ -55,7 +57,7 @@ Este documento contiene las reglas. Lo que cambia vive aparte:
 ## 4. Presupuesto de redacción
 
 - Página de flujo en tres columnas (A4, 8,5 a 9,25 pt): unas 1.250 palabras en total, títulos y bajadas incluidos. Nota de apertura 220 a 260 palabras; secundarias 90 a 160; breves 30 a 60. Nunca más de nueve notas por página.
-- Página 4: las notas ocupan dos columnas, unas 850 palabras.
+- Página 4 (tecnología): las notas ocupan dos columnas, unas 850 palabras.
 - Portada: principal de 350 a 420 palabras en cuatro párrafos; secundarias con resumen de 20 a 30 palabras; agenda de cinco a siete fechas.
 - Lo que no entra se descarta siguiendo `orden_recorte` de la configuración. Si sobra aire, se agrega un breve ya investigado, nunca relleno.
 

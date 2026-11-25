@@ -35,8 +35,7 @@ Después, correr `node pipeline/src/datos.js ediciones/$FECHA $FECHA`.
 Investigar directamente (sin subagentes), sección por sección, siguiendo `pipeline/prompts/comun.md` y el brief de cada sección:
 
 - `pipeline/prompts/ia.md` → página 2
-- `pipeline/prompts/tecnologia_empresas.md` → página 3
-- `pipeline/prompts/impresion3d.md` → página 4
+- `pipeline/prompts/tecnologia_empresas.md` → páginas 3 (empresas) y 4 (tecnología)
 - `pipeline/prompts/claude_tips.md` → recuadro Claude Tips al pie de la página 2
 
 Usar WebSearch (modo "extended" si el estándar trae poco) y abrir siempre la fuente con WebFetch. Si un sitio está bloqueado, buscar otra fuente del mismo hecho; si no hay, descartar la nota. Guardar lo encontrado en `ediciones/$FECHA/investigacion/<seccion>.json` (opcional pero recomendado).
@@ -50,7 +49,7 @@ Escribir `ediciones/$FECHA/contenido.json` según `esquema/contenido.schema.json
 - `edicion`: número, fecha, cierre, lugar "Villa Urquiza, Buenos Aires", papel "A4".
 - `finanzas`: `"@datos/finanzas.json"`; `clima`: `"@datos/clima.json"`.
 - `portada.principal`: 350 a 420 palabras en cuatro párrafos; `secundarias`: 7, con resumen de 20 a 30 palabras y `pagina`; `agenda`: 5 a 7 fechas próximas tomadas de las notas (lanzamientos, presentaciones de resultados, eventos); `llamadas`: 4, una por página interior más una de "Hoy"; `dato_del_dia`: una cifra de la edición con su explicación.
-- `notas`: con `seccion` en `ia`, `tecnologia`, `empresas` o `impresion3d`. Breves con `seccion: "breve"` y `seccion_destino`. Presupuestos en `DE_VILLA_URQUIZA_AL_MUNDO.md` §4. Cada nota con `id` único, `fuentes` con `consultado` en ISO -03:00, `sensible_al_tiempo` en `true` salvo notas de impresión 3D de más de dos días.
+- `notas`: con `seccion` en `ia`, `tecnologia` o `empresas` (impresión 3D ya no se cubre desde el 25/11/2026). Breves con `seccion: "breve"` y `seccion_destino`. Presupuestos en `DE_VILLA_URQUIZA_AL_MUNDO.md` §4. Cada nota con `id` único, `fuentes` con `consultado` en ISO -03:00, `sensible_al_tiempo` en `true`.
 - `claude_tip`: el tip del día según `pipeline/prompts/claude_tips.md` (título, `donde`, `origen`, dos párrafos en `texto`, dos a cuatro `pasos`, `fuentes`). Ocupa unas 180 palabras de la página 2: descontarlas del presupuesto de esa página. En la portada, una de las cuatro llamadas es "Claude Tips".
 - `glosario`: 3 o 4 términos que aparezcan en las notas, sin repetir los de los últimos 14 días.
 - `fe_de_erratas`: lo pendiente en `historial/DECISIONES.md`, o `[]`.

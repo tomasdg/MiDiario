@@ -19,7 +19,7 @@ const FUENTES = [
 ].join('\n');
 
 const NOMBRE_SECCION = {
-  portada: 'Portada', ia: 'Inteligencia artificial y Claude Tips', tecnologia_empresas: 'Tecnología y empresas', impresion3d_cierre: 'Impresión 3D, dólar y clima',
+  portada: 'Portada', ia: 'Inteligencia artificial y Claude Tips', tecnologia_empresas: 'Tecnología y empresas', impresion3d_cierre: 'Impresión 3D, dólar y clima', empresas: 'Empresas', tecnologia_cierre: 'Tecnología, dólar y clima',
 };
 const KICKER = {
   principal: 'Nota principal', ia: 'Inteligencia artificial', tecnologia: 'Tecnología', empresas: 'Empresas', impresion3d: 'Impresión 3D', breve: 'Breve',
@@ -43,7 +43,8 @@ export function render(contenido, config, opciones = {}) {
     let cuerpo;
     switch (m.nombre) {
       case 'portada': cuerpo = portada(ctx); break;
-      case 'impresion3d_cierre': cuerpo = cierre(ctx, m.secciones, n); break;
+      case 'impresion3d_cierre':
+      case 'tecnologia_cierre': cuerpo = cierre(ctx, m.secciones, n); break;
       default: cuerpo = flujo(ctx, m.secciones, n);
     }
     const header = m.nombre === 'portada' ? masthead(ctx) :
@@ -158,7 +159,7 @@ function noDisponible(x) {
   return `<div class="nd"><b>Dato no disponible al cierre:</b> ${esc(x.dato)}. Fuente intentada: ${esc(x.fuente_intentada)}, ${esc(fechaHora(x.hora_intento))}.${x.motivo ? ` ${esc(x.motivo)}` : ''}</div>`;
 }
 
-/* ---------- Página de cierre: impresión 3D + dólar, clima, glosario y fuentes ---------- */
+/* ---------- Página de cierre: notas en dos columnas (tecnología desde el 25/11/2026) + dólar, clima, glosario y fuentes ---------- */
 function cierre(ctx, secciones, pagina) {
   const { contenido: c } = ctx;
   const f = c.finanzas, cl = c.clima;

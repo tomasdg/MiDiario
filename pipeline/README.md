@@ -12,7 +12,7 @@ Node + Playwright (Chromium). En la nube de Claude no hace falta instalar nada: 
 
 Archivos:
 
-- `src/render.js`: JSON → HTML paginado (portada, páginas de flujo en tres columnas y página de cierre con impresión 3D, dólar, clima, glosario y fuentes).
+- `src/render.js`: JSON → HTML paginado (portada, páginas de flujo en tres columnas y página de cierre con tecnología, dólar, clima, glosario y fuentes).
 - `src/icons.js` y `assets/icons/`: iconos meteorológicos por código WMO (el símbolo de MET Norway se traduce en `datos.js`).
 - `src/preflight.js`: geometría (desbordes, intersecciones, encabezados y pies) y densidad sobre el PNG de cada página.
 - `src/verificar.js`: esquema JSON (validador propio), fuentes, frescura y anti-repetición.

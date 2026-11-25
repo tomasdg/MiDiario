@@ -25,7 +25,7 @@ NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos
 ```
 
 - **claves**: las 5 historias más importantes de la semana, de todas las secciones, con su cifra principal. Sólo datos que estén en las ediciones.
-- **enfoque_notebooklm**: partir del de la semana anterior y ajustarlo a esta. Siempre: español rioplatense, público argentino interesado en tecnología, 10 a 15 minutos, abrir con las claves, profundizar en 2 o 3 historias con lo que le importa a alguien en Argentina, un momento de impresión 3D, cerrar con los Claude Tips, citar fuentes, aclarar cuando una cifra es de la propia empresa, no inventar.
+- **enfoque_notebooklm**: partir del de la semana anterior y ajustarlo a esta. Siempre: español rioplatense, público argentino interesado en tecnología, 10 a 15 minutos, abrir con las claves, profundizar en 2 o 3 historias con lo que le importa a alguien en Argentina, cerrar con los Claude Tips, citar fuentes, aclarar cuando una cifra es de la propia empresa, no inventar.
 - **youtube.titulo**: hasta 90 caracteres, con las dos o tres historias más fuertes y nombres propios que la gente busca. Terminar con "| Semana tech". Sin mayúsculas sostenidas ni signos de exclamación; nada que prometa más de lo que el video cuenta.
 - **youtube.descripcion**: dos oraciones que digan qué semana cubre y para quién es. El script agrega la lista de temas, las fuentes y la aclaración de que se hizo con IA.
 - **youtube.etiquetas**: 10 a 15, en español, mezclando temas generales y nombres propios de la semana.
