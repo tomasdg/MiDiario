@@ -1,10 +1,10 @@
-// Paquete semanal para NotebookLM y YouTube.
+// Paquete semanal para NotebookLM y Spotify.
 // Junta las ediciones de los últimos 7 días y arma:
 //   semanal/<FECHA>/fuente-notebooklm.md   texto para pegar en NotebookLM como fuente
-//   semanal/<FECHA>/web/index.html          página para publicar como Artifact (pasos, fuente y datos de YouTube con botones de copiar)
+//   semanal/<FECHA>/web/index.html          página para publicar como Artifact (pasos, fuente y datos del episodio de Spotify con botones de copiar)
 // Requiere semanal/<FECHA>/editorial.json, escrito por el modelo (ver pipeline/SEMANAL.md):
 //   { "titulo_semana", "claves": [{ "titulo", "texto" }], "enfoque_notebooklm",
-//     "youtube": { "titulo", "descripcion", "etiquetas": [], "miniatura" } }
+//     "spotify": { "titular", "descripcion" } }
 // Uso: node src/semanal.js <AAAA-MM-DD>   (fecha de cierre del resumen; incluye ese día y los 6 anteriores)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -115,19 +115,24 @@ const fuente = L.join('\n');
 fs.mkdirSync(path.join(dirSem, 'web'), { recursive: true });
 fs.writeFileSync(path.join(dirSem, 'fuente-notebooklm.md'), fuente, 'utf8');
 
-// ---------- Descripción de YouTube ----------
-const yt = editorial.youtube;
-const fuentesYt = [...new Map(notas.slice(0, 12).flatMap(n => n.fuentes.slice(0, 1)).map(f => [f.url, f])).values()];
-const descripcion = `${yt.descripcion}
+// ---------- Episodio de Spotify ----------
+// El número sale de la fecha (config.entrega.podcast.referencia): no depende de que se hayan guardado las semanas anteriores.
+const pod = config.entrega.podcast;
+const sem = Math.floor((dia(fecha) - dia(pod.referencia.fecha)) / (7 * 86400000));
+const episodio = pod.referencia.numero + sem;
+const sp = editorial.spotify;
+const tituloEp = pod.formato_titulo.replace('{numero}', episodio).replace('{titular}', sp.titular);
+const fuentesSp = [...new Map(notas.slice(0, 10).flatMap(n => n.fuentes.slice(0, 1)).map(f => [f.url, f])).values()];
+const descripcion = `${sp.descripcion}
 
 En este episodio:
 ${editorial.claves.map(k => `• ${k.titulo}`).join('\n')}
 
 Fuentes principales:
-${fuentesYt.map(f => `${f.medio}: ${f.url}`).join('\n')}
+${fuentesSp.map(f => `${f.medio}: ${f.url}`).join('\n')}
 
-Resumen generado con IA a partir de ${config.nombre}, un diario personal que se arma cada mañana con fuentes verificadas.`;
-fs.writeFileSync(path.join(dirSem, 'youtube.json'), JSON.stringify({ titulo: yt.titulo, descripcion, etiquetas: yt.etiquetas, miniatura: yt.miniatura }, null, 2), 'utf8');
+Episodio generado con IA a partir de ${config.nombre}, un diario personal que se arma cada mañana con fuentes verificadas.`;
+fs.writeFileSync(path.join(dirSem, 'spotify.json'), JSON.stringify({ episodio, titular: sp.titular, titulo: tituloEp, descripcion }, null, 2), 'utf8');
 
 // ---------- Página ----------
 const palabras = fuente.split(/\s+/).length;
@@ -165,6 +170,9 @@ h2 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 0
 .texto:focus-visible, .copiar:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
 .copiar { font: inherit; font-size: 13px; font-weight: 600; padding: 6px 14px; background: var(--marca); color: var(--hoja); border: 0; cursor: pointer; }
 .copiar.hecho { background: var(--ok); }
+.episodio { border: 2px solid var(--marca); background: var(--hoja); padding: 14px 18px; display: flex; flex-direction: column; gap: 4px; }
+.ep-num { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.ep-tit { font-family: var(--serif); font-size: clamp(22px, 4.5vw, 30px); line-height: 1.15; margin: 0; text-wrap: balance; }
 .nota { font-size: 13px; color: var(--suave); max-width: 65ch; margin: 0; }
 </style>
 <main class="hoja">
@@ -172,15 +180,19 @@ h2 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 0
     <h1>${esc(config.nombre)}</h1>
     <div class="sub"><span>Resumen semanal</span><span>${esc(rango)}</span><span>Ediciones Nº ${nEd[0]} a ${nEd.at(-1)}</span><span>${numero(notas.length)} notas · ${numero(palabras)} palabras</span></div>
   </header>
+  <section class="episodio" aria-label="Episodio">
+    <div class="ep-num">Episodio ${episodio}</div>
+    <p class="ep-tit">${esc(sp.titular)}</p>
+  </section>
   <p class="semana">${esc(editorial.titulo_semana)}</p>
   <section class="pasos">
-    <h2>Cómo hacer el video (unos 10 minutos)</h2>
+    <h2>Cómo hacer el episodio (unos 10 minutos)</h2>
     <ol>
       <li>Abrí <a href="https://notebooklm.google.com" target="_blank" rel="noopener">NotebookLM</a> con tu cuenta personal de Google y creá un cuaderno nuevo.</li>
       <li>En <b>Agregar fuente</b>, elegí <b>Texto copiado</b>, tocá <b>Copiar</b> en «Fuente para NotebookLM» acá abajo y pegalo.</li>
-      <li>En el panel de la derecha, elegí el resumen en video (o en audio, para podcast) y entrá a <b>Personalizar</b>. Copiá ahí las «Instrucciones para NotebookLM».</li>
-      <li>Generalo, miralo entero y descargalo.</li>
-      <li>En YouTube Studio, subilo con el título, la descripción y las etiquetas de abajo. Si YouTube pregunta por contenido alterado o sintético, marcá que sí: las voces son de IA.</li>
+      <li>En el panel de la derecha, elegí el resumen en audio y entrá a <b>Personalizar</b>. Copiá ahí las «Instrucciones para NotebookLM».</li>
+      <li>Generalo, escuchalo entero y descargalo.</li>
+      <li>En Spotify for Creators, creá el episodio ${episodio} con el título y la descripción de abajo.</li>
     </ol>
   </section>
   <section class="bloque"><h2>Las claves de la semana</h2>
@@ -188,10 +200,8 @@ h2 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 0
   </section>
   ${bloque('fuente', 'Fuente para NotebookLM', fuente, 'alto')}
   ${bloque('enfoque', 'Instrucciones para NotebookLM', editorial.enfoque_notebooklm)}
-  ${bloque('yt-titulo', 'Título de YouTube', yt.titulo)}
-  ${bloque('yt-desc', 'Descripción de YouTube', descripcion, 'alto')}
-  ${bloque('yt-tags', 'Etiquetas', yt.etiquetas.join(', '))}
-  ${bloque('yt-mini', 'Texto para la miniatura', yt.miniatura)}
+  ${bloque('sp-titulo', 'Título del episodio en Spotify', tituloEp)}
+  ${bloque('sp-desc', 'Descripción del episodio', descripcion, 'alto')}
   <p class="nota">Cada domingo esta página se reemplaza por la semana nueva. El texto también queda guardado en el repositorio del diario, en semanal/${esc(fecha)}.</p>
 </main>
 <script>
@@ -206,4 +216,4 @@ document.querySelectorAll('.copiar').forEach(function (b) {
 </script>
 `;
 fs.writeFileSync(path.join(dirSem, 'web', 'index.html'), pagina, 'utf8');
-console.log(JSON.stringify({ desde, hasta: fecha, ediciones: fechas, notas: notas.length, tips: tips.length, palabras, salida: dirSem }, null, 2));
+console.log(JSON.stringify({ desde, hasta: fecha, ediciones: fechas, notas: notas.length, tips: tips.length, palabras, episodio, titulo: tituloEp, salida: dirSem }, null, 2));

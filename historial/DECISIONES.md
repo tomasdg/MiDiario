@@ -118,6 +118,12 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Se deja de cubrir **impresión 3D**. Se mantienen las cuatro páginas: la 3 pasa a ser **Empresas** (tres columnas) y la 4, **Tecnología** en dos columnas más la columna de dólar, clima, glosario y fe de erratas (`tecnologia_cierre` en `config/edicion.json`).
 - Se borra `pipeline/prompts/impresion3d.md`; `tecnologia_empresas.md` pide 11 a 14 notas repartidas entre las dos páginas. El esquema conserva `impresion3d` para validar ediciones viejas.
 
+## Podcast en Spotify con episodios numerados — 25 de noviembre de 2026
+
+- El resumen semanal se publica como podcast en Spotify, no en YouTube.
+- Título de cada episodio: "Ep. N · <titular>", con un titular corto y atractivo (ejemplo del lector: "Las urnas le pegaron a la IA").
+- El número se calcula por fecha: Ep. 4 es el domingo 29/11/2026 y suma uno por semana (confirmado por el lector).
+
 ## Fe de erratas pendiente
 
 (ninguna)

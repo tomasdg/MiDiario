@@ -1,6 +1,6 @@
-# Procedimiento del resumen semanal (NotebookLM y YouTube)
+# Procedimiento del resumen semanal (NotebookLM y Spotify)
 
-Lo ejecuta la tarea programada "De Villa Urquiza al Mundo · Semanal" los domingos a la mañana, en la nube y sin nadie mirando. No se piden confirmaciones. Arma el material para que Tom haga en NotebookLM un video o podcast de la semana y lo suba a YouTube.
+Lo ejecuta la tarea programada "De Villa Urquiza al Mundo · Semanal" los domingos a la mañana, en la nube y sin nadie mirando. No se piden confirmaciones. Arma el material para que Tom haga en NotebookLM el podcast de la semana y lo publique en Spotify como un episodio numerado.
 
 NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos 10 minutos). Este procedimiento le deja todo listo para copiar y pegar.
 
@@ -18,7 +18,7 @@ NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos
   "titulo_semana": "una oración que resuma la semana",
   "claves": [{ "titulo": "3 a 5 palabras", "texto": "una o dos oraciones con el dato concreto" }],
   "enfoque_notebooklm": "instrucciones para personalizar el resumen en NotebookLM",
-  "youtube": { "titulo": "", "descripcion": "", "etiquetas": [], "miniatura": "" },
+  "spotify": { "titular": "", "descripcion": "" },
   "excluir": [],
   "secciones": {}
 }
@@ -26,12 +26,12 @@ NotebookLM no tiene conector ni API pública: esa parte la hace Tom a mano (unos
 
 - **claves**: las 5 historias más importantes de la semana, de todas las secciones, con su cifra principal. Sólo datos que estén en las ediciones.
 - **enfoque_notebooklm**: partir del de la semana anterior y ajustarlo a esta. Siempre: español rioplatense, público argentino interesado en tecnología, 10 a 15 minutos, abrir con las claves, profundizar en 2 o 3 historias con lo que le importa a alguien en Argentina, cerrar con los Claude Tips, citar fuentes, aclarar cuando una cifra es de la propia empresa, no inventar.
-- **youtube.titulo**: hasta 90 caracteres, con las dos o tres historias más fuertes y nombres propios que la gente busca. Terminar con "| Semana tech". Sin mayúsculas sostenidas ni signos de exclamación; nada que prometa más de lo que el video cuenta.
-- **youtube.descripcion**: dos oraciones que digan qué semana cubre y para quién es. El script agrega la lista de temas, las fuentes y la aclaración de que se hizo con IA.
-- **youtube.etiquetas**: 10 a 15, en español, mezclando temas generales y nombres propios de la semana.
+- **spotify.titular**: el nombre del episodio, que va después de "Ep. N · ". Una frase corta y atractiva, de 4 a 8 palabras, que cuente la historia más fuerte de la semana o la idea que la une, al estilo de un titular de diario. Ejemplo del lector: "Las urnas le pegaron a la IA". Sin el número, sin "Semana tech", sin signos de exclamación ni mayúsculas sostenidas, y sin prometer más de lo que el episodio cuenta. No repetir el titular de semanas anteriores (`semanal/*/editorial.json`).
+- **spotify.descripcion**: dos oraciones que digan qué semana cubre y para quién es. El script agrega la lista de temas, las fuentes y la aclaración de que se hizo con IA.
 - **excluir** (opcional): lista de `id` de notas a dejar afuera de la fuente: breves de agenda que ya quedaron superados por la nota con el resultado («X presenta hoy») o anticipos de algo que la semana después contó completo.
 - **secciones** (opcional): `{ "id": "seccion" }` para corregir la sección de una nota, sobre todo de las principales, cuya sección se adivina por palabras (p. ej. una falla de seguridad que cae en IA y va en `tecnologia`).
-- **youtube.miniatura**: 3 a 6 palabras en mayúsculas, la idea más fuerte.
+
+**Número de episodio.** No se escribe: lo calcula `semanal.js` a partir de la fecha con `entrega.podcast.referencia` de `config/edicion.json` (Ep. 4 = domingo 29/11/2026, uno más por semana). Así no depende de que las semanas anteriores se hayan guardado. Si se arma a mano otro día, toma el número del domingo anterior.
 
 ## 3. Generar y revisar
 
@@ -54,11 +54,11 @@ Publicar `semanal/$FECHA/web/index.html` con la herramienta Artifact usando `url
 ## 5. Resumen final (llega por mail y al celular)
 
 ```
-Resumen semanal listo — semana del <rango>
+Episodio <número> listo — semana del <rango>
 
 <titulo_semana>
 
-Título para YouTube: <titulo>
+Ep. <número> · <titular>
 
 Abrí la página, copiá la fuente en NotebookLM y seguí los 5 pasos: <artifact_semanal_url>
 ```
