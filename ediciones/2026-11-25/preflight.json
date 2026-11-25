@@ -1,0 +1,108 @@
+{
+  "generado": "2026-11-25T09:11:02.415Z",
+  "edicion": {
+    "numero": 29,
+    "fecha": "2026-11-25",
+    "cierre": "2026-11-25T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        8.75,
+        9.75,
+        8.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.806,
+        "mayor_rectangulo_vacio": 0.069,
+        "hueco_mm": {
+          "x": 129,
+          "y": 195,
+          "ancho": 57,
+          "alto": 62
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.885,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 224,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.802,
+        "mayor_rectangulo_vacio": 0.106,
+        "hueco_mm": {
+          "x": 129,
+          "y": 176,
+          "ancho": 57,
+          "alto": 95
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.901,
+        "mayor_rectangulo_vacio": 0.023,
+        "hueco_mm": {
+          "x": 62,
+          "y": 252,
+          "ancho": 62,
+          "alto": 19
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-11-25T06:40:00-03:00",
+      "hallazgos": [
+        "Primer armado: el recuadro Claude Tips quedaba fuera de página y la variable de entorno del tip desbordaba el ancho; «Parcialmente» ensanchaba 4 px la columna de cierre.",
+        "La edición publicada del 24/11 (Nº 28, ausente del repositorio) ya cubría Nvidia/Huang, Claude Ship, CrowdStrike-Zscaler y Formnext: se reemplazaron por notas nuevas y se renumeró a Nº 29."
+      ],
+      "correcciones": [
+        "Notas acortadas y tip de tres pasos con punto de corte en la variable.",
+        "diario.css: tarjetas de clima con minmax(0, 1fr) y guionado.",
+        "Revisión final de los cuatro PNG: sin superposiciones, sin texto cortado, títulos pegados a su texto, tablas alineadas, iconos visibles, sin huecos no intencionales, pie y número de página presentes."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-25/De-Villa-Urquiza-al-Mundo-N29-2026-11-25.pdf"
+}

@@ -1,0 +1,173 @@
+{
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "cierre": "2026-11-25T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Dell duplica sus ventas y ya tiene US$ 132.300 millones en servidores de IA por entregar",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+        "https://shiftdelete.net/en/dell-q3-fy27-record-revenue-ai-backlog",
+        "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+        "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-24-2026"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "GPT-6.2 Sol llega al chat de ChatGPT, sólo para los planes pagos",
+      "urls": [
+        "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+        "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "OpenAI y Cisco liberan un escudo para Linux mientras llega el parche",
+      "urls": [
+        "https://openai.com/index/introducing-shirudo/",
+        "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Virginia y Oregón demandan a SpaceX por las imágenes sexuales de Grok",
+      "urls": [
+        "https://www.techtimes.com/articles/331385/20261123/virginia-oregon-sue-spacex-over-grok-sexual-images-allege-safety-claims-were-false.htm"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "La acción de Anthropic perfora el precio de su salida a la bolsa",
+      "urls": [
+        "https://stockanalysis.com/news/anthropic-falls-below-ipo-price-premarket/",
+        "https://finance.yahoo.com/markets/stocks/articles/anthropic-shares-briefly-fall-below-142418173.html"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Amazon cierra la compra de la tecnología de Decart",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "El asistente Muse de Meta entra a los mensajes de Instagram",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Estados Unidos pone en su lista negra a Megaspeed y a una filial de Alibaba",
+      "urls": [
+        "https://public-inspection.federalregister.gov/2026-23999.pdf",
+        "https://shiftdelete.net/en/us-entity-list-megaspeed-alibaba-apex-nvidia"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "HP vende 9% más, pero gana menos por acción",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000047217/000004721726000054/hp103126exhibit991q426.htm",
+        "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Analog Devices vende 42% más y aun así su acción se hunde 17%",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000087/adiq426exhibit991.htm",
+        "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Workday y Autodesk crecen, pero caen fuera de hora",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000057/wday-10312026x991.htm",
+        "https://www.sec.gov/Archives/edgar/data/769397/000076939726000069/q327pressrelease.htm",
+        "https://www.tradingview.com/news/seekingalpha:f56cc6898094b:0-workday-increases-full-year-subscription-revenue-well-above-estimates/",
+        "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Los chips devuelven parte de la euforia del lunes",
+      "urls": [
+        "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Ladybird, el navegador hecho desde cero, ya se puede bajar",
+      "urls": [
+        "https://ladybird.org/posts/alpha/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Bambu Lab baja el cambiador de herramientas a US$ 1.149",
+      "urls": [
+        "https://www.voxelmatters.com/bambu-lab-launches-p3c-multi-material-3d-printer/",
+        "https://www.prnewswire.com/news-releases/tool-changer-now-standard-bambu-lab-launches-the-p3c--make-true-multimaterial-3d-printing-accessible-to-all-creators-302949498.html"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "La impresión 3D factura US$ 4.580 millones en el trimestre y el metal crece más rápido",
+      "urls": [
+        "https://3dprint.com/337494/3d-printing-market-hits-4-58-billion-in-q3-metal-services-outpace-industry/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Pellets reciclados para imprimir piezas de hasta 12 metros",
+      "urls": [
+        "https://3dadept.com/printerior-recycled-lfam-pellet-grades/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Cascos de fútbol americano con relleno impreso con pellets",
+      "urls": [
+        "https://3dprint.com/337027/pollen-am-rheon-labs-bring-pellet-3d-printing-to-football-helmets/"
+      ]
+    },
+    {
+      "seccion": "impresion3d",
+      "titulo": "Una fábrica en un contenedor que imprime piezas militares con botellas recicladas",
+      "urls": [
+        "https://3dprint.com/337532/re3ds-push-to-turn-plastic-waste-into-military-parts/"
+      ]
+    }
+  ],
+  "glosario": [
+    "eBPF",
+    "Lista de Entidades",
+    "Cartera de pedidos (backlog)",
+    "Impresión de gran formato (LFAM)"
+  ],
+  "claude_tip": {
+    "titulo": "Activá Code Mode para que Claude Code encadene herramientas en un solo paso",
+    "urls": [
+      "https://code.claude.com/docs/en/code-mode.md",
+      "https://flaviocopes.com/claude-code-code-mode.md",
+      "https://www.infoq.com/news/2026/11/claude-code-mode/"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1565,
+    "venta": 1615,
+    "fecha": "2026-11-25"
+  },
+  "fuentes_datos": [
+    "SMN vía Canal 26 (22/11) y Perfil (25/11). MET Norway y SMN directo no respondieron",
+    "Ámbito, coincidente con MinutoYA"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-25T09:11:02.415Z"
+  }
+}

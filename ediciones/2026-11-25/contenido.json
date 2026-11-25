@@ -1,0 +1,675 @@
+{
+ "edicion": {
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "cierre": "2026-11-25T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "dell-tercer-trimestre",
+   "seccion": "principal",
+   "titulo": "Dell duplica sus ventas y ya tiene US$ 132.300 millones en servidores de IA por entregar",
+   "bajada": "Facturó US$ 54.900 millones en el trimestre, 103% más que hace un año, tomó pedidos de IA por 60.200 millones y subió su previsión anual a US$ 202.000 millones.",
+   "cuerpo": [
+    "Dell Technologies presentó ayer, después del cierre de Wall Street, los resultados de su tercer trimestre fiscal, terminado el 30 de octubre. Los ingresos fueron de US$ 54.937 millones, el doble que un año antes, y la ganancia ajustada llegó a US$ 9,45 por acción, contra 2,59. Las dos cifras quedaron muy por encima de lo que esperaba el mercado: según el consenso que recogía TipRanks antes del anuncio, unos US$ 49.300 millones de ingresos y US$ 6,62 por acción. Los gastos operativos ajustados equivalieron a 7% de la facturación, que la empresa describe como el nivel más bajo de sus 42 años.",
+    "El motor es la infraestructura para inteligencia artificial. La división de servidores, almacenamiento y redes vendió US$ 41.974 millones, casi el triple que hace un año, y dentro de ella los servidores optimizados para IA, los equipos cargados de chips de Nvidia que compran los centros de datos, sumaron US$ 22.031 millones, 291% más. En el trimestre Dell tomó pedidos de IA por US$ 60.200 millones y cerró con una cartera récord de US$ 132.300 millones por entregar. Dice que más de 7.500 clientes ya instalan sus «fábricas de IA». El negocio de computadoras personales, en cambio, creció apenas 3%, y la venta a consumidores cayó 15%.",
+    "Con esos números, Dell subió su previsión para el año fiscal, que termina en enero, de US$ 192.000 millones a 202.000 millones de ingresos, de los que 78.000 millones serían servidores de IA, y anticipó US$ 56.300 millones para el cuarto trimestre. También devolvió a los accionistas un récord de US$ 4.900 millones en recompras y dividendos y aprobó recompras adicionales por US$ 25.000 millones.",
+    "La acción subía alrededor de 4% en las operaciones fuera de hora, después de haber caído casi 12% durante la rueda del martes, cuando los fabricantes de chips y de equipos devolvieron parte de la suba del lunes. Las cifras confirman que el gasto en centros de datos para IA sigue en aumento, aunque la propia empresa viene advirtiendo que la escasez de memoria puede encarecer los equipos el año próximo. Ese mismo martes también presentó resultados HP, que vive de las PC y las impresoras (página 3)."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+     "medio": "Dell",
+     "titulo": "Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://shiftdelete.net/en/dell-q3-fy27-record-revenue-ai-backlog",
+     "medio": "ShiftDelete.Net",
+     "titulo": "Dell Q3 FY27: Record $54.9B Revenue, $132.3B AI Backlog",
+     "fecha_publicacion": "2026-11-25",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+     "medio": "Cappnotes",
+     "titulo": "Closing Look — Tuesday, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-24-2026",
+     "medio": "TipRanks",
+     "titulo": "These Are the Stocks Reporting Earnings Today, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "GPT-6.2 Sol, en el chat",
+    "resumen": "OpenAI lo habilita para los planes pagos de ChatGPT y dice que entiende mejor imágenes e instrucciones; GPT-5.6 Sol se va el 23 de diciembre.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Un escudo para Linux",
+    "resumen": "OpenAI y Cisco liberan Shirudo, que bloquea fallas en servidores en marcha sin reiniciarlos mientras se prepara el parche.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Demandas por Grok",
+    "resumen": "Virginia y Oregón acusan a SpaceX de prometer salvaguardas que no tenía mientras su IA generaba imágenes sexuales no consentidas.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Anthropic, bajo los US$ 83",
+    "resumen": "A cinco días del debut, la acción perforó en la preapertura del martes el precio de su salida a la bolsa.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Lista negra a Megaspeed",
+    "resumen": "Estados Unidos sanciona a siete empresas del sudeste asiático, entre ellas una filial de Alibaba, por riesgo de desvío de chips.",
+    "pagina": 3
+   },
+   {
+    "titulo": "HP vende 9% más",
+    "resumen": "Las PC para empresas crecen 23%, pero la ganancia por acción baja; las computadoras con IA ya son casi 60% de lo que despacha.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Siete cabezales, US$ 1.149",
+    "resumen": "Bambu Lab lanza la P3C, un cambiador de herramientas a menos de la mitad de precio que la H3C presentada este mes.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "26 nov",
+    "texto": "Feriado de Acción de Gracias: Wall Street no opera."
+   },
+   {
+    "cuando": "30 nov",
+    "texto": "MSCI suma la acción de Anthropic a sus índices."
+   },
+   {
+    "cuando": "1-2 dic",
+    "texto": "Huang responde ante comités de la Cámara de Representantes."
+   },
+   {
+    "cuando": "15 dic",
+    "texto": "Seminario técnico abierto sobre Shirudo."
+   },
+   {
+    "cuando": "21 dic",
+    "texto": "Anthropic entra al índice Nasdaq 100."
+   },
+   {
+    "cuando": "23 dic",
+    "texto": "GPT-5.6 Sol deja de estar en ChatGPT."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Encadená herramientas con Code Mode.",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Analog Devices cae 17%.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Impresión 3D",
+    "texto": "El metal, al rojo vivo.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Despejado, 26°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "291%",
+   "texto": "Lo que crecieron en un año las ventas de servidores para IA de Dell: US$ 22.031 millones en el trimestre."
+  }
+ },
+ "notas": [
+  {
+   "id": "gpt-62-sol-chatgpt",
+   "seccion": "ia",
+   "titulo": "GPT-6.2 Sol llega al chat de ChatGPT, sólo para los planes pagos",
+   "bajada": "OpenAI afinó el modelo para la conversación diaria y dice que entiende mejor las imágenes y las instrucciones complejas.",
+   "cuerpo": [
+    "OpenAI empezó el lunes a habilitar en la pestaña Chat de ChatGPT una versión de GPT-6.2 Sol ajustada para la conversación cotidiana, una semana después de lanzar ese modelo para Work y Codex, que no cambian. Llega a los planes Plus, Pro, Business y Enterprise; en las empresas depende de que lo habilite el administrador. Los planes gratuito y Go quedan afuera por ahora.",
+    "Según OpenAI, sigue mejor las instrucciones complejas, busca mejor en la web y lee detalles chicos en las fotos. En sus propias pruebas, la comprensión de imágenes pasa de 47,4% con GPT-6 a 71,7%, y el seguimiento de instrucciones difíciles, de 62,5% a 78,1%. También dice que cumple sus políticas de seguridad en conversaciones delicadas entre 91% y 94% de las veces, contra 77% a 80% del modelo anterior. Son mediciones de la propia empresa.",
+    "Entre los ejemplos que muestra están comparar hoteles por precio y ubicación u ofrecer un aviso cuando baje el precio de un producto. En el selector, la opción «Latest» pasa a usar GPT-6.2 en todos los niveles de razonamiento, salvo Pro. GPT-5.6 Sol se retira de ChatGPT el 23 de diciembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+     "medio": "MacRumors",
+     "titulo": "OpenAI Brings GPT-6.2 Sol to ChatGPT's Chat Tab",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/",
+     "medio": "Digital Trends",
+     "titulo": "ChatGPT is getting a chat-tuned GPT-6.2 Sol, and it can offer to watch for a price drop",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "shirudo-openai-cisco",
+   "seccion": "ia",
+   "titulo": "OpenAI y Cisco liberan un escudo para Linux mientras llega el parche",
+   "bajada": "Shirudo usa eBPF para bloquear una falla en un servidor en marcha, sin reiniciarlo, con protecciones que puede escribir Codex.",
+   "cuerpo": [
+    "OpenAI y Cisco presentaron Shirudo («escudo» en japonés), un programa de código abierto para Linux que protege servicios en funcionamiento mientras se prepara y distribuye la corrección de una vulnerabilidad. Se apoya en eBPF, una tecnología que permite cargar pequeños programas verificados dentro del núcleo del sistema.",
+    "Las protecciones, llamadas escudos, bloquean el camino de código vulnerable sin reiniciar el servicio; se pueden probar primero en modo de observación, un operador las aprueba y van firmadas criptográficamente. En una prueba controlada, un escudo generado por Codex frenó un ataque contra un servidor Elasticsearch. El código está en GitHub con licencia BSD. The Register recuerda que este año ya se reportaron más de 100.000 fallas y que más uso de Shirudo también significa más demanda de Codex."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://openai.com/index/introducing-shirudo/",
+     "medio": "OpenAI",
+     "titulo": "OpenAI and Cisco introduce Shirudo",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+     "medio": "The Register",
+     "titulo": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "grok-demandas-estados",
+   "seccion": "ia",
+   "titulo": "Virginia y Oregón demandan a SpaceX por las imágenes sexuales de Grok",
+   "bajada": "Los fiscales dicen que la empresa prometió salvaguardas que no tenía mientras su IA generaba desnudos falsos, incluso de menores.",
+   "cuerpo": [
+    "Los fiscales generales de Virginia, Jay Jones, y de Oregón, Dan Rayfield, demandaron el lunes a SpaceX, a X y a SpaceX Super Intelligence, la antigua xAI, por las imágenes sexuales no consentidas que generó el chatbot Grok. Acusan a las empresas de engañar a los consumidores al asegurar que tenían protecciones fuertes y «tolerancia cero».",
+    "Citan una estimación del Centro para Contrarrestar el Odio Digital: unos 3 millones de imágenes sexualizadas en 11 días, de las que unas 23.000 parecían mostrar menores. Piden multas, órdenes judiciales y resarcimiento para las víctimas. Las acusaciones todavía no fueron probadas en un tribunal."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.techtimes.com/articles/331385/20261123/virginia-oregon-sue-spacex-over-grok-sexual-images-allege-safety-claims-were-false.htm",
+     "medio": "Tech Times",
+     "titulo": "Virginia, Oregon Sue SpaceX Over Grok Sexual Images, Allege Safety Claims Were False",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-bajo-ipo",
+   "seccion": "ia",
+   "titulo": "La acción de Anthropic perfora el precio de su salida a la bolsa",
+   "bajada": "A cinco días del debut, cotizó por debajo de los US$ 83 en la preapertura del martes.",
+   "cuerpo": [
+    "Anthropic, que debutó en el Nasdaq el jueves 19 con una apertura de US$ 111,50, 34% por encima del precio de colocación, cotizó el martes antes de la apertura por debajo de los US$ 83 de su salida a la bolsa. Había cerrado el lunes en US$ 87,64, con una baja de 1,4%, el mismo día en que Nvidia subía 31%.",
+    "Según un formulario presentado el lunes, Dario Amodei vendió 3,4 millones de acciones a los colocadores al precio de la oferta, por unos US$ 280 millones, y su hermana Daniela, presidenta de la empresa, la misma cantidad. MSCI sumará la acción a sus índices el 30 de noviembre."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://stockanalysis.com/news/anthropic-falls-below-ipo-price-premarket/",
+     "medio": "StockAnalysis",
+     "titulo": "Anthropic falls 5% premarket, dipping below its $83 IPO price, as the AI rally tapers off",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-shares-briefly-fall-below-142418173.html",
+     "medio": "Yahoo Finance",
+     "titulo": "Anthropic Shares Briefly Fall Below US$83 IPO Price as Post-Listing Gains Fade",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "amazon-decart",
+   "seccion": "ia",
+   "titulo": "Amazon cierra la compra de la tecnología de Decart",
+   "cuerpo": [
+    "Lo que ayer eran negociaciones avanzadas ya es un hecho: Amazon se queda con el software de optimización de Decart, que hace correr modelos de IA de forma eficiente en chips de distintas marcas, y con su equipo fundador. Bloomberg calcula el precio en US$ 7.500 millones. Amazon se prepara para vender sus chips Trainium a terceros."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+     "medio": "TechCrunch",
+     "titulo": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meta-muse-instagram",
+   "seccion": "ia",
+   "titulo": "El asistente Muse de Meta entra a los mensajes de Instagram",
+   "cuerpo": [
+    "Meta empezó el martes a habilitar Muse, su agente de IA, dentro de los mensajes directos de Instagram, en iOS y Android. Se le puede pedir contexto sobre una publicación, un resumen de los mensajes perdidos o que convierta un reel de receta en lista de compras. Por ahora llega a Estados Unidos, Canadá, México, Japón y Singapur; la Argentina no está en la lista."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+     "medio": "TechCrunch",
+     "titulo": "Meta brings its Muse AI assistant directly into Instagram DMs",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "megaspeed-lista-entidades",
+   "seccion": "empresas",
+   "titulo": "Estados Unidos pone en su lista negra a Megaspeed y a una filial de Alibaba",
+   "bajada": "La medida alcanza a siete empresas de Singapur, Malasia y Tailandia acusadas de riesgo de desviar chips avanzados.",
+   "cuerpo": [
+    "El Departamento de Comercio de Estados Unidos agregó a su Lista de Entidades a siete empresas del sudeste asiático: Megaspeed International y Swiftdata en Singapur; MSFusion, PT Megaspeed International y Speedmatrix en Malasia; Megaspeed (Thailand), y Apex Enterprise Solutions, la filial de Alibaba en Singapur. Desde ahora necesitan una licencia, que se presume denegada, para recibir cualquier producto sujeto a las reglas de exportación estadounidenses.",
+    "La norma, firmada el lunes 23 y publicada hoy en el Boletín Oficial de Estados Unidos, habla de un riesgo significativo de que esas empresas desvíen chips avanzados a usos o usuarios no autorizados; el texto no nombra a Nvidia ni a China. Megaspeed, fundada en 2015 como 7Road International, fue socia de nube de Nvidia en Asia desde 2023, está investigada por la Justicia estadounidense y Nvidia ya había dejado de venderle. Según una fuente citada por Reuters, Apex le pagó a Megaspeed y a otras unos US$ 4.200 millones por adelantado para alquilar capacidad de cómputo en la región.",
+    "Alibaba calificó de «errónea» la inclusión de Apex, dijo que nunca desvió chips restringidos y que irá por todas las vías legales. Malasia sostuvo que PT Megaspeed no figura como empresa local en sus registros. Comercio había resistido durante meses incluir a Megaspeed, lo que le valió críticas del secretario del Tesoro, Scott Bessent. La medida llega mientras Nvidia investiga si su presidente ejecutivo fue blanco de una operación de inteligencia vinculada a una exdirectiva de esa empresa."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+     "medio": "Federal Register",
+     "titulo": "Additions to the Entity List",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://shiftdelete.net/en/us-entity-list-megaspeed-alibaba-apex-nvidia",
+     "medio": "ShiftDelete.Net",
+     "titulo": "US Adds Megaspeed, Alibaba Unit to Entity List Over Nvidia Chips",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "hp-cuarto-trimestre",
+   "seccion": "empresas",
+   "titulo": "HP vende 9% más, pero gana menos por acción",
+   "bajada": "Las PC comerciales crecieron 23% y las computadoras con IA ya son casi 60% de lo que despacha.",
+   "cuerpo": [
+    "HP cerró su año fiscal con ventas de US$ 16.000 millones en el cuarto trimestre, 9,3% más que un año antes, empujadas por las PC para empresas, que crecieron 23%; las de consumo cayeron 7% y la impresión, 1%. La ganancia ajustada por acción bajó a US$ 0,83, desde 0,93, y el margen de las PC quedó en 3%.",
+    "Las computadoras con funciones de IA ya son casi 60% de lo que despacha. Para el año fiscal 2027 prevé ganar entre US$ 3,15 y 3,45 por acción y subió el dividendo trimestral a US$ 0,31. Bruce Broussard firma como presidente ejecutivo interino. Según Cappnotes, la acción subía cerca de 9% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000047217/000004721726000054/hp103126exhibit991q426.htm",
+     "medio": "HP",
+     "titulo": "HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+     "medio": "Cappnotes",
+     "titulo": "Closing Look — Tuesday, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "analog-devices-cuarto",
+   "seccion": "empresas",
+   "titulo": "Analog Devices vende 42% más y aun así su acción se hunde 17%",
+   "cuerpo": [
+    "El fabricante de chips analógicos facturó US$ 4.373 millones en su cuarto trimestre fiscal, 42% más, con una ganancia ajustada de US$ 4,06 por acción. Su jefe, Vincent Roche, dijo que más de dos tercios del crecimiento del año vino de mercados ajenos a la IA. La previsión de US$ 4.400 millones para el próximo trimestre decepcionó y la acción cerró con una baja de 17,4%."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000087/adiq426exhibit991.htm",
+     "medio": "Analog Devices",
+     "titulo": "Analog Devices Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+     "medio": "Cappnotes",
+     "titulo": "Closing Look — Tuesday, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "workday-autodesk",
+   "seccion": "empresas",
+   "titulo": "Workday y Autodesk crecen, pero caen fuera de hora",
+   "cuerpo": [
+    "Workday facturó US$ 2.705 millones, 11,2% más, y dijo que sus productos de IA sumaron casi US$ 150 millones en contratos nuevos, el triple que hace un año; su previsión para el próximo trimestre quedó apenas debajo de lo esperado. Autodesk vendió US$ 2.160 millones, 17% más, y subió su previsión anual. Según Cappnotes, ambas acciones bajaban cerca de 4% fuera de hora."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000057/wday-10312026x991.htm",
+     "medio": "Workday",
+     "titulo": "Workday Announces Fiscal 2027 Third Quarter Financial Results",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000069/q327pressrelease.htm",
+     "medio": "Autodesk",
+     "titulo": "Autodesk, Inc. Announces Fiscal 2027 Third Quarter Results",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.tradingview.com/news/seekingalpha:f56cc6898094b:0-workday-increases-full-year-subscription-revenue-well-above-estimates/",
+     "medio": "Seeking Alpha vía TradingView",
+     "titulo": "Workday increases full-year subscription revenue well above estimates",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+     "medio": "Cappnotes",
+     "titulo": "Closing Look — Tuesday, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "chips-devuelven-martes",
+   "seccion": "empresas",
+   "titulo": "Los chips devuelven parte de la euforia del lunes",
+   "cuerpo": [
+    "Tras el salto de 31% de Nvidia el lunes, el sector tecnológico fue el único que cayó con fuerza el martes: perdió 3,3% y el Nasdaq, 1,5%. Nvidia cedió 5,9%; Micron, 11%; Marvell, 9,1%; AMD, 8,9%, e Intel, 8,2%. HPE se hundió 16% pese a superar lo previsto, por márgenes más bajos en nube e IA."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+     "medio": "Cappnotes",
+     "titulo": "Closing Look — Tuesday, November 24, 2026",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "ladybird-alfa",
+   "seccion": "tecnologia",
+   "titulo": "Ladybird, el navegador hecho desde cero, ya se puede bajar",
+   "cuerpo": [
+    "El proyecto Ladybird publicó su primera versión alfa para macOS y Linux. Es un navegador con motor propio, que no deriva de Chromium ni de Firefox, y hasta ahora había que compilarlo a mano. Avisan que algunos sitios no van a funcionar, que se va a colgar y que todavía no ofrecen garantías de seguridad."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://ladybird.org/posts/alpha/",
+     "medio": "Ladybird",
+     "titulo": "Ladybird is now in alpha",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "bambu-p3c",
+   "seccion": "impresion3d",
+   "titulo": "Bambu Lab baja el cambiador de herramientas a US$ 1.149",
+   "bajada": "La P3C admite siete cabezales y llega tres semanas después de la H3C, que cuesta más del doble.",
+   "cuerpo": [
+    "Bambu Lab lanzó el martes la P3C, una impresora de filamento con cambiador de herramientas: en lugar de un solo cabezal que cambia de material purgando plástico, tiene varios cabezales completos que se intercambian durante la impresión. El sistema, que la marca llama Swaptek, admite siete herramientas; el combo de lanzamiento trae cinco cabezales de impresión de 0,4 mm y deja dos lugares libres para sumar otros o accesorios de corte, dibujo o grabado.",
+    "El volumen de impresión es de 256 × 256 × 260 mm. Cada cabezal tiene su propio camino de filamento y se precalienta antes de entrar, y el cambio tarda unos seis segundos. Según el comunicado, alcanza 1.400 mm/s de velocidad máxima de movimiento, imprime filamento de 1,75 y 2,85 mm y acepta materiales flexibles. El combo incluye la nueva unidad AMS 3P, que guarda y mantiene secas hasta siete bobinas; con cuatro unidades se llega a 22 colores. La boquilla llega a 300 °C y la cama, a 110 °C.",
+    "El precio sugerido es de US$ 1.149 sin impuestos con el combo AMS, y ya se puede encargar. Es menos de la mitad que la H3C, de nueve herramientas, que la marca lanzó el 3 de noviembre a US$ 2.499. Los precios para otros mercados se anuncian en cada tienda local; Bambu Lab no vende de forma oficial en la Argentina, donde estos equipos llegan por importadores con recargo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.voxelmatters.com/bambu-lab-launches-p3c-multi-material-3d-printer/",
+     "medio": "VoxelMatters",
+     "titulo": "Bambu Lab launches P3C multi-material 3D printer",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    },
+    {
+     "url": "https://www.prnewswire.com/news-releases/tool-changer-now-standard-bambu-lab-launches-the-p3c--make-true-multimaterial-3d-printing-accessible-to-all-creators-302949498.html",
+     "medio": "Bambu Lab vía PR Newswire",
+     "titulo": "Tool Changer. Now Standard. Bambu Lab Launches the P3C",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "mercado-3d-tercer-trimestre",
+   "seccion": "impresion3d",
+   "titulo": "La impresión 3D factura US$ 4.580 millones en el trimestre y el metal crece más rápido",
+   "bajada": "Un relevamiento de AM Research muestra que los servicios de impresión ya son más de la mitad del negocio.",
+   "cuerpo": [
+    "El mercado mundial de impresión 3D movió US$ 4.580 millones en el tercer trimestre de 2026, 11,6% más que un año antes, según los datos que la consultora AM Research publicó el 19 de noviembre. El metal sumó US$ 1.850 millones, contra 1.620 millones, y el plástico, que sigue siendo el segmento más grande, US$ 2.730 millones, contra 2.480 millones.",
+    "Lo que más crece son los servicios, es decir, las empresas que imprimen piezas por encargo: entre metal y plástico facturaron US$ 2.550 millones, casi 14% más y más de la mitad del total. Los servicios de metal vienen creciendo entre 14% y 19% interanual desde comienzos de 2025. Scott Dunham, de AM Research, describió al sector del metal como «al rojo vivo» y al mercado como todavía muy fragmentado."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-23",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/337494/3d-printing-market-hits-4-58-billion-in-q3-metal-services-outpace-industry/",
+     "medio": "3DPrint.com",
+     "titulo": "3D Printing Market Hits $4.58 Billion in Q3, Metal Services Outpace Industry",
+     "fecha_publicacion": "2026-11-23",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "printerior-pellets-reciclados",
+   "seccion": "impresion3d",
+   "titulo": "Pellets reciclados para imprimir piezas de hasta 12 metros",
+   "cuerpo": [
+    "La estadounidense Printerior lanzó una línea de pellets reciclados para impresión de gran formato: nueve materiales en stock, como PETG, PLA y polipropileno con fibra de vidrio o madera, y más de 35 combinaciones a pedido. Los hace con hasta 100% de residuos plásticos y recibe de vuelta las piezas usadas para triturarlas. Dice que imprimió piezas de hasta 40 pies, unos 12 metros. No publicó precios."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-20",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dadept.com/printerior-recycled-lfam-pellet-grades/",
+     "medio": "3D ADEPT Media",
+     "titulo": "Printerior launches recycled pellet grades for large-format 3D printing",
+     "fecha_publicacion": "2026-11-20",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "pollen-rheon-cascos",
+   "seccion": "impresion3d",
+   "titulo": "Cascos de fútbol americano con relleno impreso con pellets",
+   "cuerpo": [
+    "La francesa Pollen AM y la británica RHEON Labs calificaron un material en pellets para imprimir el relleno de cascos con la impresora PAM Pro. En el casco Xenith Shadow XR lograron cerca de 30% menos peso que con piezas inyectadas y, según las empresas, mejor absorción en golpes fuertes. Dicen que el costo se acerca al de la inyección, sin dar cifras."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-20",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/337027/pollen-am-rheon-labs-bring-pellet-3d-printing-to-football-helmets/",
+     "medio": "3DPrint.com",
+     "titulo": "Pollen AM & RHEON Labs Bring Pellet 3D Printing to Football Helmets",
+     "fecha_publicacion": "2026-11-20",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "re3d-gigalab",
+   "seccion": "impresion3d",
+   "titulo": "Una fábrica en un contenedor que imprime piezas militares con botellas recicladas",
+   "cuerpo": [
+    "La texana re:3D ofrece GigaLab, un contenedor que muele, seca e imprime residuos plásticos y puede funcionar sin red eléctrica. Una unidad de operaciones especiales de la Fuerza Aérea de Estados Unidos lo probó para fabricar soportes de drones y herramientas. La nota es contenido patrocinado por America Makes y no da precios."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-24",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://3dprint.com/337532/re3ds-push-to-turn-plastic-waste-into-military-parts/",
+     "medio": "3DPrint.com (contenido patrocinado)",
+     "titulo": "re:3D's Push to Turn Plastic Waste Into Military Parts",
+     "fecha_publicacion": "2026-11-24",
+     "consultado": "2026-11-25T06:00:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "eBPF",
+   "definicion": "Tecnología de Linux que permite cargar programas pequeños y verificados dentro del núcleo del sistema sin reiniciarlo ni modificar su código.",
+   "nota_relacionada": "shirudo-openai-cisco"
+  },
+  {
+   "termino": "Lista de Entidades",
+   "definicion": "Registro del Departamento de Comercio de Estados Unidos: las empresas incluidas necesitan licencia para recibir productos o tecnología estadounidense.",
+   "nota_relacionada": "megaspeed-lista-entidades"
+  },
+  {
+   "termino": "Cartera de pedidos (backlog)",
+   "definicion": "Pedidos ya firmados por clientes que la empresa todavía no entregó ni facturó; anticipa ventas de los próximos trimestres.",
+   "nota_relacionada": "dell-tercer-trimestre"
+  },
+  {
+   "termino": "Impresión de gran formato (LFAM)",
+   "definicion": "Impresión 3D de piezas de varios metros, por lo general extruyendo pellets de plástico en lugar de filamento.",
+   "nota_relacionada": "printerior-pellets-reciclados"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Activá Code Mode para que Claude Code encadene herramientas en un solo paso",
+  "donde": "Claude Code",
+  "origen": "Visto en el blog de Flavio Copes",
+  "texto": [
+   "Code Mode llegó en la versión 2.1.323 de Claude Code como función experimental: en lugar de pedir cada lectura, edición o comando por separado, Claude escribe un programa corto en JavaScript que los encadena y filtra. Flavio Copes lo probó el 18 de noviembre.",
+   "Sirve para cambios repetidos en muchos archivos: a Copes, buscar links rotos le llevó 15 segundos en vez de 35. Tus permisos y hooks siguen valiendo. No anda con «claude -p» ni en la app de escritorio."
+  ],
+  "pasos": [
+   "Actualizá con «claude update» (hace falta 2.1.323 o más).",
+   "Arrancá con «CLAUDE_CODE_EXPERIMENTAL_​CODE_MODE=1 claude» y confirmá.",
+   "Pedí: «Listá los links de los Markdown que apuntan a archivos que no existen»; con Ctrl+O ves el código."
+  ],
+  "fuentes": [
+   {
+    "url": "https://code.claude.com/docs/en/code-mode.md",
+    "medio": "Claude Code Docs",
+    "titulo": "Code Mode",
+    "fecha_publicacion": "2026-11-12",
+    "consultado": "2026-11-25T06:00:00-03:00"
+   },
+   {
+    "url": "https://flaviocopes.com/claude-code-code-mode.md",
+    "medio": "Flavio Copes",
+    "titulo": "How to use Code Mode in Claude Code",
+    "fecha_publicacion": "2026-11-18",
+    "consultado": "2026-11-25T06:00:00-03:00"
+   },
+   {
+    "url": "https://www.infoq.com/news/2026/11/claude-code-mode/",
+    "medio": "InfoQ",
+    "titulo": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+    "fecha_publicacion": "2026-11-23",
+    "consultado": "2026-11-25T06:00:00-03:00"
+   }
+  ]
+ }
+}

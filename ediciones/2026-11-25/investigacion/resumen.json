@@ -1,0 +1,11 @@
+{
+ "tema": "todas",
+ "consultado_el": "2026-11-25T06:00:00-03:00",
+ "nota": "Investigación hecha con WebSearch y WebFetch (vía agente de lectura). Las fuentes abiertas de cada nota están en contenido.json. WebFetch sólo abrió URLs aparecidas antes en resultados de WebSearch; DolarApi, MET Norway, SMN y los links de los resúmenes diarios quedaron bloqueados por permiso.",
+ "descartadas": [
+  "ScreenConnect CVE-2026-84869 (hecho del 16/11, fuera de ventana)",
+  "GLM-5.4 de Z.ai (no se pudo abrir la fuente primaria)",
+  "Signal limita agentes de IA (no se abrió la fuente)",
+  "Nvidia repone a Huang, Claude Ship, CrowdStrike-Zscaler, Formnext (ya publicados en la Nº 28 del 24/11)"
+ ]
+}

@@ -108,6 +108,11 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Edición Nº 18: WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del jueves 5 según Uno Entre Ríos/Examedia ($ 1.520 / $ 1.570), coincidente con El Destape y MinutoYA. Clima: SMN vía La Nación para hoy y Meteored (actualizado el 4/11) de sábado a lunes; sin lluvia en mm salvo hoy.
 - Como en la edición anterior, WebFetch sólo abrió URLs aparecidas antes en resultados de WebSearch: las notas de OpenAI y Anthropic se apoyan en TechCrunch, 9to5Mac, The Next Web, The Decoder y otros medios secundarios.
 
+## Datos de respaldo — 25 de noviembre de 2026
+
+- Edición Nº 29. El repositorio no tiene las ediciones Nº 19 a 28 (7 al 24 de noviembre): la página publicada mostraba la Nº 28 del 24/11, así que esas corridas no lograron subir su commit. La numeración y la anti-repetición se tomaron de esa página (variación del dólar contra la Nº 28: venta $ 1.600). En esta corrida `git push` y la escritura por la integración de GitHub dieron 403; el commit quedó sólo en la sesión. WebFetch otra vez no pudo leer DolarApi (dos intentos), las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del martes 24 según Ámbito ($ 1.565 / $ 1.615), venta coincidente con MinutoYA y Cadena 3. Clima: pronóstico extendido del SMN vía Canal 26 (22/11) y Perfil (25/11); sin viento máximo salvo el sábado.
+- `diario.css`: las tarjetas de clima de la página 4 usan `minmax(0, 1fr)` y guionado, porque «Parcialmente nublado» ensanchaba la columna 4 px.
+
 ## Fe de erratas pendiente
 
 (ninguna)
