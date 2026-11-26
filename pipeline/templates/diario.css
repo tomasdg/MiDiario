@@ -54,7 +54,7 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .art .tit { font-size: 1.32em; }
 .art.lead .tit { font-size: 1.8em; column-span: all; margin-bottom: 1mm; }
 .art.lead .kicker { column-span: all; }
-.bajada { font-style: italic; font-size: 1em; line-height: 1.2; margin: 0 0 1.1mm; color: #111; break-after: avoid; }
+.bajada { font-style: italic; font-size: 1em; line-height: 1.2; margin: 0 0 1.1mm; color: #111; break-after: avoid; break-inside: avoid; }
 .art.lead .bajada { column-span: all; font-size: 1.05em; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.2mm; margin-bottom: 1.5mm; }
 .cuerpo p:first-child::first-letter { font-weight: 700; }
 .fuente { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin: 0.4mm 0 0; text-align: left; }

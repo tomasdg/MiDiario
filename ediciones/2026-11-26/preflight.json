@@ -1,0 +1,108 @@
+{
+  "generado": "2026-11-26T09:04:49.699Z",
+  "edicion": {
+    "numero": 30,
+    "fecha": "2026-11-26",
+    "cierre": "2026-11-26T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9,
+        8.75,
+        8.75,
+        8.5
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.842,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 209,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.891,
+        "mayor_rectangulo_vacio": 0.029,
+        "hueco_mm": {
+          "x": 0,
+          "y": 248,
+          "ancho": 62,
+          "alto": 24
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.857,
+        "mayor_rectangulo_vacio": 0.037,
+        "hueco_mm": {
+          "x": 129,
+          "y": 238,
+          "ancho": 57,
+          "alto": 33
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.909,
+        "mayor_rectangulo_vacio": 0.017,
+        "hueco_mm": {
+          "x": 62,
+          "y": 257,
+          "ancho": 62,
+          "alto": 14
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-11-26T06:20:00-03:00",
+      "hallazgos": [
+        "Página 2: el recuadro Claude Tips quedaba fuera de página; se recortaron notas de IA y se quitó la de Cognition SWE-2.1.",
+        "Página 3: la nota de la rueda del miércoles desbordaba; se quitó (sus datos ya están en la principal).",
+        "Página 4: HarmonyOS y Allstate desbordaban sobre la columna de datos; se quitó Allstate y se recortaron las demás.",
+        "Página 2: las bajadas se partían entre columnas y separaban títulos de su texto; se agregó break-inside: avoid a .bajada en diario.css.",
+        "Portada: «1.er trim..» con doble punto en la agenda; se cambió por «ene-mar».",
+        "Quedan dos líneas de fuente al tope de columna (páginas 2 y 3): cosmético, sin texto cortado ni superposiciones."
+      ],
+      "correcciones": "Recortes de texto, tres notas descartadas y una regla CSS; preflight final ok con geometría y densidad aprobadas."
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-26/De-Villa-Urquiza-al-Mundo-N30-2026-11-26.pdf"
+}

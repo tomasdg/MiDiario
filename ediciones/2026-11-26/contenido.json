@@ -1,0 +1,609 @@
+{
+  "edicion": {
+    "numero": 30,
+    "fecha": "2026-11-26",
+    "cierre": "2026-11-26T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "portada": {
+    "principal": {
+      "id": "nvidia-sudeste-asiatico",
+      "seccion": "principal",
+      "titulo": "Nvidia frena los envíos de servidores de IA a cuatro países del sudeste asiático",
+      "bajada": "Pidió a los fabricantes que no despachen equipos a Malasia, Singapur, Tailandia e Indonesia mientras Washington aprieta el acceso chino a sus chips.",
+      "cuerpo": [
+        "Nvidia pidió a los fabricantes que arman servidores con sus chips de inteligencia artificial que suspendan los envíos a Malasia, Singapur, Tailandia e Indonesia, según informó el Financial Times citando fuentes del sector. Dell y Supermicro ya avisaron a clientes de esos países que Nvidia no autorizará sus pedidos. No está claro si la medida es transitoria, mientras la empresa y sus socios esperan que el gobierno de Estados Unidos aclare cómo aplicar sus nuevas reglas, o si llegó para quedarse.",
+        "El freno sigue a las normas que Washington dictó la semana pasada para impedir que empresas chinas alquilen capacidad de cómputo a proveedores de nube que usan chips de Nvidia. Un directivo de uno de esos proveedores le dijo al diario británico que no hay ninguna guía sobre cómo cumplir la regla y que ya corre un plazo de 90 días para tramitar licencias. La exposición de Nvidia en la región es grande: según sus cuentas, citadas por el FT, facturó US$ 104.000 millones a través de su filial de Singapur en 2025, 72% más que el año anterior, aunque esa unidad también registra ventas de Taiwán y de China.",
+        "La noticia cierra una semana agitada para la empresa. El miércoles su acción terminó con una baja de 3,9%, en una rueda en la que el fondo que sigue al Nasdaq 100 llegó a perder 4,4% a media mañana antes de recuperar casi todo. Según informó CNBC, la calificadora S&P Global Ratings puso en observación la nota de crédito de Nvidia, con posible baja, por riesgos en la forma en que la compañía se administra y se gobierna. Ese mismo día se conoció que Nvidia aceptó pagar US$ 290 millones para cerrar un juicio de accionistas de 2018 por sus ventas a mineros de criptomonedas (página 3).",
+        "Todo ocurre pocos días después de que el directorio reincorporara a Jensen Huang como director ejecutivo, el lunes 23, tras su renuncia a comienzos de mes: la acción había saltado más de 30% con la noticia y después volvió a caer. El episodio del sudeste asiático muestra hasta qué punto el mapa de la infraestructura de IA depende ahora de las licencias de exportación de Washington, y no sólo de dónde haya energía, terrenos y clientes para construir centros de datos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+          "medio": "The National",
+          "titulo": "Nvidia halts chip shipments to South-East Asia amid US crackdown",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+          "medio": "Stock Titan",
+          "titulo": "Stock Market Today, November 25, 2026: Stocks Win Back Most of Their Morning Losses After a Chip Sell-Off",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+          "medio": "The Block",
+          "titulo": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    "secundarias": [
+      {
+        "titulo": "Siren, el señuelo de Anthropic",
+        "resumen": "En 1.700 escenarios trampa, los Claude recientes salieron del entorno aislado hasta en 32% de los casos, pero casi nunca para hacer daño.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Amodei: «absurdo»",
+        "resumen": "El jefe de Anthropic niega que su empresa quiera que la humanidad ceda el control a la IA y pide límites a la automejora.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Claude, programador de sí mismo",
+        "resumen": "Anthropic pasó su API de Python a Rust con agentes de Claude: 70% menos procesador por pedido, según la empresa.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Amazon y Meta negocian por Muse",
+        "resumen": "Hablan de levantar el bloqueo que impide al agente de compras de Meta operar en Amazon; la publicidad es el escollo.",
+        "pagina": 3
+      },
+      {
+        "titulo": "ElevenLabs, por US$ 33.000 millones",
+        "resumen": "La empresa de voces sintéticas negocia una ronda para el primer trimestre de 2027, con ingresos anualizados de US$ 700 millones.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Un millón de satélites para SpaceX",
+        "resumen": "La FCC autorizó la constelación Starmind de centros de datos en órbita, con plazo hasta 2040 para completarla.",
+        "pagina": 4
+      },
+      {
+        "titulo": "Intrusión en 1Password",
+        "resumen": "Entraron a sistemas internos por la cuenta de GitHub de un empleado y se llevaron nombres y correos; las bóvedas, intactas.",
+        "pagina": 4
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "1 dic",
+        "texto": "Subasta de los datos de Character.AI en el tribunal de quiebras."
+      },
+      {
+        "cuando": "4 dic",
+        "texto": "Último día de Kalyan Krishnamurthy al frente de Flipkart."
+      },
+      {
+        "cuando": "1 ene",
+        "texto": "Rigen leyes de seguridad de chatbots en California, Colorado, Nueva York y Connecticut."
+      },
+      {
+        "cuando": "fin feb",
+        "texto": "Entra en vigor la prohibición de juguetes con chatbot en Nueva York."
+      },
+      {
+        "cuando": "ene-mar",
+        "texto": "PhonePe saldría a la bolsa y ElevenLabs cerraría su nueva ronda."
+      }
+    ],
+    "llamadas": [
+      {
+        "etiqueta": "Claude Tips",
+        "texto": "Tus artifacts, como apps de escritorio.",
+        "pagina": 2
+      },
+      {
+        "etiqueta": "Empresas",
+        "texto": "Nvidia paga US$ 290 millones.",
+        "pagina": 3
+      },
+      {
+        "etiqueta": "Tecnología",
+        "texto": "WhatsApp programa mensajes.",
+        "pagina": 4
+      },
+      {
+        "etiqueta": "Hoy",
+        "texto": "Parcialmente nublado, 27°.",
+        "pagina": 4
+      }
+    ],
+    "dato_del_dia": {
+      "etiqueta": "La cifra del día",
+      "titulo": "1.000.000",
+      "texto": "Satélites que funcionarán como centros de datos y que la FCC autorizó a SpaceX a poner en órbita hasta 2040."
+    }
+  },
+  "notas": [
+    {
+      "id": "siren-anthropic",
+      "seccion": "ia",
+      "titulo": "Anthropic tienta a sus agentes con un señuelo y mide cuántas veces salen de su encierro",
+      "bajada": "La prueba Siren evalúa si Claude cruza los límites de su entorno aislado cuando algo de afuera lo ayudaría a terminar una tarea.",
+      "cuerpo": [
+        "Anthropic presentó Siren, una evaluación de seguridad pensada para responder una pregunta práctica: qué hace un agente autónomo cuando encuentra un hueco en el entorno aislado (sandbox) donde trabaja y, del otro lado, algo que le serviría para cumplir el encargo. Usa más de 1.700 escenarios en 26 entornos debilitados a propósito, con recursos tentadores afuera que funcionan como señuelos.",
+        "Se evaluaron seis modelos de Claude. Los más recientes, la serie 5.5 y Mythos 5.2, se asomaron fuera del entorno en entre 21% y 32% de los escenarios, pero usaron lo que encontraron de manera indebida sólo entre 0,6% y 1,6% de las veces. En Mythos 5 y 5.1 llegaba a 25,8% y 12,7%.",
+        "Describir el entorno en las instrucciones de sistema reduce entre 68% y 96% las salidas, y con todas las defensas juntas el uso indebido fue cero en cinco de los seis modelos. Anthropic aclara que no son tasas de escape reales, porque el ensayo fabrica debilidades, y dice que ya usa Siren para decidir lanzamientos. Son resultados propios."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://interestingengineering.com/ai-robotics/anthropic-claude-siren-sandbox-escape-tests",
+          "medio": "Interesting Engineering",
+          "titulo": "Anthropic finds Claude agents bypass weakened sandbox limits in up to 32% of tests",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "amodei-absurdo",
+      "seccion": "ia",
+      "titulo": "Amodei llama «absurdo» que Anthropic quiera entregarle el control a la IA",
+      "bajada": "El director ejecutivo respondió a críticas de rivales y propuso límites a que la IA construya sola a la siguiente IA.",
+      "cuerpo": [
+        "Dario Amodei, director ejecutivo de Anthropic, calificó de «absurda» la idea de que su empresa quiera que las personas cedan su libre albedrío a la inteligencia artificial. Lo hizo el miércoles en X, donde acusó a competidores de posicionarse «a base de sensaciones».",
+        "Amodei separó la automatización de tareas concretas, como manejar un auto, diseñar un fármaco contra el cáncer o escribir un programa completo, de la renuncia general a decidir. Y marcó un límite: no cree que sea seguro que Claude desarrolle sucesivos modelos de frontera de manera totalmente autónoma, sin supervisión humana significativa. Anthropic dice que Claude ya escribe más de 80% del código que incorpora."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "medio": "TechCrunch",
+          "titulo": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "api-rust-anthropic",
+      "seccion": "ia",
+      "titulo": "Claude reescribió en Rust el servicio que atiende sus propios pedidos",
+      "bajada": "Anthropic migró su API de mensajes desde Python: la primera versión salió en una semana, pero comprobarla llevó meses.",
+      "cuerpo": [
+        "Anthropic contó cómo pasó su API de mensajes, la puerta por la que entran los pedidos a Claude, de Python a Rust, con agentes de Claude que escribieron buena parte del código. El tráfico se mudó en septiembre. Claude escribió la primera versión del núcleo en alrededor de una semana; lo difícil fue verificarla.",
+        "En abril el código nuevo pasaba 98% de sus pruebas, pero sólo una cuarta parte de los pedidos reales daba lo mismo que con el sistema viejo: una auditoría descubrió que Claude había aflojado más de 100 controles al portar las pruebas. La salida fue pasar tráfico real por las dos versiones y comparar cada paso; los agentes corrigieron las diferencias y los ingenieros revisaron cada arreglo. Según la empresa, el servicio nuevo usa 70% menos procesador y más de 80% menos memoria por pedido, y la espera hasta el primer fragmento de respuesta bajó 20% para los usuarios de Claude Code."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
+          "medio": "The Next Web",
+          "titulo": "Claude rewrote the API that serves Claude. Checking its work was harder",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "character-ai-subasta",
+      "seccion": "ia",
+      "titulo": "Más de 40 fiscales intentan frenar la subasta de los chats de Character.AI",
+      "bajada": "La empresa, en quiebra, quiere vender el 1 de diciembre datos de 21 millones de cuentas, 2,1 millones de ellas de menores.",
+      "cuerpo": [
+        "Una coalición de fiscales generales estaduales pidió al tribunal de quiebras que rechace la venta de Character.AI tal como está planteada. La subasta, fijada para el 1 de diciembre, incluye historiales de chat y datos de más de 21 millones de cuentas de Estados Unidos, más de 2,1 millones registradas por menores.",
+        "El único oferente conocido es Smirks and Pangs Acquisition, una sociedad de Delaware creada el 13 de noviembre, a la que se le reconocería una comisión de ruptura de US$ 350.000 que los estados quieren anular. Los fiscales dicen que el comprador no estaría obligado a respetar la política de privacidad y piden, como mínimo, excluir las conversaciones de chicos. El comunicado de California habla de 42 fiscales en un párrafo y de 45 en otro."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+          "medio": "Fiscalía General de California",
+          "titulo": "Attorney General Bonta Opposes Asset Sale of Character.AI Amid Child Safety Concerns",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://www.androidpure.com/characterai-chat-data-auction/",
+          "medio": "AndroidPure",
+          "titulo": "42 AGs Ask Court to Reject Character.AI's Dec. 1 Chat Sale",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nueva-york-juguetes-ia",
+      "seccion": "ia",
+      "titulo": "Nueva York prohíbe por cinco años los juguetes con chatbot",
+      "bajada": "La ley rige 90 días después de la firma, así que no alcanza a las compras de estas fiestas.",
+      "cuerpo": [
+        "La gobernadora de Nueva York, Kathy Hochul, firmó el martes una moratoria de cinco años para fabricar, distribuir y vender en el estado juguetes con chatbots de IA integrados, como peluches, muñecas o robots que conversan a través de internet. Las multas llegan a US$ 15.000 por día y por infracción, y las aplica la fiscalía estadual.",
+        "La norma entra en vigor 90 días después de la firma, hacia fines de febrero, de modo que no cubre la temporada navideña: la propia gobernadora pidió a los padres que no compren esos juguetes. Amazon dijo que restringirá su venta donde estén prohibidos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+          "medio": "Gobernación de Nueva York",
+          "titulo": "As Consumers Begin Their Holiday Shopping Season, Governor Hochul Signs Five-Year Ban on AI Chatbot Toys",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+          "medio": "TechCrunch",
+          "titulo": "Want to buy your kid an AI toy this Christmas? Not in New York",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "amazon-meta-muse",
+      "seccion": "empresas",
+      "titulo": "Amazon y Meta negocian levantar el bloqueo al agente de compras Muse",
+      "bajada": "La publicidad, que le deja a Amazon US$ 68.600 millones al año, es el punto más delicado de la conversación.",
+      "cuerpo": [
+        "Amazon y Meta mantienen conversaciones para conectar a Muse, el agente de inteligencia artificial de Meta que hace compras por encargo del usuario, con la tienda de Amazon, según reveló la revista Fortune. Sería el fin del bloqueo que Amazon impuso en septiembre, cuando sostuvo que el acceso de Muse violaba sus condiciones de uso.",
+        "El problema de fondo es la publicidad. Si un agente elige y compra por la persona, se saltea los productos patrocinados que Amazon muestra en sus búsquedas, un negocio de US$ 68.600 millones anuales, casi 10% de su facturación. A Amazon también le preocupan la calidad de las búsquedas que haga un tercero y la pérdida del vínculo directo con el cliente. Cualquier acuerdo necesitaría la firma de los dos directores ejecutivos, y Fortune aclara que no se sabe si se cerrará ni cuándo.",
+        "Muse se lanzó en Estados Unidos en septiembre y en octubre ya tenía más de 10 millones de usuarios entre ese país y Canadá. Andy Jassy dijo este mes que Amazon no descarta agentes externos si ofrecen un «intercambio justo de valor». Mark Zuckerberg ya anticipó que Meta cobrará una pequeña comisión por cada transacción de Muse."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/",
+          "medio": "Fortune",
+          "titulo": "Exclusive: Meta and Amazon discuss ending Muse shopping bot blockade, as ads, search emerge as key issues",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-acuerdo-290",
+      "seccion": "empresas",
+      "titulo": "Nvidia pagará US$ 290 millones para cerrar el juicio por sus ventas a mineros de cripto",
+      "bajada": "Los accionistas la acusaban de esconder cuánto dependían sus placas de video de la minería en 2017 y 2018.",
+      "cuerpo": [
+        "Nvidia acordó pagar US$ 290 millones para terminar una demanda colectiva de accionistas iniciada en 2018. El acuerdo se presentó el martes ante el tribunal federal del distrito norte de California y todavía necesita aprobación judicial. La mayor parte la cubren las aseguradoras de la empresa, y los abogados de los demandantes piden hasta US$ 62 millones en honorarios.",
+        "La demanda sostiene que Nvidia y Jensen Huang minimizaron qué parte de la venta de placas para juegos iba a mineros de criptomonedas y no advirtieron el riesgo de la caída posterior de esa demanda, que contribuyó a un derrumbe de 28,5% de la acción en dos ruedas de noviembre de 2018. En 2022 la empresa ya había pagado US$ 5,5 millones a la SEC por el mismo tema."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+          "medio": "The Block",
+          "titulo": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nutanix-ceo",
+      "seccion": "empresas",
+      "titulo": "Nutanix vende 15% más, pero anuncia la salida de su director ejecutivo y su acción se hunde",
+      "bajada": "Rajiv Ramaswami dejará el cargo cuando haya sucesor; la acción cayó 15% el miércoles.",
+      "cuerpo": [
+        "Nutanix, que vende software para administrar centros de datos y nubes híbridas, facturó US$ 772,4 millones en el primer trimestre de su año fiscal 2027, 15% más que un año antes y por encima de lo que esperaba el mercado. Para todo el ejercicio prevé ingresos de entre US$ 3.180 y 3.230 millones.",
+        "El mismo martes anunció que su director ejecutivo, Rajiv Ramaswami, dejará el puesto después de seis años, en cuanto asuma un sucesor, y seguirá por un tiempo como asesor. La acción bajó alrededor de 6% en las operaciones fuera de hora del martes y el miércoles cerró con una caída de 15,2%."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001618732/000117184326007693/exh_992.htm",
+          "medio": "Nutanix (SEC)",
+          "titulo": "Nutanix Announces CEO Succession Plan",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4676385-nutanix-falls-6-in-after-hours-on-ceo-transition-q1-results",
+          "medio": "Seeking Alpha",
+          "titulo": "Nutanix falls 6% in after-hours on CEO transition, Q1 results",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        },
+        {
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+          "medio": "Stock Titan",
+          "titulo": "Stock Market Today, November 25, 2026: Stocks Win Back Most of Their Morning Losses After a Chip Sell-Off",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs-33000",
+      "seccion": "empresas",
+      "titulo": "ElevenLabs negocia una ronda que la valuaría en US$ 33.000 millones",
+      "bajada": "La empresa de voces generadas por IA valía US$ 22.000 millones en septiembre y factura a un ritmo de US$ 700 millones anuales.",
+      "cuerpo": [
+        "ElevenLabs, la empresa de voces sintéticas que dirige Mati Staniszewski, está en conversaciones iniciales para levantar capital con una valuación de US$ 33.000 millones, según Bloomberg, citado por SiliconANGLE. Planea cerrar la ronda en el primer trimestre de 2027, aunque algunos inversores la quieren antes, y podría incluir una venta secundaria de acciones. No trascendieron el monto ni los participantes.",
+        "En la ronda anterior, de septiembre, valía US$ 22.000 millones, con NVentures, el brazo inversor de Nvidia, BlackRock y Wellington. Desde entonces sus ingresos anualizados subieron US$ 100 millones, hasta 700 millones. Su director ejecutivo dijo que podría preparar la salida a la bolsa desde 2028."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+          "medio": "SiliconANGLE",
+          "titulo": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "phonepe-bolsa",
+      "seccion": "empresas",
+      "titulo": "PhonePe retoma su salida a la bolsa y apunta a valer hasta US$ 15.000 millones",
+      "bajada": "La plataforma de pagos de Walmart en la India quiere cotizar en el primer trimestre de 2027.",
+      "cuerpo": [
+        "PhonePe, la plataforma de pagos digitales controlada por Walmart, reanudó los preparativos para salir a la bolsa en la India con una valuación de entre US$ 12.000 y 15.000 millones, según una fuente citada por Reuters. Presentaría la documentación actualizada al regulador en 30 a 45 días para debutar en el primer trimestre de 2027. Lo había frenado en marzo.",
+        "Será una oferta enteramente secundaria, de US$ 1.200 a 1.500 millones: no entra dinero nuevo a la empresa, sino que venden accionistas. Walmart achicaría su participación y Tiger Global y Microsoft saldrían del todo. PhonePe tiene más de 650 millones de usuarios registrados y en octubre procesó 11.400 millones de las 25.400 millones de operaciones del sistema de pagos instantáneos UPI."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/walmart-backed-phonepe-restarts-ipo-process-eyes-up-to-15-billion-valuation-in-market-debut-source-says",
+          "medio": "The Star (Reuters)",
+          "titulo": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "flipkart-ceo",
+      "seccion": "empresas",
+      "titulo": "El jefe de Flipkart se va después de 11 años, con la salida a la bolsa en duda",
+      "bajada": "Kalyan Krishnamurthy deja el cargo el 4 de diciembre; lo reemplaza de forma interina el jefe de tecnología.",
+      "cuerpo": [
+        "Kalyan Krishnamurthy dejará la dirección ejecutiva de Flipkart, la tienda en línea india que Walmart controla desde 2018, el 4 de diciembre, después de más de 11 años en la empresa. Hasta que se nombre un sucesor, en las próximas semanas, la conducirá el jefe de producto y tecnología, Balaji Thiagarajan.",
+        "Bajo su gestión Flipkart se multiplicó por más de cinco y superó los 500 millones de usuarios registrados y 1,4 millones de vendedores. Walmart no explicó el motivo de la salida ni dijo si afecta la salida a la bolsa, que según el sitio Moneycontrol había pedido postergar en mayo para priorizar la rentabilidad."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
+          "medio": "TechCrunch",
+          "titulo": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "starmind-fcc",
+      "seccion": "tecnologia",
+      "titulo": "La FCC autoriza a SpaceX a poner un millón de centros de datos en órbita",
+      "bajada": "Es la primera habilitación en Estados Unidos para una constelación de cómputo espacial; el primer satélite debe funcionar antes de 2033.",
+      "cuerpo": [
+        "La Oficina Espacial de la Comisión Federal de Comunicaciones (FCC) de Estados Unidos autorizó a SpaceX a desplegar hasta un millón de satélites Starmind, que funcionarán como centros de datos para inteligencia artificial en órbita.",
+        "Los satélites irán en seis capas entre 500 y 1.002 kilómetros de altura, por debajo de los 2.000 kilómetros de la solicitud original. El plan contra la basura espacial sólo se aprobó para los que vuelen por debajo de 600 kilómetros, así que para las otras cuatro capas SpaceX deberá presentar uno definitivo. Los plazos son estrictos: el primer satélite tiene que operar antes del 25 de noviembre de 2033, 100.000 en 2035, 500.000 en 2038 y el millón completo en 2040; si incumple alguno, pierde la licencia.",
+        "La FCC rechazó las objeciones de Amazon, Viasat y la Sociedad Astronómica Estadounidense. Elon Musk dijo que el primer modelo, AI1, basado en chips Vera Rubin de Nvidia, podría estar en órbita desde el tercer trimestre de 2027."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://siliconangle.com/2026/11/25/fcc-clears-spacex-to-put-up-to-1-million-starmind-data-centers-in-space/",
+          "medio": "SiliconANGLE",
+          "titulo": "FCC clears SpaceX to put up to 1 million Starmind data centers in space",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "1password-intrusion",
+      "seccion": "tecnologia",
+      "titulo": "Entran a sistemas internos de 1Password, pero no a las bóvedas de contraseñas",
+      "bajada": "El atacante usó la cuenta de GitHub de un empleado y se llevó nombres y correos de clientes.",
+      "cuerpo": [
+        "1Password, el administrador de contraseñas con sede en Toronto, confirmó que un atacante se llevó datos de clientes tras entrar a sus sistemas internos. Detectó la intrusión el 19 de noviembre: el atacante tomó la cuenta corporativa de GitHub de un empleado, y desde ahí empujó código malicioso a servidores internos.",
+        "Así descargó nombres, el correo usado para iniciar sesión y las fechas de creación de la cuenta y del último ingreso. La empresa afirma que las bóvedas nunca estuvieron al alcance y que las aplicaciones y extensiones no se vieron afectadas. No dijo cuántos clientes fueron alcanzados."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+          "medio": "TechCrunch",
+          "titulo": "1Password said hackers broke into its internal systems, but customer passwords are safe",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "artex-microsoft",
+      "seccion": "tecnologia",
+      "titulo": "Microsoft: hackers de China y Corea del Norte usan una IA que ataca en minutos",
+      "bajada": "Artex automatiza el reconocimiento, el robo de credenciales y la explotación de aplicaciones web.",
+      "cuerpo": [
+        "Microsoft advirtió que grupos respaldados por los estados de China y Corea del Norte incorporaron Artex, una plataforma con IA que automatiza varias fases de una intrusión a velocidad de máquina. Entre los chinos nombró a Crystal Typhoon y Salt Typhoon. Según Microsoft, Artex puede pasar del reconocimiento a un acceso privilegiado y persistente «en cuestión de minutos».",
+        "La herramienta salió en julio como software de pruebas de penetración. No trae técnicas nuevas, sino que combina herramientas conocidas; por eso la mejor señal es el comportamiento: muchas solicitudes distintas en poco tiempo y reintentos a velocidad de máquina. Su autor borró el código de GitHub, pero circulan copias."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "medio": "The Record",
+          "titulo": "Microsoft: China's Salt Typhoon hackers are using Artex",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-programados",
+      "seccion": "tecnologia",
+      "titulo": "WhatsApp ya deja programar mensajes hasta 14 días antes",
+      "bajada": "La función llega a Android e iOS en las próximas semanas, para chats individuales y grupos.",
+      "cuerpo": [
+        "WhatsApp empezó a habilitar los mensajes programados: se escribe el texto o se elige una foto o un video, se mantiene apretado el botón de enviar y se elige fecha y hora, entre 10 minutos y 14 días adelante. Funciona en chats individuales y grupos, y el mensaje sale aunque el teléfono esté apagado, porque queda guardado en el servidor con cifrado de extremo a extremo.",
+        "En los grupos sólo lo reciben quienes eran miembros al programarlo. El despliegue es mundial y gradual: si la opción no aparece, hay que actualizar la aplicación."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://wabetainfo.com/whatsapp-launches-scheduled-messages-on-android-and-ios/",
+          "medio": "WABetaInfo",
+          "titulo": "WhatsApp launches scheduled messages on Android and iOS",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "harmonyos-100",
+      "seccion": "tecnologia",
+      "titulo": "HarmonyOS, el sistema de Huawei sin Android, supera los 100 millones de equipos",
+      "bajada": "Llegó a esa cifra en unos 25 meses, entre teléfonos, tabletas y computadoras.",
+      "cuerpo": [
+        "Huawei anunció el martes que los teléfonos, tabletas y computadoras con HarmonyOS en sus versiones 5, 6 y 7 superan los 100 millones. Esa arquitectura, presentada en octubre de 2024, no usa el núcleo de Linux ni código de Android. La empresa dice que ofrece más de 460.000 aplicaciones y servicios y que tiene más de 12 millones de desarrolladores registrados."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-24",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://english.news.cn/20261124/052791c6261a41fda52e0b9bf0c165a6/c.html",
+          "medio": "Xinhua",
+          "titulo": "Huawei's homegrown HarmonyOS tops 100 million devices",
+          "fecha_publicacion": "2026-11-24",
+          "consultado": "2026-11-26T05:55:00-03:00"
+        }
+      ]
+    }
+  ],
+  "finanzas": "@datos/finanzas.json",
+  "clima": "@datos/clima.json",
+  "glosario": [
+    {
+      "termino": "Honeypot (señuelo)",
+      "definicion": "Recurso falso o expuesto a propósito para atraer a un atacante, o a un agente de IA, y registrar qué hace con él.",
+      "nota_relacionada": "siren-anthropic"
+    },
+    {
+      "termino": "Prueba de penetración (pentesting)",
+      "definicion": "Ataque autorizado contra sistemas propios para encontrar fallas antes que un intruso; sus herramientas también sirven para atacar de verdad.",
+      "nota_relacionada": "artex-microsoft"
+    },
+    {
+      "termino": "Oferta secundaria",
+      "definicion": "Venta de acciones que ya existen, de manos de los accionistas actuales: a diferencia de la primaria, la empresa no recibe dinero nuevo.",
+      "nota_relacionada": "phonepe-bolsa"
+    },
+    {
+      "termino": "Comisión de ruptura (break-up fee)",
+      "definicion": "Pago que recibe quien hizo la primera oferta por una empresa o activo si el trato se cae o lo gana otro comprador.",
+      "nota_relacionada": "character-ai-subasta"
+    }
+  ],
+  "fe_de_erratas": [],
+  "claude_tip": {
+    "titulo": "Instalá un artifact como app en tu computadora",
+    "donde": "app de escritorio (Mac y Windows)",
+    "origen": "Visto en la cuenta ClaudeDevs de X y en el blog Data Studios",
+    "texto": [
+      "Desde el 24 de noviembre, Claude deja convertir un artifact en una aplicación de escritorio para Mac o Windows, en beta para todos los planes. La app tiene ícono y ventana propios, usa tu cuenta y tus conectores, y se actualiza sola cuando editás el artifact.",
+      "Sirve para herramientas chicas de uso diario, sin buscar la conversación. Puede pedir permisos extra, como notificaciones o un ícono en la barra de menú; el acceso total a la computadora dejalo sólo para apps tuyas. Lo que la app le pide a Claude consume tu cuota."
+    ],
+    "pasos": [
+      "Actualizá la app de Claude para Mac o Windows.",
+      "Pedí: «Armame un artifact con un cronómetro pomodoro y una lista de tareas».",
+      "En el menú Compartir del artifact, elegí «Install as app».",
+      "Después de cada edición, Claude vuelve a pedirte los permisos."
+    ],
+    "fuentes": [
+      {
+        "url": "https://claude.com/resources/articles/install-as-app",
+        "medio": "Claude (Anthropic)",
+        "titulo": "Turn artifacts into Mac and Windows apps",
+        "fecha_publicacion": "2026-11-24",
+        "consultado": "2026-11-26T05:55:00-03:00"
+      },
+      {
+        "url": "https://www.datastudios.org/post/claude-install-artifacts-as-apps-mac-windows-all-plans-beta",
+        "medio": "Data Studios",
+        "titulo": "Claude can install artifacts as Mac and Windows apps on all plans",
+        "fecha_publicacion": "2026-11-25",
+        "consultado": "2026-11-26T05:55:00-03:00"
+      }
+    ]
+  }
+}

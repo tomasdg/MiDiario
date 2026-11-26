@@ -1,0 +1,43 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-25T22:16:00Z",
+  "fuente": "SMN vía La Nación (25/11). MET Norway y SMN directo no respondieron",
+  "dias": [
+    {
+      "fecha": "2026-11-26",
+      "codigo_wmo": 2,
+      "max": 27,
+      "min": 15,
+      "precip_mm": 0,
+      "viento_kmh": 31
+    },
+    {
+      "fecha": "2026-11-27",
+      "codigo_wmo": 2,
+      "max": 31,
+      "min": 19,
+      "precip_mm": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-28",
+      "codigo_wmo": 2,
+      "max": 33,
+      "min": 21,
+      "precip_mm": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-29",
+      "codigo_wmo": 2,
+      "max": 34,
+      "min": 22,
+      "precip_mm": 0,
+      "viento_kmh": 22
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Sin alertas para la Ciudad. El domingo sería el día más caluroso de la semana",
+  "no_disponible": []
+}

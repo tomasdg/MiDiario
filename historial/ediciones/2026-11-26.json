@@ -1,0 +1,158 @@
+{
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "cierre": "2026-11-26T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "Nvidia frena los envíos de servidores de IA a cuatro países del sudeste asiático",
+      "urls": [
+        "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+        "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Anthropic tienta a sus agentes con un señuelo y mide cuántas veces salen de su encierro",
+      "urls": [
+        "https://interestingengineering.com/ai-robotics/anthropic-claude-siren-sandbox-escape-tests"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Amodei llama «absurdo» que Anthropic quiera entregarle el control a la IA",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Claude reescribió en Rust el servicio que atiende sus propios pedidos",
+      "urls": [
+        "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Más de 40 fiscales intentan frenar la subasta de los chats de Character.AI",
+      "urls": [
+        "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+        "https://www.androidpure.com/characterai-chat-data-auction/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Nueva York prohíbe por cinco años los juguetes con chatbot",
+      "urls": [
+        "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+        "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Amazon y Meta negocian levantar el bloqueo al agente de compras Muse",
+      "urls": [
+        "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Nvidia pagará US$ 290 millones para cerrar el juicio por sus ventas a mineros de cripto",
+      "urls": [
+        "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Nutanix vende 15% más, pero anuncia la salida de su director ejecutivo y su acción se hunde",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001618732/000117184326007693/exh_992.htm",
+        "https://seekingalpha.com/news/4676385-nutanix-falls-6-in-after-hours-on-ceo-transition-q1-results",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "ElevenLabs negocia una ronda que la valuaría en US$ 33.000 millones",
+      "urls": [
+        "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "PhonePe retoma su salida a la bolsa y apunta a valer hasta US$ 15.000 millones",
+      "urls": [
+        "https://www.thestar.com.my/tech/tech-news/2026/11/25/walmart-backed-phonepe-restarts-ipo-process-eyes-up-to-15-billion-valuation-in-market-debut-source-says"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "El jefe de Flipkart se va después de 11 años, con la salida a la bolsa en duda",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "La FCC autoriza a SpaceX a poner un millón de centros de datos en órbita",
+      "urls": [
+        "https://siliconangle.com/2026/11/25/fcc-clears-spacex-to-put-up-to-1-million-starmind-data-centers-in-space/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Entran a sistemas internos de 1Password, pero no a las bóvedas de contraseñas",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Microsoft: hackers de China y Corea del Norte usan una IA que ataca en minutos",
+      "urls": [
+        "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "WhatsApp ya deja programar mensajes hasta 14 días antes",
+      "urls": [
+        "https://wabetainfo.com/whatsapp-launches-scheduled-messages-on-android-and-ios/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "HarmonyOS, el sistema de Huawei sin Android, supera los 100 millones de equipos",
+      "urls": [
+        "https://english.news.cn/20261124/052791c6261a41fda52e0b9bf0c165a6/c.html"
+      ]
+    }
+  ],
+  "glosario": [
+    "Honeypot (señuelo)",
+    "Prueba de penetración (pentesting)",
+    "Oferta secundaria",
+    "Comisión de ruptura (break-up fee)"
+  ],
+  "claude_tip": {
+    "titulo": "Instalá un artifact como app en tu computadora",
+    "urls": [
+      "https://claude.com/resources/articles/install-as-app",
+      "https://www.datastudios.org/post/claude-install-artifacts-as-apps-mac-windows-all-plans-beta"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1580,
+    "venta": 1630,
+    "fecha": "2026-11-26"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (25/11). MET Norway y SMN directo no respondieron",
+    "DataeNe, coincidente con La Voz del Chaco"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-26T09:04:49.699Z"
+  }
+}
