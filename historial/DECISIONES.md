@@ -119,6 +119,12 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Como en ediciones anteriores, WebFetch sólo abrió URLs aparecidas en resultados de WebSearch; las notas se apoyan en esas fuentes.
 - `diario.css`: `.bajada` lleva `break-inside: avoid`, porque las bajadas se partían entre columnas y dejaban el título separado de su texto.
 
+## Datos de respaldo — 27 de noviembre de 2026
+
+- Edición Nº 31: WebFetch otra vez no pudo leer DolarApi, las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del jueves 26 según DiarioYA ($ 1.575 / $ 1.625), coincidente con Radio LV11. Clima: SMN vía La Nación (27/11 00:01) para hoy y Derecha Diario (26/11) de sábado a lunes, coincidente con El Cronista; viento máximo según Vive Click (7 a 22 km/h), sin dato para el lunes.
+- Como en ediciones anteriores, WebFetch sólo abrió URLs aparecidas en resultados de WebSearch; varias notas se apoyan en medios secundarios (Reuters y Bloomberg vía terceros).
+- Claude Tip: la opción de stdin de `claude mcp add-json` (2.1.327) se verificó en AI Parabellum y Claudexia; la página oficial de changelog que devuelve WebFetch sigue sin las versiones de noviembre.
+
 ## Pedido del lector — 25 de noviembre de 2026
 
 - Se deja de cubrir **impresión 3D**. Se mantienen las cuatro páginas: la 3 pasa a ser **Empresas** (tres columnas) y la 4, **Tecnología** en dos columnas más la columna de dólar, clima, glosario y fe de erratas (`tecnologia_cierre` en `config/edicion.json`).

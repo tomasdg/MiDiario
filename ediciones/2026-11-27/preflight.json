@@ -1,0 +1,107 @@
+{
+  "generado": "2026-11-27T09:05:52.793Z",
+  "edicion": {
+    "numero": 31,
+    "fecha": "2026-11-27",
+    "cierre": "2026-11-27T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        9.25,
+        8.5,
+        9
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.822,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 200,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.899,
+        "mayor_rectangulo_vacio": 0.016,
+        "hueco_mm": {
+          "x": 129,
+          "y": 257,
+          "ancho": 57,
+          "alto": 14
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.889,
+        "mayor_rectangulo_vacio": 0.021,
+        "hueco_mm": {
+          "x": 129,
+          "y": 252,
+          "ancho": 57,
+          "alto": 19
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.906,
+        "mayor_rectangulo_vacio": 0.016,
+        "hueco_mm": {
+          "x": 0,
+          "y": 257,
+          "ancho": 57,
+          "alto": 14
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-11-27T07:05:00-03:00",
+      "hallazgos": [
+        "Página 4: desborde de la columna de notas y de la columna de datos en la primera maquetación",
+        "Página 2: «--scope» se partía en dos renglones en el paso 4 del Claude Tip"
+      ],
+      "correcciones": [
+        "Se quitó la nota de menor importancia de la página 4 (controles parentales de X) y se acortaron la fuente del clima y las definiciones del glosario",
+        "Se reescribió el paso 4 para que la opción quede al comienzo del renglón, sin cambiar los guiones del comando"
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-27/De-Villa-Urquiza-al-Mundo-N31-2026-11-27.pdf"
+}

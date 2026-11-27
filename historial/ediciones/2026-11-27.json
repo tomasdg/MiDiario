@@ -1,0 +1,152 @@
+{
+  "numero": 31,
+  "fecha": "2026-11-27",
+  "cierre": "2026-11-27T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "OpenAI corrige un error de cobro y GPT-6.2 gasta hasta 40% más rápido el cupo de ChatGPT",
+      "urls": [
+        "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+        "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+        "https://sureno.ai/news/2026-11-25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Los laboratorios chinos atrasan sus modelos por las trabas de Estados Unidos",
+      "urls": [
+        "https://news.sulat.com/2026/11/27/z-ai-moonshot-delays/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Suiza registra cinco ciberataques hechos con agentes de IA, cuatro con éxito",
+      "urls": [
+        "https://www.yahoo.com/news/articles/ai-agents-used-five-cyber-122502362.html"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Canadá suma C$ 700 millones para pagar cómputo de IA, con premio a la nube local",
+      "urls": [
+        "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+        "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Apple saca de su tienda a Talkie, el chatbot de compañía de MiniMax",
+      "urls": [
+        "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Thariq Shihipar pasa de Anthropic a OpenAI",
+      "urls": [
+        "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SAP prepara al menos 10.000 despidos para reorganizarse alrededor de la IA",
+      "urls": [
+        "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "S&P amenaza con bajar la nota de Nvidia por fallas de gobierno corporativo",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Países Bajos se planta ante la ley de Estados Unidos que limitaría a ASML",
+      "urls": [
+        "https://nltimes.nl/2026/11/26/netherlands-draws-line-us-plan-restrict-asml-exports-china",
+        "https://wsau.com/2026/11/26/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "El seguro contra un default de SoftBank toca su máximo en cuatro años",
+      "urls": [
+        "https://www.newsbytesapp.com/news/business/softbank-s-credit-risk-jumps-above-500-basis-points/story",
+        "https://www.billionaires.africa/2026/11/26/japanese-billionaire-masayoshi-sons-softbank-debt-insurance-costs-hit-four-year-high/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Huawei anticipa una memoria para IA que pelearía con Samsung y SK Hynix",
+      "urls": [
+        "https://www.thestar.com.my/tech/tech-news/2026/11/27/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix",
+        "https://thenextweb.com/news/huawei-hbm-ai-memory-samsung-sk-hynix-isscc"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Binance levanta la suspensión de retiros un mes después del robo de US$ 6.300 millones",
+      "urls": [
+        "https://www.kitco.com/news/off-the-wire/2026-11-26/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist",
+        "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Google Play publicará en todo el mundo la dirección de los desarrolladores que cobran",
+      "urls": [
+        "https://thenextweb.com/news/google-play-developer-addresses-trader-dsa-worldwide"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "La FIFA confirma un ciberataque con robo de datos personales",
+      "urls": [
+        "https://thenextweb.com/news/fifa-cyberattack-handsome-boy-hacking-club-12gb"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "La memoria cara hunde 9% la venta de celulares en Estados Unidos y Apple llega a 57%",
+      "urls": [
+        "https://counterpointresearch.com/en/insights/us-smartphone-shipments-fell-9-percent-yoy-as-memory-costs-squeeze-android"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Los servidores Nvidia prohibidos para China se venden a la vista en Shenzhen",
+      "urls": [
+        "https://wccftech.com/export-banned-nvidia-blackwell-b300-servers-openly-sold-china-3-4-million/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Swap de incumplimiento crediticio (CDS)",
+    "Destilación de modelos",
+    "Memoria HBM",
+    "Ley de Servicios Digitales (DSA)"
+  ],
+  "claude_tip": {
+    "titulo": "Cargá un servidor MCP sin dejar la clave a la vista en la terminal",
+    "urls": [
+      "https://aiparabellum.com/whats-new-in-claude-code-nov-16-22/",
+      "https://claudexia.tech/blog/claude-code-novoe-v-noyabre-2026"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1575,
+    "venta": 1625,
+    "fecha": "2026-11-27"
+  },
+  "fuentes_datos": [
+    "SMN vía La Nación (27/11) y Derecha Diario (26/11)",
+    "DiarioYA, coincidente con Radio LV11"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-27T09:05:52.793Z"
+  }
+}

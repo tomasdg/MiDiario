@@ -1,0 +1,20 @@
+{
+  "corte": "2026-11-26T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1575,
+      "venta": 1625,
+      "actualizado": "2026-11-26T18:00:00.000Z"
+    }
+  ],
+  "anterior": {
+    "compra": 1580,
+    "venta": 1630,
+    "fecha": "2026-11-26"
+  },
+  "comentario": "Cotización de cierre del jueves 26 de noviembre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "fuente": "DiarioYA, coincidente con Radio LV11",
+  "no_disponible": []
+}

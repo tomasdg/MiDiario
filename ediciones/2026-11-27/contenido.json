@@ -1,0 +1,594 @@
+{
+  "edicion": {
+    "numero": 31,
+    "fecha": "2026-11-27",
+    "cierre": "2026-11-27T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "portada": {
+    "principal": {
+      "id": "openai-error-cobro",
+      "seccion": "principal",
+      "titulo": "OpenAI corrige un error de cobro y GPT-6.2 gasta hasta 40% más rápido el cupo de ChatGPT",
+      "bajada": "La empresa admitió que había descontado de más el uso de sus modelos nuevos y, a la vez, empezó a juntar Chat y Work bajo un solo medidor.",
+      "cuerpo": [
+        "OpenAI reconoció que, durante el lanzamiento de GPT-6.2 Astra y GPT-6.2 Sol, el 17 de noviembre, un error de facturación aplicó descuentos indebidos al uso de la mayoría de los suscriptores de ChatGPT. Lo anunció el jueves en X Thibault Sottiaux, ingeniero del equipo de Codex. Con el error corregido, el mismo trabajo consume más del cupo del plan: los usuarios llegan al límite 40% antes con Astra y 25% antes con Sol que la semana pasada.",
+        "La empresa aclaró que no cobrará en forma retroactiva la diferencia, que los demás modelos no están afectados y que, aun así, GPT-6.2 rinde más dentro de los límites que GPT-6 Astra y GPT-6.1 Sol. Como disculpa, todos los suscriptores de los planes Go, Plus, Pro y Business reciben un reinicio de cupo extra, guardado para cuando lo necesiten, y los clientes Business tienen gratis el modo rápido (Fast Mode) hasta fin de año. Las páginas de precios de los planes no cambiaron. En Reddit, varios usuarios calificaron de escasa la compensación.",
+        "El ajuste coincide con otro cambio que también toca los límites. Desde el martes, OpenAI prueba con un grupo chico de suscriptores Pro una versión de ChatGPT que une las pestañas Chat y Work: todas las conversaciones corren en un mismo entorno en la nube y el modelo decide si responde directo o arranca un flujo de agente, más lento y más caro de operar. Chat y Work comparten un único medidor de uso; las charlas con el modelo Instant siguen ilimitadas y no cuentan. Según su página de ayuda, OpenAI planea extender los límites compartidos en diciembre.",
+        "Un vocero le dijo a TechCrunch que la mayoría no debería toparse con el límite más seguido, aunque una pequeña porción de los usuarios más intensivos sí podría; la empresa no dio cifras de cuántos son. El movimiento se parece al de Anthropic, que en septiembre juntó Claude y Cowork en una sola interfaz, y muestra cómo el costo del cómputo presiona sobre los planes de suscripción. Para quien paga ChatGPT desde Argentina, el precio en dólares no cambia, pero sí cuánto trabajo entra en él."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+          "medio": "The Decoder",
+          "titulo": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+          "medio": "The Next Web",
+          "titulo": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://sureno.ai/news/2026-11-25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+          "medio": "Sureno News (sobre TechCrunch)",
+          "titulo": "OpenAI merges Chat and Work in ChatGPT; heavy users may hit limits sooner",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    "secundarias": [
+      {
+        "titulo": "China, más lenta",
+        "resumen": "El GLM-5.5 de Z.ai se atrasa y Moonshot calcula hasta un año entre modelos por las trabas de Estados Unidos al cómputo y a la destilación.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Agentes que atacan",
+        "resumen": "Suiza registró cinco ciberataques hechos con agentes de IA contra empresas y servicios de electricidad, agua y telecomunicaciones; cuatro lograron entrar.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Talkie, afuera",
+        "resumen": "Apple sacó de la App Store el chatbot de compañía de MiniMax tras una investigación sobre mensajes inapropiados a menores.",
+        "pagina": 2
+      },
+      {
+        "titulo": "SAP achica",
+        "resumen": "La alemana prepara al menos 10.000 despidos, más de 9% de su plantilla, para reorganizarse alrededor de los agentes de IA, según Bloomberg.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Nvidia, en revisión",
+        "resumen": "S&P podría bajarle la nota en los próximos 90 días por la salida y el regreso de Jensen Huang y la debilidad del directorio.",
+        "pagina": 3
+      },
+      {
+        "titulo": "ASML no acata",
+        "resumen": "Países Bajos rechaza la MATCH Act de Estados Unidos, que podría restringir por su cuenta las ventas de ASML a China.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Direcciones a la vista",
+        "resumen": "Google Play mostrará en todo el mundo el domicilio y el teléfono de los desarrolladores que ganan dinero con sus apps, desde marzo.",
+        "pagina": 4
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "mediados dic",
+        "texto": "Votación en Estados Unidos del presupuesto de defensa que incluiría la MATCH Act."
+      },
+      {
+        "cuando": "dic",
+        "texto": "OpenAI extiende los límites compartidos entre Chat y Work en ChatGPT."
+      },
+      {
+        "cuando": "4 ene",
+        "texto": "Cierra la convocatoria de salud del fondo canadiense de cómputo para IA."
+      },
+      {
+        "cuando": "1 feb",
+        "texto": "Vence el plazo para que los desarrolladores de Google Play declaren si son comerciantes."
+      },
+      {
+        "cuando": "feb",
+        "texto": "Huawei presenta en San Francisco su diseño de memoria HBM."
+      },
+      {
+        "cuando": "1 mar",
+        "texto": "Google Play empieza a mostrar las direcciones de los desarrolladores comerciantes."
+      }
+    ],
+    "llamadas": [
+      {
+        "etiqueta": "Claude Tips",
+        "texto": "Un MCP sin la clave a la vista.",
+        "pagina": 2
+      },
+      {
+        "etiqueta": "Empresas",
+        "texto": "SoftBank, en máximos de riesgo.",
+        "pagina": 3
+      },
+      {
+        "etiqueta": "Tecnología",
+        "texto": "Celulares: Apple llega a 57%.",
+        "pagina": 4
+      },
+      {
+        "etiqueta": "Hoy",
+        "texto": "Parcialmente nublado, 31°.",
+        "pagina": 4
+      }
+    ],
+    "dato_del_dia": {
+      "etiqueta": "La cifra del día",
+      "titulo": "516",
+      "texto": "Puntos básicos que llegó a costar el seguro contra un default de SoftBank, el máximo desde octubre de 2022."
+    }
+  },
+  "notas": [
+    {
+      "id": "china-modelos-demora",
+      "seccion": "ia",
+      "titulo": "Los laboratorios chinos atrasan sus modelos por las trabas de Estados Unidos",
+      "bajada": "Según Reuters, el GLM-5.5 de Z.ai no llegó en noviembre y Moonshot calcula que podría tardar un año entre lanzamientos.",
+      "cuerpo": [
+        "El modelo insignia de Z.ai, GLM-5.5, de unos 3 billones de parámetros, no salió en noviembre como estaba previsto y podría demorarse hasta el primer trimestre de 2027 o más, informó Reuters el jueves citando a personas al tanto. Una de ellas atribuyó parte de la demora a las defensas contra la destilación que pusieron Anthropic y OpenAI. En su lugar, la empresa lanzó el 23 de noviembre GLM-5.4, construido sobre un modelo existente de 750.000 millones de parámetros.",
+        "Moonshot, creadora de Kimi, alquila cómputo y prioriza proveedores fuera de China. Calcula que su ritmo de un modelo grande cada seis meses podría estirarse a doce o más si pierde ese acceso; una fuente ubicó a Kimi K4 a mediados de 2027. Desde el 19 de noviembre, una regla del Departamento de Comercio exige licencia para usar a gran escala chips estadounidenses avanzados en centros de datos del exterior. Según las fuentes, Moonshot empezó a destilar modelos de Google y Meta. Los plazos se apoyan en fuentes anónimas."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://news.sulat.com/2026/11/27/z-ai-moonshot-delays/",
+          "medio": "Sulat AI & Tech News (sobre Reuters)",
+          "titulo": "Reuters reports Z.AI's GLM-5.5 has slipped and Moonshot expects its release gap could double to a year",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "suiza-agentes-ataques",
+      "seccion": "ia",
+      "titulo": "Suiza registra cinco ciberataques hechos con agentes de IA, cuatro con éxito",
+      "bajada": "Entre los blancos hubo proveedores de electricidad, agua y telecomunicaciones, según la oficina federal de ciberseguridad.",
+      "cuerpo": [
+        "La Oficina Federal de Ciberseguridad de Suiza (BACS) informó el jueves que en los últimos días hubo cinco ataques informáticos en los que se usaron agentes de inteligencia artificial contra empresas y operadores de infraestructura crítica. En cuatro de los cinco casos los atacantes lograron comprometer los sistemas.",
+        "Tres de los blancos fueron operadores de infraestructura crítica; la radiotelevisión pública SRF precisó que eran proveedores de electricidad, agua y telecomunicaciones. La BACS no dijo quién está detrás ni dio detalles de los agentes usados, y recomendó a las empresas reforzar sus defensas con pruebas periódicas de ciberseguridad."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.yahoo.com/news/articles/ai-agents-used-five-cyber-122502362.html",
+          "medio": "Reuters vía Yahoo News",
+          "titulo": "AI agents used in five cyber attacks in Switzerland, government says",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "canada-fondo-computo",
+      "seccion": "ia",
+      "titulo": "Canadá suma C$ 700 millones para pagar cómputo de IA, con premio a la nube local",
+      "bajada": "El fondo cubre hasta 80% del gasto si las pymes compran a un proveedor de capitales canadienses.",
+      "cuerpo": [
+        "Canadá llevó a C$ 1.000 millones su fondo de acceso a cómputo para IA, que había arrancado en marzo de 2025 con C$ 300 millones. El ministro de IA, Evan Solomon, presentó el jueves en Toronto la nueva etapa: el fondo paga hasta 50% del costo de cómputo en la nube y hasta 80% si el proveedor es canadiense; antes, ese tope era de 67%.",
+        "Apunta a empresas de menos de 500 empleados con gastos de cómputo de entre C$ 100.000 y C$ 5 millones. La primera convocatoria de esta fase es para salud y ciencias de la vida y cierra el 4 de enero de 2027. Solomon sumó C$ 52 millones para 45 empresas de la etapa anterior: ya son más de C$ 118 millones para 89 firmas. El gobierno esperaba un par de cientos de pedidos y recibió 1.500."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+          "medio": "The Next Web",
+          "titulo": "Canada adds C$700M to its AI compute fund, favouring home-grown clouds",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+          "medio": "BetaKit",
+          "titulo": "Feds will now pay 80 percent of costs under AI Compute Access Fund if purchased from a sovereign provider",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "apple-talkie",
+      "seccion": "ia",
+      "titulo": "Apple saca de su tienda a Talkie, el chatbot de compañía de MiniMax",
+      "bajada": "Una investigación periodística encontró personajes con lenguaje degradante y juegos de rol románticos con menores.",
+      "cuerpo": [
+        "Apple retiró de la App Store, en todo el mundo, a Talkie, la aplicación de personajes conversacionales de la china MiniMax, después de informes de que sus personajes enviaban mensajes inapropiados a menores. Apple confirmó que la quitó por contenido sexual, pero no aclaró si ese contenido llegaba a chicos.",
+        "Una investigación del Bureau of Investigative Journalism británico y la cadena australiana ABC encontró personajes con lenguaje degradante, conductas posesivas y juegos de rol románticos con usuarios menores de edad. Talkie, lanzada en 2023 a través de una filial en Singapur, tenía casi 11 millones de usuarios mensuales en octubre, según Unique Research, y sus descargas nuevas ya habían caído 32,2% ese mes tras endurecer la verificación de edad."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
+          "medio": "9to5Mac",
+          "titulo": "Apple pulls popular Chinese AI chatbot from the App Store amid child safety concerns",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "thariq-openai",
+      "seccion": "breve",
+      "titulo": "Thariq Shihipar pasa de Anthropic a OpenAI",
+      "cuerpo": [
+        "Thariq Shihipar, que dejó Anthropic en octubre, anunció el 25 de noviembre que se sumó a OpenAI. Andrew Ambrosino, de OpenAI, le dio la bienvenida y dijo que es hora de «reinventar Codex», su agente de programación."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+          "medio": "The Next Web",
+          "titulo": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ],
+      "seccion_destino": "ia"
+    },
+    {
+      "id": "sap-despidos",
+      "seccion": "empresas",
+      "titulo": "SAP prepara al menos 10.000 despidos para reorganizarse alrededor de la IA",
+      "bajada": "La alemana recortaría más de 9% de su plantilla, según Bloomberg, poco después de un trimestre mejor de lo esperado.",
+      "cuerpo": [
+        "SAP, la mayor empresa europea de software, planea eliminar al menos 10.000 puestos, más de 9% de su personal, informó Bloomberg citando fuentes que advierten que el alcance todavía puede cambiar. Los recortes se concentrarían en producto, ingeniería y ventas, y los directivos pidieron a otras áreas buscar ahorros. Como SAP acordó con su comisión interna alemana una garantía de empleo hasta 2028, el ajuste caería sobre todo en otros países.",
+        "El plan llega tras un trimestre en el que ventas y ganancia ajustada superaron lo que esperaban los analistas y la cartera de contratos de nube llegó a € 24.110 millones. La semana pasada, el director financiero, Dominik Asam, anticipó a inversores que la plantilla bajaría. El cambio está ligado a la apuesta de SAP por los agentes de IA de su línea Joule, y dos de sus seis directores dejarían la empresa.",
+        "SAP sólo dijo que revisa su organización en forma continua. No hay fecha: históricamente anuncia sus recortes en enero. La reestructuración de 2024 eliminó unos 10.000 puestos y costó cerca de € 3.000 millones."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/",
+          "medio": "SiliconANGLE (sobre Bloomberg)",
+          "titulo": "SAP reportedly plans to lay off 10,000+ employees amid AI push",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-sp-revision",
+      "seccion": "empresas",
+      "titulo": "S&P amenaza con bajar la nota de Nvidia por fallas de gobierno corporativo",
+      "bajada": "La calificadora puso a la empresa en revisión tras la salida y el regreso de Jensen Huang en once días.",
+      "cuerpo": [
+        "S&P Global Ratings puso a Nvidia en vigilancia con posible baja de calificación. Si después de su análisis decide recortarla, lo hará dentro de 90 días y probablemente en un escalón, salvo que investigaciones o nuevas revelaciones muestren daño al negocio o a la reputación.",
+        "La calificadora citó como señales de una supervisión débil las acusaciones vinculadas a controles de exportación contra el director ejecutivo, Jensen Huang, su renuncia el 12 de noviembre y su restitución el 23. Dijo que la larga permanencia de algunos directores puede haber comprometido su independencia y cuestionó la exposición a China, los controles internos y la falta de un plan de sucesión: el llamado riesgo de «persona clave». Huang todavía enfrenta una investigación interna y comparecencias en el Congreso de Estados Unidos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence",
+          "medio": "Tom's Hardware",
+          "titulo": "Credit rating agency puts Nvidia on notice for possible downgrade",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "asml-match-act",
+      "seccion": "empresas",
+      "titulo": "Países Bajos se planta ante la ley de Estados Unidos que limitaría a ASML",
+      "bajada": "El ministro de Comercio dijo que su país «no se va a dejar decir qué hacer» y pedirá que la norma no se aplique.",
+      "cuerpo": [
+        "El gobierno neerlandés renovó su rechazo a la MATCH Act, un proyecto bipartidario que el Congreso estadounidense negocia incluir en el presupuesto de defensa, con votación prevista para mediados de diciembre. La ley obligaría a aliados como Países Bajos y Japón a endurecer sus controles de exportación a China o, si no, habilitaría a Washington a imponer restricciones por su cuenta, incluidas las máquinas de litografía DUV por inmersión de ASML.",
+        "El ministro de Comercio Exterior, Sjoerd Sjoerdsma, dijo ante el Parlamento que las restricciones van «demasiado lejos» y que busca frenarlas junto con la Comisión Europea, Alemania y Francia. También señaló un doble estándar: Washington pide más controles a sus aliados mientras deja ir chips de IA muy avanzados a China. China representa cerca de 20% de las ventas de ASML; su director ejecutivo, Christophe Fouquet, advirtió que la ley aceleraría el desarrollo chino de tecnología rival."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://nltimes.nl/2026/11/26/netherlands-draws-line-us-plan-restrict-asml-exports-china",
+          "medio": "NL Times (ANP)",
+          "titulo": "Netherlands draws line over U.S. plan to restrict ASML exports to China",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://wsau.com/2026/11/26/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe/",
+          "medio": "Reuters vía WSAU",
+          "titulo": "Netherlands will ask Washington not to enforce MATCH Act, minister says",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "softbank-cds",
+      "seccion": "empresas",
+      "titulo": "El seguro contra un default de SoftBank toca su máximo en cuatro años",
+      "bajada": "Los swaps de incumplimiento a cinco años superaron los 500 puntos básicos por dudas sobre lo que invirtió en IA.",
+      "cuerpo": [
+        "El costo de asegurarse contra un incumplimiento de SoftBank Group subió a 516 puntos básicos el jueves a la mañana en Tokio, según datos de Bloomberg: el nivel más alto desde octubre de 2022 y la primera vez arriba de 500 en unos cuatro años. Equivale a pagar unos US$ 516.000 por año para cubrir US$ 10 millones de deuda. El bono en dólares que colocó en septiembre con un cupón récord de 9,75% amplió su diferencial cerca de 40%, a unos 644 puntos.",
+        "La presión viene del giro en las acciones ligadas a la IA y de las dudas sobre cuánto vale OpenAI, donde SoftBank completó una inversión de US$ 64.600 millones. Sus costos financieros de julio a septiembre se multiplicaron por 2,6, a ¥ 461.900 millones (US$ 2.900 millones). S&P estima que su relación entre deuda y valor de activos ya supera 30%, cerca del 35% a partir del cual evaluaría bajarle la nota."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.newsbytesapp.com/news/business/softbank-s-credit-risk-jumps-above-500-basis-points/story",
+          "medio": "NewsBytes",
+          "titulo": "SoftBank's credit risk hits 4-year high: What's the reason?",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://www.billionaires.africa/2026/11/26/japanese-billionaire-masayoshi-sons-softbank-debt-insurance-costs-hit-four-year-high/",
+          "medio": "Billionaires.Africa",
+          "titulo": "Japanese billionaire Masayoshi Son's SoftBank debt insurance costs hit four-year high",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "huawei-hbm",
+      "seccion": "empresas",
+      "titulo": "Huawei anticipa una memoria para IA que pelearía con Samsung y SK Hynix",
+      "bajada": "Presentará en febrero un diseño de HBM con el doble de densidad de conexiones de datos.",
+      "cuerpo": [
+        "Huawei presentará en febrero, en una conferencia en San Francisco, un diseño de memoria de alto ancho de banda (HBM) que duplica la densidad de pines de datos de la que fabrican en serie Samsung y SK Hynix, según el título del trabajo, informó Bloomberg. No está claro cuán avanzado está: los trabajos de conferencia suelen mostrar diseños teóricos, y Huawei no respondió a la consulta.",
+        "El tema es clave para China: Samsung, SK Hynix y Micron no pueden venderle HBM a clientes chinos y las reservas de memoria extranjera se están agotando. Huawei planea lanzar al menos un chip Ascend nuevo por año hasta 2029. La noticia golpeó las acciones de las tres fabricantes de memoria."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/27/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix",
+          "medio": "The Star (Bloomberg)",
+          "titulo": "Huawei teases next-gen AI memory chip to take on Samsung, Hynix",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://thenextweb.com/news/huawei-hbm-ai-memory-samsung-sk-hynix-isscc",
+          "medio": "The Next Web",
+          "titulo": "Huawei teases an AI memory chip to take on Samsung and SK Hynix",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "binance-retiros",
+      "seccion": "empresas",
+      "titulo": "Binance levanta la suspensión de retiros un mes después del robo de US$ 6.300 millones",
+      "bajada": "La plataforma cubrió las pérdidas con fondos propios; algunas redes siguen pausadas.",
+      "cuerpo": [
+        "Binance anunció el jueves que terminó la recuperación y levantó la suspensión de retiros que impuso tras el hackeo del 29 de octubre, en el que le robaron US$ 6.300 millones de sus billeteras calientes, el mayor robo de criptomonedas registrado. La firma de análisis TRM Labs se lo atribuye al grupo norcoreano TraderTraitor.",
+        "La empresa apartó más de US$ 6.340 millones propios para cubrir las pérdidas y reanudó los retiros por etapas desde el 1 de noviembre, empezando por bitcoin. Algunas redes siguen pausadas por mantenimiento, y los retiros de USDC en Hedera, World Chain y Sonic continúan suspendidos. Binance advirtió sobre intentos de phishing: nunca pide contraseñas ni frases semilla."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-26/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist",
+          "medio": "Reuters vía Kitco",
+          "titulo": "Binance lifts withdrawal suspension after $6.3 billion crypto heist",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        },
+        {
+          "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack",
+          "medio": "Cointelegraph",
+          "titulo": "Binance completes withdrawal recovery four weeks after $6.3B hack",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "google-play-direcciones",
+      "seccion": "tecnologia",
+      "titulo": "Google Play publicará en todo el mundo la dirección de los desarrolladores que cobran",
+      "bajada": "Quienes ganen dinero con sus apps deberán declararse antes del 1 de febrero de 2027; desde marzo, su domicilio y teléfono quedarán a la vista.",
+      "cuerpo": [
+        "Los desarrolladores de Google Play tendrán que informar antes del 1 de febrero de 2027 si son «comerciantes» según la Ley de Servicios Digitales (DSA) europea. Google considera comerciante a quien gana dinero con sus apps, por descargas pagas, compras internas o publicidad regular. Desde el 1 de marzo, la tienda mostrará en todo el mundo sus datos de contacto: en las cuentas personales, una dirección física tomada del perfil de pagos y un teléfono. No acepta casillas postales.",
+        "La norma europea sólo exige mostrar esos datos a compradores de la Unión Europea; Apple los muestra únicamente allí y admite casillas. Quien no declare su situación se arriesga a que le bloqueen actualizaciones o le saquen las apps, y sólo pueden declararse no comerciantes los que no distribuyen en el Espacio Económico Europeo ni en el Reino Unido. Para un desarrollador argentino que cobra por apps que se venden en Europa, la regla implica publicar su domicilio."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/google-play-developer-addresses-trader-dsa-worldwide",
+          "medio": "The Next Web",
+          "titulo": "Google Play will show some app developers' home addresses to the world",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "fifa-ciberataque",
+      "seccion": "tecnologia",
+      "titulo": "La FIFA confirma un ciberataque con robo de datos personales",
+      "bajada": "Un grupo que se hace llamar Handsome Boy Hacking Club dice haberse llevado 12 GB de archivos.",
+      "cuerpo": [
+        "La FIFA confirmó el jueves un ataque informático con acceso no autorizado a «un conjunto limitado» de datos personales y de negocios, informó Reuters. No dijo cuántas personas están afectadas, cuándo ocurrió ni qué datos de negocios se vieron comprometidos. Una fuente le dijo a la agencia que el ataque tocó menos de 0,1% de la información que guarda la entidad.",
+        "El grupo Handsome Boy Hacking Club se adjudicó el ataque, publicó capturas de archivos la semana pasada y dice haber sacado 12 GB. Según BBC Sport, no fue una falla técnica: los atacantes se hicieron pasar por empleados. La FIFA trabaja con la policía, aunque no aclaró si los datos aparecieron en internet."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/fifa-cyberattack-handsome-boy-hacking-club-12gb",
+          "medio": "The Next Web",
+          "titulo": "FIFA confirms cyberattack as Handsome Boy Hacking Club claims 12GB of files",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "counterpoint-celulares-eeuu",
+      "seccion": "tecnologia",
+      "titulo": "La memoria cara hunde 9% la venta de celulares en Estados Unidos y Apple llega a 57%",
+      "bajada": "Los Android baratos fueron los más golpeados en el tercer trimestre, según Counterpoint.",
+      "cuerpo": [
+        "Los envíos de teléfonos inteligentes en Estados Unidos cayeron 9% interanual en el tercer trimestre, según Counterpoint Research. La suba del costo de la memoria golpeó a los fabricantes de Android, sobre todo en la gama baja, donde los márgenes son más finos. Apple fue la única gran marca sin caída y subió su participación de 50% a 57%.",
+        "Samsung pasó de 24% a 25%, apoyada en sus Galaxy S, Z y A. Motorola perdió cuatro puntos, a 8%, y Google retrocedió levemente pese al lanzamiento del Pixel 11. Counterpoint espera un cuarto trimestre flojo: la memoria seguirá cara, los precios de lista subirían tanto en Android como en iPhone y las operadoras serían más selectivas con las promociones."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://counterpointresearch.com/en/insights/us-smartphone-shipments-fell-9-percent-yoy-as-memory-costs-squeeze-android",
+          "medio": "Counterpoint Research",
+          "titulo": "Q3 2026 US Smartphone Shipments Fell 9% YoY as Memory Costs Squeeze Android; Apple Share Climbs to 57%",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "b300-shenzhen",
+      "seccion": "tecnologia",
+      "titulo": "Los servidores Nvidia prohibidos para China se venden a la vista en Shenzhen",
+      "bajada": "Equipos con ocho chips B300 se ofrecen por hasta US$ 3,4 millones, cinco o seis veces su precio en Estados Unidos.",
+      "cuerpo": [
+        "Servidores de ocho GPU Nvidia Blackwell B300, cuya exportación a China está prohibida, se ofrecen en el mercado electrónico de Huaqiangbei, en Shenzhen, por entre US$ 3 y 3,4 millones cada uno, informó The Washington Post, citado por Wccftech. Es entre cinco y seis veces el precio en Estados Unidos.",
+        "Un vendedor dijo que los equipos le llegan por Hong Kong, aunque no sabe de dónde salen. Otro intermediario aseguró que compradores de Rusia e Irán viajan a China para conseguir sistemas restringidos. Lo que dicen los vendedores no fue verificado en forma independiente."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://wccftech.com/export-banned-nvidia-blackwell-b300-servers-openly-sold-china-3-4-million/",
+          "medio": "Wccftech (sobre The Washington Post)",
+          "titulo": "NVIDIA's Top-End B300 Servers Are Allegedly So Easy To Buy In China",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-27T06:20:00-03:00"
+        }
+      ]
+    }
+  ],
+  "finanzas": "@datos/finanzas.json",
+  "clima": "@datos/clima.json",
+  "glosario": [
+    {
+      "termino": "Swap de incumplimiento crediticio (CDS)",
+      "definicion": "Seguro contra el default de una empresa o un país; su precio, en puntos básicos, mide el riesgo que ve el mercado.",
+      "nota_relacionada": "softbank-cds"
+    },
+    {
+      "termino": "Destilación de modelos",
+      "definicion": "Entrenar un modelo con las respuestas de otro más capaz para copiar parte de su desempeño.",
+      "nota_relacionada": "china-modelos-demora"
+    },
+    {
+      "termino": "Memoria HBM",
+      "definicion": "Memoria de alto ancho de banda: chips apilados junto al procesador que alimentan de datos a las GPU de IA.",
+      "nota_relacionada": "huawei-hbm"
+    },
+    {
+      "termino": "Ley de Servicios Digitales (DSA)",
+      "definicion": "Norma europea que obliga a plataformas y tiendas de apps a identificar a quienes venden en ellas.",
+      "nota_relacionada": "google-play-direcciones"
+    }
+  ],
+  "fe_de_erratas": [],
+  "claude_tip": {
+    "titulo": "Cargá un servidor MCP sin dejar la clave a la vista en la terminal",
+    "donde": "Claude Code",
+    "origen": "Visto en el blog AI Parabellum y en el resumen de versiones de Claudexia",
+    "texto": [
+      "La versión 2.1.327 de Claude Code, del 17 de noviembre, permite que «claude mcp add-json» lea la configuración del servidor desde la entrada estándar si en lugar del JSON ponés un guion. AI Parabellum lo probó en su repaso de la semana del 16 al 22 de noviembre con un archivo de configuración.",
+      "Sirve cuando el servidor necesita un token: escrito en la línea de comandos queda en el historial de la terminal; leído de un archivo, no. Se usa desde la terminal, no dentro de una sesión de Claude Code."
+    ],
+    "pasos": [
+      "Actualizá con «claude update» y confirmá con «claude --version» que tenés la 2.1.327 o posterior.",
+      "Guardá la configuración JSON del servidor en un archivo, por ejemplo servidor.json.",
+      "Corré «cat servidor.json | claude mcp add-json mi-servidor -» y revisá con «claude mcp list».",
+      "«--scope project» guarda las claves en el .mcp.json del repositorio: no lo uses si el JSON las tiene. Después borrá el archivo."
+    ],
+    "fuentes": [
+      {
+        "url": "https://aiparabellum.com/whats-new-in-claude-code-nov-16-22/",
+        "medio": "AI Parabellum",
+        "titulo": "What's New in Claude Code This Week (Nov 16-22, 2026)",
+        "fecha_publicacion": "2026-11-23",
+        "consultado": "2026-11-27T06:20:00-03:00"
+      },
+      {
+        "url": "https://claudexia.tech/blog/claude-code-novoe-v-noyabre-2026",
+        "medio": "Claudexia",
+        "titulo": "Claude Code November 2026 changelog: versions 2.1.317-2.1.326",
+        "fecha_publicacion": "2026-11-27",
+        "consultado": "2026-11-27T06:20:00-03:00"
+      }
+    ]
+  }
+}

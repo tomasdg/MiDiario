@@ -1,0 +1,46 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-27T03:01:00Z",
+  "fuente": "SMN vía La Nación (27/11) y Derecha Diario (26/11)",
+  "dias": [
+    {
+      "fecha": "2026-11-27",
+      "codigo_wmo": 2,
+      "max": 31,
+      "min": 19,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-28",
+      "codigo_wmo": 2,
+      "max": 33,
+      "min": 21,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-29",
+      "codigo_wmo": 2,
+      "max": 34,
+      "min": 22,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-30",
+      "codigo_wmo": 2,
+      "max": 32,
+      "min": 22,
+      "precip_mm": 0,
+      "prob_precip": 0
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Sin alertas para la Ciudad; sin lluvias previstas",
+  "no_disponible": []
+}
