@@ -1,0 +1,211 @@
+{
+  "numero": 32,
+  "fecha": "2026-11-28",
+  "cierre": "2026-11-28T05:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "principal",
+      "titulo": "OpenAI contrademanda a Apple y la acusa de robarle secretos y de presionar a sus proveedores",
+      "urls": [
+        "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+        "https://stockanalysis.com/news/openai-countersues-apple-trade-secrets/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Google obligará a los agentes de IA a entrar a Gmail y Drive sólo por MCP desde febrero",
+      "urls": [
+        "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+        "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Meta no dejó que el regulador financiero británico probara su agente Muse antes de lanzarlo",
+      "urls": [
+        "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
+        "https://dataconomy.com/2026/11/27/meta-rejects-fca-sandbox-test-for-muse-ai-agent-in-uk/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "La Unión Europea podría votar el 15 de diciembre la conducción asistida de Tesla",
+      "urls": [
+        "https://live.euronext.com/en/financial-news/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Retiran la versión abierta de CyberStrikeAI, una herramienta de ataque con IA que usaban delincuentes",
+      "urls": [
+        "https://www.infosecurity-magazine.com/news/cyberstrikeai-shut-down-threatbook/"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Kazajistán abre la puerta a Sberbank y Yandex y se acerca a Rusia en IA",
+      "urls": [
+        "https://live.euronext.com/en/financial-news/kazakhstan-boosts-ai-cooperation-russia-which-hungry-advanced-us-chips"
+      ]
+    },
+    {
+      "seccion": "ia",
+      "titulo": "Nvidia libera datos y recetas para su modelo abierto que lee documentos",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Tencent libera DFly2, que acelera modelos como DeepSeek",
+      "urls": [
+        "https://emergent.sh/news/tencent-dfly2-boosts-deepseek-v4-1-flash"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "SAP confirma un ataque a su entorno de GitHub con credenciales robadas a empleados",
+      "urls": [
+        "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+        "https://itdaily.com/news/security/sap-security-incident-github/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Verizon negocia comprar la operadora de fibra Fidium por unos US$ 6.000 millones",
+      "urls": [
+        "https://thenextweb.com/news/verizon-fidium-6b-talks-fibre-broadband",
+        "https://stockanalysis.com/news/verizon-talks-buy-fidium-6b/",
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N478122:0-verizon-in-talks-over-6-billion-deal-for-fidium-ft-reports/"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Aparecen chips Blackwell de Nvidia en un centro de datos de Shanghai",
+      "urls": [
+        "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg",
+        "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+        "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
+        "https://sg.finance.yahoo.com/news/nvidia-chips-reach-chinese-owned-031146505.html"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Los vendedores de Nvidia piden a las neonubes no alquilarle nada a firmas chinas",
+      "urls": [
+        "https://thenextweb.com/news/nvidia-gpu-sellers-neoclouds-no-chinese-renters",
+        "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "El Black Friday online pasaría los US$ 13.000 millones en Estados Unidos",
+      "urls": [
+        "https://whtc.com/2026/11/27/us-black-friday-online-sales-to-cross-13-billion-adobe-says/",
+        "https://stocktwits.com/news-articles/markets/equity/adbe-stock-on-track-for-4-day-rally-adobe-reports-surge-in-ai-traffic-7-1-b-thanksgiving-sales/cNb6GnOR9Va",
+        "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+        "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "La acción de Anthropic sube 11% y vuelve a superar su precio de salida",
+      "urls": [
+        "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-anthropic-jumps-11-reclaiming-its-usd83-ipo-price-as-wall-street-rallies/",
+        "https://www.fool.com/investing/2026/11/27/why-anthropic-stock-rallied-on-friday-wall-street-analysts-say-buy-right-now/",
+        "https://siliconangle.com/2026/11/18/after-anthropic-prices-ipo-higher-than-expected-shares-shoot-up-34-trading-debut"
+      ]
+    },
+    {
+      "seccion": "empresas",
+      "titulo": "Altair Semiconductor levanta US$ 100 millones tras independizarse de Sony",
+      "urls": [
+        "https://chipdispatch.com/articles/altair-raises-100m-series-a-to-mass-produce-5g-wearable-modem",
+        "https://ventureburn.com/altair-raises-100-million-connect-ai-devices/"
+      ]
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Moody's mantiene la nota de Nvidia",
+      "urls": [
+        "https://www.aiaffairs.com/markets/moodys-nvidia-huang-reinstatement-aa1-rating/",
+        "https://www.tradingview.com/news/seekingalpha:48c48c84c094b:0-nvidia-s-aa1-rating-stable-outlook-unchanged-after-huang-s-return-moody-s/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Atacan en masa una falla crítica de WP Rocket, un complemento muy usado de WordPress",
+      "urls": [
+        "https://patchstack.com/articles/critical-wp-rocket-rce-cve-2026-125812-under-active-attack/",
+        "https://www.rescana.com/post/wp-rocket-cve-2026-125812-unauthenticated-rce-under-active-attack-update-to-3-24-2-now"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Una falla de doce años en Linux da control total de servidores NFS",
+      "urls": [
+        "https://cybernews.com/security/nfs2root-linux-kernel-vulnerability-exposes-nas-kubernetes/",
+        "https://dataconomy.com/2026/11/27/12-year-old-linux-nfs-flaw-lets-remote-attackers-gain-root/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Publican un ataque contra Cacti que todavía no tiene parche",
+      "urls": [
+        "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+        "https://hitechub.com/unpatched-cacti-zero-day-exploit-with-public-poc-enables-remote-code-execution/"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Un incidente informático apaga los servicios del organismo británico de pensiones",
+      "urls": [
+        "https://www.itv.com/news/2026-11-27/department-for-work-and-pensions-takes-services-offline-after-cyber-incident",
+        "https://www.yahoo.com/news/world/articles/pensions-benefits-services-still-down-072759273.html"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Un ciberataque deja sin su plataforma de distribución a la agencia AFP",
+      "urls": [
+        "https://therecord.media/france-afp-hit-by-cyberattack",
+        "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform"
+      ]
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Microsoft arregla de urgencia un parche que colgaba Windows Server 2025",
+      "urls": [
+        "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+        "https://www.it-connect.tech/windows-server-2025-microsoft-urgently-fixes-blue-screen-bug-in-november-update/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/"
+      ]
+    }
+  ],
+  "glosario": [
+    "Protocolo de Contexto de Modelo (MCP)",
+    "Neonube (neocloud)",
+    "Período de bloqueo (lock-up)"
+  ],
+  "claude_tip": {
+    "titulo": "Diagnosticá con «claude doctor» si Claude Code llega a la API",
+    "urls": [
+      "https://www.havoptic.com/tools/claude-code",
+      "https://releasebot.io/updates/anthropic/claude-code"
+    ]
+  },
+  "dolar_oficial": {
+    "compra": 1575,
+    "venta": 1625,
+    "fecha": "2026-11-28"
+  },
+  "fuentes_datos": [
+    "SMN vía Perfil (28/11) y Derecha Diario (27/11)",
+    "Ámbito, coincidente con Examedia/Río Negro"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-28T09:09:37.378Z"
+  }
+}

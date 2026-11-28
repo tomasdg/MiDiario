@@ -125,6 +125,13 @@ Origen: este repositorio es un fork de El Diario de Yrigoyen. Se conservan las r
 - Como en ediciones anteriores, WebFetch sólo abrió URLs aparecidas en resultados de WebSearch; varias notas se apoyan en medios secundarios (Reuters y Bloomberg vía terceros).
 - Claude Tip: la opción de stdin de `claude mcp add-json` (2.1.327) se verificó en AI Parabellum y Claudexia; la página oficial de changelog que devuelve WebFetch sigue sin las versiones de noviembre.
 
+## Datos de respaldo — 28 de noviembre de 2026
+
+- Edición Nº 32: WebFetch otra vez no pudo leer DolarApi, las dos URLs de MET Norway ni el SMN (permiso no concedido a tiempo en la corrida programada). Dólar de cierre del viernes 27 según Ámbito ($ 1.575 / $ 1.625), coincidente con Examedia/Río Negro; venta también en MinutoYA. Clima: SMN vía Perfil (28/11 05:30) de sábado a lunes y Derecha Diario (27/11) para el martes; viento máximo sólo para el sábado, sin lluvia en mm para lunes y martes.
+- Como en ediciones anteriores, WebFetch sólo abrió URLs aparecidas antes en resultados de WebSearch; varias notas se apoyan en medios secundarios (Bloomberg, CNBC, FT y Wired vía terceros).
+- Claude Tip: la sección de conectividad de «claude doctor» (2.1.331) se verificó en Releasebot, Havoptic y Gradually.ai; la página oficial de changelog que devuelve WebFetch sigue llegando sólo a 2.1.311. La URL de Gradually.ai no se cita porque ya se usó el 4/11 (el preflight la marca como tip repetido).
+- La acción de Anthropic volvió a superar su precio de salida (nota de empresas), lo que actualiza la nota del 25/11; no es una errata.
+
 ## Pedido del lector — 25 de noviembre de 2026
 
 - Se deja de cubrir **impresión 3D**. Se mantienen las cuatro páginas: la 3 pasa a ser **Empresas** (tres columnas) y la 4, **Tecnología** en dos columnas más la columna de dólar, clima, glosario y fe de erratas (`tecnologia_cierre` en `config/edicion.json`).

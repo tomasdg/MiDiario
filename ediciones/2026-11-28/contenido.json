@@ -1,0 +1,831 @@
+{
+ "edicion": {
+  "numero": 32,
+  "fecha": "2026-11-28",
+  "cierre": "2026-11-28T05:45:00-03:00",
+  "lugar": "Villa Urquiza, Buenos Aires",
+  "papel": "A4"
+ },
+ "portada": {
+  "principal": {
+   "id": "openai-contrademanda-apple",
+   "seccion": "principal",
+   "titulo": "OpenAI contrademanda a Apple y la acusa de robarle secretos y de presionar a sus proveedores",
+   "bajada": "La creadora de ChatGPT respondió en un tribunal de California al juicio que Apple le inició en julio por los dispositivos que diseña con el equipo de Jony Ive.",
+   "cuerpo": [
+    "OpenAI presentó el viernes una contrademanda contra Apple ante el tribunal federal del distrito norte de California, en San José. La acusa de apropiarse de secretos comerciales y de «coaccionar y amenazar» a los proveedores que trabajan en su línea de hardware. Según el escrito, del que informó primero el Financial Times, Apple busca «competir deslealmente por cualquier medio disponible». OpenAI se apoya en la ley federal de secretos comerciales, en la figura de interferencia en contratos y en las normas de competencia desleal de California.",
+    "La pelea empezó en julio, cuando Apple demandó a OpenAI, a io Products, la empresa de hardware de Jony Ive que OpenAI compró el año pasado, y a dos ex empleados suyos, Chang Liu y Tang Tan. Tan había sido responsable de diseño de producto del iPhone y del Apple Watch. Apple sostiene que se llevaron información confidencial de ingeniería. OpenAI lo niega y en octubre contraatacó con un dato propio: un empleado que volvió a Apple habría enviado a cuentas personales más de 100 archivos sobre un dispositivo todavía no lanzado. Apple respondió entonces que no había encontrado información de OpenAI en sus sistemas.",
+    "En la contrademanda, OpenAI agrega que Apple alentó a sus empleados a guardar archivos de trabajo en cuentas personales de iCloud y a manejar asuntos de la empresa por iMessage, lo que dificultaría rastrear qué se llevó cada uno. También afirma que la compañía de Cupertino presionó a fabricantes que la abastecen para que no trabajen con ella. Ninguna de las dos partes informó cuánto dinero reclama, y Apple no había respondido en público al cierre de esta edición.",
+    "El caso tiene juicio fijado para el 19 de julio de 2027, ante el juez Edward Davila. Para OpenAI está en juego el primer dispositivo propio de la empresa, que depende en buena medida de la misma cadena de proveedores asiáticos que arma los productos de Apple. La acción de Apple subió 0,8% en la rueda corta del viernes. Para quien usa estos productos en la Argentina no cambia nada por ahora: es una disputa entre empresas que tardará meses en resolverse."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+     "medio": "9to5Mac",
+     "titulo": "OpenAI countersues Apple, alleging trade secret theft and supplier threats",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:55:00-03:00"
+    },
+    {
+     "url": "https://stockanalysis.com/news/openai-countersues-apple-trade-secrets/",
+     "medio": "Stock Analysis",
+     "titulo": "OpenAI countersues Apple, accusing it of stealing trade secrets and threatening suppliers",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:55:00-03:00"
+    }
+   ]
+  },
+  "secundarias": [
+   {
+    "titulo": "Agentes, por la puerta",
+    "resumen": "Desde febrero, los agentes de IA sólo podrán entrar a Gmail, Drive y el resto de Workspace por los servidores MCP de Google, con confirmación humana.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Muse, sin prueba",
+    "resumen": "Meta rechazó que el regulador financiero británico ensayara su agente de compras antes de lanzarlo en el Reino Unido el 24 de noviembre.",
+    "pagina": 2
+   },
+   {
+    "titulo": "Tesla espera a Europa",
+    "resumen": "Los 27 podrían votar el 15 de diciembre si habilitan en todo el bloque la conducción asistida de Tesla, que ya aprobaron los Países Bajos.",
+    "pagina": 2
+   },
+   {
+    "titulo": "SAP, atacada",
+    "resumen": "Con tokens robados a empleados, atacantes copiaron y modificaron código de la empresa alemana en GitHub; dice que no tocaron datos de clientes.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Verizon va por fibra",
+    "resumen": "Negocia comprar Fidium por unos US$ 6.000 millones con deuda, según el Financial Times, para sumar 1,5 millones de hogares.",
+    "pagina": 3
+   },
+   {
+    "titulo": "Blackwell en Shanghai",
+    "resumen": "Un rack de Nvidia que no debía llegar a China apareció como garantía de un préstamo, y CBS señala a dos clientes californianos de capital chino.",
+    "pagina": 3
+   },
+   {
+    "titulo": "WordPress, bajo ataque",
+    "resumen": "Explotan en masa una falla crítica de WP Rocket; hay que actualizar a la 3.24.2 y revisar si alguien dejó archivos.",
+    "pagina": 4
+   }
+  ],
+  "agenda": [
+   {
+    "cuando": "30 nov",
+    "texto": "Cyber Monday: Adobe prevé US$ 15.100 millones en ventas online en Estados Unidos."
+   },
+   {
+    "cuando": "1 dic",
+    "texto": "Presentan resultados Marvell, Okta, MongoDB y GitLab."
+   },
+   {
+    "cuando": "2 dic",
+    "texto": "Presentan resultados Salesforce y Snowflake."
+   },
+   {
+    "cuando": "15 dic",
+    "texto": "Posible votación europea sobre la conducción asistida de Tesla."
+   },
+   {
+    "cuando": "15 dic",
+    "texto": "Vence el primer período de bloqueo de las acciones de Anthropic."
+   },
+   {
+    "cuando": "1 feb",
+    "texto": "Los agentes de IA sólo podrán entrar a Workspace por MCP o la línea de comandos."
+   }
+  ],
+  "llamadas": [
+   {
+    "etiqueta": "Claude Tips",
+    "texto": "Diagnosticá la conexión con «claude doctor».",
+    "pagina": 2
+   },
+   {
+    "etiqueta": "Empresas",
+    "texto": "Anthropic vuelve sobre US$ 83.",
+    "pagina": 3
+   },
+   {
+    "etiqueta": "Tecnología",
+    "texto": "Linux: una falla de doce años.",
+    "pagina": 4
+   },
+   {
+    "etiqueta": "Hoy",
+    "texto": "Calor y sol, 33°.",
+    "pagina": 4
+   }
+  ],
+  "dato_del_dia": {
+   "etiqueta": "La cifra del día",
+   "titulo": "130%",
+   "texto": "Crecimiento que Adobe espera esta temporada en las visitas a tiendas online que llegan desde asistentes de IA."
+  }
+ },
+ "notas": [
+  {
+   "id": "google-workspace-agentes-mcp",
+   "seccion": "ia",
+   "titulo": "Google obligará a los agentes de IA a entrar a Gmail y Drive sólo por MCP desde febrero",
+   "bajada": "Desde el 1 de febrero de 2027, los agentes no podrán usar las API comunes de Workspace y pasarán por canales con controles y confirmación humana.",
+   "cuerpo": [
+    "Google declaró disponibles para todos sus servidores MCP para Workspace y una herramienta de línea de comandos, y avisó que desde el 1 de febrero de 2027 serán la única vía para que los agentes de IA lleguen a Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat y Tasks. Las aplicaciones comunes podrán seguir usando las API REST; los agentes externos, en cambio, tendrán que identificarse con credenciales OAuth propias.",
+    "La empresa argumenta que esas API se pensaron para programas que andan a ritmo humano, donde un permiso válido equivalía a la voluntad del usuario, y que eso deja de valer con sistemas que actúan solos. Los canales nuevos revisan cada pedido contra los permisos, las reglas contra fuga de datos y las etiquetas de cada organización, y piden confirmación de una persona antes de enviar correos, cambiar permisos de archivos o hacer ediciones masivas. Un anexo del contrato prohíbe guardar datos de Workspace o usarlos para entrenar modelos, y limita a 30 días la conservación de memorias e índices. Desde el 1 de abril de 2027 el uso empezará a cobrarse por cuotas, sin precios publicados."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-25",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+     "medio": "Help Net Security",
+     "titulo": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/",
+     "medio": "Infosecurity Magazine",
+     "titulo": "Google Requires AI Agents to Access Workspace Through Approved Methods",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "meta-muse-fca",
+   "seccion": "ia",
+   "titulo": "Meta no dejó que el regulador financiero británico probara su agente Muse antes de lanzarlo",
+   "bajada": "La FCA ofreció ensayarlo en su entorno de pruebas, pero Muse salió igual en el Reino Unido el 24 de noviembre.",
+   "cuerpo": [
+    "Meta rechazó la propuesta de la Financial Conduct Authority (FCA) de probar juntos su agente Muse en el entorno de pruebas del regulador, según reveló Wired. Colin Payne, jefe de innovación de la FCA, contó que la oferta se hizo la semana anterior al lanzamiento. Muse busca en la web, completa formularios y compra con billeteras de Stripe y Shop Pay, y el organismo quería ver cómo se comporta cuando maneja pagos.",
+    "El mismo día del lanzamiento, la FCA advirtió que los agentes que hagan transacciones o muevan dinero podrían necesitar su autorización. Meta dice que dialogó con las autoridades. Según Zuckerberg, más de 10 millones de personas activaron Muse en Estados Unidos y Canadá en seis semanas, una cifra de la propia empresa."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
+     "medio": "The Next Web",
+     "titulo": "Meta declined to let the FCA test its Muse agent, WIRED reports",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    },
+    {
+     "url": "https://dataconomy.com/2026/11/27/meta-rejects-fca-sandbox-test-for-muse-ai-agent-in-uk/",
+     "medio": "Dataconomy",
+     "titulo": "Meta Rejects FCA Sandbox Test For Muse AI Agent In UK",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "ue-tesla-votacion",
+   "seccion": "ia",
+   "titulo": "La Unión Europea podría votar el 15 de diciembre la conducción asistida de Tesla",
+   "cuerpo": [
+    "Un borrador de agenda de la Comisión Europea, citado por Reuters, prevé que los países del bloque sigan analizando el 15 de diciembre el pedido de homologación del sistema de conducción asistida de Tesla presentado por los Países Bajos, «con posible votación». Es la primera vez que Bruselas plantea esa opción por escrito. Casi una docena de países ya siguió a los neerlandeses, pero la aprobación en toda la Unión necesita al menos 15 de los 27 miembros que sumen 65% de la población."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://live.euronext.com/en/financial-news/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting",
+     "medio": "Reuters (vía Euronext)",
+     "titulo": "EU may vote on authorising Tesla assisted-driving system at Dec 15 meeting",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "cyberstrikeai-cierre",
+   "seccion": "ia",
+   "titulo": "Retiran la versión abierta de CyberStrikeAI, una herramienta de ataque con IA que usaban delincuentes",
+   "cuerpo": [
+    "ThreatBook, firma de ciberseguridad con base en Singapur y Hong Kong, anunció el 26 de noviembre que deja de ofrecer en GitHub la versión abierta de CyberStrikeAI, un marco que usa agentes de IA para automatizar pruebas de intrusión y que tenía más de 7.000 estrellas. Explicó que estas herramientas se usan cada vez más para atacar. Según la Shadowserver Foundation, el 23 de noviembre había más de 4.200 servidores con marcos de este tipo, 6% de ellos con CyberStrikeAI. La versión cerrada seguirá sólo para empresas verificadas."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://www.infosecurity-magazine.com/news/cyberstrikeai-shut-down-threatbook/",
+     "medio": "Infosecurity Magazine",
+     "titulo": "CyberStrikeAI Creator Shuts Down Open-Source AI Offensive Framework",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "kazajistan-rusia-ia",
+   "seccion": "ia",
+   "titulo": "Kazajistán abre la puerta a Sberbank y Yandex y se acerca a Rusia en IA",
+   "cuerpo": [
+    "El presidente kazajo, Kassym-Jomart Tokayev, fue el jueves a AI Journey, el congreso de IA de Sberbank en Moscú, se reunió con Vladimir Putin y dijo que Sberbank y Yandex son bienvenidos en su país. Un mes antes había recibido a Jensen Huang, cuando el grupo Freedom Holding encargó su primer clúster con chips B300 de Nvidia. Rusia no puede importar chips de IA estadounidenses por las sanciones; Reuters plantea el riesgo de que Kazajistán haga de puente, sin pruebas de desvíos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://live.euronext.com/en/financial-news/kazakhstan-boosts-ai-cooperation-russia-which-hungry-advanced-us-chips",
+     "medio": "Reuters (vía Euronext)",
+     "titulo": "Kazakhstan boosts AI cooperation with Russia, which is hungry for advanced US chips",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-nemotron-parse",
+   "seccion": "ia",
+   "titulo": "Nvidia libera datos y recetas para su modelo abierto que lee documentos",
+   "cuerpo": [
+    "Nvidia publicó en Hugging Face materiales para Nemotron 3.5 Parse, un modelo abierto de unos 600 millones de parámetros que convierte imágenes de páginas en texto estructurado, con tablas y gráficos pasados a datos. Liberó casi 19 millones de ejemplos sintéticos de entrenamiento. Según sus propias pruebas en una GPU H200, con decodificación especulativa procesa 20,44 páginas por segundo, contra 13,48 sin esa técnica."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+     "medio": "Hugging Face (blog de Nvidia)",
+     "titulo": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "tencent-dfly2",
+   "seccion": "breve",
+   "titulo": "Tencent libera DFly2, que acelera modelos como DeepSeek",
+   "cuerpo": [
+    "El acelerador de código abierto de Tencent mejora hasta 81% el rendimiento de DeepSeek-V4.1-Flash con contextos de 64.000 tokens, según cifras de la empresa. Funciona con vLLM y SGLang sin reentrenar."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": false,
+   "fuentes": [
+    {
+     "url": "https://emergent.sh/news/tencent-dfly2-boosts-deepseek-v4-1-flash",
+     "medio": "Emergent",
+     "titulo": "Tencent DFly2 Boosts DeepSeek-V4.1-Flash Speed by 81%",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ],
+   "seccion_destino": "ia"
+  },
+  {
+   "id": "sap-incidente-github",
+   "seccion": "empresas",
+   "titulo": "SAP confirma un ataque a su entorno de GitHub con credenciales robadas a empleados",
+   "bajada": "Según Der Spiegel, los atacantes copiaron y modificaron código fuente; la empresa dice que no hay indicios de acceso a datos de clientes.",
+   "cuerpo": [
+    "La alemana SAP confirmó que investiga un incidente de ciberseguridad tras detectar actividad sospechosa en su infraestructura de desarrollo. De acuerdo con Der Spiegel, que citó una comunicación interna, los atacantes consiguieron tokens de autenticación de empleados y los usaron para copiar y alterar código alojado en GitHub. Internamente el caso se llama «Project Granite» y tocó a numerosos equipos de desarrollo.",
+    "La compañía afirmó que hasta ahora no encontró pruebas de acceso a datos de negocio de sus clientes, pero no precisó qué entornos fueron alcanzados ni si quienes descargan código de sus repositorios deben hacer algo. Según Handelsblatt, SAP cambió sus claves de firma, restringió el acceso a GitHub y frenó procesos automáticos de compilación. Fuentes del semanario alemán deslizaron que el ataque pudo apoyarse en agentes de IA, algo que la empresa no confirmó.",
+    "Ningún reporte indica que código adulterado haya llegado a software entregado a clientes, aunque especialistas advierten que ese es el riesgo de fondo: un cambio malicioso en el código de un proveedor tan grande puede viajar por la cadena de suministro. El incidente llega una semana después de que trascendiera el plan de SAP de recortar al menos 10.000 puestos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+     "medio": "SecurityWeek",
+     "titulo": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:45:00-03:00"
+    },
+    {
+     "url": "https://itdaily.com/news/security/sap-security-incident-github/",
+     "medio": "ITdaily",
+     "titulo": "SAP confirms security incident after suspicious activity on GitHub",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:48:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "verizon-fidium",
+   "seccion": "empresas",
+   "titulo": "Verizon negocia comprar la operadora de fibra Fidium por unos US$ 6.000 millones",
+   "bajada": "La operación, informada por el Financial Times, sumaría 1,5 millones de hogares a su red tras la compra de Frontier.",
+   "cuerpo": [
+    "Verizon negocia la compra de Fidium, proveedora de internet por fibra en Estados Unidos, por alrededor de US$ 6.000 millones con deuda incluida, según el Financial Times. Fidium, que hasta el año pasado se llamaba Consolidated Communications, pertenece a Searchlight Capital Partners y al fondo canadiense BCI, que la sacaron de la bolsa por unos US$ 3.100 millones. Ofrece fibra en 21 estados y su red llega a 1,5 millones de hogares.",
+    "Un acuerdo podría anunciarse en semanas, aunque la negociación todavía puede caerse. Verizon terminó este año la compra de Frontier y en el tercer trimestre sumó 314.000 clientes de banda ancha, menos de lo esperado. Ninguna de las empresas comentó."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/verizon-fidium-6b-talks-fibre-broadband",
+     "medio": "The Next Web",
+     "titulo": "Verizon is in talks to buy fibre operator Fidium for $6B, FT reports",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:47:00-03:00"
+    },
+    {
+     "url": "https://stockanalysis.com/news/verizon-talks-buy-fidium-6b/",
+     "medio": "Stock Analysis",
+     "titulo": "Verizon in talks to buy fiber broadband provider Fidium for about $6B including debt",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:47:00-03:00"
+    },
+    {
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N478122:0-verizon-in-talks-over-6-billion-deal-for-fidium-ft-reports/",
+     "medio": "Reuters vía TradingView",
+     "titulo": "Verizon in talks over $6 billion deal for Fidium, FT reports",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:46:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-blackwell-shanghai",
+   "seccion": "empresas",
+   "titulo": "Aparecen chips Blackwell de Nvidia en un centro de datos de Shanghai",
+   "bajada": "Un préstamo en China y una investigación de CBS sobre clientes californianos de capital chino reavivan las dudas sobre los controles de exportación.",
+   "cuerpo": [
+    "Según Bloomberg, una empresa china ofreció un rack GB300 NVL72 de Nvidia, cuya venta a China requiere licencia, como garantía de un préstamo de 96 millones de yuanes (unos US$ 14 millones). El número de serie permitió saber que lo armó la taiwanesa Gigabyte, que dijo cumplir la ley; el centro de datos está vinculado a Alice Huang, fundadora de Megaspeed. No se sabe cómo llegó el equipo.",
+    "En paralelo, CBS informó que dos clientes californianos de Nvidia, RiCloud AI y el fabricante de servidores Aivres, son de capitales chinos. Un análisis citado por la cadena indica que Aivres exportó al menos US$ 5.600 millones en tecnología al sudeste asiático en casi dos años. Nadie fue acusado, Megaspeed niega irregularidades y Nvidia no respondió."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg",
+     "medio": "The Next Web",
+     "titulo": "Blackwell rack found at Alice Huang-linked Shanghai site, Bloomberg reports",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:56:00-03:00"
+    },
+    {
+     "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+     "medio": "The Decoder",
+     "titulo": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:57:00-03:00"
+    },
+    {
+     "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
+     "medio": "Tom's Hardware",
+     "titulo": "Two Californian Nvidia AI chip customers are really Chinese-owned — companies used as workaround for government export controls",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:46:00-03:00"
+    },
+    {
+     "url": "https://sg.finance.yahoo.com/news/nvidia-chips-reach-chinese-owned-031146505.html",
+     "medio": "Investing.com vía Yahoo Finance",
+     "titulo": "Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports",
+     "fecha_publicacion": "2026-11-25",
+     "consultado": "2026-11-28T05:49:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "neonubes-china",
+   "seccion": "empresas",
+   "titulo": "Los vendedores de Nvidia piden a las neonubes no alquilarle nada a firmas chinas",
+   "cuerpo": [
+    "Revendedores de chips de Nvidia avisaron a las neonubes que no les venderán GPU si alguna parte de su capacidad termina alquilada a empresas chinas, informó CNBC. La pauta anterior de Nvidia era no vender a quien alquilara más de la mitad a firmas de China. El cambio sigue a una regla del Departamento de Comercio vigente desde el 19 de noviembre que exige licencia para dar cómputo a gran escala a empresas chinas desde el exterior."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thenextweb.com/news/nvidia-gpu-sellers-neoclouds-no-chinese-renters",
+     "medio": "The Next Web",
+     "titulo": "Nvidia sellers reportedly bar neoclouds from renting to Chinese firms",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:50:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html",
+     "medio": "Benzinga vía Yahoo Finance",
+     "titulo": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "black-friday-adobe",
+   "seccion": "empresas",
+   "titulo": "El Black Friday online pasaría los US$ 13.000 millones en Estados Unidos",
+   "cuerpo": [
+    "Hasta las 18.30 de la costa este, las compras por internet del Black Friday sumaban US$ 9.700 millones, 12,8% más que hace un año, según Adobe Analytics, que proyecta entre US$ 13.000 y 13.400 millones para el día. El jueves de Acción de Gracias se gastaron US$ 7.100 millones online, y Adobe estima que el tráfico a tiendas que llega desde asistentes de IA crecerá 130% en la temporada. En la rueda corta, el Nasdaq subió 2,31% y Amazon llegó a ganar 3,8%."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://whtc.com/2026/11/27/us-black-friday-online-sales-to-cross-13-billion-adobe-says/",
+     "medio": "Reuters vía WHTC",
+     "titulo": "US Black Friday online sales to cross $13 billion, Adobe says",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:52:00-03:00"
+    },
+    {
+     "url": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-on-track-for-4-day-rally-adobe-reports-surge-in-ai-traffic-7-1-b-thanksgiving-sales/cNb6GnOR9Va",
+     "medio": "Stocktwits",
+     "titulo": "ADBE Stock On Track For 4-Day Rally: Adobe Reports Surge In AI Traffic, $7.1B Thanksgiving Sales",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:59:00-03:00"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+     "medio": "Yahoo Finance",
+     "titulo": "Stock market today: Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:58:00-03:00"
+    },
+    {
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/",
+     "medio": "The Motley Fool",
+     "titulo": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:53:00-03:00"
+    },
+    {
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026",
+     "medio": "StockTitan",
+     "titulo": "Stock Market Today, November 27, 2026: Stocks Close Higher in a Short Black Friday Session",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:54:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-accion-rebote",
+   "seccion": "empresas",
+   "titulo": "La acción de Anthropic sube 11% y vuelve a superar su precio de salida",
+   "cuerpo": [
+    "Los papeles de Anthropic ganaron 10,98% el viernes y cerraron a US$ 91,88, por encima de los US$ 83 de su colocación del 18 de noviembre, después de una semana en la que llegaron a perforar ese precio. El rebote acompañó la suba de las tecnológicas. El 15 de diciembre vence el primer período de bloqueo, que habilita la venta de hasta 303 millones de acciones de accionistas previos."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-anthropic-jumps-11-reclaiming-its-usd83-ipo-price-as-wall-street-rallies/",
+     "medio": "The Motley Fool",
+     "titulo": "Stock Market Today, Nov. 27: Anthropic Jumps 11%, Reclaiming Its $83 IPO Price as Wall Street Rallies",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    },
+    {
+     "url": "https://www.fool.com/investing/2026/11/27/why-anthropic-stock-rallied-on-friday-wall-street-analysts-say-buy-right-now/",
+     "medio": "The Motley Fool",
+     "titulo": "Here's Why Anthropic Stock Rallied on Friday -- and Why Wall Street Analysts Say It's Still a Buy Right Now",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    },
+    {
+     "url": "https://siliconangle.com/2026/11/18/after-anthropic-prices-ipo-higher-than-expected-shares-shoot-up-34-trading-debut",
+     "medio": "SiliconANGLE",
+     "titulo": "After Anthropic prices IPO higher than expected, shares shoot up 34% in trading debut",
+     "fecha_publicacion": "2026-11-18",
+     "consultado": "2026-11-28T06:04:22-03:00"
+    }
+   ]
+  },
+  {
+   "id": "altair-ronda",
+   "seccion": "empresas",
+   "titulo": "Altair Semiconductor levanta US$ 100 millones tras independizarse de Sony",
+   "cuerpo": [
+    "La israelí, diseñadora de módems celulares de bajo consumo, cerró una ronda de US$ 100 millones encabezada por Maverick Silicon. Sony la había comprado en 2016 y este año cerró su desarrollo en Israel, cuando unos 200 empleados tomaron el control; sigue como accionista. El dinero irá a fabricar en volumen en 2027 un módem para anteojos inteligentes. No informó valuación."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://chipdispatch.com/articles/altair-raises-100m-series-a-to-mass-produce-5g-wearable-modem",
+     "medio": "Chip Dispatch",
+     "titulo": "Altair Raises $100M for 5G Wearable Modem Production",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:58:00-03:00"
+    },
+    {
+     "url": "https://ventureburn.com/altair-raises-100-million-connect-ai-devices/",
+     "medio": "Ventureburn",
+     "titulo": "Altair Raises $100 Million to Keep AI Glasses and Wearables Connected All Day",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "moodys-nvidia",
+   "seccion": "breve",
+   "titulo": "Moody's mantiene la nota de Nvidia",
+   "cuerpo": [
+    "La calificadora ratificó el Aa1 con perspectiva estable tras el regreso de Jensen Huang como CEO, a diferencia de S&P, que puso a la empresa en revisión negativa."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-25",
+   "importancia": 2,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.aiaffairs.com/markets/moodys-nvidia-huang-reinstatement-aa1-rating/",
+     "medio": "AI Affairs",
+     "titulo": "Moody's sees less uncertainty at Nvidia after Huang returns, keeps Aa1 rating",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:57:00-03:00"
+    },
+    {
+     "url": "https://www.tradingview.com/news/seekingalpha:48c48c84c094b:0-nvidia-s-aa1-rating-stable-outlook-unchanged-after-huang-s-return-moody-s/",
+     "medio": "Seeking Alpha vía TradingView",
+     "titulo": "Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's",
+     "fecha_publicacion": "2026-11-25",
+     "consultado": "2026-11-28T05:56:00-03:00"
+    }
+   ],
+   "seccion_destino": "empresas"
+  },
+  {
+   "id": "wp-rocket-falla",
+   "seccion": "tecnologia",
+   "titulo": "Atacan en masa una falla crítica de WP Rocket, un complemento muy usado de WordPress",
+   "bajada": "La vulnerabilidad deja tomar un sitio sin credenciales y se explota desde el 25 de noviembre; la solución es actualizar a la versión 3.24.2.",
+   "cuerpo": [
+    "Patchstack alertó que una falla crítica de WP Rocket, complemento de caché para WordPress con más de 5,5 millones de descargas, está bajo ataque. La CVE-2026-125812, con puntaje 9,8 sobre 10, permite a un atacante sin credenciales escribir y ejecutar código PHP en el servidor. Afecta a las versiones anteriores a la 3.24.2, del 19 de noviembre, pero sólo si están activadas la carga diferida de fondos CSS o el alojamiento local de fuentes, que vienen apagadas.",
+    "El primer intento se vio el 25 de noviembre y al día siguiente ya había campañas automáticas, con decenas de miles de intentos bloqueados en un día. Hay que actualizar o, si no se puede, apagar esas dos opciones. Como la actualización no borra lo que un intruso haya dejado, conviene revisar los registros desde el 25 y buscar archivos PHP desconocidos en wp-content."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 5,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://patchstack.com/articles/critical-wp-rocket-rce-cve-2026-125812-under-active-attack/",
+     "medio": "Patchstack",
+     "titulo": "Critical WP Rocket RCE (CVE-2026-125812) Under Active Attack",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:45:00-03:00"
+    },
+    {
+     "url": "https://www.rescana.com/post/wp-rocket-cve-2026-125812-unauthenticated-rce-under-active-attack-update-to-3-24-2-now",
+     "medio": "Rescana",
+     "titulo": "WP Rocket CVE-2026-125812 Unauthenticated RCE Under Active Attack: Update to 3.24.2 Now",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:58:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "linux-nfs2root",
+   "seccion": "tecnologia",
+   "titulo": "Una falla de doce años en Linux da control total de servidores NFS",
+   "cuerpo": [
+    "Investigadores de la agencia francesa ANSSI y de OpenSec revelaron NFS2ROOT (CVE-2026-99362), una falla del servidor NFS del núcleo Linux que permite a un atacante remoto convertirse en administrador sin contraseña. Está presente desde el kernel 3.16, de 2014, y afecta a equipos con NFS 4.1 o 4.2 y el puerto 2049 expuesto, algo común en discos de red y clústeres de Kubernetes. Ya está corregida en los kernels 6.12.117, 6.18.61 y 7.3.2, pero varias distribuciones todavía no publicaron los paquetes. Mientras tanto, conviene cerrar el puerto 2049 a redes no confiables."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://cybernews.com/security/nfs2root-linux-kernel-vulnerability-exposes-nas-kubernetes/",
+     "medio": "Cybernews",
+     "titulo": "NFS2ROOT vulnerability gives hackers root on Linux NFS servers",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:46:00-03:00"
+    },
+    {
+     "url": "https://dataconomy.com/2026/11/27/12-year-old-linux-nfs-flaw-lets-remote-attackers-gain-root/",
+     "medio": "Dataconomy",
+     "titulo": "12-year-old Linux NFS Flaw Lets Remote Attackers Gain Root Access",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:47:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "cacti-sin-parche",
+   "seccion": "tecnologia",
+   "titulo": "Publican un ataque contra Cacti que todavía no tiene parche",
+   "cuerpo": [
+    "Un investigador difundió el jueves una prueba de concepto que ejecuta comandos en servidores con Cacti, herramienta abierta de monitoreo de redes, con cuatro pedidos HTTP y sin iniciar sesión. Funciona en la versión más reciente, 1.2.31, si está habilitada la cuenta de invitado, que viene apagada. El problema no se avisó antes a los desarrolladores y no tiene CVE ni corrección. Se aconseja deshabilitar esa cuenta y limitar el acceso a la interfaz web."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+     "medio": "The Hacker News",
+     "titulo": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:50:00-03:00"
+    },
+    {
+     "url": "https://hitechub.com/unpatched-cacti-zero-day-exploit-with-public-poc-enables-remote-code-execution/",
+     "medio": "Hitechub",
+     "titulo": "Unpatched Cacti Zero-Day Exploit With Public PoC Enables Remote Code Execution",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:49:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "dwp-incidente",
+   "seccion": "tecnologia",
+   "titulo": "Un incidente informático apaga los servicios del organismo británico de pensiones",
+   "cuerpo": [
+    "El Department for Work and Pensions del Reino Unido sacó de línea desde el jueves a la noche el ingreso a Universal Credit, el buscador de empleo y otros portales tras un «incidente cibernético». El ministro Pat McFadden lo calificó de serio; no se explicó su origen. El gobierno dice que no hay indicios de robo de datos y que los pagos siguen saliendo."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-27",
+   "importancia": 4,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.itv.com/news/2026-11-27/department-for-work-and-pensions-takes-services-offline-after-cyber-incident",
+     "medio": "ITV News",
+     "titulo": "'Cyber incident' affecting Department for Work and Pensions as services offline",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:52:00-03:00"
+    },
+    {
+     "url": "https://www.yahoo.com/news/world/articles/pensions-benefits-services-still-down-072759273.html",
+     "medio": "BBC News (vía Yahoo News)",
+     "titulo": "Pensions and benefits services still down after 'cyber incident'",
+     "fecha_publicacion": "2026-11-28",
+     "consultado": "2026-11-28T05:53:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "afp-ciberataque",
+   "seccion": "tecnologia",
+   "titulo": "Un ciberataque deja sin su plataforma de distribución a la agencia AFP",
+   "cuerpo": [
+    "La Agence France-Presse sufrió un ataque en la madrugada del jueves contra AFP Forum, el portal desde el que los medios clientes bajan textos, fotos y videos. Lo desconectó como precaución y el viernes seguía fuera de servicio. No informó si se accedió a datos ni cuándo volverá; nadie se atribuyó el ataque."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-26",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+     "medio": "The Record (Recorded Future News)",
+     "titulo": "Cyberattack disrupts global news distribution platform at France's AFP",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:51:00-03:00"
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+     "medio": "Al Jazeera",
+     "titulo": "Global news agency AFP reports cyberattack, shuts down content platform",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:51:00-03:00"
+    }
+   ]
+  },
+  {
+   "id": "windows-server-parche",
+   "seccion": "tecnologia",
+   "titulo": "Microsoft arregla de urgencia un parche que colgaba Windows Server 2025",
+   "cuerpo": [
+    "La actualización KB5138318 corrige las pantallas azules que causaba el parche en caliente de noviembre en servidores con rutas IPv6 que vencen; no requiere reiniciar. Además, Microsoft confirmó que Windows Server 2028 ya no traerá WSUS, su servidor local de actualizaciones, que seguirá con soporte en versiones anteriores."
+   ],
+   "tipo": "hecho",
+   "fecha_acontecimiento": "2026-11-25",
+   "importancia": 3,
+   "sensible_al_tiempo": true,
+   "verificado_en_dos_fuentes": true,
+   "fuentes": [
+    {
+     "url": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+     "medio": "The Register",
+     "titulo": "Microsoft hotpatches hotpatch that could crash Windows Server 2025",
+     "fecha_publicacion": "2026-11-26",
+     "consultado": "2026-11-28T05:54:00-03:00"
+    },
+    {
+     "url": "https://www.it-connect.tech/windows-server-2025-microsoft-urgently-fixes-blue-screen-bug-in-november-update/",
+     "medio": "IT-Connect",
+     "titulo": "Windows Server 2025 Blue Screen Bug Fixed by KB5138318",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:55:00-03:00"
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+     "medio": "BleepingComputer",
+     "titulo": "Microsoft removes WSUS server role in Windows Server 2028",
+     "fecha_publicacion": "2026-11-27",
+     "consultado": "2026-11-28T05:57:00-03:00"
+    }
+   ]
+  }
+ ],
+ "finanzas": "@datos/finanzas.json",
+ "clima": "@datos/clima.json",
+ "glosario": [
+  {
+   "termino": "Protocolo de Contexto de Modelo (MCP)",
+   "definicion": "Estándar abierto con el que un agente de IA se conecta a herramientas y datos externos.",
+   "nota_relacionada": "google-workspace-agentes-mcp"
+  },
+  {
+   "termino": "Neonube (neocloud)",
+   "definicion": "Empresa que alquila GPU para IA sin ser una de las grandes nubes.",
+   "nota_relacionada": "neonubes-china"
+  },
+  {
+   "termino": "Período de bloqueo (lock-up)",
+   "definicion": "Plazo tras la salida a la bolsa en que los accionistas previos no pueden vender.",
+   "nota_relacionada": "anthropic-accion-rebote"
+  }
+ ],
+ "fe_de_erratas": [],
+ "claude_tip": {
+  "titulo": "Diagnosticá con «claude doctor» si Claude Code llega a la API",
+  "donde": "Claude Code",
+  "origen": "Visto en los registros de versiones de Releasebot, Havoptic y Gradually.ai",
+  "texto": [
+   "La versión 2.1.331 de Claude Code, del 23 de noviembre, sumó a «claude doctor» una sección de conectividad con la API: dice si el servidor responde, con el código HTTP o el error, o por qué no se probó. Lo registran Releasebot, Havoptic y Gradually.ai, que copian el registro de cambios.",
+   "Sirve cuando una sesión se queda colgada al conectar, sobre todo detrás de un proxy, una VPN de la oficina o una pasarela corporativa: en un solo comando separa un problema de red de uno de credenciales o de la propia herramienta."
+  ],
+  "pasos": [
+   "Actualizá con «claude update» y confirmá con «claude --version» que tenés la 2.1.331 o posterior.",
+   "Corré «claude doctor» en la terminal, fuera de una sesión.",
+   "Buscá la sección de conectividad con la API: un error de red o de certificado apunta al proxy; un 401, a la sesión, que se renueva con «claude auth login»."
+  ],
+  "fuentes": [
+   {
+    "url": "https://www.havoptic.com/tools/claude-code",
+    "medio": "Havoptic",
+    "titulo": "Claude Code Changelog: Latest Version v2.1.327",
+    "fecha_publicacion": "2026-11-23",
+    "consultado": "2026-11-28T05:55:00-03:00"
+   },
+   {
+    "url": "https://releasebot.io/updates/anthropic/claude-code",
+    "medio": "Releasebot",
+    "titulo": "Claude Code Updates by Anthropic - November 2026",
+    "fecha_publicacion": "2026-11-24",
+    "consultado": "2026-11-28T05:55:00-03:00"
+   }
+  ]
+ }
+}

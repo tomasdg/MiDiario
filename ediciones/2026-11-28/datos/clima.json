@@ -1,0 +1,40 @@
+{
+  "lugar": "Villa Urquiza",
+  "corte": "2026-11-28T08:30:00Z",
+  "fuente": "SMN vía Perfil (28/11) y Derecha Diario (27/11)",
+  "dias": [
+    {
+      "fecha": "2026-11-28",
+      "codigo_wmo": 1,
+      "max": 33,
+      "min": 21,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 22
+    },
+    {
+      "fecha": "2026-11-29",
+      "codigo_wmo": 2,
+      "max": 34,
+      "min": 23,
+      "precip_mm": 0,
+      "prob_precip": 0
+    },
+    {
+      "fecha": "2026-11-30",
+      "codigo_wmo": 2,
+      "max": 33,
+      "min": 22
+    },
+    {
+      "fecha": "2026-12-01",
+      "codigo_wmo": 2,
+      "max": 30,
+      "min": 21
+    }
+  ],
+  "previos": [],
+  "cambio_brusco": null,
+  "alertas": "Sin alertas para la Ciudad. Refresca entre el martes y el miércoles",
+  "no_disponible": []
+}

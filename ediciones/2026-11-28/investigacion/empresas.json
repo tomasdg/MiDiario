@@ -1,0 +1,357 @@
+{
+  "tema": "empresas",
+  "consultado_el": "2026-11-28T06:00:00-03:00",
+  "notas": [
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "OpenAI contrademandó a Apple y la acusa de robar secretos y presionar a proveedores",
+      "bajada": "La creadora de ChatGPT respondió en un tribunal federal de California al juicio que Apple le inició en julio por el desarrollo de dispositivos propios.",
+      "cuerpo": "OpenAI presentó el viernes una contrademanda contra Apple en el tribunal federal del distrito norte de California, con sede en San José, en la que acusa a la empresa de la manzana de apropiarse de sus secretos comerciales y de \"coaccionar y amenazar\" a los proveedores que trabajan con ella en su línea de hardware. Según el escrito, informado primero por el Financial Times, Apple busca \"competir deslealmente por cualquier medio disponible\" y alentó a sus empleados a guardar archivos de trabajo en cuentas personales de iCloud y a hacer gestiones de la compañía por iMessage. OpenAI invoca la ley federal de secretos comerciales, la interferencia en contratos y las normas de competencia desleal de California. La pelea empezó en julio, cuando Apple demandó a OpenAI, a io Products —la firma de hardware de Jony Ive que OpenAI compró el año pasado— y a dos ex empleados, Chang Liu y Tang Tan, este último ex responsable de diseño de producto del iPhone y del Apple Watch, por llevarse información confidencial de ingeniería. OpenAI niega esas acusaciones y en octubre sostuvo que un empleado que volvió a Apple envió a cuentas personales más de 100 archivos sobre un dispositivo propio aún no lanzado; Apple respondió entonces que no había encontrado información confidencial de OpenAI. El juicio está fijado para el 19 de julio de 2027 y ninguna de las partes informó montos reclamados. La acción de Apple subió 0,8% en la rueda corta del viernes.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 5,
+      "datos_clave": [
+        "Contrademanda presentada el 27/11/2026 en el tribunal federal del distrito norte de California (San José), causa Apple Inc. v. Liu, n.° 5:26-cv-07078, juez Edward Davila",
+        "OpenAI acusa a Apple de robo de secretos comerciales, interferencia en contratos y competencia desleal",
+        "Apple había demandado en julio de 2026 a OpenAI, io Products, Chang Liu y Tang Tan",
+        "En octubre OpenAI denunció que un ex empleado envió más de 100 archivos confidenciales a cuentas personales",
+        "Juicio previsto para el 19/07/2027",
+        "Acción de Apple: +0,8% el 27/11"
+      ],
+      "fuentes": [
+        {
+          "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+          "medio": "9to5Mac",
+          "titulo": "OpenAI countersues Apple, alleging trade secret theft and supplier threats",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:55:00-03:00"
+        },
+        {
+          "url": "https://stockanalysis.com/news/openai-countersues-apple-trade-secrets/",
+          "medio": "Stock Analysis",
+          "titulo": "OpenAI countersues Apple, accusing it of stealing trade secrets and threatening suppliers",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:55:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No hay respuesta pública de Apple a la contrademanda. No se conocen montos reclamados. La fecha exacta de la demanda original de Apple (alrededor del 10 de julio) surge solo de una URL citada por 9to5Mac."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "SAP confirmó un incidente de seguridad en su entorno de GitHub",
+      "bajada": "Según Der Spiegel, atacantes usaron credenciales robadas a empleados para copiar y modificar código fuente; la empresa dice que no hay indicios de acceso a datos de clientes.",
+      "cuerpo": "La alemana SAP confirmó que investiga un incidente de ciberseguridad después de detectar actividad sospechosa en su infraestructura de desarrollo. De acuerdo con Der Spiegel, que citó una comunicación interna, los atacantes obtuvieron tokens de autenticación de empleados y los usaron para copiar y alterar código fuente alojado en GitHub; internamente el caso se conoce como \"Project Granite\" y alcanzó a numerosos equipos de desarrollo. La compañía afirmó que, según lo investigado hasta ahora, no encontró evidencia de acceso no autorizado a datos de negocio de sus clientes, pero no precisó qué entornos fueron afectados ni si quienes descargan código de sus repositorios deben tomar medidas. Según Handelsblatt, SAP reemplazó claves de firma, restringió el acceso a GitHub y suspendió procesos automáticos de desarrollo. Fuentes citadas por el semanario alemán sugirieron que el ataque pudo haberse apoyado en agentes de inteligencia artificial, algo que la empresa no confirmó. Ningún reporte indica hasta ahora que código adulterado haya llegado a software entregado a clientes, aunque especialistas advierten sobre el riesgo de que un cambio así se cuele en la cadena de suministro.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 4,
+      "datos_clave": [
+        "Der Spiegel reveló el incidente el jueves 26/11; SAP lo confirmó a SecurityWeek y BleepingComputer",
+        "Tokens de autenticación de empleados robados, usados para copiar y modificar código en GitHub",
+        "Nombre interno: Project Granite",
+        "Medidas: reemplazo de claves de firma, acceso restringido a GitHub, pausa de procesos automatizados",
+        "SAP: sin evidencia de acceso a datos de negocio de clientes",
+        "No se informó cantidad de repositorios, cuentas o tokens afectados"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "medio": "SecurityWeek",
+          "titulo": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:45:00-03:00"
+        },
+        {
+          "url": "https://itdaily.com/news/security/sap-security-incident-github/",
+          "medio": "ITdaily",
+          "titulo": "SAP confirms security incident after suspicious activity on GitHub",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:48:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Atacante no identificado; el uso de IA no está confirmado. No se sabe si hubo acceso a código propietario (SAP también publica herramientas y proyectos abiertos en GitHub). SecurityWeek señala que no parece estar vinculado al reclamo del grupo de ransomware Gentlemen de fines de octubre. La nota de BleepingComputer apareció en búsqueda pero no pudo abrirse."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "Verizon negocia la compra de la operadora de fibra Fidium por unos US$6.000 millones",
+      "bajada": "La operación, informada por el Financial Times, profundizaría la apuesta de la telefónica por la banda ancha fija tras quedarse con Frontier.",
+      "cuerpo": "Verizon mantiene conversaciones para adquirir Fidium, proveedora estadounidense de internet por fibra óptica, en una operación valuada en alrededor de US$6.000 millones incluida la deuda, según publicó el Financial Times citando a personas al tanto. Fidium, con sede en Illinois, se llamaba Consolidated Communications hasta el año pasado y pertenece al fondo Searchlight Capital Partners y a British Columbia Investment Management Corporation (BCI), que la retiraron de la bolsa en una operación de unos US$3.100 millones con deuda incluida; el precio en discusión casi duplicaría ese valor. La empresa ofrece fibra en 21 estados, su red llega a 1,5 millones de hogares y apunta a 2 millones a fines de 2027, con fuerte presencia en el norte de Nueva Inglaterra. Un acuerdo podría anunciarse en semanas, aunque podría aparecer otro oferente o caerse la negociación. Verizon terminó este año la compra de Frontier Communications y busca acelerar en banda ancha domiciliaria, donde en el tercer trimestre sumó 314.000 clientes, por debajo de lo esperado por analistas. Ninguna de las dos compañías hizo comentarios; la acción de Verizon subió 0,5% el viernes.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 4,
+      "datos_clave": [
+        "Valor: unos US$6.000 millones incluida deuda",
+        "Dueños de Fidium: Searchlight Capital Partners y BCI; la compraron por unos US$3.100 millones con deuda",
+        "Fidium (ex Consolidated Communications): fibra en 21 estados, 1,5 millones de hogares alcanzados, meta 2 millones a fines de 2027",
+        "Unos 351.000 hogares abonados en Maine, New Hampshire, Vermont y otros estados",
+        "Verizon sumó 314.000 clientes de banda ancha en el tercer trimestre",
+        "Acción de Verizon: +0,5% el 27/11"
+      ],
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/verizon-fidium-6b-talks-fibre-broadband",
+          "medio": "The Next Web",
+          "titulo": "Verizon is in talks to buy fibre operator Fidium for $6B, FT reports",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:47:00-03:00"
+        },
+        {
+          "url": "https://stockanalysis.com/news/verizon-talks-buy-fidium-6b/",
+          "medio": "Stock Analysis",
+          "titulo": "Verizon in talks to buy fiber broadband provider Fidium for about $6B including debt",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:47:00-03:00"
+        },
+        {
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N478122:0-verizon-in-talks-over-6-billion-deal-for-fidium-ft-reports/",
+          "medio": "Reuters vía TradingView",
+          "titulo": "Verizon in talks over $6 billion deal for Fidium, FT reports",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:46:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Las fuentes difieren sobre el año de la salida de bolsa de Consolidated (2023 vs 2024: se acordó en 2023) y sobre el valor de la compra de Frontier (US$9.600 millones según TNW, US$20.000 millones según Stock Analysis: el primero es el valor del capital, el segundo incluye deuda); por eso el cuerpo no da esas cifras. Todo se apoya en un único reporte original (FT)."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "Chips Blackwell de Nvidia aparecieron en un centro de datos de Shanghai",
+      "bajada": "Documentos de préstamos en China y una investigación de CBS sobre clientes californianos de capitales chinos reavivan las dudas sobre el cumplimiento de los controles de exportación.",
+      "cuerpo": "Según una investigación de Bloomberg, dos empresas chinas instalaron chips Blackwell de Nvidia, cuya venta a China requiere licencia de Estados Unidos, en un centro de datos de Shanghai vinculado a Alice Huang, fundadora de la singapurense Megaspeed. La prueba surgió de documentos presentados ante reguladores chinos: Shanghai Shuoyao ofreció un rack GB300 NVL72 como garantía de un préstamo de 96 millones de yuanes (unos US$14 millones), y el número de serie permitió rastrear que lo fabricó la taiwanesa Gigabyte, que dijo operar conforme a la ley. En paralelo, CBS News informó que al menos dos empresas de California controladas por grupos chinos tienen acceso a los chips más avanzados de Nvidia: RiCloud AI, socia preferida de la compañía y propiedad de Yuxing InfoTech, de Shenzhen, y Aivres, fabricante de servidores antes llamado Inspur como su casa matriz china. Un análisis de registros comerciales citado por CBS indica que Aivres exportó al menos US$5.600 millones en tecnología al sudeste asiático entre abril de 2024 y febrero de 2026, de los cuales unos US$3.000 millones correspondían a equipos con chips Blackwell. Ninguna de esas firmas fue acusada formalmente, Megaspeed niega irregularidades y Nvidia no respondió a las consultas. Los senadores demócratas Elizabeth Warren y Chris Coons reclaman explicaciones y preparan una investigación sobre la elusión de las restricciones.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 4,
+      "datos_clave": [
+        "Rack GB300 NVL72 usado como garantía de un préstamo de 96 millones de yuanes (unos US$14 millones) de Shanghai Innovation Bank",
+        "Shanghai Kezhan declaró un servidor GB200 y 32 servidores H200 en el mismo sitio para un préstamo de 90 millones de yuanes",
+        "Rack fabricado por Gigabyte (Taiwán), según base pública de garantías",
+        "RiCloud AI (San José) pertenece a Yuxing InfoTech (Shenzhen, cotiza en Hong Kong)",
+        "Aivres (ex Inspur) exportó al menos US$5.600 millones al sudeste asiático entre abril de 2024 y febrero de 2026; unos US$3.000 millones con chips Blackwell",
+        "Warren y Coons piden explicaciones a Nvidia"
+      ],
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg",
+          "medio": "The Next Web",
+          "titulo": "Blackwell rack found at Alice Huang-linked Shanghai site, Bloomberg reports",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:56:00-03:00"
+        },
+        {
+          "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+          "medio": "The Decoder",
+          "titulo": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:57:00-03:00"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
+          "medio": "Tom's Hardware",
+          "titulo": "Two Californian Nvidia AI chip customers are really Chinese-owned — companies used as workaround for government export controls",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:46:00-03:00"
+        },
+        {
+          "url": "https://sg.finance.yahoo.com/news/nvidia-chips-reach-chinese-owned-031146505.html",
+          "medio": "Investing.com vía Yahoo Finance",
+          "titulo": "Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-28T05:49:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No se sabe cómo llegó el rack a China; Bloomberg no halló pruebas de que Megaspeed enviara hardware al sitio. Tom's Hardware escribe 'Airvres' pero la empresa es Aivres. La cifra de US$5.600 millones proviene de un análisis del New York Times citado por CBS. Tom's Hardware vincula a Alice Huang con espionaje y con la renuncia de Jensen Huang: son afirmaciones no verificadas que conviene NO publicar. El blacklisting de Megaspeed ya fue publicado; aquí solo se menciona como contexto."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "Vendedores de chips de Nvidia exigen a las neonubes no alquilar capacidad a firmas chinas",
+      "bajada": "La condición, más dura que el límite que fijaba la propia Nvidia, llega tras una nueva regla del Departamento de Comercio de Estados Unidos.",
+      "cuerpo": "Revendedores de chips de Nvidia advirtieron a las llamadas neonubes, empresas que alquilan capacidad de cómputo para inteligencia artificial, que no les venderán procesadores gráficos si cualquier parte de esa capacidad termina rentada a compañías chinas, según informó CNBC con dos fuentes. La exigencia es más estricta que la pauta previa de Nvidia, que se negaba a vender a clientes que alquilaran más de la mitad de sus GPU a firmas de China. El cambio sigue a una regla interina de la Oficina de Industria y Seguridad, anunciada el 16 de noviembre y vigente desde el 19, que exige licencias para centros de datos en el exterior que den grandes volúmenes de cómputo a empresas chinas y cierra la vía del alquiler de chips que no pueden comprar. Desde entonces salieron a la venta miles de unidades B300 y el precio de su alquiler cayó cerca de 7% en un mes. Nvidia y el Departamento de Comercio no respondieron, y China amenazó con contramedidas.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "datos_clave": [
+        "Límite previo de Nvidia: no vender a quien alquile más del 50% de sus GPU a firmas chinas",
+        "Regla interina de la BIS anunciada el 16/11 y vigente desde el 19/11/2026",
+        "Miles de B300 a la venta desde la regla; alquiler de B300 cerca de 7% más barato en un mes",
+        "El representante comercial Jamieson Greer habló de cerrar el 'acceso indirecto'"
+      ],
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/nvidia-gpu-sellers-neoclouds-no-chinese-renters",
+          "medio": "The Next Web",
+          "titulo": "Nvidia sellers reportedly bar neoclouds from renting to Chinese firms",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:50:00-03:00"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html",
+          "medio": "Benzinga vía Yahoo Finance",
+          "titulo": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:58:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Los vendedores no están identificados. La nota original de CNBC no pudo abrirse. Los datos de B300 (miles a la venta, -7%) solo figuran en TNW. Puede fusionarse con la nota anterior si falta espacio."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "El Black Friday online superaría los US$13.000 millones en Estados Unidos y Wall Street cerró una semana en alza",
+      "bajada": "Adobe midió un crecimiento de 12,8% en las ventas por internet hasta la tarde del viernes, en una rueda corta en la que rebotaron las tecnológicas.",
+      "cuerpo": "Los consumidores estadounidenses gastaron US$9.700 millones en compras online durante el Black Friday hasta las 18.30 de la costa este, 12,8% más que un año antes, según Adobe Analytics, que proyecta para el día completo entre US$13.000 y US$13.400 millones, por encima de los US$12.900 millones que había anticipado en septiembre. El jueves de Acción de Gracias las ventas por internet habían sumado US$7.100 millones, y Adobe estima que el tráfico hacia sitios minoristas derivado de asistentes de inteligencia artificial crecerá 130% interanual en la temporada. Para el Cyber Monday prevé US$15.100 millones, 6,2% más, y para los cinco días entre Acción de Gracias y ese lunes, US$47.500 millones. En la bolsa, la rueda acortada del viernes cerró con subas de 2,31% para el Nasdaq, 1,60% para el S&P 500 y 1,18% para el Dow Jones, que acumuló cerca de 3,4% en la semana. Amazon llegó a ganar alrededor de 3,8% por la demanda del Black Friday, Micron avanzó más de 7% y Sandisk casi 16%, en un rebote de los chips tras las caídas de martes y miércoles.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 3,
+      "datos_clave": [
+        "Black Friday online: US$9.700 millones hasta 18.30 ET, +12,8% (Adobe)",
+        "Proyección del día: US$13.000-13.400 millones; pronóstico previo: US$12.900 millones (+9,2%)",
+        "Acción de Gracias: US$7.100 millones online",
+        "Cyber Monday previsto: US$15.100 millones (+6,2%); cinco días: US$47.500 millones (+7,4%)",
+        "Tráfico desde IA a minoristas: +130% en la temporada",
+        "Salesforce: US$18.700 millones previstos para el Black Friday en EE.UU. (+4%) y US$83.000 millones en el mundo",
+        "Cierres 27/11: Nasdaq 24.129,50 (+2,31%), S&P 500 7.297,49 (+1,60%), Dow 50.774,94 (+1,18%)",
+        "Amazon ~+3,8% en la rueda (dato de media jornada); Micron +7,6%; Sandisk +15,96%"
+      ],
+      "fuentes": [
+        {
+          "url": "https://whtc.com/2026/11/27/us-black-friday-online-sales-to-cross-13-billion-adobe-says/",
+          "medio": "Reuters vía WHTC",
+          "titulo": "US Black Friday online sales to cross $13 billion, Adobe says",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:52:00-03:00"
+        },
+        {
+          "url": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-on-track-for-4-day-rally-adobe-reports-surge-in-ai-traffic-7-1-b-thanksgiving-sales/cNb6GnOR9Va",
+          "medio": "Stocktwits",
+          "titulo": "ADBE Stock On Track For 4-Day Rally: Adobe Reports Surge In AI Traffic, $7.1B Thanksgiving Sales",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:59:00-03:00"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+          "medio": "Yahoo Finance",
+          "titulo": "Stock market today: Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:58:00-03:00"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/",
+          "medio": "The Motley Fool",
+          "titulo": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:53:00-03:00"
+        },
+        {
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026",
+          "medio": "StockTitan",
+          "titulo": "Stock Market Today, November 27, 2026: Stocks Close Higher in a Short Black Friday Session",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:54:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Adobe no publicó aún el total final del Black Friday (a las 06:00 ART solo había dato parcial y proyección). La suba de Amazon es de media jornada (Motley Fool); no se obtuvo su cierre. Las variaciones semanales difieren entre fuentes para S&P y Nasdaq; solo se usa la del Dow (Yahoo). El título del Fool es aproximado."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "La israelí Altair Semiconductor levantó US$100 millones tras independizarse de Sony",
+      "bajada": "La diseñadora de módems celulares de bajo consumo apunta a anteojos inteligentes y dispositivos portátiles con IA.",
+      "cuerpo": "Altair Semiconductor, diseñadora israelí de chips de conectividad, cerró una ronda Serie A de US$100 millones encabezada por Maverick Silicon, el brazo de inversión en semiconductores de Maverick Capital, con participación de Pitango. Sony había comprado la empresa en 2016 por US$212 millones y la operó como Sony Semiconductor Israel hasta abril de este año, cuando cerró su desarrollo en ese país y unos 200 empleados encabezados por el CEO Nohik Semel tomaron el control con una primera ronda de US$50 millones; Sony sigue como accionista. Los fondos se destinarán a la producción en volumen del módem ALT1550, que combina 5G de bajo consumo (eRedCap), LTE-M, Cat 1bis y conexión satelital, y está pensado para anteojos inteligentes y otros dispositivos portátiles. La fabricación masiva está prevista para 2027 y la compañía no informó valuación, clientes ni ingresos.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 2,
+      "datos_clave": [
+        "Serie A: US$100 millones; líder Maverick Silicon, con Pitango",
+        "Sony la compró en 2016 por US$212 millones; escisión en abril de 2026 con ronda inicial de US$50 millones",
+        "Unos 200 empleados; CEO Nohik Semel",
+        "Módem ALT1550: producción masiva en 2027",
+        "Valuación no informada"
+      ],
+      "fuentes": [
+        {
+          "url": "https://chipdispatch.com/articles/altair-raises-100m-series-a-to-mass-produce-5g-wearable-modem",
+          "medio": "Chip Dispatch",
+          "titulo": "Altair Raises $100M for 5G Wearable Modem Production",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:58:00-03:00"
+        },
+        {
+          "url": "https://ventureburn.com/altair-raises-100-million-connect-ai-devices/",
+          "medio": "Ventureburn",
+          "titulo": "Altair Raises $100 Million to Keep AI Glasses and Wearables Connected All Day",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:58:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El precio de compra de Sony (US$212 millones) y la cifra de 200 empleados figuran solo en Chip Dispatch. Medios secundarios; las fuentes originales serían Globes y CTech."
+    },
+    {
+      "seccion": "empresas",
+      "titulo_sugerido": "Moody's mantuvo la nota de Nvidia tras el regreso de Jensen Huang",
+      "bajada": "La calificadora sostuvo el Aa1 con perspectiva estable, a diferencia de S&P, que puso a la compañía en revisión negativa.",
+      "cuerpo": "Moody's ratificó la calificación Aa1 de la deuda sénior de Nvidia y su perspectiva estable después de que el directorio reinstalara a Jensen Huang como CEO el 23 de noviembre. Según la agencia, el regreso reduce la incertidumbre de corto plazo sobre el liderazgo y la estrategia, aunque no despeja del todo los interrogantes regulatorios y de gobierno corporativo, y la empresa sigue expuesta a una fuerte dependencia de su máximo ejecutivo. Moody's había bajado la perspectiva de positiva a estable el 19 de noviembre, tras la salida de Huang, y entonces descartó una mejora de nota en los siguientes 12 a 18 meses. La agencia destacó la posición competitiva y financiera \"excepcionalmente fuerte\" de Nvidia y consideró el impacto potencial de las nuevas reglas de exportación. La postura contrasta con la de S&P Global, que colocó la nota AA de la compañía en revisión con implicancias negativas por dudas sobre su gestión.",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 2,
+      "datos_clave": [
+        "Moody's: Aa1 y perspectiva estable ratificados; Prime-1 para papeles comerciales",
+        "Huang reinstalado como CEO el 23/11/2026",
+        "Perspectiva bajada de positiva a estable el 19/11/2026",
+        "S&P: nota AA en revisión negativa (ya publicado)"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.aiaffairs.com/markets/moodys-nvidia-huang-reinstatement-aa1-rating/",
+          "medio": "AI Affairs",
+          "titulo": "Moody's sees less uncertainty at Nvidia after Huang returns, keeps Aa1 rating",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:57:00-03:00"
+        },
+        {
+          "url": "https://www.tradingview.com/news/seekingalpha:48c48c84c094b:0-nvidia-s-aa1-rating-stable-outlook-unchanged-after-huang-s-return-moody-s/",
+          "medio": "Seeking Alpha vía TradingView",
+          "titulo": "Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's",
+          "fecha_publicacion": "2026-11-25",
+          "consultado": "2026-11-28T05:56:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Nota fuera del centro de la ventana (25/11) y complementaria del texto sobre S&P ya publicado: usar solo como breve o como párrafo de contexto. La fecha del 19/11 la atribuye AI Affairs a otro medio. La fecha de TradingView no figura en la página. La nota de Semafor (26/11) no pudo abrirse."
+    }
+  ],
+  "agenda_candidatos": [
+    {
+      "fecha": "2026-11-30",
+      "evento": "Resultados de Rubrik (después del cierre) y Cyber Monday: Adobe prevé US$15.100 millones en ventas online en EE.UU.",
+      "fuente_url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    },
+    {
+      "fecha": "2026-12-01",
+      "evento": "Resultados de Marvell, Okta, NetApp, MongoDB, Credo, GitLab y Asana (después del cierre)",
+      "fuente_url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    },
+    {
+      "fecha": "2026-12-02",
+      "evento": "Resultados de Salesforce, Snowflake y Netskope (después del cierre)",
+      "fuente_url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    },
+    {
+      "fecha": "2026-12-03",
+      "evento": "Resultados de Docusign, Samsara, Veeva, Guidewire y UiPath (después del cierre)",
+      "fuente_url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    }
+  ],
+  "glosario_candidatos": [
+    {
+      "termino": "Neonube (neocloud)",
+      "definicion": "Empresa que alquila capacidad de cómputo con procesadores gráficos para entrenar o ejecutar modelos de inteligencia artificial, sin ser uno de los grandes proveedores de nube como Amazon, Microsoft o Google."
+    },
+    {
+      "termino": "Token de autenticación",
+      "definicion": "Credencial digital que un sistema entrega a un usuario después de identificarlo y que le permite operar sin volver a ingresar la contraseña; si se lo roban, el atacante puede actuar en nombre de esa persona."
+    }
+  ]
+}

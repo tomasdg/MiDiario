@@ -1,0 +1,268 @@
+{
+  "tema": "ia",
+  "consultado_el": "2026-11-28T06:04:22-03:00",
+  "notas": [
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Google obligará a los agentes de IA a entrar a Gmail y Drive solo por MCP o su línea de comandos desde febrero",
+      "bajada": "Desde el 1 de febrero de 2027, los agentes que trabajen sobre Workspace no podrán usar las API REST tradicionales y deberán pasar por canales con controles de seguridad y confirmación humana.",
+      "cuerpo": "Google anunció la disponibilidad general de sus servidores MCP para Workspace y de una interfaz de línea de comandos (CLI), y advirtió que desde el 1 de febrero de 2027 serán la única vía permitida para que los agentes de inteligencia artificial accedan a Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat y Tasks. Las aplicaciones convencionales podrán seguir usando las API REST, pero los agentes externos deberán identificarse con credenciales OAuth propias, separadas de las de las apps comunes. La empresa argumentó que esas API fueron pensadas para programas que se mueven al ritmo humano, donde un token válido equivalía a la intención del usuario, algo que deja de ser cierto con sistemas que actúan solos y a velocidad de máquina. Los nuevos canales revisan cada pedido contra los permisos, las políticas de prevención de fuga de datos y las etiquetas de clasificación de cada organización, y exigen confirmación humana para acciones sensibles como enviar correos, cambiar permisos de archivos compartidos o hacer ediciones masivas. Un anexo contractual prohíbe guardar de forma permanente los datos de Workspace o usarlos para entrenar modelos, y fija un tope de 30 días para conservar índices de memoria, perfiles e incrustaciones vectoriales. Desde el 1 de abril de 2027 empezará además a cobrarse el uso por cuotas.",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 5,
+      "datos_clave": [
+        "Fecha de aplicación técnica: 1 de febrero de 2027",
+        "Servicios: Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat y Tasks; Keep, más adelante",
+        "Las apps convencionales mantienen el acceso por API REST",
+        "Retención máxima de 30 días para incrustaciones, índices de memoria y perfiles",
+        "Facturación por cuotas desde el 1 de abril de 2027",
+        "Google Cloud Agent Gateway con Model Armor contra la inyección de instrucciones"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+          "medio": "Help Net Security",
+          "titulo": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        },
+        {
+          "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/",
+          "medio": "Infosecurity Magazine",
+          "titulo": "Google Requires AI Agents to Access Workspace Through Approved Methods",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La página de Infosecurity Magazine no muestra su fecha de publicación; se toma el 27/11 según el resumen de origen. El anuncio de Google es del 25/11. No se precisan los precios de las cuotas."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Meta rechazó que el regulador financiero británico probara su agente Muse antes de lanzarlo",
+      "bajada": "La FCA ofreció ensayar el asistente en su entorno de pruebas regulatorio, pero Meta lo lanzó igual en el Reino Unido el 24 de noviembre y el organismo ahora lo vigilará en funcionamiento.",
+      "cuerpo": "Meta declinó la propuesta de la Financial Conduct Authority (FCA) británica de testear en conjunto su agente Muse dentro del entorno de pruebas regulatorio del organismo, según reveló la revista Wired. Colin Payne, jefe de innovación de la FCA, dijo que la oferta se hizo la semana previa al lanzamiento y que Meta había informado del producto recién en octubre; el agente llegó al Reino Unido el martes 24. Muse puede buscar en la web, completar formularios y comprar, y el regulador quería entender cómo interactúa con los usuarios cuando maneja pagos, para lo que Meta usa billeteras digitales de Stripe y Shop Pay. El mismo día del lanzamiento, la FCA publicó que los agentes que hagan transacciones, muevan dinero o faciliten créditos podrían necesitar su autorización, y recordó que puede intervenir si se ofrecen servicios financieros regulados sin permiso. Meta sostiene que dialogó de forma constructiva con las autoridades y que ajustó sus condiciones tras conversar con el regulador de competencia; según Mark Zuckerberg, más de 10 millones de personas en Estados Unidos y Canadá activaron Muse en sus primeras seis semanas. El Banco de Inglaterra advirtió el jueves que agentes más sofisticados pueden amplificar riesgos cibernéticos y operativos para la estabilidad financiera.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "datos_clave": [
+        "Lanzamiento de Muse en el Reino Unido: 24 de noviembre",
+        "La FCA hizo la oferta la semana previa; Meta le avisó en octubre",
+        "Más de 10 millones de usuarios en EE.UU. y Canadá en unas seis semanas (dato de Zuckerberg, 21/10); cerca de un cuarto lo usa a diario",
+        "Socios británicos: Marks & Spencer, ASOS, Currys, easyJet, Jet2, Debenhams",
+        "La FCA planea un 'Agentic Policy Sprint' sobre reglas para agentes"
+      ],
+      "fuentes": [
+        {
+          "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
+          "medio": "The Next Web",
+          "titulo": "Meta declined to let the FCA test its Muse agent, WIRED reports",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/27/meta-rejects-fca-sandbox-test-for-muse-ai-agent-in-uk/",
+          "medio": "Dataconomy",
+          "titulo": "Meta Rejects FCA Sandbox Test For Muse AI Agent In UK",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No se pudo abrir el artículo original de Wired; los datos provienen de dos medios que lo citan. La cifra de 10 millones es de la propia Meta y data de octubre."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Anthropic subió 11% y volvió a superar su precio de salida a la bolsa",
+      "bajada": "La acción cerró el viernes a US$91,88, por encima de los US$83 de su colocación, tras una primera semana volátil en el Nasdaq.",
+      "cuerpo": "Las acciones de Anthropic, que cotizan en el Nasdaq con la sigla ANT, ganaron 10,98% en la rueda acortada del viernes y cerraron a US$91,88, por encima de los US$83 a los que se colocaron el 18 de noviembre en la mayor salida a bolsa de la historia. El papel había debutado con un salto de 34% en la apertura y terminó su primer día en US$97,17, pero en los días siguientes llegó a perforar el precio de colocación. El repunte acompañó una recuperación general de las tecnológicas, con el Nasdaq en alza de 2,31%. Entre los factores que siguen pesando figuran la valuación, la competencia y unos compromisos de cómputo de alrededor de US$900.000 millones, muy superiores a lo recaudado. El 15 de diciembre vence el primer período de bloqueo, que habilitará la venta de hasta 303 millones de acciones de accionistas previos; en contrapartida, se espera la compra de fondos indexados cuando la empresa ingrese en índices como el Nasdaq-100.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 4,
+      "datos_clave": [
+        "Cierre 27/11: US$91,88 (+10,98%); rango del día US$84,51-93,39",
+        "Precio de colocación: US$83 (rango previsto US$70-78)",
+        "Primer día (19/11): apertura US$111,50, cierre US$97,17",
+        "Liberación de hasta 303 millones de acciones el 15/12",
+        "Compromisos de cómputo cercanos a US$900.000 millones (Motley Fool)",
+        "13 de 15 analistas recomiendan comprar; precio objetivo promedio US$136,33"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-anthropic-jumps-11-reclaiming-its-usd83-ipo-price-as-wall-street-rallies/",
+          "medio": "The Motley Fool",
+          "titulo": "Stock Market Today, Nov. 27: Anthropic Jumps 11%, Reclaiming Its $83 IPO Price as Wall Street Rallies",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/27/why-anthropic-stock-rallied-on-friday-wall-street-analysts-say-buy-right-now/",
+          "medio": "The Motley Fool",
+          "titulo": "Here's Why Anthropic Stock Rallied on Friday -- and Why Wall Street Analysts Say It's Still a Buy Right Now",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        },
+        {
+          "url": "https://siliconangle.com/2026/11/18/after-anthropic-prices-ipo-higher-than-expected-shares-shoot-up-34-trading-debut",
+          "medio": "SiliconANGLE",
+          "titulo": "After Anthropic prices IPO higher than expected, shares shoot up 34% in trading debut",
+          "fecha_publicacion": "2026-11-18",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El monto total recaudado difiere entre fuentes (US$93.500 millones según Motley Fool; más de US$94.000 millones con colocaciones privadas según SiliconANGLE), por eso se omite la cifra exacta. No se pudo abrir la nota de Bloomberg sobre el mismo movimiento."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "La Unión Europea podría votar el 15 de diciembre si habilita la conducción asistida de Tesla",
+      "bajada": "Un borrador de agenda de la Comisión Europea menciona por primera vez una posible votación de los Estados miembro sobre el sistema que antes se llamaba FSD.",
+      "cuerpo": "Los países de la Unión Europea discutirán el 15 de diciembre si aprueban en todo el bloque el sistema de conducción asistida de Tesla, y esa reunión podría incluir una votación formal, según un borrador de agenda publicado el jueves por la Comisión Europea y citado por Reuters. El texto indica que los Estados seguirán examinando el pedido de homologación presentado por los Países Bajos \"con posible votación\", la primera vez que Bruselas plantea esa opción de manera explícita. Reuters ya había informado el miércoles que la reunión se había postergado hasta esa fecha. Casi una docena de países siguió el camino neerlandés, pero la aprobación comunitaria requiere el respaldo de al menos 15 de los 27 miembros que representen el 65% de la población. Para Tesla, que rebautizó el producto en Europa como Tesla Assisted Driving, se trata de un paso clave para desplegarlo en todo el continente.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "datos_clave": [
+        "Reunión de Estados miembro: 15 de diciembre",
+        "Mayoría necesaria: 15 de 27 países con 65% de la población",
+        "Casi una docena de países siguió la homologación de los Países Bajos",
+        "El borrador menciona 'possible vote' por primera vez"
+      ],
+      "fuentes": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting",
+          "medio": "Reuters (vía Euronext)",
+          "titulo": "EU may vote on authorising Tesla assisted-driving system at Dec 15 meeting",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Que haya votación depende de que se confirme la agenda. El cambio de nombre a Tesla Assisted Driving surge de títulos de cobertura previa (electrive, octubre) no abiertos; puede omitirse."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Retiran la versión abierta de CyberStrikeAI, una herramienta de ataque con IA usada por delincuentes",
+      "bajada": "La empresa de ciberseguridad ThreatBook borró de GitHub el marco de pruebas ofensivas tras comprobar que grupos atacantes lo empleaban, y solo lo ofrecerá a empresas verificadas.",
+      "cuerpo": "ThreatBook, firma de ciberseguridad con base en Singapur y Hong Kong, anunció el 26 de noviembre que discontinúa de inmediato la versión de código abierto de CyberStrikeAI, un marco que usa agentes de inteligencia artificial para automatizar pruebas de intrusión. La herramienta, publicada en GitHub a fines de 2025, había superado las 7.000 estrellas y fue adquirida por ThreatBook en septiembre. La compañía explicó que estos sistemas ofensivos se usan cada vez más para orquestar ataques a una velocidad y escala hasta hace poco impensables; un mes antes, el equipo de respuesta informática de la India había alertado que el grupo Crafty Falcon lo empleaba contra entidades financieras y de criptomonedas. Según la Shadowserver Foundation, al 23 de noviembre había más de 4.200 servidores corriendo este tipo de marcos, contra menos de 3.700 un día antes, y 6% estaban vinculados a CyberStrikeAI. La versión cerrada seguirá disponible solo para empresas verificadas, y ThreatBook advirtió a los usuarios sobre copias no oficiales que circulan en otros sitios.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "datos_clave": [
+        "Más de 7.000 estrellas en GitHub",
+        "ThreatBook lo compró en septiembre",
+        "Más de 4.200 servidores con marcos ofensivos al 23/11 (Shadowserver); 6% ligados a CyberStrikeAI",
+        "CERT-In alertó por el grupo Crafty Falcon",
+        "Sigue una versión cerrada (CyberStrikeAI Pro) dentro del programa RedAgents"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.infosecurity-magazine.com/news/cyberstrikeai-shut-down-threatbook/",
+          "medio": "Infosecurity Magazine",
+          "titulo": "CyberStrikeAI Creator Shuts Down Open-Source AI Offensive Framework",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "La página no muestra fecha de publicación; se toma el 27/11. Shadowserver aclara que no todos esos servidores se usan con fines maliciosos."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Kazajistán abre su mercado a Sberbank y Yandex y estrecha la cooperación con Rusia en IA",
+      "bajada": "Tokayev visitó en Moscú el principal congreso ruso de inteligencia artificial, un mes después de recibir a Jensen Huang y mientras una firma kazaja encarga chips avanzados de Nvidia.",
+      "cuerpo": "El presidente de Kazajistán, Kassym-Jomart Tokayev, asistió el jueves en Moscú a AI Journey, la conferencia de inteligencia artificial de Sberbank, se reunió con Vladimir Putin y dijo que Sberbank y Yandex son bienvenidos en su país, al que prometió \"asistencia integral\" a las empresas rusas. La visita llegó un mes después de que Tokayev recibiera en Astaná al titular de Nvidia, Jensen Huang, ocasión en la que el grupo kazajo Freedom Holding anunció un centro de IA soberana de US$2.000 millones y encargó su primer clúster con chips B300, de hasta 300 servidores. Rusia, sometida a sanciones por la guerra en Ucrania, no puede importar chips de IA estadounidenses ni fabrica procesadores avanzados, y sus supercomputadoras funcionan con modelos viejos de Nvidia. Putin firmó además un decreto que permite a empresas rusas usar centros de datos en el exterior con aval de los servicios de seguridad, tras ataques con drones ucranianos contra instalaciones de cómputo. Freedom Holding, cuyo titular renunció a la ciudadanía rusa en 2022, asegura no tener vínculos comerciales con Rusia, y Sberbank y Yandex no dijeron si trasladarán servicios.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "datos_clave": [
+        "Freedom Holding: centro de IA soberana de US$2.000 millones",
+        "Primer clúster con chips Nvidia B300: hasta 300 servidores",
+        "Decreto de Putin habilita centros de datos en el extranjero con aval de seguridad",
+        "Sberbank presentó nuevas versiones de GigaChat y Kandinsky",
+        "Tokayev llamó a Yandex el mayor empleador de Kazajistán"
+      ],
+      "fuentes": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/kazakhstan-boosts-ai-cooperation-russia-which-hungry-advanced-us-chips",
+          "medio": "Reuters (vía Euronext)",
+          "titulo": "Kazakhstan boosts AI cooperation with Russia, which is hungry for advanced US chips",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Reuters plantea el riesgo de que Kazajistán sirva de puente para el acceso ruso a chips, pero no hay pruebas de desvíos; no presentarlo como hecho."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Nvidia liberó datos y recetas para su modelo abierto que convierte documentos en texto estructurado",
+      "bajada": "Nemotron 3.5 Parse, de unos 600 millones de parámetros, llega con casi 19 millones de ejemplos sintéticos de entrenamiento y un acelerador que, según Nvidia, multiplica su velocidad.",
+      "cuerpo": "Nvidia publicó en el blog de Hugging Face materiales para trabajar con Nemotron 3.5 Parse, un modelo abierto de unos 600 millones de parámetros que transforma imágenes de páginas en datos estructurados, con orden de lectura, cajas de ubicación y tablas o gráficos convertidos en registros. Junto con el modelo liberó tres conjuntos de datos sintéticos usados en su entrenamiento: 9,98 millones de gráficos, 1 millón de tablas y 7,9 millones de ejemplos de reconocimiento de texto multilingüe. Según las pruebas de la propia empresa en una GPU H200, la decodificación especulativa con DFlash2 elevó el rendimiento a 20,44 páginas por segundo con 512 pedidos simultáneos, frente a 13,48 sin esa técnica y 2,98 de la versión anterior del modelo. La compañía también mostró cómo ajustarlo a un caso concreto: con formularios odontológicos, la tasa de acierto en el primer intento pasó de 0% a casi 96%. Este tipo de modelos es clave para que los agentes y buscadores corporativos puedan leer PDF y documentos escaneados.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 2,
+      "datos_clave": [
+        "Unos 0,6B (600 millones) de parámetros",
+        "Datasets: Synthetic Charts V1 (9,98 M), Synthetic Tables V1 (1 M), OCR Synthetic Multilingual v2 (7,9 M)",
+        "20,44 páginas/s con DFlash2 vs. 13,48 sin especulación y 2,98 de Parse 2.0 (datos de Nvidia, una H200)",
+        "Ajuste con formularios dentales: de 0% a 95,85-96,58% de acierto (datos de Nvidia)"
+      ],
+      "fuentes": [
+        {
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "medio": "Hugging Face (blog de Nvidia)",
+          "titulo": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Todas las métricas son de Nvidia. El artículo no indica la licencia. La fecha del blog figura como 26/11, aunque otros agregadores lo fechan el 27/11."
+    },
+    {
+      "seccion": "ia",
+      "titulo_sugerido": "Tencent publicó en código abierto un acelerador que hace más rápidos modelos como DeepSeek",
+      "bajada": "DFly2 es un pequeño modelo auxiliar que anticipa texto y reutiliza la memoria del modelo principal, con mejoras de rendimiento de hasta 81% según la empresa.",
+      "cuerpo": "El equipo de infraestructura de IA de Hunyuan, de Tencent, liberó el 27 de noviembre DFly2, un sistema de decodificación especulativa pensado para modelos de lenguaje dispersos, que solo activan una parte de sus parámetros por consulta. Se trata de un modelo borrador de 850 millones de parámetros y cinco capas que propone varios fragmentos de texto por adelantado para que el modelo principal los verifique, y que en lugar de mantener su propia memoria caché reutiliza la del modelo grande, lo que reduce el consumo de memoria en contextos largos. Según Tencent, con 64.000 tokens de contexto mejora hasta 81% el rendimiento de DeepSeek-V4.1-Flash y llega a ser 4,2 veces más rápido en tareas de agentes con su propio Hy4 flash, un modelo de 220.000 millones de parámetros con 12.000 millones activos. La compañía reportó también aceleraciones de hasta 2,97 veces en DeepSeek y 2,36 veces en GLM-5.3-Flash, en pruebas con GPU H20 de Nvidia. Los pesos están en GitHub y la herramienta funciona desde el primer día con los motores de servicio vLLM y SGLang, sin necesidad de reentrenar.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 2,
+      "datos_clave": [
+        "Borrador de 0,85B parámetros y 5 capas",
+        "Hasta +81% de rendimiento en DeepSeek-V4.1-Flash con contexto de 64K (dato de Tencent)",
+        "Hasta 4,2x en tareas de agentes con Hy4 flash (220B totales, 12B activos)",
+        "Hasta 2,97x en DeepSeek-V4.1-Flash y 2,36x en GLM-5.3-Flash (dato de Tencent)",
+        "Pruebas en GPU Nvidia H20 con vLLM; compatible con SGLang"
+      ],
+      "fuentes": [
+        {
+          "url": "https://emergent.sh/news/tencent-dfly2-boosts-deepseek-v4-1-flash",
+          "medio": "Emergent",
+          "titulo": "Tencent DFly2 Boosts DeepSeek-V4.1-Flash Speed by 81%",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T06:04:22-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Todas las cifras son de Tencent. La licencia no está indicada."
+    }
+  ],
+  "glosario_candidatos": [
+    {
+      "termino": "Protocolo de Contexto de Modelo (MCP)",
+      "definicion": "Estándar abierto que define cómo un modelo o agente de IA se conecta con herramientas y fuentes de datos externas (correo, archivos, calendarios) mediante servidores que exponen funciones con permisos acotados."
+    },
+    {
+      "termino": "Sandbox regulatorio",
+      "definicion": "Entorno controlado que ofrece un regulador para que empresas prueben productos nuevos con usuarios reales o simulados, bajo supervisión y antes de un lanzamiento masivo."
+    },
+    {
+      "termino": "Decodificación especulativa",
+      "definicion": "Técnica para acelerar modelos de lenguaje: un modelo pequeño propone varios tokens por adelantado y el modelo grande los verifica de una sola vez, aceptando los correctos."
+    },
+    {
+      "termino": "Período de bloqueo (lock-up)",
+      "definicion": "Plazo posterior a una salida a bolsa durante el cual los accionistas previos y los empleados no pueden vender sus acciones; su vencimiento suele presionar el precio."
+    }
+  ]
+}

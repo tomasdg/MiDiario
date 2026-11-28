@@ -1,0 +1,107 @@
+{
+  "generado": "2026-11-28T09:09:37.378Z",
+  "edicion": {
+    "numero": 32,
+    "fecha": "2026-11-28",
+    "cierre": "2026-11-28T05:45:00-03:00",
+    "lugar": "Villa Urquiza, Buenos Aires",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        8.5,
+        8.75,
+        8.75,
+        9
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 4,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.818,
+        "mayor_rectangulo_vacio": 0.069,
+        "hueco_mm": {
+          "x": 129,
+          "y": 195,
+          "ancho": 57,
+          "alto": 62
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.92,
+        "mayor_rectangulo_vacio": 0.014,
+        "hueco_mm": {
+          "x": 38,
+          "y": 19,
+          "ancho": 148,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.895,
+        "mayor_rectangulo_vacio": 0.042,
+        "hueco_mm": {
+          "x": 129,
+          "y": 233,
+          "ancho": 57,
+          "alto": 38
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.91,
+        "mayor_rectangulo_vacio": 0.009,
+        "hueco_mm": {
+          "x": 105,
+          "y": 5,
+          "ancho": 19,
+          "alto": 24
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 4,
+      "renderizadas": 4,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisado": "2026-11-28T06:10:02-03:00",
+      "hallazgos": [
+        "Página 4: la columna de datos se pasaba 91 px del área útil en la primera maquetación (lista de medios consultados larga)",
+        "Página 1: queda aire al pie de la columna de secundarias, dentro de la densidad admitida (ocupación 81,8%)"
+      ],
+      "correcciones": [
+        "Se bajó el glosario a tres términos con definiciones más cortas y se acortó la nota de alertas del clima",
+        "Sin cambios en la portada: ya tiene el máximo de siete secundarias"
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "/home/claude/midiario/ediciones/2026-11-28/De-Villa-Urquiza-al-Mundo-N32-2026-11-28.pdf"
+}

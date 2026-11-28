@@ -1,0 +1,232 @@
+{
+  "tema": "tecnologia",
+  "consultado_el": "2026-11-28T06:00:00-03:00",
+  "notas": [
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Atacan en masa una falla crítica de WP Rocket, uno de los complementos más usados de WordPress",
+      "bajada": "La vulnerabilidad CVE-2026-125812 permite tomar control de un sitio sin credenciales y se explota desde el 25 de noviembre; la solución es actualizar a la versión 3.24.2 o posterior.",
+      "cuerpo": "La empresa de seguridad Patchstack alertó que una falla crítica en WP Rocket, un complemento de caché y optimización para sitios WordPress con más de 5,5 millones de descargas, está siendo explotada activamente. El error, registrado como CVE-2026-125812 y con una puntuación de 9,8 sobre 10, permite a un atacante sin credenciales escribir y ejecutar código PHP en el servidor. Afecta a todas las versiones anteriores a la 3.24.2, publicada el 19 de noviembre, aunque solo en los sitios que tienen activadas las opciones de carga diferida de imágenes de fondo CSS o de alojamiento local de fuentes, que vienen apagadas de fábrica. El primer intento de ataque se registró el 25 de noviembre y al día siguiente ya había campañas automatizadas, con decenas de miles de intentos bloqueados en una sola jornada. Los administradores deben actualizar a la 3.24.2 o superior o, si no pueden hacerlo de inmediato, desactivar esas dos funciones. Como la actualización no borra lo que un intruso ya haya dejado, conviene revisar los registros desde el 25 de noviembre y buscar archivos PHP desconocidos en las carpetas de wp-content.",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 5,
+      "datos_clave": [
+        "CVE-2026-125812, CVSS 3.1: 9,8 (crítica), recorrido de rutas (path traversal) que deriva en ejecución remota de código sin autenticación",
+        "Afecta a WP Rocket anterior a 3.24.2; corregida en 3.24.2 (19/11/2026); la más reciente es 3.24.3 (26/11/2026)",
+        "Solo explotable con 'LazyLoad for CSS background images' o 'Host Fonts Locally' activadas (apagadas por defecto)",
+        "Primer intento de explotación: 25/11/2026, 15:27 UTC; campañas automatizadas el 26/11 con decenas de miles de intentos bloqueados",
+        "Vector: POST a /wp-admin/admin-ajax.php con action=rocket_beacon",
+        "Más de 5,5 millones de descargas (no equivale a instalaciones activas)",
+        "Indicios de compromiso: archivos wp-media-*.php en wp-content, wp-rocket-config o uploads; conexiones a nip.io o trycloudflare.com"
+      ],
+      "fuentes": [
+        {
+          "url": "https://patchstack.com/articles/critical-wp-rocket-rce-cve-2026-125812-under-active-attack/",
+          "medio": "Patchstack",
+          "titulo": "Critical WP Rocket RCE (CVE-2026-125812) Under Active Attack",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:45:00-03:00"
+        },
+        {
+          "url": "https://www.rescana.com/post/wp-rocket-cve-2026-125812-unauthenticated-rce-under-active-attack-update-to-3-24-2-now",
+          "medio": "Rescana",
+          "titulo": "WP Rocket CVE-2026-125812 Unauthenticated RCE Under Active Attack: Update to 3.24.2 Now",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:58:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No hay cifra de instalaciones activas ni de sitios comprometidos; la segunda fuente se apoya en datos de Patchstack. La falla no figuraba en el catálogo KEV de CISA al 27/11."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Una falla de doce años en Linux da acceso total a servidores de archivos NFS",
+      "bajada": "Bautizada NFS2ROOT (CVE-2026-99362), permite tomar el control como administrador de un servidor Linux con el puerto 2049 expuesto, sin necesidad de contraseña.",
+      "cuerpo": "Investigadores de la agencia francesa de ciberseguridad ANSSI y de la empresa OpenSec revelaron una vulnerabilidad en el servidor NFS del núcleo Linux que permite a un atacante remoto obtener privilegios de administrador (root) sin autenticarse. La falla, identificada como CVE-2026-99362 y apodada NFS2ROOT, recibió una puntuación de 9,8 sobre 10 y está presente desde el kernel 3.16, de marzo de 2014. Afecta a equipos que ofrecen NFS en sus versiones 4.1 o 4.2 con el puerto TCP 2049 accesible, un escenario habitual en almacenamiento en red (NAS) y en clústeres de Kubernetes. Las correcciones ya están en los kernels 6.12.117, 6.18.61, 7.3.2 y 7.4-rc1, pero al momento de la publicación varias distribuciones, entre ellas Ubuntu, todavía no habían distribuido los paquetes. Se recomienda instalar la actualización del kernel en cuanto esté disponible y reiniciar; mientras tanto, conviene bloquear el puerto 2049 o limitarlo a redes de confianza y apagar el servicio nfs-server donde no se use.",
+      "fecha_acontecimiento": "2026-11-27",
+      "importancia": 4,
+      "datos_clave": [
+        "CVE-2026-99362 (NFS2ROOT), CVSS 9,8",
+        "Ejecución como root remota y sin autenticación en el servidor NFS del kernel (nfsd), NFSv4.1/4.2, puerto TCP 2049",
+        "Presente desde Linux 3.16 (marzo de 2014)",
+        "Corregida en kernels 6.12.117, 6.18.61, 7.3.2 y 7.4-rc1",
+        "Descubierta por Jérémy Jean (ANSSI, fix enviado en agosto) y OpenSec con su sistema de IA Antara (reporte a mantenedores el 22/09/2026)",
+        "Mitigación: parchear y reiniciar; bloquear o restringir el puerto 2049; desactivar nfs-server si no se usa"
+      ],
+      "fuentes": [
+        {
+          "url": "https://cybernews.com/security/nfs2root-linux-kernel-vulnerability-exposes-nas-kubernetes/",
+          "medio": "Cybernews",
+          "titulo": "NFS2ROOT vulnerability gives hackers root on Linux NFS servers",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:46:00-03:00"
+        },
+        {
+          "url": "https://dataconomy.com/2026/11/27/12-year-old-linux-nfs-flaw-lets-remote-attackers-gain-root/",
+          "medio": "Dataconomy",
+          "titulo": "12-year-old Linux NFS Flaw Lets Remote Attackers Gain Root Access",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:47:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Ninguna de las fuentes abiertas confirma que el exploit sea público (el digest de BleepingComputer lo afirmaba, pero no se pudo abrir ese artículo); por eso el cuerpo no lo menciona. La fecha de Cybernews no figura en la página (alude a la víspera de Acción de Gracias, 25-26/11); se consignó 26/11 como aproximada. El CVSS 9,8 surge solo de Cybernews."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Publican un ataque contra Cacti sin parche que toma servidores de monitoreo en cuatro pasos",
+      "bajada": "El código de prueba, llamado 4HTTP2SHELL, aprovecha la cuenta de invitado de la última versión, 1.2.31, y todavía no tiene corrección ni identificador CVE.",
+      "cuerpo": "Un investigador que firma como \"ek0ms savi0r\" difundió el jueves una prueba de concepto que permite ejecutar comandos en servidores con Cacti, una herramienta de código abierto muy usada para monitorear redes, con apenas cuatro solicitudes HTTP y sin iniciar sesión. El ataque, presentado como 4HTTP2SHELL y 4HTTP2ROOT, funciona sobre Cacti 1.2.31, la versión más reciente, siempre que esté habilitada la cuenta de invitado, que viene desactivada por defecto desde la 0.8.7. La falla combina un campo de configuración que acepta texto donde debería aceptar solo números, una inyección SQL que modifica la tabla del recolector de datos (poller) y un componente que ejecuta sin filtrar los comandos guardados allí. Según los reportes, el problema no se informó a los desarrolladores antes de hacerse público, no tiene identificador CVE y al 27 de noviembre no había parche ni ataques reales conocidos. Mientras tanto, se aconseja deshabilitar la cuenta de invitado, restringir el acceso a la interfaz web a redes de confianza y revisar la configuración del poller en busca de comandos extraños.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "datos_clave": [
+        "Sin CVE asignado ni parche al 27/11/2026",
+        "Afecta a Cacti Core 1.2.31 con la cuenta de invitado (guest) habilitada; deshabilitada por defecto desde 0.8.7",
+        "Cadena: valor no numérico en 'preview_graphs_per_page' vía auth_profile.php → inyección SQL de segundo orden en graph_view.php → popen() en graph_realtime.php",
+        "Ejecución de comandos con los permisos del usuario del servidor web de Cacti",
+        "Prueba de concepto publicada el Día de Acción de Gracias (26/11) por 'ek0ms savi0r'",
+        "Mitigación: desactivar guest, restringir la interfaz web, revisar la tabla del poller"
+      ],
+      "fuentes": [
+        {
+          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "medio": "The Hacker News",
+          "titulo": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:50:00-03:00"
+        },
+        {
+          "url": "https://hitechub.com/unpatched-cacti-zero-day-exploit-with-public-poc-enables-remote-code-execution/",
+          "medio": "Hitechub",
+          "titulo": "Unpatched Cacti Zero-Day Exploit With Public PoC Enables Remote Code Execution",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:49:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No está claro si versiones anteriores a la 1.2.31 también son vulnerables. No hubo respuesta pública del proyecto Cacti. El artículo de BleepingComputer apareció en búsqueda pero no pudo abrirse (error del servidor)."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Un incidente informático deja fuera de línea los servicios del organismo británico de pensiones",
+      "bajada": "El Department for Work and Pensions apagó de forma preventiva sus portales de subsidios y pensiones; el gobierno asegura que los pagos siguen saliendo con normalidad.",
+      "cuerpo": "El Department for Work and Pensions (DWP), el organismo del Reino Unido que administra subsidios y jubilaciones, sacó de línea varios de sus servicios digitales tras detectar lo que calificó como un \"incidente cibernético\" en sus sistemas. El corte empezó el jueves por la noche y el sábado a la mañana seguía vigente: no funcionaban la solicitud y el ingreso a las cuentas de Universal Credit, el buscador de empleo, los portales de PIP y el sistema Tell Us Once para registrar fallecimientos. El ministro Pat McFadden habló de un \"incidente serio\" y el organismo trabaja con el National Cyber Security Centre, aunque no explicó qué lo provocó ni descartó un ataque. El gobierno afirmó que no hay indicios de robo de datos personales y que los pagos de beneficios y pensiones continúan, si bien algunos usuarios reportaron demoras. El DWP recordó que nunca pide datos bancarios por mensaje ni solicita hacer clic en enlaces, una advertencia ante posibles estafas que aprovechen la situación.",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 4,
+      "datos_clave": [
+        "Corte desde el jueves 26/11 por la noche; seguía el sábado 28/11 a la mañana",
+        "Servicios afectados: Universal Credit (alta e ingreso), búsqueda de empleo, portales de PIP, Tell Us Once",
+        "Trabaja con el NCSC (parte de GCHQ) y el Government Cyber Coordination Centre",
+        "Sin evidencia de robo de datos personales según el gobierno; pagos de pensiones y beneficios continúan",
+        "Pat McFadden, secretario de Trabajo y Pensiones: 'serious cyber incident'"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.itv.com/news/2026-11-27/department-for-work-and-pensions-takes-services-offline-after-cyber-incident",
+          "medio": "ITV News",
+          "titulo": "'Cyber incident' affecting Department for Work and Pensions as services offline",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:52:00-03:00"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/pensions-benefits-services-still-down-072759273.html",
+          "medio": "BBC News (vía Yahoo News)",
+          "titulo": "Pensions and benefits services still down after 'cyber incident'",
+          "fecha_publicacion": "2026-11-28",
+          "consultado": "2026-11-28T05:53:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No se conoce el origen del incidente ni la cantidad de usuarios afectados; no hay plazo de restablecimiento. No se abrieron The Record ni The Register para esta nota."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "La agencia AFP sufrió un ciberataque y apagó su plataforma de distribución de noticias",
+      "bajada": "La intrusión, ocurrida en la madrugada del jueves, apuntó a AFP Forum, el portal desde el que los medios clientes descargan textos, fotos y videos.",
+      "cuerpo": "La Agence France-Presse (AFP) confirmó en un correo interno que fue víctima de un ciberataque durante la madrugada del jueves 26 de noviembre, a partir de la 1.30 hora de París. El blanco fue AFP Forum, la plataforma en línea que usan los medios abonados para consultar y descargar las noticias, fotografías y videos de la agencia. La empresa la desconectó como precaución apenas detectó la intrusión y el viernes seguía fuera de servicio con un aviso de mantenimiento, mientras ofrecía a sus clientes vías alternativas para recibir el material. AFP investiga el episodio con especialistas externos, no informó un plazo de restablecimiento ni si se accedió a información sensible, y ningún grupo se atribuyó el ataque. El jefe de ciberseguridad de Francia, Vincent Strubel, advirtió en la radio que el país enfrenta un nivel de amenaza \"sin precedentes\".",
+      "fecha_acontecimiento": "2026-11-26",
+      "importancia": 3,
+      "datos_clave": [
+        "Ataque en la madrugada del 26/11/2026, desde la 1.30 de París (00.30 GMT)",
+        "Plataforma afectada: AFP Forum; fuera de línea al menos hasta el viernes 27/11",
+        "Investigación con expertos externos; sin atribución ni plazo de vuelta",
+        "No se sabe si hubo acceso a datos sensibles ni si otros sistemas fueron alcanzados",
+        "Vincent Strubel (jefe de ciberseguridad de Francia): amenaza de intensidad 'sin precedentes'"
+      ],
+      "fuentes": [
+        {
+          "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+          "medio": "The Record (Recorded Future News)",
+          "titulo": "Cyberattack disrupts global news distribution platform at France's AFP",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:51:00-03:00"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+          "medio": "Al Jazeera",
+          "titulo": "Global news agency AFP reports cyberattack, shuts down content platform",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:51:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Se verificó que ambas fuentes son de noviembre de 2026 (no confundir con el ataque a AFP de octubre de 2024). Posible conflicto de interés si el diario es abonado de AFP: conviene consignarlo si corresponde. Al Jazeera menciona el ciberataque a FIFA como contexto: ese tema ya fue publicado, no repetirlo."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Microsoft corrige de urgencia un parche que colgaba Windows Server 2025 y anuncia el fin de WSUS",
+      "bajada": "La actualización KB5138318 repara las pantallas azules causadas por el hotpatch de noviembre, mientras la compañía confirma que Windows Server 2028 ya no incluirá su servidor de actualizaciones local.",
+      "cuerpo": "Microsoft publicó el 25 de noviembre una actualización de emergencia, la KB5138318, para Windows Server 2025, luego de que el parche en caliente (hotpatch) de noviembre, KB5131077, provocara cuelgues con pantalla azul y el error 0x139 (KERNEL_SECURITY_CHECK_FAILURE). El fallo afecta solo a servidores inscriptos en el sistema Hotpatch que tienen habilitado Router Advertisement y reciben rutas IPv6 con vencimiento: el equipo se cae cuando una de esas rutas expira. La corrección lleva el sistema a la compilación 26100.33732, se distribuye por Windows Update y no requiere reiniciar. En paralelo, la empresa confirmó que Windows Server 2028, presentado en la conferencia Ignite, eliminará el rol de WSUS, el servidor local de actualizaciones que usan muchas organizaciones desde hace dos décadas, junto con VBScript, WMIC y WINS. WSUS seguirá funcionando y con soporte en las versiones anteriores, incluida la 2025, y Microsoft recomienda migrar a herramientas en la nube como Windows Autopatch, Intune y Azure Update Manager; el cambio no afecta a usuarios domésticos.",
+      "fecha_acontecimiento": "2026-11-25",
+      "importancia": 3,
+      "datos_clave": [
+        "Parche fuera de ciclo KB5138318 (25/11/2026) → compilación 26100.33732, sin reinicio",
+        "Hotpatch problemático: KB5131077 (10/11/2026); error 0x139 KERNEL_SECURITY_CHECK_FAILURE",
+        "Condiciones: Windows Server 2025 con Hotpatch, Router Advertisement activo y rutas IPv6 con tiempo de vida",
+        "Windows Server 2025 representa cerca del 7% de los servidores que monitorea Lansweeper",
+        "Windows Server 2028 elimina WSUS, VBScript, WMIC y el soporte de WINS",
+        "WSUS sigue soportado en Windows Server 2025 y anteriores durante su ciclo de vida; alternativas: Windows Autopatch, Intune, Azure Update Manager"
+      ],
+      "fuentes": [
+        {
+          "url": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+          "medio": "The Register",
+          "titulo": "Microsoft hotpatches hotpatch that could crash Windows Server 2025",
+          "fecha_publicacion": "2026-11-26",
+          "consultado": "2026-11-28T05:54:00-03:00"
+        },
+        {
+          "url": "https://www.it-connect.tech/windows-server-2025-microsoft-urgently-fixes-blue-screen-bug-in-november-update/",
+          "medio": "IT-Connect",
+          "titulo": "Windows Server 2025 Blue Screen Bug Fixed by KB5138318",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:55:00-03:00"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+          "medio": "BleepingComputer",
+          "titulo": "Microsoft removes WSUS server role in Windows Server 2028",
+          "fecha_publicacion": "2026-11-27",
+          "consultado": "2026-11-28T05:57:00-03:00"
+        }
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El hotpatch está verificado en dos fuentes; lo de WSUS en Windows Server 2028 solo en BleepingComputer (gHacks y Windows Report aparecieron en búsqueda pero no se pudieron abrir). Microsoft no explicó la causa de fondo del error."
+    }
+  ],
+  "glosario_candidatos": [
+    {
+      "termino": "Ejecución remota de código (RCE)",
+      "definicion": "Tipo de falla de seguridad que le permite a un atacante hacer que un equipo ajeno ejecute las instrucciones que él quiera, a través de la red y sin tener acceso físico. Es de las más graves porque suele equivaler a tomar el control del sistema."
+    },
+    {
+      "termino": "Prueba de concepto (PoC)",
+      "definicion": "Código o procedimiento que demuestra en la práctica que una vulnerabilidad puede aprovecharse. Cuando se publica antes de que exista un parche, facilita que otros la usen para atacar."
+    }
+  ]
+}

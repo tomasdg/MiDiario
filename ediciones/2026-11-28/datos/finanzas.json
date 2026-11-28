@@ -1,0 +1,20 @@
+{
+  "corte": "2026-11-27T18:00:00.000Z",
+  "dolar": [
+    {
+      "casa": "Oficial (BNA)",
+      "clave": "oficial",
+      "compra": 1575,
+      "venta": 1625,
+      "actualizado": "2026-11-27T18:00:00.000Z"
+    }
+  ],
+  "anterior": {
+    "compra": 1575,
+    "venta": 1625,
+    "fecha": "2026-11-27"
+  },
+  "comentario": "Cotización de cierre del viernes 27 de noviembre: el mercado de cambios abre a las 10, después del cierre de esta edición.",
+  "fuente": "Ámbito, coincidente con Examedia/Río Negro",
+  "no_disponible": []
+}
